@@ -1,0 +1,72 @@
+# Allowlist: ignore files by default; keep directories traversable so that
+# Markdown and the important files below can be included at any depth.
+*
+!*/
+!.gitignore
+!*.md
+!*.MD
+
+# Project metadata and dependency definitions.
+!/LICENSE
+!/LICENSE.*
+!/pyproject.toml
+!/requirements*.txt
+!/uv.lock
+!/poetry.lock
+!/pytest.ini
+!/setup.cfg
+!/environment.yml
+!/.gitattributes
+!/.env.example
+
+# Active source and tests only; archived code copies remain ignored.
+!/generator_benchmark/*.py
+!/generator_benchmark/*.ps1
+!/generator_benchmark/requirements*.txt
+!/generator_benchmark/data_manifest.json
+!/generator_benchmark/source_discovery.json
+!/generator_benchmark/healthy_fs_sanity.json
+
+# Original brief and lightweight research evidence needed by the docs.
+!/inputs/a2/A2.pdf
+!/inputs/a2/A2_extracted.txt
+!/research_evidence/*.py
+!/research_evidence/sources_manifest.json
+!/research_evidence/document_validation.json
+!/research_evidence/a2_12_week_plan_validation.json
+!/research_evidence/official_snapshots/*.txt
+!/research_evidence/pipeline_figures/*.py
+!/research_evidence/pipeline_figures/DENSO_Neo_va_Mo_rong_Pipeline.svg
+
+# Keep the latest release's protocol, inventories and compact result evidence.
+# Raw/synthetic arrays, checkpoints, per-sample ledgers, downloaded pages,
+# screenshots, logs and old experiment outputs remain local.
+# These summaries are not a full release: replay/audit needs local artifacts.
+!/generator_benchmark/mvp_release_20261007/*.json
+!/generator_benchmark/mvp_release_20261007/report.html
+!/generator_benchmark/mvp_release_20261007/development/metrics.json
+!/generator_benchmark/mvp_release_20261007/development/selection.json
+!/generator_benchmark/mvp_release_20261007/development/costs.json
+!/generator_benchmark/mvp_release_20261007/final/*.json
+!/generator_benchmark/mvp_release_20261007/validation/tests.json
+!/generator_benchmark/mvp_release_20261007/validation/stress.json
+!/generator_benchmark/mvp_release_20261007/acceptance/results.json
+!/generator_benchmark/handoff_validation_20261007/results.json
+!/generator_benchmark/handoff_validation_20261007/layout_verified.json
+
+# Always exclude environments, caches, editor state and secrets, even when
+# they contain Markdown or files matching the exceptions above.
+**/__pycache__/
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.venv/
+**/venv/
+**/node_modules/
+**/.idea/
+**/.vscode/
+.env
+.env.*
+!.env.example
+*.pem
+*.key

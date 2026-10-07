@@ -1,0 +1,5 @@
+{
+  "status": "PASS",
+  "scope": "Actual iframe innerWidth=390/1440; no page overflow; horizontal table scroll allowed",
+  "initial_check_correction": "clientWidth excludes vertical scrollbar; first harness incorrectly compared it to viewport width"
+}

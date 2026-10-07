@@ -1,0 +1,10 @@
+{
+  "week": 4,
+  "status": "RESEARCH_ONLY",
+  "utc": "2026-10-06T19:05:36.161095+00:00",
+  "findings": "Three legacy physics variants evaluated fresh; amplitude-unanchored is NOT healthy-only. No unseen-RPM/severity claim.",
+  "evidence": [
+    "development/metrics.json"
+  ],
+  "schedule_note": "execution milestone, not elapsed calendar week"
+}

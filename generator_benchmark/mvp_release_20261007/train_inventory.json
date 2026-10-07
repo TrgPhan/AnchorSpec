@@ -1,0 +1,94 @@
+[
+  {
+    "rpm": 1796.0,
+    "source": {
+      "id": 97,
+      "label": "healthy",
+      "load_hp": 0,
+      "split": "anchor_train",
+      "url": "https://engineering.case.edu/sites/default/files/97.mat",
+      "file": "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\data\\97.mat",
+      "bytes": 3903344,
+      "sha256": "16bf48babcf1c7ac224bc1a81cd9eafdb27e42d5cf559761907e067e8eeadf3c",
+      "retrieved_utc": "2026-10-05T19:00:27.278160+00:00",
+      "permission": "public download; redistribution/commercial license not established",
+      "independence": "different load recordings; NOT confirmed independent bearings",
+      "fault_diameter_in": null,
+      "role": "train",
+      "rpm_fallback": 1797
+    },
+    "raw_samples": 243938,
+    "channel": "X097_DE_time",
+    "windows": 29,
+    "finite_nonconstant": true
+  },
+  {
+    "rpm": 1797.0,
+    "source": {
+      "id": 105,
+      "label": "inner",
+      "load_hp": 0,
+      "split": "anchor_train",
+      "url": "https://engineering.case.edu/sites/default/files/105.mat",
+      "file": "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\data\\105.mat",
+      "bytes": 2910768,
+      "sha256": "f80b0ea04fd06b372a0eaec7c056543ea37e4bb4727a5b173d2a5bacd2aa9cab",
+      "retrieved_utc": "2026-10-05T19:00:29.711605+00:00",
+      "permission": "public download; redistribution/commercial license not established",
+      "independence": "different load recordings; NOT confirmed independent bearings",
+      "fault_diameter_in": 0.007,
+      "role": "train",
+      "rpm_fallback": 1797
+    },
+    "raw_samples": 121265,
+    "channel": "X105_DE_time",
+    "windows": 59,
+    "finite_nonconstant": true
+  },
+  {
+    "rpm": 1796.0,
+    "source": {
+      "id": 118,
+      "label": "ball",
+      "load_hp": 0,
+      "split": "anchor_train",
+      "url": "https://engineering.case.edu/sites/default/files/118.mat",
+      "file": "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\data\\118.mat",
+      "bytes": 2942112,
+      "sha256": "b00628f8dd8d1d930af77fa465d1e5cdb385fe259489053f91f3680bda7f640e",
+      "retrieved_utc": "2026-10-05T19:00:37.727910+00:00",
+      "permission": "public download; redistribution/commercial license not established",
+      "independence": "different load recordings; NOT confirmed independent bearings",
+      "fault_diameter_in": 0.007,
+      "role": "train",
+      "rpm_fallback": 1797
+    },
+    "raw_samples": 122571,
+    "channel": "X118_DE_time",
+    "windows": 59,
+    "finite_nonconstant": true
+  },
+  {
+    "rpm": 1796.0,
+    "source": {
+      "id": 130,
+      "label": "outer",
+      "load_hp": 0,
+      "split": "anchor_train",
+      "url": "https://engineering.case.edu/sites/default/files/130.mat",
+      "file": "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\data\\130.mat",
+      "bytes": 2928192,
+      "sha256": "35a095307d0971477049b343a1b5981dde465a58fb7f233ad89b035068c1717d",
+      "retrieved_utc": "2026-10-05T19:00:32.722669+00:00",
+      "permission": "public download; redistribution/commercial license not established",
+      "independence": "different load recordings; NOT confirmed independent bearings",
+      "fault_diameter_in": 0.007,
+      "role": "train",
+      "rpm_fallback": 1797
+    },
+    "raw_samples": 121991,
+    "channel": "X130_DE_time",
+    "windows": 59,
+    "finite_nonconstant": true
+  }
+]

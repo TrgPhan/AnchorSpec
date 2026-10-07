@@ -1,0 +1,1730 @@
+[
+  {
+    "variant": "real_only",
+    "seed": 11,
+    "n": 237,
+    "n_healthy": 59,
+    "n_fault": 178,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 0.9957805907172996,
+    "macro_f1": 0.9957624075271134,
+    "class_recall": {
+      "healthy": 0.9830508474576272,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.06779661016949153,
+    "healthy_any_alert_rate": 0.06779661016949153,
+    "threshold": 0.515,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        58,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        60,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "real_only",
+    "seed": 29,
+    "n": 237,
+    "n_healthy": 59,
+    "n_fault": 178,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 0.9957805907172996,
+    "macro_f1": 0.9957624075271134,
+    "class_recall": {
+      "healthy": 0.9830508474576272,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.05084745762711865,
+    "healthy_any_alert_rate": 0.05084745762711865,
+    "threshold": 0.53,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        58,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        60,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "real_only",
+    "seed": 47,
+    "n": 237,
+    "n_healthy": 59,
+    "n_fault": 178,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.01694915254237288,
+    "healthy_any_alert_rate": 0.01694915254237288,
+    "threshold": 0.5449999999999999,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        60,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "simple",
+    "seed": 11,
+    "n": 237,
+    "n_healthy": 59,
+    "n_fault": 178,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 0.9873417721518988,
+    "macro_f1": 0.9872799137621272,
+    "class_recall": {
+      "healthy": 0.9491525423728814,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.05084745762711865,
+    "healthy_any_alert_rate": 0.05084745762711865,
+    "threshold": 0.52,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        56,
+        0,
+        0,
+        3
+      ],
+      [
+        0,
+        0,
+        60,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "simple",
+    "seed": 29,
+    "n": 237,
+    "n_healthy": 59,
+    "n_fault": 178,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 0.9831223628691983,
+    "macro_f1": 0.9830313488639632,
+    "class_recall": {
+      "healthy": 0.9322033898305084,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.11864406779661017,
+    "healthy_any_alert_rate": 0.11864406779661017,
+    "threshold": 0.5,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        55,
+        0,
+        0,
+        4
+      ],
+      [
+        0,
+        0,
+        60,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "simple",
+    "seed": 47,
+    "n": 237,
+    "n_healthy": 59,
+    "n_fault": 178,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.05084745762711865,
+    "healthy_any_alert_rate": 0.05084745762711865,
+    "threshold": 0.505,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        60,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "constrained_surrogate",
+    "seed": 11,
+    "n": 237,
+    "n_healthy": 59,
+    "n_fault": 178,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 0.9957805907172996,
+    "macro_f1": 0.9957624075271134,
+    "class_recall": {
+      "healthy": 0.9830508474576272,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.2542372881355932,
+    "healthy_any_alert_rate": 0.2542372881355932,
+    "threshold": 0.495,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        58,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        60,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "constrained_surrogate",
+    "seed": 29,
+    "n": 237,
+    "n_healthy": 59,
+    "n_fault": 178,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.2542372881355932,
+    "healthy_any_alert_rate": 0.2542372881355932,
+    "threshold": 0.43500000000000005,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        60,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "constrained_surrogate",
+    "seed": 47,
+    "n": 237,
+    "n_healthy": 59,
+    "n_fault": 178,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.11864406779661017,
+    "healthy_any_alert_rate": 0.11864406779661017,
+    "threshold": 0.44499999999999995,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        60,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "physics_unanchored",
+    "seed": 11,
+    "n": 237,
+    "n_healthy": 59,
+    "n_fault": 178,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 0.9873417721518988,
+    "macro_f1": 0.9872799137621272,
+    "class_recall": {
+      "healthy": 0.9491525423728814,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.1694915254237288,
+    "healthy_any_alert_rate": 0.1694915254237288,
+    "threshold": 0.4,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        56,
+        0,
+        0,
+        3
+      ],
+      [
+        0,
+        0,
+        60,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "physics_unanchored",
+    "seed": 29,
+    "n": 237,
+    "n_healthy": 59,
+    "n_fault": 178,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.3389830508474576,
+    "healthy_any_alert_rate": 0.3389830508474576,
+    "threshold": 0.37,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        60,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "physics_unanchored",
+    "seed": 47,
+    "n": 237,
+    "n_healthy": 59,
+    "n_fault": 178,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.1864406779661017,
+    "healthy_any_alert_rate": 0.1864406779661017,
+    "threshold": 0.365,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        60,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "physics_anchored",
+    "seed": 11,
+    "n": 237,
+    "n_healthy": 59,
+    "n_fault": 178,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.0847457627118644,
+    "healthy_any_alert_rate": 0.0847457627118644,
+    "threshold": 0.39,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        60,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "physics_anchored",
+    "seed": 29,
+    "n": 237,
+    "n_healthy": 59,
+    "n_fault": 178,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 0.9873417721518988,
+    "macro_f1": 0.9872799137621272,
+    "class_recall": {
+      "healthy": 0.9491525423728814,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.05084745762711865,
+    "healthy_any_alert_rate": 0.05084745762711865,
+    "threshold": 0.55,
+    "auc_valid_only": 0.9999999999999999,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        56,
+        0,
+        0,
+        3
+      ],
+      [
+        0,
+        0,
+        60,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "physics_anchored",
+    "seed": 47,
+    "n": 237,
+    "n_healthy": 59,
+    "n_fault": 178,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.06779661016949153,
+    "healthy_any_alert_rate": 0.06779661016949153,
+    "threshold": 0.485,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        60,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "physics_calibrated",
+    "seed": 11,
+    "n": 237,
+    "n_healthy": 59,
+    "n_fault": 178,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.03389830508474576,
+    "healthy_any_alert_rate": 0.03389830508474576,
+    "threshold": 0.52,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        60,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "physics_calibrated",
+    "seed": 29,
+    "n": 237,
+    "n_healthy": 59,
+    "n_fault": 178,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 0.9957805907172996,
+    "macro_f1": 0.9957624075271134,
+    "class_recall": {
+      "healthy": 0.9830508474576272,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.22033898305084745,
+    "healthy_any_alert_rate": 0.22033898305084745,
+    "threshold": 0.565,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        58,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        60,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "physics_calibrated",
+    "seed": 47,
+    "n": 237,
+    "n_healthy": 59,
+    "n_fault": 178,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.2542372881355932,
+    "healthy_any_alert_rate": 0.2542372881355932,
+    "threshold": 0.475,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        60,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "ddpm_prototype",
+    "seed": 11,
+    "n": 237,
+    "n_healthy": 59,
+    "n_fault": 178,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.03389830508474576,
+    "healthy_any_alert_rate": 0.03389830508474576,
+    "threshold": 0.395,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        60,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "ddpm_prototype",
+    "seed": 29,
+    "n": 237,
+    "n_healthy": 59,
+    "n_fault": 178,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.1016949152542373,
+    "healthy_any_alert_rate": 0.1016949152542373,
+    "threshold": 0.24,
+    "auc_valid_only": 0.9999999999999999,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        60,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "ddpm_prototype",
+    "seed": 47,
+    "n": 237,
+    "n_healthy": 59,
+    "n_fault": 178,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.06779661016949153,
+    "healthy_any_alert_rate": 0.06779661016949153,
+    "threshold": 0.29500000000000004,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        60,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "healthy_only",
+    "seed": 11,
+    "n": 237,
+    "n_healthy": 59,
+    "n_fault": 178,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 0.2489451476793249,
+    "macro_f1": 0.09966216216216216,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 0.0,
+      "outer": 0.0,
+      "ball": 0.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.23728813559322035,
+    "healthy_any_alert_rate": 0.23728813559322035,
+    "threshold": 0.5890897393328454,
+    "auc_valid_only": 0.9987621405446582,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        60,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "variant": "healthy_only",
+    "seed": 29,
+    "n": 237,
+    "n_healthy": 59,
+    "n_fault": 178,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 0.2489451476793249,
+    "macro_f1": 0.09966216216216216,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 0.0,
+      "outer": 0.0,
+      "ball": 0.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.2542372881355932,
+    "healthy_any_alert_rate": 0.2542372881355932,
+    "threshold": 0.601765890900853,
+    "auc_valid_only": 0.992668063226052,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        60,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "variant": "healthy_only",
+    "seed": 47,
+    "n": 237,
+    "n_healthy": 59,
+    "n_fault": 178,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 0.2489451476793249,
+    "macro_f1": 0.09966216216216216,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 0.0,
+      "outer": 0.0,
+      "ball": 0.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 0.847457627118644
+    },
+    "macro_fault_recall": 0.9491525423728814,
+    "fpr": 0.22033898305084745,
+    "healthy_any_alert_rate": 0.22033898305084745,
+    "threshold": 0.5901285942222847,
+    "auc_valid_only": 0.9652447152923253,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        60,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ]
+    ]
+  }
+]

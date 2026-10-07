@@ -1,0 +1,258 @@
+{
+  "started_utc": "2026-10-06T20:45:16.532719+00:00",
+  "release": "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007",
+  "validator_sha256": "adf145ac644bc5cb6bf241dd32e867a65cdadb0875242fd2a8070e1bb484bf63",
+  "scope": "Reproduction/packaging validation, not a new holdout experiment",
+  "integrity_before": {
+    "files_verified": 484,
+    "all_hashes_match": true
+  },
+  "test_generators.py": {
+    "exit_code": 0,
+    "code_sha256": "6359c493fd696cd903f165a3af06c2afe07b5ba76669a52243df079c2867e464"
+  },
+  "test_mvp.py": {
+    "exit_code": 0,
+    "code_sha256": "d2d55aa89b0f4b34b7caacd8b7a47f4207de9cdd40fbbb3045dd7fad55cea7aa"
+  },
+  "library": {
+    "inner": {
+      "rows_verified": 1000,
+      "attempts_verified": 1000,
+      "unique": 1000,
+      "max_anchor_corr": 0.9585530915314727,
+      "median_anchor_corr": 0.937279467079762,
+      "all_quality_pass": true,
+      "metadata_contract_verified": true
+    },
+    "outer": {
+      "rows_verified": 1000,
+      "attempts_verified": 1000,
+      "unique": 1000,
+      "max_anchor_corr": 0.976368604112004,
+      "median_anchor_corr": 0.9556775915614031,
+      "all_quality_pass": true,
+      "metadata_contract_verified": true
+    },
+    "ball": {
+      "rows_verified": 1000,
+      "attempts_verified": 1002,
+      "unique": 1000,
+      "max_anchor_corr": 0.9585383731668937,
+      "median_anchor_corr": 0.9320437977041275,
+      "all_quality_pass": true,
+      "metadata_contract_verified": true
+    }
+  },
+  "ddpm_reload": [
+    {
+      "seed": 11,
+      "label": "inner",
+      "count": 128,
+      "training_device": "cuda",
+      "training_steps": 1500,
+      "sampling_device": "cpu",
+      "bitwise_identical": true
+    },
+    {
+      "seed": 29,
+      "label": "inner",
+      "count": 128,
+      "training_device": "cuda",
+      "training_steps": 1500,
+      "sampling_device": "cpu",
+      "bitwise_identical": true
+    },
+    {
+      "seed": 47,
+      "label": "inner",
+      "count": 128,
+      "training_device": "cpu",
+      "training_steps": 1500,
+      "sampling_device": "cpu",
+      "bitwise_identical": true
+    }
+  ],
+  "metric_rows_recomputed": 24,
+  "software_acceptance": [
+    {
+      "test": "generate",
+      "passed": true,
+      "exit_code": 0,
+      "expected_success": true,
+      "command": [
+        "C:\\Users\\Ad\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_cli.py",
+        "generate",
+        "--label",
+        "inner",
+        "--count",
+        "16",
+        "--seed",
+        "832",
+        "--output",
+        "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\acceptance\\batch",
+        "--release",
+        "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007"
+      ]
+    },
+    {
+      "test": "audit",
+      "passed": true,
+      "exit_code": 0,
+      "expected_success": true,
+      "command": [
+        "C:\\Users\\Ad\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_cli.py",
+        "audit",
+        "--label",
+        "inner",
+        "--output",
+        "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\acceptance\\batch",
+        "--release",
+        "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007"
+      ]
+    },
+    {
+      "test": "refuse_overwrite",
+      "passed": true,
+      "exit_code": 1,
+      "expected_success": false,
+      "command": [
+        "C:\\Users\\Ad\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_cli.py",
+        "generate",
+        "--label",
+        "inner",
+        "--count",
+        "16",
+        "--output",
+        "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\acceptance\\batch",
+        "--release",
+        "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007"
+      ]
+    },
+    {
+      "test": "refuse_new_rpm",
+      "passed": true,
+      "exit_code": 2,
+      "expected_success": false,
+      "command": [
+        "C:\\Users\\Ad\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_cli.py",
+        "generate",
+        "--label",
+        "inner",
+        "--rpm",
+        "1200",
+        "--output",
+        "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\acceptance\\bad_rpm",
+        "--release",
+        "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007"
+      ]
+    },
+    {
+      "test": "refuse_new_fs",
+      "passed": true,
+      "exit_code": 2,
+      "expected_success": false,
+      "command": [
+        "C:\\Users\\Ad\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_cli.py",
+        "generate",
+        "--label",
+        "inner",
+        "--fs",
+        "64000",
+        "--output",
+        "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\acceptance\\bad_fs",
+        "--release",
+        "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007"
+      ]
+    },
+    {
+      "test": "replay",
+      "passed": true,
+      "exit_code": 0,
+      "expected_success": true,
+      "command": [
+        "C:\\Users\\Ad\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_cli.py",
+        "replay",
+        "--input",
+        "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\acceptance\\replay_input.npy",
+        "--rpm",
+        "1797",
+        "--output",
+        "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\acceptance\\replay.json",
+        "--release",
+        "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007"
+      ]
+    },
+    {
+      "test": "replay_refuse_domain",
+      "passed": true,
+      "exit_code": 2,
+      "expected_success": false,
+      "command": [
+        "C:\\Users\\Ad\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_cli.py",
+        "replay",
+        "--input",
+        "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\acceptance\\replay_input.npy",
+        "--rpm",
+        "900",
+        "--output",
+        "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\acceptance\\invalid_replay.json",
+        "--release",
+        "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007"
+      ]
+    },
+    {
+      "test": "replay_refuse_overwrite",
+      "passed": true,
+      "exit_code": 2,
+      "expected_success": false,
+      "command": [
+        "C:\\Users\\Ad\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_cli.py",
+        "replay",
+        "--input",
+        "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\acceptance\\replay_input.npy",
+        "--rpm",
+        "1797",
+        "--output",
+        "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\acceptance\\replay.json",
+        "--release",
+        "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007"
+      ]
+    }
+  ],
+  "html_structure": {
+    "local_links_verified": 5,
+    "svg_panels": 12,
+    "scope": "HTML structure and targets; not visual browser automation"
+  },
+  "browser": {
+    "status": "PASS",
+    "labels_tested": [
+      "inner",
+      "outer",
+      "ball"
+    ],
+    "weekly_reviews": 12,
+    "method_rows": 8,
+    "viewports": [
+      "1440x5200",
+      "390x1100"
+    ],
+    "scope": "Local rendering, label switching and provenance; not accessibility certification"
+  },
+  "integrity_after": {
+    "files_verified": 484,
+    "all_hashes_match": true
+  },
+  "locked_release_unchanged": true,
+  "status": "PASS",
+  "finished_utc": "2026-10-06T20:48:54.335680+00:00"
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "file": "denso_jp_all.txt",
+    "url": "https://r.jina.ai/https://www.denso.com/jp/ja/driven-base/all/",
+    "retrieved_utc": "2026-10-05T18:45:23.715275+00:00",
+    "sha256": "aa324ae61a536df95d7c9e52a2e9602a014081ec56974281c566d2139242bf6b",
+    "bytes": 97410,
+    "status": "retrieved"
+  },
+  {
+    "file": "denso_technical_index.txt",
+    "url": "https://r.jina.ai/https://www.denso.com/jp/ja/innovation/technology/denso-technical-review/",
+    "retrieved_utc": "2026-10-05T18:45:23.555576+00:00",
+    "sha256": "9c2a3a62677f8044021977ca41b802c6774409d360221801c03d4a7697347070",
+    "bytes": 23106,
+    "status": "retrieved"
+  },
+  {
+    "file": "denso_manufacturing2.txt",
+    "url": "https://r.jina.ai/https://www.denso.com/global/en/driven-base/tech-design/techlinks_manufacturing_2/",
+    "retrieved_utc": "2026-10-05T18:45:23.482278+00:00",
+    "sha256": "57a9eb28dc14f9a35862806bf1bf067a0a7185b593d0b5f2b1b73ae947f71f46",
+    "bytes": 16606,
+    "status": "retrieved"
+  },
+  {
+    "file": "denso_manufacturing3.txt",
+    "url": "https://r.jina.ai/https://www.denso.com/global/en/driven-base/tech-design/techlinks_manufacturing_3/",
+    "retrieved_utc": "2026-10-05T18:45:23.499118+00:00",
+    "sha256": "9cc18746fb47cb94835f98689858a53bcb91a2970d1f74d6197162eb77aa5990",
+    "bytes": 18239,
+    "status": "retrieved"
+  },
+  {
+    "file": "denso_dx.txt",
+    "url": "https://r.jina.ai/https://www.denso.com/global/en/driven-base/project/digital-transformation/",
+    "retrieved_utc": "2026-10-05T18:45:23.532247+00:00",
+    "sha256": "688357f137cc324ae42aa325361a59537975d29067e79c0e862af93c4c615b65",
+    "bytes": 12356,
+    "status": "retrieved"
+  },
+  {
+    "file": "denso_patent_US10767725B2.html",
+    "url": "https://patents.google.com/patent/US10767725B2/en",
+    "retrieved_utc": "2026-10-05T18:45:23.264398+00:00",
+    "sha256": "7c97ef5da4064ccd09fd86a72a49ed5088818e6a1e90f42654f97aa1c439940a",
+    "bytes": 261076,
+    "status": "retrieved"
+  },
+  {
+    "file": "denso_wave_iot.html",
+    "url": "https://www.denso-wave.com/en/system/iot/",
+    "retrieved_utc": "2026-10-05T18:45:23.697105+00:00",
+    "sha256": "6101bbab648c7025360f0e40613c09f341ff21992cc6337b584d0c2850f51433",
+    "bytes": 40443,
+    "status": "retrieved"
+  },
+  {
+    "file": "pu_download.html",
+    "url": "https://mb.uni-paderborn.de/en/kat/research/bearing-datacenter/data-sets-and-download",
+    "retrieved_utc": "2026-10-05T18:45:23.948098+00:00",
+    "sha256": "75b7bd417441042befc6846e35dae855894e5859dce104a29ab82263584ca950",
+    "bytes": 46698,
+    "status": "retrieved"
+  },
+  {
+    "file": "pu_conditions.html",
+    "url": "https://mb.uni-paderborn.de/en/kat/research/bearing-datacenter/operating-conditions",
+    "retrieved_utc": "2026-10-05T18:45:23.915156+00:00",
+    "sha256": "9c7016c1c030177cf74166f3ad8648932649d92bb972b5011a0255dbf64d6f78",
+    "bytes": 46584,
+    "status": "retrieved"
+  },
+  {
+    "file": "denso_fiot_paper.txt",
+    "url": "https://r.jina.ai/https://www.denso.com/jp/ja/-/media/Global/business/innovation/review/27/paper-01.pdf",
+    "status": "retrieved",
+    "sha256": "3a15e7f6fd42f11fcb36bd4caf04a67c040d0a5c58708ddb8156d701158a2ddf",
+    "bytes": 33389,
+    "retrieved_utc": "2026-10-05T18:55:32.014138+00:00"
+  },
+  {
+    "file": "denso_battery_paper.txt",
+    "url": "https://r.jina.ai/https://www.denso.com/jp/ja/-/media/Global/business/innovation/review/25/paper-07.pdf",
+    "status": "retrieved",
+    "sha256": "fb5165e8d4e2685054b677b7a18fb247eeb0de4ff717a80a58fd7acdc08d5a5d",
+    "bytes": 19000,
+    "retrieved_utc": "2026-10-05T18:55:32.014138+00:00"
+  }
+]

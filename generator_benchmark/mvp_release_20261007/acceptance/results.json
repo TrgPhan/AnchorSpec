@@ -1,0 +1,154 @@
+[
+  {
+    "test": "generate",
+    "passed": true,
+    "exit_code": 0,
+    "expected_success": true,
+    "command": [
+      "C:\\Users\\Ad\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_cli.py",
+      "generate",
+      "--label",
+      "inner",
+      "--count",
+      "16",
+      "--seed",
+      "832",
+      "--output",
+      "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\acceptance\\batch",
+      "--release",
+      "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007"
+    ]
+  },
+  {
+    "test": "audit",
+    "passed": true,
+    "exit_code": 0,
+    "expected_success": true,
+    "command": [
+      "C:\\Users\\Ad\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_cli.py",
+      "audit",
+      "--label",
+      "inner",
+      "--output",
+      "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\acceptance\\batch",
+      "--release",
+      "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007"
+    ]
+  },
+  {
+    "test": "refuse_overwrite",
+    "passed": true,
+    "exit_code": 1,
+    "expected_success": false,
+    "command": [
+      "C:\\Users\\Ad\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_cli.py",
+      "generate",
+      "--label",
+      "inner",
+      "--count",
+      "16",
+      "--output",
+      "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\acceptance\\batch",
+      "--release",
+      "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007"
+    ]
+  },
+  {
+    "test": "refuse_new_rpm",
+    "passed": true,
+    "exit_code": 2,
+    "expected_success": false,
+    "command": [
+      "C:\\Users\\Ad\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_cli.py",
+      "generate",
+      "--label",
+      "inner",
+      "--rpm",
+      "1200",
+      "--output",
+      "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\acceptance\\bad_rpm",
+      "--release",
+      "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007"
+    ]
+  },
+  {
+    "test": "refuse_new_fs",
+    "passed": true,
+    "exit_code": 2,
+    "expected_success": false,
+    "command": [
+      "C:\\Users\\Ad\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_cli.py",
+      "generate",
+      "--label",
+      "inner",
+      "--fs",
+      "64000",
+      "--output",
+      "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\acceptance\\bad_fs",
+      "--release",
+      "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007"
+    ]
+  },
+  {
+    "test": "replay",
+    "passed": true,
+    "exit_code": 0,
+    "expected_success": true,
+    "command": [
+      "C:\\Users\\Ad\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_cli.py",
+      "replay",
+      "--input",
+      "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\acceptance\\replay_input.npy",
+      "--rpm",
+      "1797",
+      "--output",
+      "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\acceptance\\replay.json",
+      "--release",
+      "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007"
+    ]
+  },
+  {
+    "test": "replay_refuse_domain",
+    "passed": true,
+    "exit_code": 2,
+    "expected_success": false,
+    "command": [
+      "C:\\Users\\Ad\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_cli.py",
+      "replay",
+      "--input",
+      "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\acceptance\\replay_input.npy",
+      "--rpm",
+      "900",
+      "--output",
+      "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\acceptance\\invalid_replay.json",
+      "--release",
+      "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007"
+    ]
+  },
+  {
+    "test": "replay_refuse_overwrite",
+    "passed": true,
+    "exit_code": 2,
+    "expected_success": false,
+    "command": [
+      "C:\\Users\\Ad\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_cli.py",
+      "replay",
+      "--input",
+      "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\acceptance\\replay_input.npy",
+      "--rpm",
+      "1797",
+      "--output",
+      "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\acceptance\\replay.json",
+      "--release",
+      "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007"
+    ]
+  }
+]

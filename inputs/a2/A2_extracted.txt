@@ -1,0 +1,552 @@
+Dự án A2: Neo và Mở rộng
+Sinh dữ liệu bất thường cho dự báo hỏng hóc từ vài mẫu lỗi thật. Hồ sơ dự án bản cuối và nội dung
+slide cho DENSO Factory Hacks 2026. Tên dự án là tên tạm, bạn có thể đổi.
+
+  Một câu cho ban giám khảo
+  “Nhà máy không thể tạo lỗi thật để dạy AI. Chúng tôi dùng vài mẫu lỗi hiếm hoi để neo một mô hình lỗi vật lý,
+  tiêm lỗi vào tín hiệu của chính máy đang chạy khỏe, và đo hiệu quả trên những bản ghi và loại lỗi mà mô hình
+  chưa từng thấy.”
+
+  Thay đổi so với bản 2 sau khi nghiên cứu thêm:
+  • Tiêm lỗi vào nền máy khỏe thật đã là kỹ thuật được kiểm chứng trong nhiều công trình [6][7][8], không phải ý tưởng
+    chưa thử như tôi viết trước đây. Công trình gần nhất với hướng của bạn là phương pháp sinh mẫu dựa trên vật lý cho chẩn đoán
+    few-shot [9].
+  • Vì vậy đóng góp riêng của dự án được định vị lại rõ hơn: neo tham số lỗi trên vài mẫu thật của chính máy, mẫu âm khó,
+    nhánh bắt lỗi chưa biết, và giao thức đánh giá chống rò rỉ. Phần “neo” là phần chưa được kiểm chứng và trở thành thí nghiệm
+    trung tâm (E1).
+  • Đã tìm được dữ liệu công khai về lỏng đai [20][21], nên phần đai có thể kiểm chứng bằng dữ liệu thật, không chỉ mô phỏng.
+    LM guide vẫn chưa có dữ liệu công khai.
+  • Lịch trình được đặt theo mốc chính thức của cuộc thi: nộp ý tưởng 12/10, thuyết trình chọn Top 5 ngày 16/11, chung kết 02/12
+    [23].
+
+Mục lục
+• Phần A. Hồ sơ dự án: bài toán, cơ sở nghiên cứu, giải pháp, chi tiết kỹ thuật, dữ liệu, đánh giá, tiến độ, rủi ro, hỏi
+  đáp.
+• Phần B. Nội dung slide: 13 slide, mỗi slide có thông điệp, nội dung, hình ảnh gợi ý và lời thuyết trình; đánh dấu
+  slide dùng cho hồ sơ 12/10.
+• Phần C. Nguồn: 26 nguồn kèm mức độ kiểm chứng.
+Điều kiện tiên quyết bạn cần xác nhận
+ Thông tin                                    Vì sao cần                                      Nếu chưa có
+
+ Số bản ghi độc lập mỗi loại lỗi (không       Quyết định giao thức đánh giá và độ tin cậy     Dùng dữ liệu công khai làm bằng chứng
+ đếm cửa sổ cắt)                              của mọi con số                                  chính, mẫu Denso làm ca minh họa
+
+ Tần số lấy mẫu, loại và vị trí cảm biến      Cần cho kurtogram, dải cộng hưởng, tần số đặc   Giả định theo dữ liệu công khai, ghi rõ
+                                              trưng                                           giả định
+
+ Thông số bộ phận (vòng bi, số răng, chiều    Cần để tính tần số lỗi lý thuyết                Hỏi cố vấn DENSO/FPT; hoặc ước lượng
+ dài đai), tốc độ                                                                             từ phổ
+
+ Dữ liệu máy khỏe của cùng máy                Là nền để tiêm lỗi và huấn luyện nhánh một      Thay bằng phần khỏe của bộ dữ liệu
+                                              lớp                                             công khai
+
+ Tiêu chí chấm điểm chính thức                Điều chỉnh trọng tâm slide                      Tôi chưa tìm thấy công khai; xem thể lệ
+                                                                                              tại densohackathon.vn
+
+
+
+
+Dự án A2 (bản cuối): Neo và Mở rộng | DENSO Factory Hacks 2026 | 01/10/2026                                                      Trang 1
+PHẦN A. HỒ SƠ DỰ ÁN
+A1. Bài toán và mục tiêu đo được
+• Bài toán (theo slide A2 của DENSO): dữ liệu lỗi (NG) không thể tái tạo trên dây chuyền; tái tạo ngoài dây
+  chuyền tốn chi phí dừng máy, linh kiện, nhân lực và có nguy cơ gây phế phẩm hoặc hư hỏng thêm. Mong muốn:
+  dù không đủ trạng thái thực tế, AI vẫn phân định được bình thường và bất thường, kể cả những lỗi chưa từng gặp.
+• Mục tiêu kinh doanh (theo ảnh chụp slide A2, cần đối chiếu bản gốc): OEE từ 90.8% (FY24) lên 94%
+  (FY30); thời gian dừng dài từ 2.2% xuống 1.1%.
+• Mục tiêu kỹ thuật đo được: (1) phát hiện lỗi trên bản ghi chưa thấy; (2) phát hiện loại lỗi chưa thấy; (3) bền khi
+  đổi tốc độ, tải, nhiễu, cảm biến; (4) số báo động giả mỗi ngày ở mức chấp nhận được.
+
+A2. Cơ sở nghiên cứu: cái gì đã có, cái gì còn trống
+ Nhận định                                                         Nguồn              Ý nghĩa với dự án
+
+ Mô hình diffusion giúp nhiều khi được thấy lỗi thật (F1 lớp lỗi   [1] đọc toàn văn   Mô hình sinh thuần không phải nguồn tri thức về
+ 0.06 lên 0.42) nhưng gần như không giúp khi chưa thấy lỗi của                        lỗi.
+ ổ bi đích (0.08); khó tái tạo đỉnh rung lớn; tốn khoảng 9 giờ
+ GPU.
+
+ Tạo xung lỗi tại tần số lỗi lý thuyết, dạng tắt dần, điều biến    [6], [7], [8]      Kỹ thuật tiêm lỗi đã được kiểm chứng: dùng làm
+ vùng tải, rồi cộng vào tín hiệu khỏe đo được; huấn luyện chỉ                         xương sống.
+ với dữ liệu khỏe và lỗi giả để nhận ra lỗi thật.
+
+ Sinh mẫu vật lý cho few-shot: mô hình động lực học tạo tín        [9]                Công trình gần nhất. Dự án phải nêu điểm khác so
+ hiệu cơ chế, kết hợp đặc trưng chung của lỗi với đặc trưng                           với nó.
+ riêng của dữ liệu khỏe.
+
+ Tổng quan PIML trong PHM ghi nhận: huấn luyện trên tập trộn       [10]               Ủng hộ hướng lai.
+ (đo thật + mô phỏng) cho kết quả tốt hơn chỉ đo thật, chỉ mô
+ phỏng hoặc chỉ GAN.
+
+ Huấn luyện thuần trên mô phỏng rồi áp trực tiếp lên dữ liệu       [11]               Cần căn chỉnh miền và đo trên dữ liệu thật.
+ thật thì tụt đáng kể.
+
+ Độ chính xác gần tuyệt đối trong nhiều bài bị thổi phồng do rò    [12], [13], [14]   Giao thức chống rò rỉ và baseline mạnh là bắt
+ rỉ cửa sổ chồng lấn; benchmark mới tách theo bản ghi.                                buộc.
+ Baseline FFT cố định đạt 99.09% trong một tác vụ few-shot
+ trên CWRU và vượt encoder học.
+
+ Foundation model chuỗi thời gian không hơn baseline một           [17], [18]         Không dùng làm lõi; chọn chỉ số đúng.
+ dòng khi phát hiện bất thường; point-adjust F1 thổi phồng
+ điểm.
+
+Điểm khác biệt của dự án so với các công trình trên
+ Thành phần          Các công trình tiêm lỗi            Dự án này                                            Trạng thái
+                     [6][7][9]
+
+ Tham số lỗi         Tính từ hình học và tốc độ lý      Neo trên vài mẫu lỗi thật của chính máy, rồi mở      Chưa kiểm chứng: thí
+                     thuyết                             rộng quanh đó                                        nghiệm E1
+
+ Mẫu âm              Chủ yếu dữ liệu khỏe               Thêm mẫu âm khó: khỏe + biến thiên lành tính         Suy luận, cần E1
+
+ Lỗi chưa biết       Phân loại tập đóng                 Nhánh một lớp + hợp nhất                             Có cơ sở, cần E3
+
+ Đánh giá            Khác nhau giữa các bài             Tách theo bản ghi, báo cáo từng bản ghi, baseline    Theo [12][13][14]
+                                                        mạnh
+
+ Bộ phận             Vòng bi                            Vòng bi + đai (dữ liệu công khai) + LM guide (tùy    Đai cần kiểm chứng
+                                                        chọn)
+
+
+
+
+Dự án A2 (bản cuối): Neo và Mở rộng | DENSO Factory Hacks 2026 | 01/10/2026                                                         Trang 2
+A3. Kiến trúc giải pháp
+
+
+
+
+Hình 1. Quy trình Neo và Mở rộng. Đường đỏ là vòng phản hồi khi có lỗi thật mới.
+
+
+
+
+Dự án A2 (bản cuối): Neo và Mở rộng | DENSO Factory Hacks 2026 | 01/10/2026        Trang 3
+A4. Chi tiết kỹ thuật
+Vòng bi: mô hình tín hiệu lỗi
+Tần số lỗi đặc trưng (công thức chuẩn trong chẩn đoán vòng bi [2]); n là số con lăn, d đường kính con lăn, D đường
+kính vòng chia, φ góc tiếp xúc, fr tần số quay trục:
+   BPFO = (n·f /2)·(1 − (d/D)·cos φ) (lỗi vòng ngoài)
+                   r
+   BPFI = (n·fr/2)·(1 + (d/D)·cos φ) (lỗi vòng trong)
+   BSF = (D·fr/2d)·(1 − ((d/D)·cos φ)2) (lỗi con lăn)
+   FTF = (fr/2)·(1 − (d/D)·cos φ) (tần số vòng cách)
+
+Mô hình lỗi giả đi theo hướng của [6]: chuỗi xung tại chu kỳ lỗi, mỗi xung là đáp ứng cộng hưởng tắt dần, điều biến
+theo vùng tải, cộng vào tín hiệu khỏe đo được:
+   x(t) = xkhỏe(t) + Σk Ak·q(tk)·h(t − tk), h(t) = e−βt·sin(2π·fc·t), tk = k·T + τk
+trong đó T là chu kỳ lỗi (nghịch đảo của BPFO/BPFI...), τk là độ trượt ngẫu nhiên, fc tần số cộng hưởng kết cấu, β hệ số tắt dần, Ak biên
+độ, q điều biến vùng tải.
+
+Bước Neo: rút tham số từ mẫu lỗi thật
+ Tham số                       Cách ước lượng từ mẫu thật                                                      Cơ sở
+
+ Dải cộng hưởng, f             Kurtosis phổ / fast kurtogram chọn dải có tính xung mạnh nhất                   [3], [4]
+                       c
+
+ Chu kỳ T                      Đỉnh phổ bao trong dải đã chọn; đối chiếu với tần số lỗi lý thuyết              [2]
+
+ β (tắt dần)                   Trung bình đồng bộ các đoạn xung đã căn chỉnh, khớp hàm mũ                      Suy luận
+
+ Phân phối A , jitter τ        Thống kê biên độ đỉnh và khoảng cách giữa các xung                              Suy luận
+               k           k
+
+ Nhiễu nền                     Không mô hình hóa: dùng trực tiếp đoạn khỏe thật làm x                          [6], [7], [8]
+                                                                                        khỏe
+
+Kiểm tra trước khi mở rộng: phổ bao của tín hiệu tổng hợp phải khớp phổ bao của mẫu thật (đỉnh đúng tần số, tỷ
+lệ sườn phổ hợp lý). Không khớp thì sửa mô hình, không đi tiếp.
+
+Bước Mở rộng: nhân bản trong miền vật lý cho phép
+• Lấy mẫu tham số quanh giá trị neo: fc dịch vài phần trăm, mức nặng theo thang log, tốc độ trong khoảng vận
+   hành (T co giãn theo), SNR qua tỷ lệ biên độ xung so với nền. Khoảng cụ thể phải chỉnh theo dữ liệu; tôi không có
+   số cố định.
+• Mỗi đoạn khỏe chỉ dùng cho một phía của phép tách dữ liệu để tránh rò rỉ.
+• Mẫu âm khó gán nhãn bình thường: đoạn khỏe kèm đổi tốc độ, xung nhiễu ngoài đơn lẻ không tuần hoàn, đổi độ
+   lợi cảm biến.
+• Tinh chỉnh bằng CGAN/diffusion có điều kiện là tùy chọn cuối, vì tốn GPU và dễ nhớ mẫu khi rất ít mẫu [1]; một
+   hướng diffusion few-shot đã được công bố cho vòng bi động cơ hàng không [26].
+
+Đai: dịch phổ thay vì chuỗi xung
+• Lỗi đai chùng làm thay đổi các thành phần phổ liên quan tới đai thay vì tạo xung tuần hoàn rõ rệt [suy luận từ cơ
+   học dây rung; cần kiểm chứng].
+• Neo: đo độ dịch và độ giãn của các đỉnh phổ liên quan tới đai so với trạng thái khỏe. Mở rộng: biến thiên mức dịch
+   theo mức chùng.
+• Kiểm chứng bằng dữ liệu thật: bộ dữ liệu HVAC có rung động trục x, y ở nhiều mức lực căng đai, lấy mẫu rung
+   25.6 kHz [20]. Thí nghiệm gợi ý: neo trên một mức chùng, kiểm thử trên các mức còn lại. Bộ dữ liệu máy mô
+   phỏng lỗi có puli và đai [21] dùng làm nguồn bổ sung.
+
+LM guide (tùy chọn, chưa có dữ liệu công khai)
+• Chuyển động tuyến tính không có tốc độ ổn định và tải chia cho cả hàng bi, nên hư hại sớm khó thấy; một công
+   trình đề xuất đánh giá rung theo vị trí xe trượt [22].
+• Hướng xử lý: lấy mẫu lại tín hiệu theo vị trí; lỗi cục bộ (vật lạ kẹt, vết mòn) xuất hiện tại cùng một vị trí mỗi hành
+   trình. Chỉ làm khi có dữ liệu vị trí.
+
+Học và hợp nhất
+• Nhánh A (bắt buộc): phổ bao + log-FFT + Random Forest/XGBoost. Mô hình sâu chỉ có giá trị khi vượt nhánh
+   này [12][14].
+• Nhánh B: bộ mã hóa hai nhánh thời gian–tần số với đầu prototype [15][16]; tiền huấn luyện trên tổng hợp và
+   vòng bi công khai; căn chỉnh với mỏ neo thật.
+• Nhánh C: mô hình một lớp trên đặc trưng của máy khỏe; ngưỡng đặt theo phân vị trên bản ghi khỏe giữ lại để
+   kiểm soát báo động giả.
+
+
+Dự án A2 (bản cuối): Neo và Mở rộng | DENSO Factory Hacks 2026 | 01/10/2026                                                        Trang 4
+• Hợp nhất: bất thường nếu C thấy lạ hoặc B thấy gần prototype lỗi; nêu loại lỗi khi đủ tin cậy, nếu không thì báo
+  “lỗi chưa biết”.
+
+A5. Dữ liệu
+ Bộ dữ liệu                    Nội dung chính                                                       Vai trò trong dự án
+
+ CWRU [5]                      Vòng bi, lỗi nhân tạo; có nghiên cứu benchmark riêng [5]             Mốc so sánh chung; không dùng làm
+                                                                                                    điểm nhấn
+
+ Paderborn (PU)                Vòng bi, lỗi nhân tạo và lỗi thật từ tuổi thọ tăng tốc               Kiểm chứng liên miền
+
+ HUST bearing [19]             99 tín hiệu, 6 loại lỗi trên 5 loại vòng bi, 3 điều kiện tải, 51.2   Kiểm chứng trên nhiều loại vòng bi
+                               kHz trong 10 s; nhóm tác giả tại Việt Nam
+
+ HVAC lỏng đai [20]            Rung x, y, dòng điện, RPM ở nhiều mức lực căng đai; nhiều            Kiểm chứng phần đai bằng dữ liệu thật
+                               mức nặng
+
+ Máy mô phỏng lỗi có puli và   1 kịch bản không lỗi và 38 kịch bản lỗi (đơn và kép) ở 3 tốc         Nguồn bổ sung cho lỗi đai và bộ truyền
+ đai [21]                      độ
+
+ Mẫu DENSO (nếu có)            Khoảng 4 loại lỗi, vài mẫu mỗi loại                                  Mỏ neo và ca minh họa
+
+
+A6. Giao thức đánh giá và thí nghiệm
+• Tách trước, nhân bản sau, chỉ nhân bản phần huấn luyện. Tách theo bản ghi; cửa sổ không chồng lấn qua ranh
+  giới [12][13].
+• Nếu chỉ có 1–2 bản ghi mỗi lỗi: phần đầu để neo, phần sau cách một khoảng đệm để kiểm thử; ghi rõ giới hạn.
+• Chỉ số: AUROC, AUPRC, recall tại FPR cố định, số báo động giả mỗi ngày; không dùng point-adjust F1 [17]. Báo cáo
+  từng bản ghi, nhiều seed.
+ TN      Câu hỏi                            Thiết lập                                                      Thành công khi
+
+ E0      Baseline mạnh đạt bao nhiêu?       Nhánh A + baseline một dòng                                    Có mốc so sánh trung thực
+
+ E1      Neo có hơn tham số lý              Tiêm lỗi với tham số lý thuyết (như [6][7]) so với tham        Neo hơn nhất quán trên đa số
+         thuyết?                            số neo; thêm/bớt mẫu âm khó                                    bản ghi giữ lại
+
+ E2      Cần bao nhiêu mẫu thật?            k = 1, 2, 5, 10 mỏ neo mỗi lỗi                                 Đường cong tăng rõ từ k nhỏ
+
+ E3      Bắt lỗi chưa từng thấy?            Giấu hẳn một loại lỗi; nhánh C + hợp nhất                      AUROC cao hơn rõ so với ngẫu
+                                                                                                           nhiên
+
+ E4      Bền với điều kiện đổi?             Quét nhiễu (đến −4 dB), tốc độ, độ lợi; huấn luyện             Tụt ít hơn baseline
+                                            CWRU, thử PU/HUST
+
+ E5      Báo động giả?                      Chạy trên bản ghi khỏe dài giữ lại                             Số cảnh báo giả/ngày chấp nhận
+                                                                                                           được
+
+
+
+
+Dự án A2 (bản cuối): Neo và Mở rộng | DENSO Factory Hacks 2026 | 01/10/2026                                                            Trang 5
+Hình 2. Cây quyết định: các cổng G1, G2 và cách rẽ nhánh khi kết quả không như kỳ vọng.
+
+
+A7. Tiến độ theo mốc cuộc thi
+
+
+
+
+Hình 3. Tiến độ từ 01/10 đến 02/12/2026. Mốc lấy từ thông báo chính thức của cuộc thi [23].
+
+
+
+
+Dự án A2 (bản cuối): Neo và Mở rộng | DENSO Factory Hacks 2026 | 01/10/2026                   Trang 6
+ Mốc                         Cần có                                                                      Không cần có
+
+ 12/10 nộp ý tưởng           Bài toán, kiến trúc, cơ sở nghiên cứu, giao thức đánh giá, kết quả          Kết quả đầy đủ; phần đai và LM
+                             baseline E0 và PoC Neo + Tiêm cho một loại lỗi vòng bi (dù sơ bộ)           guide chỉ cần nêu kế hoạch
+
+ 16/11 thuyết trình          E1–E3 trên vòng bi, phần đai với dữ liệu công khai, dashboard v1, slide     LM guide
+ (Top 5)                     1–13
+
+ 02/12 chung kết             E4–E5, hiệu chỉnh trên dữ liệu DENSO nếu được cấp, demo ổn định, kịch       Mọi thứ ngoài trọng tâm
+                             bản hỏi đáp
+
+Phân vai gợi ý (đội 3–4 người)
+• Tín hiệu và vật lý: kurtogram, phổ bao, mô hình xung và mô hình dịch phổ đai, bước Neo.
+• Học máy: nhánh A/B/C, căn chỉnh miền, hợp nhất.
+• Đánh giá: giao thức tách, E0–E5, kiểm tra rò rỉ. Người này có quyền “phủ quyết” mọi con số.
+• Sản phẩm và thuyết trình: dashboard, slide, lời thuyết trình (có thể kiêm nhiệm nếu đội 3 người).
+
+A8. Rủi ro
+ Rủi ro                                         Mức              Giảm thiểu
+
+ E1 cho thấy neo không hơn tham số lý           Trung bình       Vẫn còn giá trị: báo cáo trung thực, chuyển trọng tâm sang mẫu âm
+ thuyết                                                          khó, nhánh C và giao thức đánh giá
+
+ Quá ít bản ghi DENSO                           Cao              Dữ liệu công khai làm bằng chứng chính; mẫu DENSO là ca minh họa
+
+ Mô hình dịch phổ đai không khớp dữ liệu        Trung bình       Hạ về nhánh A + C cho đai; nêu rõ là hướng mở
+ HVAC
+
+ Sim-to-real gap                                Cao [11]         Tiêm vào nền thật, căn chỉnh miền, đo E1 sớm
+
+ Tự đánh lừa bằng rò rỉ hoặc chỉ số sai         Cao [12][17]     Mục A6, người đánh giá độc lập trong đội
+
+ Hết thời gian trước 12/10                      Cao              Chỉ cần E0 + PoC một lỗi; phần còn lại nêu là kế hoạch
+
+
+A9. Chuẩn bị hỏi đáp
+ Câu hỏi có thể gặp                       Hướng trả lời
+
+ Khác gì các bài tiêm lỗi đã có?          Tham số được neo trên mẫu thật thay vì chỉ lý thuyết; có mẫu âm khó, nhánh lỗi chưa biết; E1
+                                          đo trực tiếp phần khác biệt này [6][7][9].
+
+ Tại sao không dùng GAN/diffusion?        Có bằng chứng mô hình sinh không ngoại suy ra lỗi chưa thấy [1]; chúng tôi giữ nó làm bước
+                                          tinh chỉnh tùy chọn.
+
+ Độ chính xác 99% thì sao?                Nhiều con số như vậy bị thổi phồng do rò rỉ [12][13]; chúng tôi tách theo bản ghi và so với
+                                          baseline FFT rất mạnh [14].
+
+ Không có dữ liệu DENSO thì tin được      Kiểm chứng trên CWRU, PU, HUST và dữ liệu lỏng đai thật; quy trình chỉ cần dữ liệu khỏe của
+ không?                                   máy và vài mẫu lỗi để hiệu chỉnh.
+
+ Báo động giả bao nhiêu?                  Ngưỡng nhánh C đặt theo phân vị trên bản ghi khỏe giữ lại; báo cáo số cảnh báo giả mỗi ngày
+                                          (E5).
+
+ Triển khai tại DENSO thế nào?            Gắn gia tốc kế, thu dữ liệu khỏe, neo từ các sự cố đã ghi nhận, chạy giám sát, cập nhật khi có
+                                          lỗi mới.
+
+ Lỗi chưa từng gặp?                       Nhánh một lớp trên máy khỏe; E3 giấu hẳn một loại lỗi để đo.
+
+ Chi phí tính toán?                       Nhánh A và C nhẹ; mô hình sâu nhỏ (1D-CNN); bước sinh nặng là tùy chọn.
+
+
+
+
+Dự án A2 (bản cuối): Neo và Mở rộng | DENSO Factory Hacks 2026 | 01/10/2026                                                        Trang 7
+PHẦN B. NỘI DUNG SLIDE
+13 slide cho vòng thuyết trình 16/11, khoảng 8–10 phút. Nhãn [12/10] đánh dấu slide nên đưa vào hồ sơ nộp ý
+tưởng. Ô kết quả trong ngoặc vuông phải điền bằng số thật từ thí nghiệm, không được ước lượng trước.
+
+ SLIDE 1         Tiêu đề                                                                                                       [12/10]
+
+ Thông điệp: Một câu nói rõ giá trị.                                      Lời thuyết trình (khoảng 40–60 giây):
+ Trên slide:                                                              Chúng tôi giải bài A2: sinh dữ liệu bất thường cho dự báo
+  • Tên dự án + đội                                                       hỏng hóc. Ý tưởng cốt lõi là không bắt AI tưởng tượng ra lỗi,
+  • “Từ vài mẫu lỗi hiếm hoi đến bộ phát hiện hỏng hóc đáng tin cậy”      mà dùng vài mẫu lỗi thật để neo một mô hình vật lý, rồi
+                                                                          nhân bản lỗi ngay trên tín hiệu của chính máy đang chạy.
+  • Chủ đề A2, DENSO Factory Hacks 2026
+ Hình ảnh: Ảnh động cơ có cảm biến rung, một đường tín hiệu khỏe
+ và một chuỗi xung lỗi được “tiêm” vào.
+
+
+ SLIDE 2         Vấn đề                                                                                                        [12/10]
+
+ Thông điệp: Không thể tạo lỗi thật để dạy AI.                            Lời thuyết trình (khoảng 40–60 giây):
+ Trên slide:                                                              Theo chính DENSO, dữ liệu lỗi không thể tạo trên dây
+  • Máy đang chạy không thể cố tình gây lỗi                               chuyền, còn tạo ngoài dây chuyền thì tốn kém và có thể
+  • Tái tạo ngoài line: tốn chi phí, phế phẩm, hư máy                     làm hỏng thêm máy. Trong khi đó mục tiêu là đưa OEE lên
+                                                                          94% và cắt một nửa thời gian dừng dài. Thiếu dữ liệu lỗi
+  • Mục tiêu OEE 90.8% lên 94%; dừng dài 2.2% xuống 1.1%
+                                                                          chính là nút thắt.
+ Hình ảnh: Bốn biểu tượng khó khăn từ slide A2 của DENSO; con số
+ OEE lấy đúng slide gốc.
+
+
+ SLIDE 3         Vì sao cách phổ biến chưa đủ                                                                                  [12/10]
+
+ Thông điệp: Ba cái bẫy có bằng chứng.                                    Lời thuyết trình (khoảng 40–60 giây):
+ Trên slide:                                                              Có ba cách thường gặp. Mô hình sinh sâu không tự nghĩ ra
+  • GAN/diffusion thuần: F1 lớp lỗi 0.08 khi chưa thấy lỗi, 0.42 khi đã   lỗi chưa từng thấy: một nghiên cứu cho thấy F1 chỉ 0.08
+    thấy [1]                                                              trong trường hợp đó. Mô phỏng thuần thì tụt khi gặp máy
+  • Mô phỏng thuần tụt khi gặp máy thật [11]                              thật. Và nhiều con số 99% trong các bài báo bị thổi phồng
+                                                                          do rò rỉ dữ liệu.
+  • Độ chính xác 99% thường do rò rỉ dữ liệu [12][13]
+ Hình ảnh: Ba ô, mỗi ô một con số và nguồn.
+
+
+ SLIDE 4         Ý tưởng: Neo và Mở rộng                                                                                       [12/10]
+
+ Thông điệp: Vật lý cho tri thức về lỗi, dữ liệu thật cho độ chân thực.   Lời thuyết trình (khoảng 40–60 giây):
+ Trên slide:                                                              Chúng tôi tách bài toán làm hai. Tri thức về lỗi đến từ vật
+  • Neo: rút tham số lỗi từ vài mẫu thật                                  lý, nhưng tham số được neo vào vài mẫu thật của chính
+  • Mở rộng: nhân bản trong miền vật lý cho phép                          máy. Độ chân thực đến từ việc tiêm lỗi vào tín hiệu khỏe
+                                                                          thật thay vì nhiễu giả. Kỹ thuật tiêm lỗi đã được kiểm
+  • Tiêm vào nền máy khỏe thật + mẫu âm khó
+                                                                          chứng trong nhiều nghiên cứu; điểm mới của chúng tôi là
+ Hình ảnh: Sơ đồ đơn giản 3 bước: mẫu thật, tham số, thư viện lỗi.
+                                                                          bước neo.
+
+
+ SLIDE 5         Kiến trúc                                                                                                     [12/10]
+
+ Thông điệp: Toàn cảnh hệ thống.                                          Lời thuyết trình (khoảng 40–60 giây):
+ Trên slide:                                                              Đây là toàn bộ quy trình. Đầu vào là vài mẫu lỗi, dữ liệu
+  • 5 khối: Neo, Mở rộng, Học (3 nhánh), Hợp nhất, Kiểm chứng             khỏe, dữ liệu công khai và thông số cơ học. Đầu ra là điểm
+  • Vòng phản hồi khi có lỗi thật mới                                     bất thường, loại lỗi và độ bất định. Khi nhà máy gặp lỗi thật
+                                                                          mới, nó trở thành mỏ neo mới.
+ Hình ảnh: Hình 1 (rút gọn chữ cho slide).
+
+
+ SLIDE 6         Bước Neo
+
+ Thông điệp: Tham số đến từ dữ liệu, không đoán.                          Lời thuyết trình (khoảng 40–60 giây):
+ Trên slide:                                                              Từ mỗi mẫu lỗi thật, chúng tôi dùng các công cụ chuẩn của
+  • Kurtogram chọn dải cộng hưởng                                         chẩn đoán rung: kurtogram để tìm dải cộng hưởng, phổ
+  • Phổ bao cho chu kỳ lỗi, đối chiếu tần số lý thuyết                    bao để tìm chu kỳ lỗi. Tín hiệu tổng hợp chỉ được dùng khi
+                                                                          phổ của nó khớp với phổ thật.
+  • Kiểm tra: phổ tổng hợp phải khớp phổ thật
+ Hình ảnh: Hai phổ bao chồng nhau: thật và tổng hợp, đỉnh tại BPFO.
+
+
+
+
+Dự án A2 (bản cuối): Neo và Mở rộng | DENSO Factory Hacks 2026 | 01/10/2026                                                      Trang 8
+ SLIDE 7        Bước Mở rộng
+
+ Thông điệp: Nhân bản có kiểm soát, chống báo động giả.                 Lời thuyết trình (khoảng 40–60 giây):
+ Trên slide:                                                            Từ một mỏ neo, chúng tôi sinh hàng nghìn biến thể nằm
+  • Biến thiên tốc độ, mức nặng, cộng hưởng, SNR                        trong miền vật lý hợp lý. Quan trọng không kém là mẫu âm
+  • Tiêm lỗi vào đoạn khỏe thật                                         khó: đổi tốc độ hay một cú va đơn lẻ không được coi là lỗi,
+                                                                        để hệ thống không báo động giả liên tục.
+  • Mẫu âm khó: thay đổi lành tính vẫn là bình thường
+ Hình ảnh: Lưới 3x3 tín hiệu tổng hợp theo mức nặng và tốc độ; một
+ cột mẫu âm khó.
+
+
+ SLIDE 8        Phát hiện và lỗi chưa biết                                                                                   [12/10]
+
+ Thông điệp: Ba nhánh, một quyết định.                                  Lời thuyết trình (khoảng 40–60 giây):
+ Trên slide:                                                            Chúng tôi không đặt cược vào một mô hình. Nhánh A là
+  • A: đặc trưng cố định (baseline mạnh)                                baseline rất mạnh mà mọi mô hình khác phải thắng. Nhánh
+  • B: prototype cho lỗi đã biết                                        B nhận diện lỗi đã biết. Nhánh C học máy khỏe trông thế
+                                                                        nào, nên bắt được cả lỗi chưa từng gặp, đúng điều DENSO
+  • C: một lớp trên máy khỏe cho lỗi chưa biết
+                                                                        yêu cầu.
+ Hình ảnh: Ba cột hội tụ vào ô hợp nhất.
+
+
+ SLIDE 9        Cách chúng tôi đo                                                                                            [12/10]
+
+ Thông điệp: Con số đáng tin hơn con số đẹp.                            Lời thuyết trình (khoảng 40–60 giây):
+ Trên slide:                                                            Chúng tôi đo trên bản ghi mà mô hình chưa từng thấy, và
+  • Tách theo bản ghi, không theo cửa sổ                                giấu hẳn một loại lỗi để kiểm tra khả năng phát hiện lỗi lạ.
+  • Giấu hẳn một loại lỗi khi kiểm thử                                  Chúng tôi báo cáo cả số báo động giả mỗi ngày, vì đó là
+                                                                        điều kỹ sư bảo trì quan tâm.
+  • AUROC, recall tại FPR cố định, báo động giả/ngày
+ Hình ảnh: Minh họa tách sai (cửa sổ chồng lấn hai phía) và tách
+ đúng.
+
+
+ SLIDE 10       Kết quả
+
+ Thông điệp: Neo có giúp không, cần bao nhiêu mẫu thật.                 Lời thuyết trình (khoảng 40–60 giây):
+ Trên slide:                                                            Đây là kết quả trên các bản ghi giữ lại. [Đọc số E1.] Đường
+  • E1: [AUROC tham số lý thuyết] so với [AUROC tham số neo]            cong E2 cho thấy cần bao nhiêu mẫu lỗi thật. [Nếu có
+  • E2: đường cong theo số mẫu thật k = 1, 2, 5, 10                     trường hợp thất bại, nêu thẳng ở đây.]
+
+  • E3: [AUROC lỗi chưa thấy]; đai trên dữ liệu thật: [kết quả]
+ Hình ảnh: Bảng E1 và biểu đồ đường E2; điền số thật.
+
+
+ SLIDE 11       Demo
+
+ Thông điệp: Kỹ sư bảo trì dùng thế nào.                                Lời thuyết trình (khoảng 40–60 giây):
+ Trên slide:                                                            Trên dashboard, kỹ sư thấy tín hiệu, điểm bất thường và
+  • Tín hiệu thật và tổng hợp cạnh nhau                                 loại lỗi dự đoán kèm độ bất định. Thanh trượt cho thấy hệ
+  • Thanh trượt mức nặng, tốc độ                                        thống phản ứng thế nào khi lỗi nặng dần.
+
+  • Cảnh báo: loại lỗi + độ bất định
+ Hình ảnh: Ảnh chụp dashboard hoặc chạy trực tiếp.
+
+
+ SLIDE 12       Triển khai tại DENSO                                                                                         [12/10]
+
+ Thông điệp: Từ máy khỏe đến giám sát trong vài tuần.                   Lời thuyết trình (khoảng 40–60 giây):
+ Trên slide:                                                            Triển khai không đòi hỏi tạo lỗi. Chỉ cần dữ liệu khỏe của
+  • Gắn gia tốc kế, thu dữ liệu khỏe                                    máy và những sự cố đã từng ghi nhận. Mỗi sự cố mới làm
+  • Neo từ sự cố đã ghi nhận                                            hệ thống tốt hơn.
+
+  • Giám sát, cập nhật khi có lỗi mới
+ Hình ảnh: Lộ trình 4 bước theo thời gian.
+
+
+ SLIDE 13       Giới hạn và bước tiếp theo                                                                                   [12/10]
+
+ Thông điệp: Nói thẳng điều chưa chứng minh.                            Lời thuyết trình (khoảng 40–60 giây):
+ Trên slide:                                                            Chúng tôi muốn nói rõ những gì chưa chứng minh được: số
+  • Số mẫu DENSO ít: khoảng tin cậy rộng                                mẫu DENSO còn ít, LM guide mới ở mức đề xuất. Với dữ
+  • LM guide mới ở mức đề xuất                                          liệu khỏe và vài sự cố của nhà máy, chúng tôi có thể kiểm
+                                                                        chứng ngay tại hiện trường. Xin cảm ơn.
+  • Cần dữ liệu thật để hiệu chỉnh tại nhà máy
+ Hình ảnh: Danh sách ngắn, không trang trí.
+
+
+
+
+Dự án A2 (bản cuối): Neo và Mở rộng | DENSO Factory Hacks 2026 | 01/10/2026                                                    Trang 9
+Gợi ý thiết kế slide
+• Mỗi slide một thông điệp, tối đa 3 dòng chữ; chi tiết để trong lời nói.
+• Mọi con số trên slide có nguồn nhỏ ở góc. Con số kết quả chỉ lấy từ thí nghiệm của đội.
+• Slide 10 là quan trọng nhất ở vòng 16/11: chuẩn bị bản dự phòng nếu E1 không thắng (khi đó nhấn vào E3, E5 và
+   giao thức đánh giá).
+
+
+PHẦN C. NGUỒN VÀ MỨC ĐỘ KIỂM CHỨNG
+Chỉ [1] được đọc toàn văn. Các nguồn còn lại dựa vào tóm tắt hoặc đoạn trích từ kết quả tìm kiếm, nên hãy đọc lại trước khi trích số liệu
+trên slide. Nguồn đánh dấu “phiên trước” đã được tra trong các lượt trao đổi trước của cuộc trò chuyện này.
+[1] Thompson, Sommers, Russell-Gilbert và cộng sự. Multivariate Data Augmentation for Predictive Maintenance using Diffusion.
+arXiv:2411.05848. Đọc toàn văn.
+[2] Randall, R.B. và Antoni, J. Rolling element bearing diagnostics: A tutorial. Mechanical Systems and Signal Processing 25(2):485–520,
+2011. doi:10.1016/j.ymssp.2010.07.017. Thông tin thư mục đã xác minh; công thức là kiến thức chuẩn.
+[3] Antoni, J. và Randall, R.B. The spectral kurtosis: application to the vibratory surveillance and diagnostics of rotating machines. MSSP
+20(2):308–331, 2006. Thông tin thư mục.
+[4] Antoni, J. Fast computation of the kurtogram for the detection of transient faults. MSSP 21(1):108–124, 2007. Thông tin thư mục.
+[5] Smith, W.A. và Randall, R.B. Rolling element bearing diagnostics using the Case Western Reserve University data: A benchmark
+study. MSSP 64–65:100–131, 2015. Thông tin thư mục.
+[6] Simulation-Driven Bearing Fault Diagnosis Under Fault-Free Conditions with Hierarchical Convolutional Attention Networks.
+Machines 14(6):602, 2026. doi:10.3390/machines14060602. Đoạn trích.
+[7] A new bearing fault diagnosis method via simulation data driving transfer learning without target fault data. Measurement, 2023 (pii
+S0263224123004438). Đoạn trích.
+[8] Condition Monitoring of Ball Bearings Based on Machine Learning with Synthetically Generated Data. Sensors 22(7):2490, 2022.
+Đoạn trích.
+[9] A physics-based sample generation method for few-shot bearing condition monitoring. ScienceDirect (pii S0950705124015867),
+2025. Đoạn trích.
+[10] Physics-Informed Machine Learning in Prognostics and Health Management: A Systematic Literature Review. arXiv:2608.10047.
+Đoạn trích.
+[11] Domain Adaptation from Simulation to Reality: A GAN- and MK-MMD-Based Transfer Learning Approach for Bearing Fault
+Diagnosis. Applied Sciences 16(3):1407, 2026. Đoạn trích (phiên trước).
+[12] Diagnostics is Largely Solved, Prognostics is Not: A Leakage-Immune Benchmark for Rolling-Element Bearings. Zenodo record
+22834808. Đoạn trích. Chưa qua phản biện.
+[13] Leakage-Safe, Reproducible Benchmarking for Vibration-Based Fault Diagnosis. PHM Society European Conference, 2026. Đoạn
+trích.
+[14] Protocol and Implementation Sensitivity in Raw-Index-Audited Few-Shot Bearing Fault Diagnosis Benchmarking. Machines
+14(8):891, 2026. Đoạn trích.
+[15] Few-shot fault diagnosis of rotating machinery with two-branch prototypical networks. Journal of Intelligent Manufacturing, 2022.
+Đoạn trích.
+[16] Meta-learning with elastic prototypical network for fault transfer diagnosis of bearings under unstable speeds. ScienceDirect (pii
+S0951832024000760), 2024. Đoạn trích.
+[17] Kim và cộng sự. Towards a Rigorous Evaluation of Time-series Anomaly Detection. arXiv:2109.05257. Tóm tắt (phiên trước).
+[18] When Foundation Models are One-Liners: Limitations and Future Directions for Time Series Anomaly Detection. OpenReview, 2025.
+Tóm tắt (phiên trước).
+[19] Hong, H.S. và Thuan, N. HUST bearing: a practical dataset for ball bearing fault diagnosis. BMC Research Notes, 2023; Mendeley
+Data doi:10.17632/cbv7jyx4p9.3. Đoạn trích.
+[20] Vibration, current, torque, RPM dataset for multiple fault conditions in industrial-scale electric motors under randomized speed and
+load variations. Data in Brief, 2025 (pii S235234092500678X; PMC12361783). Đoạn trích.
+[21] Marshall, L. và Jensen, D. Dataset of single and double faults scenarios using vibration signals from a rotary machine. Data in Brief,
+2023. doi:10.1016/j.dib.2023.109358. Đoạn trích.
+[22] Method of Failure Diagnostics to Linear Rolling Guides in Handling Machines. PMC10099071. Đoạn trích (phiên trước).
+[23] Thông báo khởi động DENSO Factory Hacks 2026 (VnReview, SGGP, 07/2026): lộ trình 12/10, 16/11, 02/12. Báo chí.
+[24] ISP-AD: A Large-Scale Real-World Dataset for Advancing Industrial Anomaly Detection with Synthetic and Real Defects.
+arXiv:2503.04997. Tóm tắt (phiên trước).
+[25] Bosch, thông cáo về generative AI trong sản xuất, 2023. Thông cáo báo chí (phiên trước).
+[26] Ping và cộng sự. Few-shot aero-engine bearing fault diagnosis with denoising diffusion based data augmentation. Neurocomputing
+622:129327, 2025. Đoạn trích.
+
+
+  Những điều vẫn chưa xác minh
+  Mức cải thiện của bước Neo so với tham số lý thuyết (đây là câu hỏi của E1); khoảng tham số cụ thể khi Mở rộng; mô hình dịch phổ
+  cho đai trên dữ liệu HVAC; số OEE đọc từ ảnh chụp slide (cần bản gốc); tiêu chí chấm điểm chính thức; và dữ liệu thật của DENSO
+  mà đội được cấp.
+
+
+
+
+Dự án A2 (bản cuối): Neo và Mở rộng | DENSO Factory Hacks 2026 | 01/10/2026                                                       Trang 10
+

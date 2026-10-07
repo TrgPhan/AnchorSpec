@@ -1,0 +1,74 @@
+
+               Each project will be evaluated on a 0-5 scale for each criterion below. 
+
+               1. Team profile evaluation 
+                General requirements  
+               
+                 A valid and up-to-date CV for every team member. 
+                 Accurate and valid contact information. 
+                 Teams are encouraged to assign clear roles such as Technical Lead, Developer, Business Analyst, and Tester. 
+               
+
+                Participant-specific criteria  
+               
+                  For students:  Evaluation will be based on GPA or transcript, relevant research or technology projects, and awards or achievements in previous competitions. 
+                  For professionals:  Evaluation will be based on relevant industry experience, academic qualifications, technical expertise, and experience delivering projects of similar scope. 
+               
+
+               2. Solution / idea evaluation 
+               Submitted ideas must be directly related to one of the competition themes and must not have been commercially deployed. 
+               
+                  Innovation & originality:  Introduces new value to the manufacturing industry or broader community. 
+                  Feasibility & effectiveness:  Demonstrates strong implementation potential and effectively addresses the proposed challenge. 
+                  Practicality & scalability:  Can be applied in real manufacturing environments and scaled for broader adoption. 
+               
+
+               Additional information policy 
+               If any required information is missing or invalid, the Organizing Committee will notify the team by email. Teams are allowed one opportunity to revise or supplement their submission within 24 hours of receiving the email. 
+            
+
+
+               Each project will be evaluated on a 0-5 scale for each criterion below. The final score will be calculated as the average of all criterion scores. 
+
+               1. Technology 
+               
+                  Innovation & Originality:  The degree of technological innovation and differentiation from existing market solutions. 
+                  Technical Communication:  The clarity and effectiveness of presenting and explaining the proposed technical solution. 
+                  Solution Maturity:  The level of completeness and readiness of the proposed solution, including models, demos, prototypes, and other deliverables. 
+               
+
+               2. Business 
+               
+                  Problem Understanding:  The team's understanding of the manufacturing context, operational challenges, and business needs. 
+                  Practical Applicability:  The feasibility of implementation, scalability, and the value the solution can deliver to the business and manufacturing environment. 
+               
+            
+
+
+               Time limits and penalty policy 
+               
+                  Presentation:  15 minutes per team. 
+                  Q&A Session:  15 minutes with the judging panel, audience, and other participating teams. 
+                  Time Penalty:  1 point will be deducted for every additional minute exceeding the presentation time limit. 
+               
+
+               Evaluation criteria (0-5 scale) 
+                1. Presentation  
+               
+                 Professional, engaging, and confident presentation style. 
+                 Clear, well-structured, and comprehensive presentation of the project's key information. 
+               
+
+                2. Product Demonstration  
+               
+                 Strong understanding of the manufacturing context and the significance of the challenge. 
+                 Feasibility and potential for real-world implementation in manufacturing operations. 
+                 Ability to operate accurately and consistently when tested with different datasets. 
+               
+
+                3. Q&A and Engagement  
+               
+                 Clear, relevant, and persuasive answers to questions from the judging panel. 
+                 Active participation through thoughtful questions and engagement with other competing teams. 
+               
+            

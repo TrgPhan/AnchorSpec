@@ -1,0 +1,49 @@
+{
+  "test_generators.py": {
+    "exit_code": 0,
+    "log": "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\validation\\test_generators.py.log"
+  },
+  "test_mvp.py": {
+    "exit_code": 0,
+    "log": "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\validation\\test_mvp.py.log"
+  },
+  "inner": {
+    "library_audit": {
+      "rows_verified": 1000,
+      "attempts_verified": 1000,
+      "unique": 1000,
+      "max_anchor_corr": 0.9585530915314727,
+      "median_anchor_corr": 0.937279467079762,
+      "all_quality_pass": true,
+      "metadata_contract_verified": true
+    }
+  },
+  "outer": {
+    "library_audit": {
+      "rows_verified": 1000,
+      "attempts_verified": 1000,
+      "unique": 1000,
+      "max_anchor_corr": 0.976368604112004,
+      "median_anchor_corr": 0.9556775915614031,
+      "all_quality_pass": true,
+      "metadata_contract_verified": true
+    }
+  },
+  "ball": {
+    "library_audit": {
+      "rows_verified": 1000,
+      "attempts_verified": 1002,
+      "unique": 1000,
+      "max_anchor_corr": 0.9585383731668937,
+      "median_anchor_corr": 0.9320437977041275,
+      "all_quality_pass": true,
+      "metadata_contract_verified": true
+    }
+  },
+  "ddpm_checkpoint_reload": {
+    "seed": 11,
+    "label": "inner",
+    "count": 128,
+    "bitwise_identical": true
+  }
+}

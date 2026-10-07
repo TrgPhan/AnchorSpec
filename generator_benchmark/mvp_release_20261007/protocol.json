@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "seeds": [
+    11,
+    29,
+    47
+  ],
+  "methods": [
+    "real_only",
+    "simple",
+    "constrained_surrogate",
+    "physics_unanchored",
+    "physics_anchored",
+    "physics_calibrated",
+    "ddpm_prototype"
+  ],
+  "fault_anchors_per_class": 8,
+  "healthy_train_windows": 20,
+  "base_synthetic_count": 128,
+  "base_synthetic_class_mass": 0.5,
+  "development_grid": {
+    "methods": [
+      "simple",
+      "constrained_surrogate"
+    ],
+    "counts": [
+      32,
+      256
+    ],
+    "class_mass": [
+      0.25,
+      0.5
+    ]
+  },
+  "alpha": 0.05,
+  "meaningful_recall_gain": 0.02,
+  "rf": {
+    "n_estimators": 200,
+    "bootstrap": false,
+    "max_features": "sqrt"
+  },
+  "deep_steps": 1500,
+  "production_per_class": 1000,
+  "selection": "mean dev macro fault recall, then macro F1; require dev FPR<=.05 for every seed; real-only on ties",
+  "max_development_rounds": 2,
+  "final_rule": "freeze before reading healthy2HP/cal and all3HP; no tuning after final",
+  "uncertainty": "3 training seeds are not independent bearings; no window-IID CI",
+  "primary_claim_gate": "gain>=.02 vs real AND simple on final with FPR<=.05; descriptive only",
+  "sources": {
+    "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\benchmark.py": "8ffb7967a4cad9eb24fddb5bf2943c4f8f218e2f69bcea42f6c15ab416c2dc71",
+    "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\deep_generators.py": "2308cf440f613ff945d7a9ab4d4dcf32695c6a23d4d49a0df70329adc3304101",
+    "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\download_data.py": "b8284f4bb819910487227e1705fa418d9d84711e6d82d6f30d5c500a5cf6b94b",
+    "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\finalize_generation.py": "94ad477b3305975c1d0c4118aa83efeb0b79314dd721363a0ca27b70e1ceb5ef",
+    "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\generate.py": "18f59187bb25b6dc36fb58cffc696acee53422f58a3f1978488c59f38b46e011",
+    "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\generators.py": "8b3e269166fea333a3ac658b300612b948f8af42e38581c137832d4880ad9ac8",
+    "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\inspect_sources.py": "c4ed6186ba3c766232340bc6f40222c80e4c866e8916a2587dcb1dcf22cf0235",
+    "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_core.py": "0b8e17a7bc6770a987397ab8fa0f8dd624074271dd4b7f723aeae781ac4f8e9f",
+    "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_run.py": "3138ea827e1134e209afb1005ce0a3c6fad2d529d87e181478c12f88064a271e",
+    "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\physics_calibration.py": "15476cd2ad3764fbb1beab923c4a58787636b79055f26da3bc8136ef81e8a13d",
+    "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\review_audit.py": "4f7e2967c558ad5c8b6141403df08c5c7dec812404ca13443522a7ba9763c181",
+    "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\review_compare.py": "11a8c2809135a300cab80b406fd1bc03d0cdaaffdb3f7cfa242beb7f45f1a2cc",
+    "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\test_generators.py": "565963cf58655b5268e5029e03a3dbf1228632cc71134c7a548fbd0ca880465d",
+    "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\test_mvp.py": "581d7f3763ce53bf65eddb8b1b888c8c71855cef70818b937d586bb3977980f6"
+  },
+  "created_utc": "2026-10-06T19:04:23.844343+00:00",
+  "recovery_amendment": {
+    "reason": "4GB laptop GPU sampling severe slowdown; CPU32 measured 15.57s; final unopened",
+    "sampling_device": "cpu for all three DDPM seeds",
+    "training_device": "original CUDA checkpoints reused; seed47 trained CUDA",
+    "training_budget_unchanged": true,
+    "pre_final": true,
+    "recovery_code_sha256": "0d5fdaefb92f115f76a7cd32309f2821663856886c3708bde2a3a806fb5e1226"
+  },
+  "cpu_training_recovery": {
+    "reason": "4GB laptop GPU sampling severe slowdown; CPU32 measured 15.57s; final unopened",
+    "sampling_device": "cpu for all three DDPM seeds",
+    "training_device": "seed11/29 original CUDA checkpoints; seed47 CPU",
+    "training_budget_unchanged": true,
+    "pre_final": true,
+    "recovery_code_sha256": "52684316e1892644d1279a4ed2585ff7c6fea2cf8980333d384fdec50fb326aa"
+  }
+}

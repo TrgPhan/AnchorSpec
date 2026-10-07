@@ -1,0 +1,10 @@
+{
+  "week": 9,
+  "status": "GAP",
+  "utc": "2026-10-06T20:03:35.126774+00:00",
+  "findings": "Unknown faults/severity/DENSO target unvalidated. Reject unsupported conditions. Frozen candidates include all base methods for transparency.",
+  "evidence": [
+    "protocol.json"
+  ],
+  "schedule_note": "execution milestone, not elapsed calendar week"
+}

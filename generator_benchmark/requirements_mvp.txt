@@ -1,0 +1,5 @@
+numpy==2.4.4
+scipy==1.17.1
+scikit-learn==1.8.0
+# Optional only for DDPM research comparator and legacy tests:
+torch==2.7.1

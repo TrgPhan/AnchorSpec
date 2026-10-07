@@ -1,0 +1,125 @@
+{
+  "selected": "real_only",
+  "best_simple": "simple",
+  "variants": [
+    "real_only",
+    "simple",
+    "constrained_surrogate",
+    "physics_unanchored",
+    "physics_anchored",
+    "physics_calibrated",
+    "ddpm_prototype",
+    "healthy_only"
+  ],
+  "models": {
+    "real_only:11": {
+      "file": "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\development\\model_real_only_11.pkl",
+      "sha256": "254e41ccde2c0bc79fd57450cd1374d451b5e7ab1c664fe75abc31746c49801e"
+    },
+    "real_only:29": {
+      "file": "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\development\\model_real_only_29.pkl",
+      "sha256": "e5f33884b1f5cc5c5e83c241e119ea741649efce834c9efa7160fa1eee07bbcb"
+    },
+    "real_only:47": {
+      "file": "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\development\\model_real_only_47.pkl",
+      "sha256": "dfcb669393f8436bda10aa9c38c80708c6ab9f6455d9862b2df76b40b813958e"
+    },
+    "simple:11": {
+      "file": "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\development\\model_simple_11.pkl",
+      "sha256": "ae00592a036172876b6f7fc3444532b4caf13e31e14641676fdc7eae9a7651fe"
+    },
+    "simple:29": {
+      "file": "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\development\\model_simple_29.pkl",
+      "sha256": "3814ab45547408c7e0483dc480114be607d7d4a5c1da4ce0a7ff8d279965d731"
+    },
+    "simple:47": {
+      "file": "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\development\\model_simple_47.pkl",
+      "sha256": "cfc3a85ee699cee1e9f9c93942cfe236fa2821fda2c7b16fb391bf1d736858a8"
+    },
+    "constrained_surrogate:11": {
+      "file": "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\development\\model_constrained_surrogate_11.pkl",
+      "sha256": "6fc01fcac47781b9a5530caeec8b2299ab69966f54439695e5bae06a73f0dfb4"
+    },
+    "constrained_surrogate:29": {
+      "file": "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\development\\model_constrained_surrogate_29.pkl",
+      "sha256": "aeb908225fb0f59b33ad9d62e0372a706bf80f7a49d2ac659ed570478e222b78"
+    },
+    "constrained_surrogate:47": {
+      "file": "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\development\\model_constrained_surrogate_47.pkl",
+      "sha256": "55820eaae9a4135ff5fd12dba2511fd0fe6293b3910ca65f77dbb647ce4b3dc7"
+    },
+    "physics_unanchored:11": {
+      "file": "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\development\\model_physics_unanchored_11.pkl",
+      "sha256": "451431e80e408353f7e44a26be25bff8acfbad2ac95eac039f78d6d6568ac849"
+    },
+    "physics_unanchored:29": {
+      "file": "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\development\\model_physics_unanchored_29.pkl",
+      "sha256": "5862235b297763bcdc3ab00aac9c310a6ec75126bffcea17c5c1824cfde41e99"
+    },
+    "physics_unanchored:47": {
+      "file": "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\development\\model_physics_unanchored_47.pkl",
+      "sha256": "c9e79f142e090e1b14a82b2ef387f6e0454c1739059c320a0696c67090e55a77"
+    },
+    "physics_anchored:11": {
+      "file": "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\development\\model_physics_anchored_11.pkl",
+      "sha256": "282bca2dfaf3e19c367486db0683d807b27d3337f52e4d8ab8489aad80501746"
+    },
+    "physics_anchored:29": {
+      "file": "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\development\\model_physics_anchored_29.pkl",
+      "sha256": "f644d7cd02f528e35a35895d9f270ec7683ce1a70919714562f6730d41faf51a"
+    },
+    "physics_anchored:47": {
+      "file": "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\development\\model_physics_anchored_47.pkl",
+      "sha256": "1329f3097e86aacdd8d44432da7f56d55de020131175de02d934297271aa03dd"
+    },
+    "physics_calibrated:11": {
+      "file": "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\development\\model_physics_calibrated_11.pkl",
+      "sha256": "7528b6ee527f0a54e02f0a7c65308a146141064a961e55809ffd42a53cfa4422"
+    },
+    "physics_calibrated:29": {
+      "file": "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\development\\model_physics_calibrated_29.pkl",
+      "sha256": "f8045535ae7abfa6c291b2c93349e6104a6e6e68a54e30bc9134a0bed84eadc3"
+    },
+    "physics_calibrated:47": {
+      "file": "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\development\\model_physics_calibrated_47.pkl",
+      "sha256": "5449f1840a04349e68bca0d4ea740e49f8a752663819a290053debfe93b605b9"
+    },
+    "ddpm_prototype:11": {
+      "file": "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\development\\model_ddpm_prototype_11.pkl",
+      "sha256": "14aaa7469fbb42c126a615724df8c60d854d5a1a69cb86ba088f769e41940c16"
+    },
+    "ddpm_prototype:29": {
+      "file": "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\development\\model_ddpm_prototype_29.pkl",
+      "sha256": "94ac3c7dc47b3255aa391b41ac7dc91b6b7fa34b7e8f496833eb5d11f1e61de4"
+    },
+    "ddpm_prototype:47": {
+      "file": "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\development\\model_ddpm_prototype_47.pkl",
+      "sha256": "af23414f2ffba4afb43f83ed19c3ce8d015927a7f184676027a7638caa772a97"
+    },
+    "healthy_only:11": {
+      "file": "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\development\\healthy_11.pkl",
+      "sha256": "7af261883e65dcb9267a1ae5be9386f244a84d088960c99b4dd58c41d8c24b42"
+    },
+    "healthy_only:29": {
+      "file": "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\development\\healthy_29.pkl",
+      "sha256": "f02f3f4308dc6f453606267ce9c47b01c39420aba948b791af642f63da201524"
+    },
+    "healthy_only:47": {
+      "file": "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_release_20261007\\development\\healthy_47.pkl",
+      "sha256": "2b6b78640cbcd7832ade5f933b33b4a6d0f9817977a3ab802cd782ad6c093990"
+    }
+  },
+  "protocol_sha256": "96a84ca842bd97ba6fd9475051c9d1cfa3cdf49897675dd9c3cfb1e4d9b9ac2a",
+  "records_sha256": "62c5fe63e95818de130eaec68dbeabe4be54ec7f138c97397c7317a15811d36e",
+  "selection_sha256": "5377e05d7b97ba00a561023c4e796c0cb1dab350457e02859e1fe094a5ad9908",
+  "sources": {
+    "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_core.py": "0b8e17a7bc6770a987397ab8fa0f8dd624074271dd4b7f723aeae781ac4f8e9f",
+    "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_run.py": "52684316e1892644d1279a4ed2585ff7c6fea2cf8980333d384fdec50fb326aa",
+    "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\generators.py": "8b3e269166fea333a3ac658b300612b948f8af42e38581c137832d4880ad9ac8",
+    "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\deep_generators.py": "247e1ef039ddd2b388e67b5827bab1fb55917111d472ab3c17ccb486f51ade14",
+    "C:\\Users\\Ad\\Downloads\\DENSO\\generator_benchmark\\mvp_validate.py": "844b3c5e23e2a9318b32237a07a698880907d51e5331b4229fef3cdba522adba"
+  },
+  "utc": "2026-10-06T20:03:35.165946+00:00",
+  "final_seen": false,
+  "thresholds_not_yet_fit": true
+}

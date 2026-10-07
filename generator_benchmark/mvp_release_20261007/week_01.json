@@ -1,0 +1,11 @@
+{
+  "week": 1,
+  "status": "PUBLIC_ONLY",
+  "utc": "2026-10-06T19:04:29.198029+00:00",
+  "findings": "Confirmed generation task; 17 legacy tests after CuBLAS repair; DENSO permissions/mentor pending.",
+  "evidence": [
+    "records.json",
+    "train_inventory.json"
+  ],
+  "schedule_note": "execution milestone, not elapsed calendar week"
+}

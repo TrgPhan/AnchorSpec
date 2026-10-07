@@ -1,0 +1,4529 @@
+[
+  {
+    "variant": "real_only",
+    "method": "real_only",
+    "seed": 11,
+    "synthetic_weight": 0.0,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {},
+      "synthetic_class_mass": 0.0
+    },
+    "fit_seconds": 0.25088030000006256,
+    "generation_fit_seconds": 7.000001005508238e-07,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.03389830508474576,
+    "healthy_any_alert_rate": 0.03389830508474576,
+    "threshold": 0.33999999999999997,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "real_only",
+    "method": "real_only",
+    "seed": 29,
+    "synthetic_weight": 0.0,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {},
+      "synthetic_class_mass": 0.0
+    },
+    "fit_seconds": 0.22450389999994513,
+    "generation_fit_seconds": 9.000000318337698e-07,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.03389830508474576,
+    "healthy_any_alert_rate": 0.03389830508474576,
+    "threshold": 0.32999999999999996,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "real_only",
+    "method": "real_only",
+    "seed": 47,
+    "synthetic_weight": 0.0,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {},
+      "synthetic_class_mass": 0.0
+    },
+    "fit_seconds": 0.21371129999988625,
+    "generation_fit_seconds": 6.000000212225132e-07,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.03389830508474576,
+    "healthy_any_alert_rate": 0.03389830508474576,
+    "threshold": 0.33499999999999996,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "simple",
+    "method": "simple",
+    "seed": 11,
+    "synthetic_weight": 0.5,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {
+        "inner": 128,
+        "outer": 128,
+        "ball": 128
+      },
+      "synthetic_class_mass": 0.5
+    },
+    "fit_seconds": 0.2156193999999232,
+    "generation_fit_seconds": 0.19885649999991983,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.03389830508474576,
+    "healthy_any_alert_rate": 0.03389830508474576,
+    "threshold": 0.28500000000000003,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "simple",
+    "method": "simple",
+    "seed": 29,
+    "synthetic_weight": 0.5,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {
+        "inner": 128,
+        "outer": 128,
+        "ball": 128
+      },
+      "synthetic_class_mass": 0.5
+    },
+    "fit_seconds": 0.23581020000005992,
+    "generation_fit_seconds": 0.2055000000000291,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.01694915254237288,
+    "healthy_any_alert_rate": 0.01694915254237288,
+    "threshold": 0.33499999999999996,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "simple",
+    "method": "simple",
+    "seed": 47,
+    "synthetic_weight": 0.5,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {
+        "inner": 128,
+        "outer": 128,
+        "ball": 128
+      },
+      "synthetic_class_mass": 0.5
+    },
+    "fit_seconds": 0.2196960000001127,
+    "generation_fit_seconds": 0.1892493000000286,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.01694915254237288,
+    "healthy_any_alert_rate": 0.01694915254237288,
+    "threshold": 0.35,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "constrained_surrogate",
+    "method": "constrained_surrogate",
+    "seed": 11,
+    "synthetic_weight": 0.5,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {
+        "inner": 128,
+        "outer": 128,
+        "ball": 128
+      },
+      "synthetic_class_mass": 0.5
+    },
+    "fit_seconds": 0.3602063000000726,
+    "generation_fit_seconds": 5.319193199999972,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.03389830508474576,
+    "healthy_any_alert_rate": 0.03389830508474576,
+    "threshold": 0.32499999999999996,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "constrained_surrogate",
+    "method": "constrained_surrogate",
+    "seed": 29,
+    "synthetic_weight": 0.5,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {
+        "inner": 128,
+        "outer": 128,
+        "ball": 128
+      },
+      "synthetic_class_mass": 0.5
+    },
+    "fit_seconds": 0.29282039999998233,
+    "generation_fit_seconds": 5.000650200000109,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.0,
+    "healthy_any_alert_rate": 0.0,
+    "threshold": 0.31000000000000005,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "constrained_surrogate",
+    "method": "constrained_surrogate",
+    "seed": 47,
+    "synthetic_weight": 0.5,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {
+        "inner": 128,
+        "outer": 128,
+        "ball": 128
+      },
+      "synthetic_class_mass": 0.5
+    },
+    "fit_seconds": 0.38905110000018794,
+    "generation_fit_seconds": 8.981368800000155,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.03389830508474576,
+    "healthy_any_alert_rate": 0.03389830508474576,
+    "threshold": 0.29000000000000004,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "physics_unanchored",
+    "method": "physics_unanchored",
+    "seed": 11,
+    "synthetic_weight": 0.5,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {
+        "inner": 128,
+        "outer": 128,
+        "ball": 128
+      },
+      "synthetic_class_mass": 0.5
+    },
+    "fit_seconds": 0.3860847000000831,
+    "generation_fit_seconds": 0.2738942999999381,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.01694915254237288,
+    "healthy_any_alert_rate": 0.01694915254237288,
+    "threshold": 0.235,
+    "auc_valid_only": 0.9999999999999999,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "physics_unanchored",
+    "method": "physics_unanchored",
+    "seed": 29,
+    "synthetic_weight": 0.5,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {
+        "inner": 128,
+        "outer": 128,
+        "ball": 128
+      },
+      "synthetic_class_mass": 0.5
+    },
+    "fit_seconds": 0.3733907000000727,
+    "generation_fit_seconds": 0.2704174000000421,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.01694915254237288,
+    "healthy_any_alert_rate": 0.01694915254237288,
+    "threshold": 0.28500000000000003,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "physics_unanchored",
+    "method": "physics_unanchored",
+    "seed": 47,
+    "synthetic_weight": 0.5,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {
+        "inner": 128,
+        "outer": 128,
+        "ball": 128
+      },
+      "synthetic_class_mass": 0.5
+    },
+    "fit_seconds": 0.4193170999999438,
+    "generation_fit_seconds": 0.30864919999999074,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.03389830508474576,
+    "healthy_any_alert_rate": 0.03389830508474576,
+    "threshold": 0.22499999999999998,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "physics_anchored",
+    "method": "physics_anchored",
+    "seed": 11,
+    "synthetic_weight": 0.5,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {
+        "inner": 128,
+        "outer": 128,
+        "ball": 128
+      },
+      "synthetic_class_mass": 0.5
+    },
+    "fit_seconds": 0.3332457000001341,
+    "generation_fit_seconds": 3.076104100000066,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.03389830508474576,
+    "healthy_any_alert_rate": 0.03389830508474576,
+    "threshold": 0.20499999999999996,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "physics_anchored",
+    "method": "physics_anchored",
+    "seed": 29,
+    "synthetic_weight": 0.5,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {
+        "inner": 128,
+        "outer": 128,
+        "ball": 128
+      },
+      "synthetic_class_mass": 0.5
+    },
+    "fit_seconds": 0.30527890000007574,
+    "generation_fit_seconds": 2.309691100000009,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.03389830508474576,
+    "healthy_any_alert_rate": 0.03389830508474576,
+    "threshold": 0.345,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "physics_anchored",
+    "method": "physics_anchored",
+    "seed": 47,
+    "synthetic_weight": 0.5,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {
+        "inner": 128,
+        "outer": 128,
+        "ball": 128
+      },
+      "synthetic_class_mass": 0.5
+    },
+    "fit_seconds": 0.33922340000003715,
+    "generation_fit_seconds": 2.1604981000000407,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.03389830508474576,
+    "healthy_any_alert_rate": 0.03389830508474576,
+    "threshold": 0.28,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "physics_calibrated",
+    "method": "physics_calibrated",
+    "seed": 11,
+    "synthetic_weight": 0.5,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {
+        "inner": 128,
+        "outer": 128,
+        "ball": 128
+      },
+      "synthetic_class_mass": 0.5
+    },
+    "fit_seconds": 0.34268889999998464,
+    "generation_fit_seconds": 7.042997900000046,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.03389830508474576,
+    "healthy_any_alert_rate": 0.03389830508474576,
+    "threshold": 0.32999999999999996,
+    "auc_valid_only": 0.9999999999999999,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "physics_calibrated",
+    "method": "physics_calibrated",
+    "seed": 29,
+    "synthetic_weight": 0.5,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {
+        "inner": 128,
+        "outer": 128,
+        "ball": 128
+      },
+      "synthetic_class_mass": 0.5
+    },
+    "fit_seconds": 0.2782171000001199,
+    "generation_fit_seconds": 7.887874000000011,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.03389830508474576,
+    "healthy_any_alert_rate": 0.03389830508474576,
+    "threshold": 0.31000000000000005,
+    "auc_valid_only": 0.9999999999999999,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "physics_calibrated",
+    "method": "physics_calibrated",
+    "seed": 47,
+    "synthetic_weight": 0.5,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {
+        "inner": 128,
+        "outer": 128,
+        "ball": 128
+      },
+      "synthetic_class_mass": 0.5
+    },
+    "fit_seconds": 0.27208139999993364,
+    "generation_fit_seconds": 6.559654099999989,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.03389830508474576,
+    "healthy_any_alert_rate": 0.03389830508474576,
+    "threshold": 0.28,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "ddpm_prototype",
+    "method": "ddpm_prototype",
+    "seed": 11,
+    "synthetic_weight": 0.5,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {
+        "inner": 128,
+        "outer": 128,
+        "ball": 128
+      },
+      "synthetic_class_mass": 0.5
+    },
+    "fit_seconds": 0.4557151000003614,
+    "generation_fit_seconds": 297.2724613999999,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.03389830508474576,
+    "healthy_any_alert_rate": 0.03389830508474576,
+    "threshold": 0.365,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "ddpm_prototype",
+    "method": "ddpm_prototype",
+    "seed": 29,
+    "synthetic_weight": 0.5,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {
+        "inner": 128,
+        "outer": 128,
+        "ball": 128
+      },
+      "synthetic_class_mass": 0.5
+    },
+    "fit_seconds": 0.4297968000000765,
+    "generation_fit_seconds": 293.6363197999999,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.01694915254237288,
+    "healthy_any_alert_rate": 0.01694915254237288,
+    "threshold": 0.22499999999999998,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "ddpm_prototype",
+    "method": "ddpm_prototype",
+    "seed": 47,
+    "synthetic_weight": 0.5,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {
+        "inner": 128,
+        "outer": 128,
+        "ball": 128
+      },
+      "synthetic_class_mass": 0.5
+    },
+    "fit_seconds": 0.6334514000000127,
+    "generation_fit_seconds": 1008.4100467999997,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.03389830508474576,
+    "healthy_any_alert_rate": 0.03389830508474576,
+    "threshold": 0.31499999999999995,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "simple_n32_w25",
+    "method": "simple",
+    "seed": 11,
+    "synthetic_weight": 0.25,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {
+        "inner": 32,
+        "outer": 32,
+        "ball": 32
+      },
+      "synthetic_class_mass": 0.25
+    },
+    "fit_seconds": 0.5505435000004582,
+    "generation_fit_seconds": 0.0,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.01694915254237288,
+    "healthy_any_alert_rate": 0.01694915254237288,
+    "threshold": 0.29000000000000004,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "simple_n32_w25",
+    "method": "simple",
+    "seed": 29,
+    "synthetic_weight": 0.25,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {
+        "inner": 32,
+        "outer": 32,
+        "ball": 32
+      },
+      "synthetic_class_mass": 0.25
+    },
+    "fit_seconds": 0.56104409999989,
+    "generation_fit_seconds": 0.0,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.03389830508474576,
+    "healthy_any_alert_rate": 0.03389830508474576,
+    "threshold": 0.32499999999999996,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "simple_n32_w25",
+    "method": "simple",
+    "seed": 47,
+    "synthetic_weight": 0.25,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {
+        "inner": 32,
+        "outer": 32,
+        "ball": 32
+      },
+      "synthetic_class_mass": 0.25
+    },
+    "fit_seconds": 0.5641433999999208,
+    "generation_fit_seconds": 0.0,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.01694915254237288,
+    "healthy_any_alert_rate": 0.01694915254237288,
+    "threshold": 0.36,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "simple_n32_w50",
+    "method": "simple",
+    "seed": 11,
+    "synthetic_weight": 0.5,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {
+        "inner": 32,
+        "outer": 32,
+        "ball": 32
+      },
+      "synthetic_class_mass": 0.5
+    },
+    "fit_seconds": 0.5754555000003165,
+    "generation_fit_seconds": 0.0,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.01694915254237288,
+    "healthy_any_alert_rate": 0.01694915254237288,
+    "threshold": 0.29000000000000004,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "simple_n32_w50",
+    "method": "simple",
+    "seed": 29,
+    "synthetic_weight": 0.5,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {
+        "inner": 32,
+        "outer": 32,
+        "ball": 32
+      },
+      "synthetic_class_mass": 0.5
+    },
+    "fit_seconds": 0.603121000000101,
+    "generation_fit_seconds": 0.0,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.01694915254237288,
+    "healthy_any_alert_rate": 0.01694915254237288,
+    "threshold": 0.32999999999999996,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "simple_n32_w50",
+    "method": "simple",
+    "seed": 47,
+    "synthetic_weight": 0.5,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {
+        "inner": 32,
+        "outer": 32,
+        "ball": 32
+      },
+      "synthetic_class_mass": 0.5
+    },
+    "fit_seconds": 0.5742356999999174,
+    "generation_fit_seconds": 0.0,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.03389830508474576,
+    "healthy_any_alert_rate": 0.03389830508474576,
+    "threshold": 0.37,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "simple_n256_w25",
+    "method": "simple",
+    "seed": 11,
+    "synthetic_weight": 0.25,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {
+        "inner": 256,
+        "outer": 256,
+        "ball": 256
+      },
+      "synthetic_class_mass": 0.25
+    },
+    "fit_seconds": 0.6007614999998623,
+    "generation_fit_seconds": 0.0,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.03389830508474576,
+    "healthy_any_alert_rate": 0.03389830508474576,
+    "threshold": 0.29000000000000004,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "simple_n256_w25",
+    "method": "simple",
+    "seed": 29,
+    "synthetic_weight": 0.25,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {
+        "inner": 256,
+        "outer": 256,
+        "ball": 256
+      },
+      "synthetic_class_mass": 0.25
+    },
+    "fit_seconds": 0.6227360000002591,
+    "generation_fit_seconds": 0.0,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.03389830508474576,
+    "healthy_any_alert_rate": 0.03389830508474576,
+    "threshold": 0.31999999999999995,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "simple_n256_w25",
+    "method": "simple",
+    "seed": 47,
+    "synthetic_weight": 0.25,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {
+        "inner": 256,
+        "outer": 256,
+        "ball": 256
+      },
+      "synthetic_class_mass": 0.25
+    },
+    "fit_seconds": 0.5856324999995195,
+    "generation_fit_seconds": 0.0,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.01694915254237288,
+    "healthy_any_alert_rate": 0.01694915254237288,
+    "threshold": 0.365,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "simple_n256_w50",
+    "method": "simple",
+    "seed": 11,
+    "synthetic_weight": 0.5,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {
+        "inner": 256,
+        "outer": 256,
+        "ball": 256
+      },
+      "synthetic_class_mass": 0.5
+    },
+    "fit_seconds": 0.5626581999995324,
+    "generation_fit_seconds": 0.0,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.03389830508474576,
+    "healthy_any_alert_rate": 0.03389830508474576,
+    "threshold": 0.29000000000000004,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "simple_n256_w50",
+    "method": "simple",
+    "seed": 29,
+    "synthetic_weight": 0.5,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {
+        "inner": 256,
+        "outer": 256,
+        "ball": 256
+      },
+      "synthetic_class_mass": 0.5
+    },
+    "fit_seconds": 0.5875421000000642,
+    "generation_fit_seconds": 0.0,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.01694915254237288,
+    "healthy_any_alert_rate": 0.01694915254237288,
+    "threshold": 0.33999999999999997,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "simple_n256_w50",
+    "method": "simple",
+    "seed": 47,
+    "synthetic_weight": 0.5,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {
+        "inner": 256,
+        "outer": 256,
+        "ball": 256
+      },
+      "synthetic_class_mass": 0.5
+    },
+    "fit_seconds": 0.5916643999998996,
+    "generation_fit_seconds": 0.0,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.01694915254237288,
+    "healthy_any_alert_rate": 0.01694915254237288,
+    "threshold": 0.365,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "constrained_surrogate_n32_w25",
+    "method": "constrained_surrogate",
+    "seed": 11,
+    "synthetic_weight": 0.25,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {
+        "inner": 32,
+        "outer": 32,
+        "ball": 32
+      },
+      "synthetic_class_mass": 0.25
+    },
+    "fit_seconds": 0.5388187999997172,
+    "generation_fit_seconds": 0.0,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.03389830508474576,
+    "healthy_any_alert_rate": 0.03389830508474576,
+    "threshold": 0.375,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "constrained_surrogate_n32_w25",
+    "method": "constrained_surrogate",
+    "seed": 29,
+    "synthetic_weight": 0.25,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {
+        "inner": 32,
+        "outer": 32,
+        "ball": 32
+      },
+      "synthetic_class_mass": 0.25
+    },
+    "fit_seconds": 0.5033822000004875,
+    "generation_fit_seconds": 0.0,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.0,
+    "healthy_any_alert_rate": 0.0,
+    "threshold": 0.32999999999999996,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "constrained_surrogate_n32_w25",
+    "method": "constrained_surrogate",
+    "seed": 47,
+    "synthetic_weight": 0.25,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {
+        "inner": 32,
+        "outer": 32,
+        "ball": 32
+      },
+      "synthetic_class_mass": 0.25
+    },
+    "fit_seconds": 0.5523598999998285,
+    "generation_fit_seconds": 0.0,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.03389830508474576,
+    "healthy_any_alert_rate": 0.03389830508474576,
+    "threshold": 0.33999999999999997,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "constrained_surrogate_n32_w50",
+    "method": "constrained_surrogate",
+    "seed": 11,
+    "synthetic_weight": 0.5,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {
+        "inner": 32,
+        "outer": 32,
+        "ball": 32
+      },
+      "synthetic_class_mass": 0.5
+    },
+    "fit_seconds": 0.5226026000000275,
+    "generation_fit_seconds": 0.0,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.03389830508474576,
+    "healthy_any_alert_rate": 0.03389830508474576,
+    "threshold": 0.375,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "constrained_surrogate_n32_w50",
+    "method": "constrained_surrogate",
+    "seed": 29,
+    "synthetic_weight": 0.5,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {
+        "inner": 32,
+        "outer": 32,
+        "ball": 32
+      },
+      "synthetic_class_mass": 0.5
+    },
+    "fit_seconds": 0.5120203999995283,
+    "generation_fit_seconds": 0.0,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.01694915254237288,
+    "healthy_any_alert_rate": 0.01694915254237288,
+    "threshold": 0.31000000000000005,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "constrained_surrogate_n32_w50",
+    "method": "constrained_surrogate",
+    "seed": 47,
+    "synthetic_weight": 0.5,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {
+        "inner": 32,
+        "outer": 32,
+        "ball": 32
+      },
+      "synthetic_class_mass": 0.5
+    },
+    "fit_seconds": 0.5191438000001654,
+    "generation_fit_seconds": 0.0,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.03389830508474576,
+    "healthy_any_alert_rate": 0.03389830508474576,
+    "threshold": 0.33499999999999996,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "constrained_surrogate_n256_w25",
+    "method": "constrained_surrogate",
+    "seed": 11,
+    "synthetic_weight": 0.25,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {
+        "inner": 256,
+        "outer": 256,
+        "ball": 256
+      },
+      "synthetic_class_mass": 0.25
+    },
+    "fit_seconds": 0.6307960999993156,
+    "generation_fit_seconds": 0.0,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.01694915254237288,
+    "healthy_any_alert_rate": 0.01694915254237288,
+    "threshold": 0.31499999999999995,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "constrained_surrogate_n256_w25",
+    "method": "constrained_surrogate",
+    "seed": 29,
+    "synthetic_weight": 0.25,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {
+        "inner": 256,
+        "outer": 256,
+        "ball": 256
+      },
+      "synthetic_class_mass": 0.25
+    },
+    "fit_seconds": 0.60293830000046,
+    "generation_fit_seconds": 0.0,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.0,
+    "healthy_any_alert_rate": 0.0,
+    "threshold": 0.32499999999999996,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "constrained_surrogate_n256_w25",
+    "method": "constrained_surrogate",
+    "seed": 47,
+    "synthetic_weight": 0.25,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {
+        "inner": 256,
+        "outer": 256,
+        "ball": 256
+      },
+      "synthetic_class_mass": 0.25
+    },
+    "fit_seconds": 0.5966072999999597,
+    "generation_fit_seconds": 0.0,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.03389830508474576,
+    "healthy_any_alert_rate": 0.03389830508474576,
+    "threshold": 0.30000000000000004,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "constrained_surrogate_n256_w50",
+    "method": "constrained_surrogate",
+    "seed": 11,
+    "synthetic_weight": 0.5,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {
+        "inner": 256,
+        "outer": 256,
+        "ball": 256
+      },
+      "synthetic_class_mass": 0.5
+    },
+    "fit_seconds": 0.5960406000003786,
+    "generation_fit_seconds": 0.0,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.01694915254237288,
+    "healthy_any_alert_rate": 0.01694915254237288,
+    "threshold": 0.31499999999999995,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "constrained_surrogate_n256_w50",
+    "method": "constrained_surrogate",
+    "seed": 29,
+    "synthetic_weight": 0.5,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {
+        "inner": 256,
+        "outer": 256,
+        "ball": 256
+      },
+      "synthetic_class_mass": 0.5
+    },
+    "fit_seconds": 0.60495230000015,
+    "generation_fit_seconds": 0.0,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.0,
+    "healthy_any_alert_rate": 0.0,
+    "threshold": 0.32999999999999996,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "constrained_surrogate_n256_w50",
+    "method": "constrained_surrogate",
+    "seed": 47,
+    "synthetic_weight": 0.5,
+    "weights": {
+      "class_weight_totals": [
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "real_counts": {
+        "healthy": 20,
+        "inner": 8,
+        "outer": 8,
+        "ball": 8
+      },
+      "synthetic_counts": {
+        "inner": 256,
+        "outer": 256,
+        "ball": 256
+      },
+      "synthetic_class_mass": 0.5
+    },
+    "fit_seconds": 0.5926632999999129,
+    "generation_fit_seconds": 0.0,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.03389830508474576,
+    "healthy_any_alert_rate": 0.03389830508474576,
+    "threshold": 0.30000000000000004,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        59
+      ]
+    ]
+  },
+  {
+    "variant": "healthy_only",
+    "method": "healthy_only",
+    "seed": 11,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 0.25,
+    "macro_f1": 0.1,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 0.0,
+      "outer": 0.0,
+      "ball": 0.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.03389830508474576,
+    "healthy_any_alert_rate": 0.03389830508474576,
+    "threshold": 0.5794548410941445,
+    "auc_valid_only": 1.0,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "variant": "healthy_only",
+    "method": "healthy_only",
+    "seed": 29,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 0.25,
+    "macro_f1": 0.1,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 0.0,
+      "outer": 0.0,
+      "ball": 0.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 1.0
+    },
+    "macro_fault_recall": 1.0,
+    "fpr": 0.03389830508474576,
+    "healthy_any_alert_rate": 0.03389830508474576,
+    "threshold": 0.5959442767171687,
+    "auc_valid_only": 0.9997127262280954,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "variant": "healthy_only",
+    "method": "healthy_only",
+    "seed": 47,
+    "n": 236,
+    "n_healthy": 59,
+    "n_fault": 177,
+    "coverage": 1.0,
+    "invalid_rows": 0,
+    "sensor_alert_rate": 0.0,
+    "accuracy": 0.25,
+    "macro_f1": 0.1,
+    "class_recall": {
+      "healthy": 1.0,
+      "inner": 0.0,
+      "outer": 0.0,
+      "ball": 0.0
+    },
+    "fault_recall": {
+      "inner": 1.0,
+      "outer": 1.0,
+      "ball": 0.864406779661017
+    },
+    "macro_fault_recall": 0.9548022598870056,
+    "fpr": 0.03389830508474576,
+    "healthy_any_alert_rate": 0.03389830508474576,
+    "threshold": 0.587476517026292,
+    "auc_valid_only": 0.9951163458776213,
+    "confusion_labels": [
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0,
+        0
+      ]
+    ]
+  }
+]

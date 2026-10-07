@@ -1,0 +1,11 @@
+{
+  "week": 6,
+  "status": "PASS_SCOPED",
+  "utc": "2026-10-06T20:03:19.596169+00:00",
+  "findings": "DDPM trained anew, checkpoints saved; no claim of paper reproduction/convergence or equal compute.",
+  "evidence": [
+    "development/ddpm_11.pt",
+    "development/metrics.json"
+  ],
+  "schedule_note": "execution milestone, not elapsed calendar week"
+}

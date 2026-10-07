@@ -1,0 +1,6 @@
+{
+  "recordings": 16,
+  "unique_hashes": 16,
+  "bearing_independence": false,
+  "window_random_split": false
+}

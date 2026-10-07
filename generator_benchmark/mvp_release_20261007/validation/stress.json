@@ -1,0 +1,56 @@
+[
+  {
+    "label": "inner",
+    "seed": 701,
+    "quota": 16,
+    "repeat_identical": true
+  },
+  {
+    "label": "inner",
+    "seed": 709,
+    "quota": 16,
+    "repeat_identical": true
+  },
+  {
+    "label": "inner",
+    "seed": 719,
+    "quota": 16,
+    "repeat_identical": true
+  },
+  {
+    "label": "outer",
+    "seed": 701,
+    "quota": 16,
+    "repeat_identical": true
+  },
+  {
+    "label": "outer",
+    "seed": 709,
+    "quota": 16,
+    "repeat_identical": true
+  },
+  {
+    "label": "outer",
+    "seed": 719,
+    "quota": 16,
+    "repeat_identical": true
+  },
+  {
+    "label": "ball",
+    "seed": 701,
+    "quota": 16,
+    "repeat_identical": true
+  },
+  {
+    "label": "ball",
+    "seed": 709,
+    "quota": 16,
+    "repeat_identical": true
+  },
+  {
+    "label": "ball",
+    "seed": 719,
+    "quota": 16,
+    "repeat_identical": true
+  }
+]

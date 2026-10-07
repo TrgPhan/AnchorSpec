@@ -1,0 +1,11 @@
+{
+  "week": 10,
+  "status": "UTILITY_NOT_ESTABLISHED",
+  "utc": "2026-10-06T20:03:42.091920+00:00",
+  "findings": "Final load opened once; gain vs real=0.0000, vs simple=0.0000. Do NOT retune on these outcomes.",
+  "evidence": [
+    "FROZEN.json",
+    "final/summary.json"
+  ],
+  "schedule_note": "execution milestone, not elapsed calendar week"
+}

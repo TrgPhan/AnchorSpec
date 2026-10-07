@@ -1,0 +1,41 @@
+{
+  "file": "C:\\Users\\Ad\\Downloads\\DENSO\\docs\\plans\\KE_HOACH_NGHIEN_CUU_DENSO_A2_12_TUAN.md",
+  "bytes": 108612,
+  "lines": 981,
+  "weeks": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+  ],
+  "sections": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13"
+  ],
+  "code_fences": 10,
+  "mermaid_nodes": 31,
+  "utf8": "passed",
+  "table_consistency": "passed",
+  "mermaid_structure": "passed; syntax not parsed or rendered",
+  "sha256": "ff0a5c00537c6a5c91a2e9722e217aa623ad8a2681767e2eb9fc4be9f065cd2d",
+  "scope": "Document structure only; no ML experiment or scientific validation"
+}

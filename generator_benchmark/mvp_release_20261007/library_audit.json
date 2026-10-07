@@ -1,0 +1,26 @@
+{
+  "inner": {
+    "rows_verified": 1000,
+    "attempts_verified": 1000,
+    "unique": 1000,
+    "max_anchor_corr": 0.9585530915314727,
+    "median_anchor_corr": 0.937279467079762,
+    "all_quality_pass": true
+  },
+  "outer": {
+    "rows_verified": 1000,
+    "attempts_verified": 1000,
+    "unique": 1000,
+    "max_anchor_corr": 0.976368604112004,
+    "median_anchor_corr": 0.9556775915614031,
+    "all_quality_pass": true
+  },
+  "ball": {
+    "rows_verified": 1000,
+    "attempts_verified": 1002,
+    "unique": 1000,
+    "max_anchor_corr": 0.9585383731668937,
+    "median_anchor_corr": 0.9320437977041275,
+    "all_quality_pass": true
+  }
+}

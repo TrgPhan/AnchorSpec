@@ -1,0 +1,107 @@
+{
+  "methods": {
+    "real_only": {
+      "macro_fault_recall": 1.0,
+      "fpr": 0.04519774011299435,
+      "accuracy": 0.9971870604781997,
+      "macro_f1": 0.9971749383514089,
+      "coverage": 1.0,
+      "recall_seed_range": [
+        1.0,
+        1.0
+      ],
+      "max_seed_fpr": 0.06779661016949153
+    },
+    "simple": {
+      "macro_fault_recall": 1.0,
+      "fpr": 0.07344632768361582,
+      "accuracy": 0.9901547116736991,
+      "macro_f1": 0.9901037542086968,
+      "coverage": 1.0,
+      "recall_seed_range": [
+        1.0,
+        1.0
+      ],
+      "max_seed_fpr": 0.11864406779661017
+    },
+    "constrained_surrogate": {
+      "macro_fault_recall": 1.0,
+      "fpr": 0.20903954802259886,
+      "accuracy": 0.9985935302390999,
+      "macro_f1": 0.9985874691757045,
+      "coverage": 1.0,
+      "recall_seed_range": [
+        1.0,
+        1.0
+      ],
+      "max_seed_fpr": 0.2542372881355932
+    },
+    "physics_unanchored": {
+      "macro_fault_recall": 1.0,
+      "fpr": 0.23163841807909602,
+      "accuracy": 0.9957805907172995,
+      "macro_f1": 0.9957599712540425,
+      "coverage": 1.0,
+      "recall_seed_range": [
+        1.0,
+        1.0
+      ],
+      "max_seed_fpr": 0.3389830508474576
+    },
+    "physics_anchored": {
+      "macro_fault_recall": 1.0,
+      "fpr": 0.06779661016949153,
+      "accuracy": 0.9957805907172995,
+      "macro_f1": 0.9957599712540425,
+      "coverage": 1.0,
+      "recall_seed_range": [
+        1.0,
+        1.0
+      ],
+      "max_seed_fpr": 0.0847457627118644
+    },
+    "physics_calibrated": {
+      "macro_fault_recall": 1.0,
+      "fpr": 0.1694915254237288,
+      "accuracy": 0.9985935302390999,
+      "macro_f1": 0.9985874691757045,
+      "coverage": 1.0,
+      "recall_seed_range": [
+        1.0,
+        1.0
+      ],
+      "max_seed_fpr": 0.2542372881355932
+    },
+    "ddpm_prototype": {
+      "macro_fault_recall": 1.0,
+      "fpr": 0.06779661016949153,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "coverage": 1.0,
+      "recall_seed_range": [
+        1.0,
+        1.0
+      ],
+      "max_seed_fpr": 0.1016949152542373
+    },
+    "healthy_only": {
+      "macro_fault_recall": 0.9830508474576272,
+      "fpr": 0.23728813559322035,
+      "accuracy": 0.24894514767932488,
+      "macro_f1": 0.09966216216216216,
+      "coverage": 1.0,
+      "recall_seed_range": [
+        0.9491525423728814,
+        1.0
+      ],
+      "max_seed_fpr": 0.2542372881355932
+    }
+  },
+  "selected_pretest": "real_only",
+  "delta_vs_real": 0.0,
+  "delta_vs_simple": 0.0,
+  "descriptive_utility_gate": false,
+  "independent_bearing_claim": false,
+  "DENSO_claim": false,
+  "warning": "One recording/class; correlated windows; no valid bearing-level CI or guaranteed operational FPR."
+}

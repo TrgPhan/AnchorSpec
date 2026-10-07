@@ -1,0 +1,218 @@
+[
+  {
+    "variant": "real_only",
+    "seed": 11,
+    "threshold": 0.515,
+    "healthy_calibration_windows": 59,
+    "calibration_record": 99,
+    "rule": "strict >",
+    "cross_load_exchangeability_guaranteed": false
+  },
+  {
+    "variant": "real_only",
+    "seed": 29,
+    "threshold": 0.53,
+    "healthy_calibration_windows": 59,
+    "calibration_record": 99,
+    "rule": "strict >",
+    "cross_load_exchangeability_guaranteed": false
+  },
+  {
+    "variant": "real_only",
+    "seed": 47,
+    "threshold": 0.5449999999999999,
+    "healthy_calibration_windows": 59,
+    "calibration_record": 99,
+    "rule": "strict >",
+    "cross_load_exchangeability_guaranteed": false
+  },
+  {
+    "variant": "simple",
+    "seed": 11,
+    "threshold": 0.52,
+    "healthy_calibration_windows": 59,
+    "calibration_record": 99,
+    "rule": "strict >",
+    "cross_load_exchangeability_guaranteed": false
+  },
+  {
+    "variant": "simple",
+    "seed": 29,
+    "threshold": 0.5,
+    "healthy_calibration_windows": 59,
+    "calibration_record": 99,
+    "rule": "strict >",
+    "cross_load_exchangeability_guaranteed": false
+  },
+  {
+    "variant": "simple",
+    "seed": 47,
+    "threshold": 0.505,
+    "healthy_calibration_windows": 59,
+    "calibration_record": 99,
+    "rule": "strict >",
+    "cross_load_exchangeability_guaranteed": false
+  },
+  {
+    "variant": "constrained_surrogate",
+    "seed": 11,
+    "threshold": 0.495,
+    "healthy_calibration_windows": 59,
+    "calibration_record": 99,
+    "rule": "strict >",
+    "cross_load_exchangeability_guaranteed": false
+  },
+  {
+    "variant": "constrained_surrogate",
+    "seed": 29,
+    "threshold": 0.43500000000000005,
+    "healthy_calibration_windows": 59,
+    "calibration_record": 99,
+    "rule": "strict >",
+    "cross_load_exchangeability_guaranteed": false
+  },
+  {
+    "variant": "constrained_surrogate",
+    "seed": 47,
+    "threshold": 0.44499999999999995,
+    "healthy_calibration_windows": 59,
+    "calibration_record": 99,
+    "rule": "strict >",
+    "cross_load_exchangeability_guaranteed": false
+  },
+  {
+    "variant": "physics_unanchored",
+    "seed": 11,
+    "threshold": 0.4,
+    "healthy_calibration_windows": 59,
+    "calibration_record": 99,
+    "rule": "strict >",
+    "cross_load_exchangeability_guaranteed": false
+  },
+  {
+    "variant": "physics_unanchored",
+    "seed": 29,
+    "threshold": 0.37,
+    "healthy_calibration_windows": 59,
+    "calibration_record": 99,
+    "rule": "strict >",
+    "cross_load_exchangeability_guaranteed": false
+  },
+  {
+    "variant": "physics_unanchored",
+    "seed": 47,
+    "threshold": 0.365,
+    "healthy_calibration_windows": 59,
+    "calibration_record": 99,
+    "rule": "strict >",
+    "cross_load_exchangeability_guaranteed": false
+  },
+  {
+    "variant": "physics_anchored",
+    "seed": 11,
+    "threshold": 0.39,
+    "healthy_calibration_windows": 59,
+    "calibration_record": 99,
+    "rule": "strict >",
+    "cross_load_exchangeability_guaranteed": false
+  },
+  {
+    "variant": "physics_anchored",
+    "seed": 29,
+    "threshold": 0.55,
+    "healthy_calibration_windows": 59,
+    "calibration_record": 99,
+    "rule": "strict >",
+    "cross_load_exchangeability_guaranteed": false
+  },
+  {
+    "variant": "physics_anchored",
+    "seed": 47,
+    "threshold": 0.485,
+    "healthy_calibration_windows": 59,
+    "calibration_record": 99,
+    "rule": "strict >",
+    "cross_load_exchangeability_guaranteed": false
+  },
+  {
+    "variant": "physics_calibrated",
+    "seed": 11,
+    "threshold": 0.52,
+    "healthy_calibration_windows": 59,
+    "calibration_record": 99,
+    "rule": "strict >",
+    "cross_load_exchangeability_guaranteed": false
+  },
+  {
+    "variant": "physics_calibrated",
+    "seed": 29,
+    "threshold": 0.565,
+    "healthy_calibration_windows": 59,
+    "calibration_record": 99,
+    "rule": "strict >",
+    "cross_load_exchangeability_guaranteed": false
+  },
+  {
+    "variant": "physics_calibrated",
+    "seed": 47,
+    "threshold": 0.475,
+    "healthy_calibration_windows": 59,
+    "calibration_record": 99,
+    "rule": "strict >",
+    "cross_load_exchangeability_guaranteed": false
+  },
+  {
+    "variant": "ddpm_prototype",
+    "seed": 11,
+    "threshold": 0.395,
+    "healthy_calibration_windows": 59,
+    "calibration_record": 99,
+    "rule": "strict >",
+    "cross_load_exchangeability_guaranteed": false
+  },
+  {
+    "variant": "ddpm_prototype",
+    "seed": 29,
+    "threshold": 0.24,
+    "healthy_calibration_windows": 59,
+    "calibration_record": 99,
+    "rule": "strict >",
+    "cross_load_exchangeability_guaranteed": false
+  },
+  {
+    "variant": "ddpm_prototype",
+    "seed": 47,
+    "threshold": 0.29500000000000004,
+    "healthy_calibration_windows": 59,
+    "calibration_record": 99,
+    "rule": "strict >",
+    "cross_load_exchangeability_guaranteed": false
+  },
+  {
+    "variant": "healthy_only",
+    "seed": 11,
+    "threshold": 0.5890897393328454,
+    "healthy_calibration_windows": 59,
+    "calibration_record": 99,
+    "rule": "strict >",
+    "cross_load_exchangeability_guaranteed": false
+  },
+  {
+    "variant": "healthy_only",
+    "seed": 29,
+    "threshold": 0.601765890900853,
+    "healthy_calibration_windows": 59,
+    "calibration_record": 99,
+    "rule": "strict >",
+    "cross_load_exchangeability_guaranteed": false
+  },
+  {
+    "variant": "healthy_only",
+    "seed": 47,
+    "threshold": 0.5901285942222847,
+    "healthy_calibration_windows": 59,
+    "calibration_record": 99,
+    "rule": "strict >",
+    "cross_load_exchangeability_guaranteed": false
+  }
+]

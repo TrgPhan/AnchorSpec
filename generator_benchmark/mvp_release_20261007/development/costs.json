@@ -1,0 +1,128 @@
+[
+  {
+    "method": "simple",
+    "seed": 11,
+    "seconds": 0.19885649999991983,
+    "train_only": true,
+    "recovered_from_saved_metric": true
+  },
+  {
+    "method": "simple",
+    "seed": 29,
+    "seconds": 0.2055000000000291,
+    "train_only": true,
+    "recovered_from_saved_metric": true
+  },
+  {
+    "method": "simple",
+    "seed": 47,
+    "seconds": 0.1892493000000286,
+    "train_only": true,
+    "recovered_from_saved_metric": true
+  },
+  {
+    "method": "constrained_surrogate",
+    "seed": 11,
+    "seconds": 5.319193199999972,
+    "train_only": true,
+    "recovered_from_saved_metric": true
+  },
+  {
+    "method": "constrained_surrogate",
+    "seed": 29,
+    "seconds": 5.000650200000109,
+    "train_only": true,
+    "recovered_from_saved_metric": true
+  },
+  {
+    "method": "constrained_surrogate",
+    "seed": 47,
+    "seconds": 8.981368800000155,
+    "train_only": true,
+    "recovered_from_saved_metric": true
+  },
+  {
+    "method": "physics_unanchored",
+    "seed": 11,
+    "seconds": 0.2738942999999381,
+    "train_only": true,
+    "recovered_from_saved_metric": true
+  },
+  {
+    "method": "physics_unanchored",
+    "seed": 29,
+    "seconds": 0.2704174000000421,
+    "train_only": true,
+    "recovered_from_saved_metric": true
+  },
+  {
+    "method": "physics_unanchored",
+    "seed": 47,
+    "seconds": 0.30864919999999074,
+    "train_only": true,
+    "recovered_from_saved_metric": true
+  },
+  {
+    "method": "physics_anchored",
+    "seed": 11,
+    "seconds": 3.076104100000066,
+    "train_only": true,
+    "recovered_from_saved_metric": true
+  },
+  {
+    "method": "physics_anchored",
+    "seed": 29,
+    "seconds": 2.309691100000009,
+    "train_only": true,
+    "recovered_from_saved_metric": true
+  },
+  {
+    "method": "physics_anchored",
+    "seed": 47,
+    "seconds": 2.1604981000000407,
+    "train_only": true,
+    "recovered_from_saved_metric": true
+  },
+  {
+    "method": "physics_calibrated",
+    "seed": 11,
+    "seconds": 7.042997900000046,
+    "train_only": true,
+    "recovered_from_saved_metric": true
+  },
+  {
+    "method": "physics_calibrated",
+    "seed": 29,
+    "seconds": 7.887874000000011,
+    "train_only": true,
+    "recovered_from_saved_metric": true
+  },
+  {
+    "method": "physics_calibrated",
+    "seed": 47,
+    "seconds": 6.559654099999989,
+    "train_only": true,
+    "recovered_from_saved_metric": true
+  },
+  {
+    "method": "ddpm_prototype",
+    "seed": 11,
+    "seconds": 297.2724613999999,
+    "train_only": true,
+    "recovered_from_saved_metric": true
+  },
+  {
+    "method": "ddpm_prototype",
+    "seed": 29,
+    "seconds": 293.6363197999999,
+    "train_only": true,
+    "recovered_from_saved_metric": true
+  },
+  {
+    "method": "ddpm_prototype",
+    "seed": 47,
+    "seconds": 1008.4100398999999,
+    "train_only": true,
+    "raw_synthetic_not_quality_filtered": true
+  }
+]

@@ -1,0 +1,126 @@
+{
+  "summary": [
+    {
+      "variant": "constrained_surrogate",
+      "method": "constrained_surrogate",
+      "eligible": true,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fpr": 0.022598870056497175
+    },
+    {
+      "variant": "constrained_surrogate_n256_w25",
+      "method": "constrained_surrogate",
+      "eligible": true,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fpr": 0.01694915254237288
+    },
+    {
+      "variant": "constrained_surrogate_n256_w50",
+      "method": "constrained_surrogate",
+      "eligible": true,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fpr": 0.01694915254237288
+    },
+    {
+      "variant": "constrained_surrogate_n32_w25",
+      "method": "constrained_surrogate",
+      "eligible": true,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fpr": 0.022598870056497175
+    },
+    {
+      "variant": "constrained_surrogate_n32_w50",
+      "method": "constrained_surrogate",
+      "eligible": true,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fpr": 0.02824858757062147
+    },
+    {
+      "variant": "ddpm_prototype",
+      "method": "ddpm_prototype",
+      "eligible": true,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fpr": 0.02824858757062147
+    },
+    {
+      "variant": "physics_anchored",
+      "method": "physics_anchored",
+      "eligible": true,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fpr": 0.03389830508474576
+    },
+    {
+      "variant": "physics_calibrated",
+      "method": "physics_calibrated",
+      "eligible": true,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fpr": 0.03389830508474576
+    },
+    {
+      "variant": "physics_unanchored",
+      "method": "physics_unanchored",
+      "eligible": true,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fpr": 0.022598870056497175
+    },
+    {
+      "variant": "real_only",
+      "method": "real_only",
+      "eligible": true,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fpr": 0.03389830508474576
+    },
+    {
+      "variant": "simple",
+      "method": "simple",
+      "eligible": true,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fpr": 0.022598870056497175
+    },
+    {
+      "variant": "simple_n256_w25",
+      "method": "simple",
+      "eligible": true,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fpr": 0.02824858757062147
+    },
+    {
+      "variant": "simple_n256_w50",
+      "method": "simple",
+      "eligible": true,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fpr": 0.022598870056497175
+    },
+    {
+      "variant": "simple_n32_w25",
+      "method": "simple",
+      "eligible": true,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fpr": 0.022598870056497175
+    },
+    {
+      "variant": "simple_n32_w50",
+      "method": "simple",
+      "eligible": true,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fpr": 0.022598870056497175
+    }
+  ],
+  "selected": "real_only",
+  "best_simple": "simple"
+}
