@@ -27,6 +27,22 @@
 !/generator_benchmark/source_discovery.json
 !/generator_benchmark/healthy_fs_sanity.json
 
+# AnchorSpec v2: code, protocol and compact results. data/ stays local.
+!/anchorspec/*.py
+!/anchorspec/requirements*.txt
+!/anchorspec/results/data_inventory.json
+!/anchorspec/results/*.log
+!/anchorspec/results/tn1/*.json
+!/anchorspec/results/tn2/*.json
+!/anchorspec/results/tn2b/*.json
+!/anchorspec/results/tn3b/*.json
+!/anchorspec/results/tn2c/*.json
+!/anchorspec/results/tn5/*.json
+!/anchorspec/results/tn6/*.json
+!/anchorspec/results/tn7/*.json
+!/anchorspec/results/tn3/summary.json
+!/anchorspec/results/tn3/hi_all_test_cheap.png
+
 # Original brief and lightweight research evidence needed by the docs.
 !/inputs/a2/A2.pdf
 !/inputs/a2/A2_extracted.txt

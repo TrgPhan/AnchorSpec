@@ -1,0 +1,282 @@
+{
+ "cwru/100.mat": {
+  "bytes": 7770624,
+  "sha256": "88a5990cb541320e91505a1d72139e1993500ffe6e292a451011667f4138ca78"
+ },
+ "cwru/105.mat": {
+  "bytes": 2910768,
+  "sha256": "f80b0ea04fd06b372a0eaec7c056543ea37e4bb4727a5b173d2a5bacd2aa9cab"
+ },
+ "cwru/106.mat": {
+  "bytes": 2928192,
+  "sha256": "e5cec7cdd138e6cd1deb9ed8634e5aaa9bc1bd7094ddc075bff606580eb6e883"
+ },
+ "cwru/107.mat": {
+  "bytes": 2931672,
+  "sha256": "111ba8996a115684661a13c913bd74d8029a59294492f88aec7b03e175fdd388"
+ },
+ "cwru/108.mat": {
+  "bytes": 2950416,
+  "sha256": "d415f0e65128bfa0b118c2051c988fb0dc6ce3e4c8aa45fdc5ad1d0967462e7d"
+ },
+ "cwru/118.mat": {
+  "bytes": 2942112,
+  "sha256": "b00628f8dd8d1d930af77fa465d1e5cdb385fe259489053f91f3680bda7f640e"
+ },
+ "cwru/119.mat": {
+  "bytes": 2914248,
+  "sha256": "bc72d9df7668219e004a0f711232b23ec0aed393eb9bd8f9f5483426f6b51330"
+ },
+ "cwru/120.mat": {
+  "bytes": 2917752,
+  "sha256": "e0b7a584c49af52335ff0904a97d4afcf02d045625c582de63a7c85ce10b489c"
+ },
+ "cwru/121.mat": {
+  "bytes": 2917752,
+  "sha256": "52f686e984ba8e9b04a047a57416271cdb322cee57ee105dce58926a24b966cb"
+ },
+ "cwru/130.mat": {
+  "bytes": 2928192,
+  "sha256": "35a095307d0971477049b343a1b5981dde465a58fb7f233ad89b035068c1717d"
+ },
+ "cwru/131.mat": {
+  "bytes": 2938632,
+  "sha256": "7883f7b83beadc54b2f301767f9145ce07055707182fb0278fdf0a6bb53ce3cb"
+ },
+ "cwru/132.mat": {
+  "bytes": 2914248,
+  "sha256": "17a69ed5d2270b42532e678e35bbe2fa04a2cc413cf2bf9e88c7692de8662d18"
+ },
+ "cwru/133.mat": {
+  "bytes": 2942112,
+  "sha256": "53f076cb0d905cf46bffaee7736abce8224ffed777deed03c0c863d762a90c71"
+ },
+ "cwru/169.mat": {
+  "bytes": 2924712,
+  "sha256": "f5448673725c4ea2735fe7d3fe4b16ad82b217eac6b62c4bf351c4549b0a5229"
+ },
+ "cwru/170.mat": {
+  "bytes": 2924712,
+  "sha256": "bcb73a5208b67265468232a2e342f53719850901671d0ee28494f3af97621f46"
+ },
+ "cwru/171.mat": {
+  "bytes": 2924712,
+  "sha256": "63d0fdc1a68e64610ddfaf56a9c224d6137ab7b5c0d318eea1d542b9e5ffc029"
+ },
+ "cwru/172.mat": {
+  "bytes": 2921232,
+  "sha256": "f75170ceef70d5da475671de0d2e52a0acd9b3883ad422b6deaf2907d888ba24"
+ },
+ "cwru/197.mat": {
+  "bytes": 2924712,
+  "sha256": "fa571b47cd942f9514a920b403fb7c053cd442bb2963a360a96d0f61432f03e9"
+ },
+ "cwru/198.mat": {
+  "bytes": 2931672,
+  "sha256": "dbd58e4585ca8f8332c708b15936987ec0990ca701359fd2483dae2719df5b49"
+ },
+ "cwru/199.mat": {
+  "bytes": 2924712,
+  "sha256": "ca4e6407fdb68845a6973da6028477911a62d018580063749fe956441be95cf2"
+ },
+ "cwru/200.mat": {
+  "bytes": 2928192,
+  "sha256": "2526483d2701220a700df8e6c9db0c527641b0887225907f4096610dd7120f4b"
+ },
+ "cwru/209.mat": {
+  "bytes": 2931672,
+  "sha256": "9f723d6d9d2eba714c6dc50f99321dffa73d8b1e4d3605675b2c2251511eff80"
+ },
+ "cwru/210.mat": {
+  "bytes": 2917752,
+  "sha256": "596692397e77e129a00f7b7a61c4c3ffd6c7a59979b89039e7f70a7431cce1c7"
+ },
+ "cwru/211.mat": {
+  "bytes": 2924712,
+  "sha256": "8296a02ee489c2d16cbd9fc278ca2e29b22475cec70ebe840558c78b6b743dc1"
+ },
+ "cwru/212.mat": {
+  "bytes": 2928192,
+  "sha256": "bfe13761f545a26b217db897a12d27e16fec74306aa86ade8dbdc8ebe587c253"
+ },
+ "cwru/234.mat": {
+  "bytes": 2938632,
+  "sha256": "ebcbdb96612e8085bbdbf81f0e5e8e8a8d1a693d1ec559c4894f7792771aa9b2"
+ },
+ "cwru/235.mat": {
+  "bytes": 2928192,
+  "sha256": "667e4bf1f213f92d10dca71d494ad002d8fd22bfd8004b31a4c71ccf0d764b66"
+ },
+ "cwru/236.mat": {
+  "bytes": 2935152,
+  "sha256": "c411d6d9826cba8073430555dc833e05fcbe4c38535f3eb7f03c525ea6797589"
+ },
+ "cwru/237.mat": {
+  "bytes": 2928192,
+  "sha256": "233d1edb2daa963658369119e389e30f02aca551dd7bb028ab33e7ba63edfd20"
+ },
+ "cwru/97.mat": {
+  "bytes": 3903344,
+  "sha256": "16bf48babcf1c7ac224bc1a81cd9eafdb27e42d5cf559761907e067e8eeadf3c"
+ },
+ "cwru/98.mat": {
+  "bytes": 7742720,
+  "sha256": "37e6612c05e65c415dcfa2ab27a3fda648a5863160fa898b884a14743044e045"
+ },
+ "cwru/99.mat": {
+  "bytes": 15503928,
+  "sha256": "4b97e6b5361f45efb6951dc3b1aebcdb3b89cb69d0f96d6f5c297dd9f45eee75"
+ },
+ "paderborn/rar/K001.rar": {
+  "bytes": 173881721,
+  "sha256": "0f119ebdb28fb2f4d9fac1beb1319429f63f7ae1256c23c872f280f3560918e5"
+ },
+ "paderborn/rar/K002.rar": {
+  "bytes": 161981588,
+  "sha256": "1040da8b74d169c4e8c8545afa335d7a3a320bcaf36a471250c3e434bc4caffd"
+ },
+ "paderborn/rar/K003.rar": {
+  "bytes": 173194389,
+  "sha256": "d7d1edf6047fac088efe118198abd0856c5280dd8653496fbac9a5d877180f1e"
+ },
+ "paderborn/rar/K004.rar": {
+  "bytes": 163337851,
+  "sha256": "97242542046cf3ce286c13e12d8df11f618a53365efe592750e2047256345333"
+ },
+ "paderborn/rar/K005.rar": {
+  "bytes": 167366765,
+  "sha256": "2faf0ee4ee66055bcc066e5b6d9ed9fc44638b2c1ea397a279261103aa83caaa"
+ },
+ "paderborn/rar/K006.rar": {
+  "bytes": 175997605,
+  "sha256": "250b8e0ef18082163ae4003cd7f50e6daa3061b3a095e226378910da55b78b94"
+ },
+ "paderborn/rar/KA01.rar": {
+  "bytes": 166571438,
+  "sha256": "6a6be1e11132730cc6f560d51eacedcbfd5fd74b829e9d8d3728c6c8a7cd4c0e"
+ },
+ "paderborn/rar/KA03.rar": {
+  "bytes": 176196084,
+  "sha256": "21f188899e46183a29752e5dbc830e3132e0fee4d7eb5507450d1730a5b264b5"
+ },
+ "paderborn/rar/KA04.rar": {
+  "bytes": 180920703,
+  "sha256": "6fc317157e2cd4cb55bc54d6fac1b1753f8ab31abcccd1ac68cbfb78e5e8299d"
+ },
+ "paderborn/rar/KA05.rar": {
+  "bytes": 163644977,
+  "sha256": "880ad18fae8f1deef2c99643cb74e2dbd284cdf1fe490caff9418717729c4dd1"
+ },
+ "paderborn/rar/KA06.rar": {
+  "bytes": 164139086,
+  "sha256": "a0f3e8b167b1a1cee63f904566dff6ee8b0d905ffb67796809dbfc7f279c5f60"
+ },
+ "paderborn/rar/KA07.rar": {
+  "bytes": 160346192,
+  "sha256": "0c081e1fe273d17cf26f052bd99c742fc9a1fcbbc76667b4c0c394f3a8aaf95b"
+ },
+ "paderborn/rar/KA08.rar": {
+  "bytes": 169188540,
+  "sha256": "aa5c16a379859f67018e23818d671bd12a5c820eb75d02d3a037a16b8a06fd7f"
+ },
+ "paderborn/rar/KA09.rar": {
+  "bytes": 171467156,
+  "sha256": "6a4fb9b05c95324d9f4ee38d3855106dba21052309f25c30c866dbae9305ce9b"
+ },
+ "paderborn/rar/KA15.rar": {
+  "bytes": 164268273,
+  "sha256": "2914d003a7a7a23425a825f03f09b2dede8e0f53c266e0b3ad90aa6b98958b7b"
+ },
+ "paderborn/rar/KA16.rar": {
+  "bytes": 167165704,
+  "sha256": "3e300d2e3402b47a18ce9c75694d3146f6e4b5f86bcd1d159f4938221fb261b6"
+ },
+ "paderborn/rar/KA22.rar": {
+  "bytes": 159054470,
+  "sha256": "95790035ebe5a69bb298f93a7f4fc64769f0baeffd04a2cbb3ff5b4af8608642"
+ },
+ "paderborn/rar/KA30.rar": {
+  "bytes": 163625195,
+  "sha256": "cbe1810281a7cbd28d5ad0372cc392c910744709d46d4db501a45eeea18dd518"
+ },
+ "paderborn/rar/KI01.rar": {
+  "bytes": 175265779,
+  "sha256": "b1dd6d99bb64d556f889fefaedb7e6e672900f5f015125615feaae776f055348"
+ },
+ "paderborn/rar/KI03.rar": {
+  "bytes": 159217524,
+  "sha256": "725010ee4158256eef9ef7f58da835fc2150579d6e97b5d48bcd2ee70795d77e"
+ },
+ "paderborn/rar/KI04.rar": {
+  "bytes": 172644279,
+  "sha256": "8fde861a9ceac4b41fe8a030b4c5bbb4b9b9af0590d9338a8de0150b4661be77"
+ },
+ "paderborn/rar/KI05.rar": {
+  "bytes": 160359281,
+  "sha256": "5a936f170f4188e38c537b05a260a3cf60cc3b671f90502a008636aac6c66bf4"
+ },
+ "paderborn/rar/KI07.rar": {
+  "bytes": 160646876,
+  "sha256": "5f3089d19db77ae071a6731198ef116c800e03d3628316086f4672d029d5a2ed"
+ },
+ "paderborn/rar/KI08.rar": {
+  "bytes": 163760131,
+  "sha256": "f00d6dca7360ed6ec30b78c0e186161913852db4c209551975c5a0998447d514"
+ },
+ "paderborn/rar/KI14.rar": {
+  "bytes": 163581312,
+  "sha256": "16911b5f8c723b568b6aa69397b00796fea41e43bf627a1a0158a7294f2b7a60"
+ },
+ "paderborn/rar/KI16.rar": {
+  "bytes": 166348305,
+  "sha256": "f7f4ce4feffc3ae799f92289cdea7708d2cf6e154ad5382f9f4c2c8bed890c44"
+ },
+ "paderborn/rar/KI17.rar": {
+  "bytes": 167363476,
+  "sha256": "d80dbdb612cfaeb7ba1ffe6387c52c4d938084b2466e55d96a5528aff4d8b084"
+ },
+ "paderborn/rar/KI18.rar": {
+  "bytes": 161226797,
+  "sha256": "37b9b17c392d033f0b14c35bf0fd19ea878909299cdc8c517e2226f794048615"
+ },
+ "paderborn/rar/KI21.rar": {
+  "bytes": 164882839,
+  "sha256": "1e3c563fa1d1564e3586736189b2e0807688389b549944af4a06908485c1d5bf"
+ },
+ "paderborn/docs/PHME16.pdf": {
+  "bytes": 1655352,
+  "sha256": "c1f75c79cfbcbcbfd24b32bf034cebb76d1c3ff7864827575d37387bb0955f84"
+ },
+ "ims/ims.zip": {
+  "bytes": 1075597174,
+  "sha256": "21001ac266c465f5d345ec42d7b508c6a6328487fd9d4d7774422dd5ea10ad83"
+ },
+ "pronostia/femto.zip": {
+  "bytes": 1157035288,
+  "sha256": "e21bb22bd8d54fd18ebe98b4b4e094c0c40469bda19811a2a642d5cc84ebd81f"
+ },
+ "xjtu/XJTU-SY_Bearing_Datasets.part01.rar": {
+  "bytes": 744488960,
+  "sha256": "c500657353f089a4ab50212ff4ddfc7b982729e92e2b127440c8ad881d80b968"
+ },
+ "xjtu/XJTU-SY_Bearing_Datasets.part02.rar": {
+  "bytes": 744488960,
+  "sha256": "4dfa6286a8e9c7cec1e925b347642349f36e27ab3f703c90d1d08977b7b4f61f"
+ },
+ "xjtu/XJTU-SY_Bearing_Datasets.part03.rar": {
+  "bytes": 744488960,
+  "sha256": "6929f531284f79e0209246b4ee23b23dd8d4faac1c0c3ff8fb131cda4a18bd3a"
+ },
+ "xjtu/XJTU-SY_Bearing_Datasets.part04.rar": {
+  "bytes": 744488960,
+  "sha256": "2245825acd29bed3b95e7a77879a3fbadf20f4ad4f99486384c714174621597d"
+ },
+ "xjtu/XJTU-SY_Bearing_Datasets.part05.rar": {
+  "bytes": 744488960,
+  "sha256": "e1b0a41a32b865e48ea7981c56f952a960d94335f3496b72eb4a65932f1671bd"
+ },
+ "xjtu/XJTU-SY_Bearing_Datasets.part06.rar": {
+  "bytes": 722155640,
+  "sha256": "df1854821a9d481104476379f7bc045ea1e101427c6e36145cd7677dc7c4a684"
+ }
+}

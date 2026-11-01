@@ -1,0 +1,6 @@
+a_goc_0HP_neo {1: {'macro': 0.496, 'healthy': 0.266, 'inner': 1.0, 'outer': 0.61, 'ball': 0.107}, 3: {'macro': 0.88, 'healthy': 0.915, 'inner': 1.0, 'outer': 1.0, 'ball': 0.605}}
+b_0HP_toan_bo {1: {'macro': 0.747, 'healthy': 0.0, 'inner': 1.0, 'outer': 0.989, 'ball': 1.0}, 3: {'macro': 0.76, 'healthy': 0.04, 'inner': 1.0, 'outer': 1.0, 'ball': 1.0}}
+c_0_2HP_neo {1: {'macro': 0.842, 'healthy': 1.0, 'inner': 1.0, 'outer': 0.881, 'ball': 0.486}, 3: {'macro': 0.992, 'healthy': 1.0, 'inner': 1.0, 'outer': 1.0, 'ball': 0.966}}
+d_0_2HP_toan_bo {1: {'macro': 0.999, 'healthy': 1.0, 'inner': 1.0, 'outer': 1.0, 'ball': 0.994}, 3: {'macro': 1.0, 'healthy': 1.0, 'inner': 1.0, 'outer': 1.0, 'ball': 1.0}}
+e_0HP_neo_nen_tung_tai {1: {'macro': 0.654, 'healthy': 1.0, 'inner': 1.0, 'outer': 0.542, 'ball': 0.073}, 3: {'macro': 0.736, 'healthy': 1.0, 'inner': 1.0, 'outer': 0.119, 'ball': 0.825}}
+f_0_2HP_toan_bo_nen_tung_tai {1: {'macro': 0.958, 'healthy': 1.0, 'inner': 1.0, 'outer': 1.0, 'ball': 0.831}, 3: {'macro': 0.864, 'healthy': 1.0, 'inner': 0.458, 'outer': 1.0, 'ball': 1.0}}

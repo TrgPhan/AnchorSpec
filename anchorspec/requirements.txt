@@ -1,0 +1,13 @@
+numpy==2.4.4
+scipy==1.17.1
+scikit-learn==1.8.0
+matplotlib==3.11.2
+pandas==3.1.0
+pytest==9.2.0
+h5py==3.16.0
+gdown==6.5.1
+pypdf==6.21.4
+# Chỉ cần cho test_generators.py của MVP: cài từ https://download.pytorch.org/whl/cpu
+torch==2.7.1
+# Giải nén: conda install -c conda-forge libarchive p7zip
+# MiniRocket chạy ở env riêng anchorspec-rocket vì aeon hạ numpy: pip install aeon scikit-learn matplotlib

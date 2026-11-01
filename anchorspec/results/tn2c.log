@@ -1,0 +1,7 @@
+A0/late10 {'t1_b3_inner': 0.805, 't2_b1_outer': 0.98, 't3_b3_outer': 0.59, 'primary': 0.795, 'control_healthy': 0.14, 't1_b4_counts_seed11': [0, 79, 136]}
+A0/late2 {'t1_b3_inner': 0.829, 't2_b1_outer': 0.895, 't3_b3_outer': 1.0, 'primary': 0.888, 'control_healthy': 0.0, 't1_b4_counts_seed11': [0, 10, 33]}
+C/late10 {'t1_b3_inner': 0.009, 't2_b1_outer': 0.34, 't3_b3_outer': 0.014, 'primary': 0.093, 'control_healthy': 0.54, 't1_b4_counts_seed11': [215, 0, 0]}
+C/late2 {'t1_b3_inner': 0.047, 't2_b1_outer': 0.105, 't3_b3_outer': 0.063, 'primary': 0.065, 'control_healthy': 0.3, 't1_b4_counts_seed11': [43, 0, 0]}
+P/late10 {'t1_b3_inner': 0.0, 't2_b1_outer': 0.0, 't3_b3_outer': 0.002, 'primary': 0.0, 'control_healthy': 0.998, 't1_b4_counts_seed11': [215, 0, 0]}
+P/late2 {'t1_b3_inner': 0.0, 't2_b1_outer': 0.0, 't3_b3_outer': 0.008, 'primary': 0.002, 'control_healthy': 0.991, 't1_b4_counts_seed11': [43, 0, 0]}
+control detail A0 late10 {'t1_b1': 0.0, 't1_b2': 0.0, 't2_b2': 0.0, 't2_b3': 0.0, 't2_b4': 0.0, 't3_b1': 0.34, 't3_b2': 0.26, 't3_b4': 0.52}

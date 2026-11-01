@@ -1,0 +1,66 @@
+{
+ "code": {
+  "bearing.py": "2f138008df1258d4404036a8e71aa6eb89bb100b52e95762f79e525058ebe853",
+  "cheap_sensor.py": "9edea9cf404d78bf48207de27f63561fae3de8835a7cdf5cfbe47a7026f40ee1",
+  "features.py": "db00ef668f1c9121dfc1c468283ec8f5e42a36e223d4ded551fa58f90b4e7229",
+  "injection.py": "5dbb428b66d31d84e0f4b85c92c9442305795a95e923b2d300664a27d91984b9",
+  "test_anchorspec.py": "38dd93051cf6b8de506893762b3e544fc83a72e40da8e2b7aa35a265697d62de",
+  "tn1_cwru_cheap.py": "47fc0815c060c1d5ceb9de7acefe86ded6d1e7571f247782205b0aeff27bc61b",
+  "tn2_paderborn.py": "05356e14bef51d3ece1825ead6569accd10e708d6bee746b5fb8241157f94287",
+  "tn3_trend.py": "806e269111e9485db0d3ae3630cb8ed9fafd2abab4fd59947d702f84a4b4e88c"
+ },
+ "calibration_sha256": "5c26acfa9faa1cd3b294cbc82307e5cf3f7aaade4fb283bd339fe830c3b860ed",
+ "dev_sha256": "dbf8590330de33013526449395ce4ed4fc8eb1f482e98d096b17b11374dfb8f8",
+ "protocol_sha256": "55dd549af1793a3f6ca5c72bce83f681e2f4fc71e1230fec6b205832105e184d",
+ "split": {
+  "healthy_train": [
+   "K001",
+   "K002",
+   "K003"
+  ],
+  "healthy_dev": [
+   "K004"
+  ],
+  "healthy_test": [
+   "K005",
+   "K006"
+  ],
+  "b_outer": [
+   "KA01",
+   "KA03",
+   "KA05",
+   "KA06",
+   "KA07",
+   "KA08",
+   "KA09"
+  ],
+  "b_inner": [
+   "KI01",
+   "KI03",
+   "KI05",
+   "KI07",
+   "KI08"
+  ],
+  "dev_outer": [
+   "KA22"
+  ],
+  "dev_inner": [
+   "KI21"
+  ],
+  "test_outer": [
+   "KA04",
+   "KA15",
+   "KA16",
+   "KA30"
+  ],
+  "test_inner": [
+   "KI04",
+   "KI14",
+   "KI16",
+   "KI17",
+   "KI18"
+  ]
+ },
+ "primary": "A_cay_da_chinh",
+ "rule": "Khong sua code/tham so sau khi doc ket qua test; test chay mot lan"
+}

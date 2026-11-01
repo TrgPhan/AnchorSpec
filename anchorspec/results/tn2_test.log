@@ -1,0 +1,53 @@
+test seed 11 {'A0_cay_chua_chinh': 0.889, 'A_cay_da_chinh': 0.421, 'B_nhan_tao': 0.518, 'C_cwru': 0.754, 'C2_cwru_nen_may': 0.529}
+test seed 29 {'A0_cay_chua_chinh': 0.797, 'A_cay_da_chinh': 0.446, 'B_nhan_tao': 0.571, 'C_cwru': 0.708, 'C2_cwru_nen_may': 0.472}
+test seed 47 {'A0_cay_chua_chinh': 0.822, 'A_cay_da_chinh': 0.436, 'B_nhan_tao': 0.562, 'C_cwru': 0.706, 'C2_cwru_nen_may': 0.542}
+A0_cay_chua_chinh {'inner': 0.932, 'outer': 0.717, 'healthy': 0.552, 'primary': 0.824, 'type_given_fault': 0.828, 'bearing_vote': 8.0, 'auc': 0.978} [9, 8, 7]
+A_cay_da_chinh {'inner': 0.207, 'outer': 0.719, 'healthy': 0.56, 'primary': 0.463, 'type_given_fault': 0.462, 'bearing_vote': 3.667, 'auc': 0.98} [4, 3, 4]
+B_nhan_tao {'inner': 0.353, 'outer': 0.798, 'healthy': 0.535, 'primary': 0.575, 'type_given_fault': 0.574, 'bearing_vote': 4.667, 'auc': 0.981} [4, 5, 5]
+C_cwru {'inner': 0.777, 'outer': 0.655, 'healthy': 0.965, 'primary': 0.716, 'type_given_fault': 0.756, 'bearing_vote': 6.333, 'auc': 0.99} [7, 6, 6]
+C2_cwru_nen_may {'inner': 0.522, 'outer': 0.505, 'healthy': 1.0, 'primary': 0.513, 'type_given_fault': 0.759, 'bearing_vote': 4.0, 'auc': 0.996} [4, 4, 4]
+E6 B_cong_nghiep {'inner': 0.922, 'outer': 0.492, 'healthy': 0.5, 'primary': 0.707, 'type_given_fault': 0.707, 'bearing_vote': 7.0, 'auc': 0.653}
+{
+ "A_cay_da_chinh - C_cwru": {
+  "diff": -0.25322916666666667,
+  "ci95": [
+   -0.3672916666666667,
+   -0.13176822916666672
+  ]
+ },
+ "A_cay_da_chinh - C2_cwru_nen_may": {
+  "diff": -0.050729166666666686,
+  "ci95": [
+   -0.26635416666666667,
+   0.17729166666666663
+  ]
+ },
+ "A_cay_da_chinh - B_nhan_tao": {
+  "diff": -0.1125,
+  "ci95": [
+   -0.29822916666666666,
+   0.04312499999999998
+  ]
+ },
+ "A0_cay_chua_chinh - C_cwru": {
+  "diff": 0.10822916666666668,
+  "ci95": [
+   0.03697916666666666,
+   0.1828125
+  ]
+ },
+ "A0_cay_chua_chinh - C2_cwru_nen_may": {
+  "diff": 0.3107291666666666,
+  "ci95": [
+   0.15208333333333335,
+   0.4582291666666667
+  ]
+ },
+ "A_cay_da_chinh - A0_cay_chua_chinh": {
+  "diff": -0.3614583333333334,
+  "ci95": [
+   -0.47041666666666665,
+   -0.2120833333333334
+  ]
+ }
+}

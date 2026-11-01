@@ -1,0 +1,15 @@
+Paderborn K001-K004, 80 ban ghi 4 s, so kenh speed
+  V0 ±10% goc trung vi 1.43%  p90 7.54%  max 9.97%
+  V1 ±3% nen cuc bo trung vi 0.34%  p90 2.40%  max 3.00%
+  V2 ±3% bien do tho trung vi 0.34%  p90 2.66%  max 3.00%
+  V3 ±3% bao hinh trung vi 0.97%  p90 2.93%  max 3.06%
+XJTU nen 3 o, cua so 1 s, so toc do danh dinh
+  V0 ±10% goc trung vi 1.70%  p90 2.86%  max 2.86%
+  V1 ±3% nen cuc bo trung vi 1.70%  p90 2.83%  max 2.89%
+  V2 ±3% bien do tho trung vi 1.65%  p90 2.83%  max 2.83%
+  V3 ±3% bao hinh trung vi 1.91%  p90 3.00%  max 3.00%
+V1 lay trung vi theo K ban ghi lien tiep (Paderborn K001-K004)
+ K=1 n=80 trung vi 0.34% p90 2.40% max 3.00%
+ K=5 n=16 trung vi 0.20% p90 1.72% max 1.99%
+ K=10 n=8 trung vi 0.07% p90 1.06% max 1.13%
+ K=20 n=4 trung vi 0.04% p90 0.49% max 0.67%

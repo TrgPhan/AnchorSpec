@@ -1,0 +1,33 @@
+== hoc lai: do dung o nua sau cua 10% cuoi doi
+inner 0.833 {'k3': (0.803, 'chap_nhan 8/9', 'nhan_sai_chap_nhan 8/9', 'acc_nhan_sai', 0.752), 'k5': (0.8, 'chap_nhan 7/9', 'nhan_sai_chap_nhan 7/9', 'acc_nhan_sai', 0.706), 'k10': (0.815, 'chap_nhan 8/9', 'nhan_sai_chap_nhan 8/9', 'acc_nhan_sai', 0.693)}
+outer 0.879 {'k3': (0.993, 'chap_nhan 18/21', 'nhan_sai_chap_nhan 18/21', 'acc_nhan_sai', 0.37), 'k5': (0.954, 'chap_nhan 17/21', 'nhan_sai_chap_nhan 17/21', 'acc_nhan_sai', 0.338), 'k10': (0.997, 'chap_nhan 6/6', 'nhan_sai_chap_nhan 6/6', 'acc_nhan_sai', 0.563)}
+cage 0.074 {'k3': (0.799, 'chap_nhan 5/6', 'nhan_sai_chap_nhan 6/6', 'acc_nhan_sai', 0.012), 'k5': (0.957, 'chap_nhan 6/6', 'nhan_sai_chap_nhan 6/6', 'acc_nhan_sai', 0.0), 'k10': (0.926, 'chap_nhan 3/3', 'nhan_sai_chap_nhan 3/3', 'acc_nhan_sai', 0.012)}
+ly do chan nhan sai {'kem_hon_tren_bo_co_dinh': 11}
+== vong cach v2
+1_1 outer 1.0 [0, 0, 12, 0] hold 1.0 envZ_H {'inner': -0.1, 'outer': 1.6, 'cage': 0.1}
+1_2 outer 0.96 [0, 0, 16, 0] hold 0.2 envZ_H {'inner': -0.6, 'outer': 1.7, 'cage': -0.1}
+1_3 outer 1.0 [0, 0, 15, 0] hold 0.73 envZ_H {'inner': -0.4, 'outer': 1.3, 'cage': -0.6}
+2_2 outer 1.0 [0, 0, 16, 0] hold 1.0 envZ_H {'inner': 0.4, 'outer': 1.1, 'cage': 0.5}
+2_4 outer 0.87 [0, 0, 5, 0] hold 0.47 envZ_H {'inner': 3.3, 'outer': 4.4, 'cage': 4.4}
+2_5 outer 1.0 [0, 0, 33, 0] hold 1.0 envZ_H {'inner': 2.1, 'outer': 1.9, 'cage': 1.5}
+3_1 outer 0.74 [0, 61, 192, 0] hold 0.8 envZ_H {'inner': -0.1, 'outer': 0.4, 'cage': -0.0}
+3_5 outer 0.0 [0, 0, 0, 11] hold 0.67 envZ_H {'inner': 1.4, 'outer': -0.4, 'cage': 1.2}
+2_1 inner 0.46 [11, 20, 0, 18] hold 0.73 envZ_H {'inner': -0.4, 'outer': -0.5, 'cage': -0.0}
+3_3 inner 0.37 [0, 15, 9, 13] hold 0.87 envZ_H {'inner': -0.8, 'outer': -1.0, 'cage': -0.5}
+3_4 inner 0.89 [0, 151, 0, 0] hold 0.87 envZ_H {'inner': 0.3, 'outer': -0.9, 'cage': -0.6}
+1_4 cage 0.44 [0, 5, 0, 7] hold 1.0 envZ_H {'inner': 0.4, 'outer': 0.2, 'cage': 0.5}
+2_3 cage 0.02 [0, 0, 52, 1] hold 1.0 envZ_H {'inner': 0.5, 'outer': 1.7, 'cage': 0.8}
+macro theo lop {'inner': 0.573, 'outer': 0.821, 'cage': 0.232} macro3 0.542
+== cong HI tren IMS
+t1_b3 {'role': 'hong', 'n': 2156, 'z5': 0.122, 'z10': 0.934, 'z25': None, 'z_late10_median': 8.855345145128187}
+t1_b4 {'role': 'hong', 'n': 2156, 'z5': 0.75, 'z10': None, 'z25': None, 'z_late10_median': 5.837608920644985}
+t2_b1 {'role': 'hong', 'n': 984, 'z5': 0.839, 'z10': 0.95, 'z25': None, 'z_late10_median': 10.137769035252102}
+t3_b3 {'role': 'hong', 'n': 6324, 'z5': 0.974, 'z10': 0.979, 'z25': None, 'z_late10_median': 2.146261057159612}
+t1_b1 {'role': 'doi_chung', 'n': 2156, 'z5': 0.076, 'z10': None, 'z25': None, 'z_late10_median': 5.2281099930342165}
+t1_b2 {'role': 'doi_chung', 'n': 2156, 'z5': 0.714, 'z10': None, 'z25': None, 'z_late10_median': 6.209467080565349}
+t2_b2 {'role': 'doi_chung', 'n': 984, 'z5': 0.896, 'z10': None, 'z25': None, 'z_late10_median': 7.978648178020217}
+t2_b3 {'role': 'doi_chung', 'n': 984, 'z5': 0.775, 'z10': 0.911, 'z25': None, 'z_late10_median': 11.770629281194795}
+t2_b4 {'role': 'doi_chung', 'n': 984, 'z5': 0.853, 'z10': 0.931, 'z25': None, 'z_late10_median': 11.270065186506343}
+t3_b1 {'role': 'doi_chung', 'n': 6324, 'z5': 0.981, 'z10': None, 'z25': None, 'z_late10_median': 1.5735323786135926}
+t3_b2 {'role': 'doi_chung', 'n': 6324, 'z5': 0.975, 'z10': 0.993, 'z25': None, 'z_late10_median': 3.308374073485381}
+t3_b4 {'role': 'doi_chung', 'n': 6324, 'z5': 0.976, 'z10': None, 'z25': None, 'z_late10_median': 2.679740700728499}

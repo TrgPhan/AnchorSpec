@@ -1,0 +1,26 @@
+{
+ "code": {
+  "tn2b_xjtu.py": "eb25f4b2e47005a4a7282e67248684b285c3405a541bff39453d19428dd6417d",
+  "features.py": "db00ef668f1c9121dfc1c468283ec8f5e42a36e223d4ded551fa58f90b4e7229",
+  "injection.py": "5dbb428b66d31d84e0f4b85c92c9442305795a95e923b2d300664a27d91984b9",
+  "cheap_sensor.py": "9edea9cf404d78bf48207de27f63561fae3de8835a7cdf5cfbe47a7026f40ee1",
+  "bearing.py": "2f138008df1258d4404036a8e71aa6eb89bb100b52e95762f79e525058ebe853",
+  "PROTOCOL_TN2B.md": "578a87ed7d55c6ca46ee011048d45eb3e8f1859824c2cbdbf3a7bdd14cbd2c4e"
+ },
+ "primary": "A0",
+ "labels": {
+  "1_1": "outer",
+  "1_2": "outer",
+  "1_3": "outer",
+  "2_2": "outer",
+  "2_4": "outer",
+  "2_5": "outer",
+  "3_1": "outer",
+  "3_5": "outer",
+  "2_1": "inner",
+  "3_3": "inner",
+  "3_4": "inner",
+  "1_4": "cage",
+  "2_3": "cage"
+ }
+}

@@ -1,0 +1,41 @@
+femto skip0  nguong h=25.0 n=14 none=13 frac=0.70 early=0 unstable=0 lead=   1.98h alpha log/wien/const 0.000 0.000 0.000 phm50 0.031 0.000 0.031 cover=0.00
+femto skip0  ewma   h=8.0  n=14 none=0 frac=0.51 early=7 unstable=4 lead=   1.52h alpha log/wien/const 0.020 0.000 0.000 phm50 0.035 0.031 0.025 cover=0.00
+/home/host/miniconda3/envs/anchorspec/lib/python3.12/site-packages/scipy/stats/_continuous_distns.py:5078: RuntimeWarning: Error in function boost::math::quantile(const inverse_gaussian_distribution<d>&, %1%): Unable to locate solution in a reasonable time: either there is no answer to quantile or the answer is infinite.  Current best guess is %1%
+  ppf = np.asarray(scu._invgauss_ppf(x, mu, 1))
+femto skip0  cusum  h=5.0  n=14 none=0 frac=0.03 early=14 unstable=11 lead=   4.12h alpha log/wien/const 0.063 0.064 0.069 phm50 0.068 0.147 0.039 cover=0.46
+femto skip10 nguong h=40.0 n=14 none=14 frac=0.00 early=0 unstable=0 lead=   0.00h alpha log/wien/const 0.000 0.000 0.000 phm50 0.000 0.000 0.000 cover=0.00
+femto skip10 ewma   h=8.0  n=14 none=0 frac=0.50 early=7 unstable=2 lead=   1.80h alpha log/wien/const 0.015 0.000 0.030 phm50 0.034 0.031 0.051 cover=0.00
+/home/host/miniconda3/envs/anchorspec/lib/python3.12/site-packages/scipy/stats/_continuous_distns.py:5078: RuntimeWarning: Error in function boost::math::quantile(const inverse_gaussian_distribution<d>&, %1%): Unable to locate solution in a reasonable time: either there is no answer to quantile or the answer is infinite.  Current best guess is %1%
+  ppf = np.asarray(scu._invgauss_ppf(x, mu, 1))
+femto skip10 cusum  h=5.0  n=14 none=0 frac=0.03 early=14 unstable=6 lead=   4.12h alpha log/wien/const 0.048 0.049 0.113 phm50 0.112 0.033 0.069 cover=0.43
+xjtu  skip0  nguong h=10.0 n=12 none=2 frac=0.64 early=4 unstable=0 lead=   1.71h alpha log/wien/const 0.094 0.063 0.000 phm50 0.184 0.148 0.020 cover=0.14
+xjtu  skip0  ewma   h=12.0 n=12 none=1 frac=0.80 early=4 unstable=0 lead=   1.35h alpha log/wien/const 0.088 0.091 0.000 phm50 0.092 0.093 0.030 cover=0.11
+xjtu  skip0  cusum  h=5.0  n=12 none=0 frac=0.19 early=10 unstable=2 lead=   2.15h alpha log/wien/const 0.116 0.109 0.051 phm50 0.191 0.083 0.054 cover=0.17
+xjtu  skip10 nguong h=10.0 n=11 none=2 frac=0.50 early=5 unstable=0 lead=   1.58h alpha log/wien/const 0.067 0.041 0.000 phm50 0.200 0.063 0.026 cover=0.08
+xjtu  skip10 ewma   h=8.0  n=11 none=2 frac=0.44 early=6 unstable=0 lead=   1.62h alpha log/wien/const 0.078 0.068 0.000 phm50 0.107 0.042 0.024 cover=0.11
+/home/host/miniconda3/envs/anchorspec/lib/python3.12/site-packages/scipy/stats/_continuous_distns.py:5078: RuntimeWarning: Error in function boost::math::quantile(const inverse_gaussian_distribution<d>&, %1%): Unable to locate solution in a reasonable time: either there is no answer to quantile or the answer is infinite.  Current best guess is %1%
+  ppf = np.asarray(scu._invgauss_ppf(x, mu, 1))
+xjtu  skip10 cusum  h=40.0 n=11 none=0 frac=0.31 early=9 unstable=2 lead=   1.85h alpha log/wien/const 0.080 0.070 0.036 phm50 0.122 0.031 0.045 cover=0.14
+ims   skip0  nguong h=5.0  n=3  none=0 frac=0.86 early=1 unstable=0 lead= 119.43h alpha log/wien/const 0.050 0.052 0.284 phm50 0.169 0.147 0.290 cover=0.13
+ims   skip0  ewma   h=3.0  n=3  none=0 frac=0.27 early=2 unstable=2 lead= 607.30h alpha log/wien/const 0.072 0.052 0.000 phm50 0.000 0.000 0.059 cover=0.20
+/home/host/miniconda3/envs/anchorspec/lib/python3.12/site-packages/scipy/stats/_continuous_distns.py:5078: RuntimeWarning: Error in function boost::math::quantile(const inverse_gaussian_distribution<d>&, %1%): Unable to locate solution in a reasonable time: either there is no answer to quantile or the answer is infinite.  Current best guess is %1%
+  ppf = np.asarray(scu._invgauss_ppf(x, mu, 1))
+ims   skip0  cusum  h=5.0  n=3  none=0 frac=0.01 early=3 unstable=2 lead= 823.43h alpha log/wien/const 0.106 0.048 0.000 phm50 0.000 0.000 0.031 cover=0.44
+ims   skip10 nguong h=5.0  n=3  none=0 frac=0.86 early=1 unstable=0 lead= 119.43h alpha log/wien/const 0.045 0.056 0.000 phm50 0.065 0.110 0.021 cover=0.11
+/home/host/miniconda3/envs/anchorspec/lib/python3.12/site-packages/scipy/stats/_continuous_distns.py:5078: RuntimeWarning: Error in function boost::math::quantile(const inverse_gaussian_distribution<d>&, %1%): Unable to locate solution in a reasonable time: either there is no answer to quantile or the answer is infinite.  Current best guess is %1%
+  ppf = np.asarray(scu._invgauss_ppf(x, mu, 1))
+ims   skip10 ewma   h=3.0  n=3  none=0 frac=0.21 early=3 unstable=2 lead= 657.00h alpha log/wien/const 0.088 0.009 0.000 phm50 0.000 0.000 0.031 cover=0.06
+ims   skip10 cusum  h=5.0  n=3  none=0 frac=0.01 early=3 unstable=2 lead= 823.43h alpha log/wien/const 0.091 0.048 0.000 phm50 0.000 0.000 0.031 cover=0.37
+1_1 outer life 123 alarm 0.26 after [1.0, 1.0, 1.0] last10 [1.0, 1.0, 1.0] stable_lead_min [91, 91, 91] ungated_early 0.15
+1_2 outer life 161 alarm 0.19 after [1.0, 1.0, 1.0] last10 [1.0, 1.0, 1.0] stable_lead_min [130, 130, 130] ungated_early 0.94
+1_3 outer life 158 alarm 0.37 after [1.0, 1.0, 1.0] last10 [1.0, 1.0, 1.0] stable_lead_min [100, 100, 100] ungated_early 0.41
+2_2 outer life 161 alarm 0.19 after [0.98, 0.92, 0.96] last10 [1.0, 1.0, 1.0] stable_lead_min [120, 117, 117] ungated_early 0.64
+2_4 outer life 42 alarm 0.71 after [1.0, 1.0, 1.0] last10 [1.0, 1.0, 1.0] stable_lead_min [12, 12, 12] ungated_early 0.2
+2_5 outer life 339 alarm 0.1 after [0.26, 0.44, 0.42] last10 [1.0, 1.0, 1.0] stable_lead_min [50, 74, 49] ungated_early 0.0
+3_1 outer life 2538 alarm 0.01 after [0.14, 0.12, 0.17] last10 [0.79, 0.77, 0.8] stable_lead_min [200, 91, 202] ungated_early 0.78
+3_5 outer life 114 alarm 0.28 after [1.0, 1.0, 1.0] last10 [1.0, 1.0, 1.0] stable_lead_min [82, 82, 82] ungated_early 0.74
+2_1 inner life 491 alarm 0.06 after [0.95, 0.61, 0.98] last10 [0.86, 0.67, 0.96] stable_lead_min [2, None, None] ungated_early 0.01
+3_3 inner life 371 alarm 0.12 after [0.41, 0.03, 0.12] last10 [0.7, 0.3, 0.46] stable_lead_min [17, None, 17] ungated_early 0.22
+3_4 inner life 1515 alarm 0.03 after [0.74, 0.91, 0.92] last10 [0.88, 0.9, 1.0] stable_lead_min [77, 78, 385] ungated_early 0.78
+1_4 cage life 122 alarm 0.26 after [-1, -1, -1] last10 [-1, -1, -1] stable_lead_min [None, None, None] ungated_early 0.47
+2_3 cage life 533 alarm 0.06 after [-1, -1, -1] last10 [-1, -1, -1] stable_lead_min [None, None, None] ungated_early 0.62

@@ -1,0 +1,28 @@
+== cusum h 5.0
+1_1 outer life 123 alarm 0.26 after [1.0, 1.0, 1.0] last10 [1.0, 1.0, 1.0] stable_lead_min [91, 91, 91] ungated_early 0.15
+1_2 outer life 161 alarm 0.19 after [1.0, 1.0, 1.0] last10 [1.0, 1.0, 1.0] stable_lead_min [130, 130, 130] ungated_early 0.94
+1_3 outer life 158 alarm 0.37 after [1.0, 1.0, 1.0] last10 [1.0, 1.0, 1.0] stable_lead_min [100, 100, 100] ungated_early 0.41
+2_2 outer life 161 alarm 0.19 after [0.98, 0.92, 0.96] last10 [1.0, 1.0, 1.0] stable_lead_min [120, 117, 117] ungated_early 0.64
+2_4 outer life 42 alarm 0.71 after [1.0, 1.0, 1.0] last10 [1.0, 1.0, 1.0] stable_lead_min [12, 12, 12] ungated_early 0.2
+2_5 outer life 339 alarm 0.1 after [0.26, 0.44, 0.42] last10 [1.0, 1.0, 1.0] stable_lead_min [50, 74, 49] ungated_early 0.0
+3_1 outer life 2538 alarm 0.01 after [0.14, 0.12, 0.17] last10 [0.79, 0.77, 0.8] stable_lead_min [200, 91, 202] ungated_early 0.78
+3_5 outer life 114 alarm 0.28 after [1.0, 1.0, 1.0] last10 [1.0, 1.0, 1.0] stable_lead_min [82, 82, 82] ungated_early 0.74
+2_1 inner life 491 alarm 0.06 after [0.95, 0.61, 0.98] last10 [0.86, 0.67, 0.96] stable_lead_min [2, None, None] ungated_early 0.01
+3_3 inner life 371 alarm 0.12 after [0.41, 0.03, 0.12] last10 [0.7, 0.3, 0.46] stable_lead_min [17, None, 17] ungated_early 0.22
+3_4 inner life 1515 alarm 0.03 after [0.74, 0.91, 0.92] last10 [0.88, 0.9, 1.0] stable_lead_min [77, 78, 385] ungated_early 0.78
+1_4 cage life 122 alarm 0.26 after [-1, -1, -1] last10 [-1, -1, -1] stable_lead_min [None, None, None] ungated_early 0.47
+2_3 cage life 533 alarm 0.06 after [-1, -1, -1] last10 [-1, -1, -1] stable_lead_min [None, None, None] ungated_early 0.62
+== nguong h 10.0
+1_1 outer life 123 alarm 0.56 after [1.0, 1.0, 1.0] last10 [1.0, 1.0, 1.0] stable_lead_min [54, 54, 54] ungated_early 0.15
+1_2 outer life 161 alarm 0.22 after [1.0, 1.0, 1.0] last10 [1.0, 1.0, 1.0] stable_lead_min [126, 126, 126] ungated_early 0.94
+1_3 outer life 158 alarm 0.39 after [1.0, 1.0, 1.0] last10 [1.0, 1.0, 1.0] stable_lead_min [96, 96, 96] ungated_early 0.41
+2_2 outer life 161 alarm 0.31 after [1.0, 1.0, 1.0] last10 [1.0, 1.0, 1.0] stable_lead_min [111, 111, 111] ungated_early 0.64
+2_4 outer life 42 alarm 0.81 after [1.0, 1.0, 1.0] last10 [1.0, 1.0, 1.0] stable_lead_min [8, 8, 8] ungated_early 0.2
+2_5 outer life 339 alarm 0.41 after [0.41, 0.68, 0.46] last10 [1.0, 1.0, 1.0] stable_lead_min [50, 74, 49] ungated_early 0.0
+3_1 outer life 2538 alarm 0.81 after [0.42, 0.41, 0.42] last10 [0.79, 0.77, 0.8] stable_lead_min [200, 91, 202] ungated_early 0.78
+3_5 outer life 114 alarm None after [-1, -1, -1] last10 [-1, -1, -1] stable_lead_min [None, None, None] ungated_early 0.74
+2_1 inner life 491 alarm 0.93 after [0.79, 0.52, 0.94] last10 [0.86, 0.67, 0.96] stable_lead_min [2, None, None] ungated_early 0.01
+3_3 inner life 371 alarm 0.93 after [0.65, 0.42, 0.65] last10 [0.7, 0.3, 0.46] stable_lead_min [17, None, 17] ungated_early 0.22
+3_4 inner life 1515 alarm 0.71 after [0.92, 0.96, 0.95] last10 [0.88, 0.9, 1.0] stable_lead_min [77, 78, 385] ungated_early 0.78
+1_4 cage life 122 alarm None after [-1, -1, -1] last10 [-1, -1, -1] stable_lead_min [None, None, None] ungated_early 0.47
+2_3 cage life 533 alarm 0.57 after [-1, -1, -1] last10 [-1, -1, -1] stable_lead_min [None, None, None] ungated_early 0.62

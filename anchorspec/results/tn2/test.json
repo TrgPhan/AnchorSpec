@@ -1,0 +1,2685 @@
+{
+ "arms": {
+  "A0_cay_chua_chinh": {
+   "inner": 0.9316666666666668,
+   "outer": 0.7166666666666668,
+   "healthy": 0.5520833333333334,
+   "primary": 0.8241666666666667,
+   "type_given_fault": 0.8277083333333333,
+   "bearing_vote": 8.0,
+   "auc": 0.9776461226851851,
+   "primary_seeds": [
+    0.8796875,
+    0.786875,
+    0.8059375
+   ],
+   "bearing_vote_seeds": [
+    9,
+    8,
+    7
+   ],
+   "n_fault_bearings": 9
+  },
+  "A_cay_da_chinh": {
+   "inner": 0.2066666666666667,
+   "outer": 0.71875,
+   "healthy": 0.5604166666666667,
+   "primary": 0.46270833333333333,
+   "type_given_fault": 0.4622916666666666,
+   "bearing_vote": 3.6666666666666665,
+   "auc": 0.9803602430555557,
+   "primary_seeds": [
+    0.45499999999999996,
+    0.47,
+    0.463125
+   ],
+   "bearing_vote_seeds": [
+    4,
+    3,
+    4
+   ],
+   "n_fault_bearings": 9
+  },
+  "B_nhan_tao": {
+   "inner": 0.35250000000000004,
+   "outer": 0.7979166666666666,
+   "healthy": 0.5354166666666668,
+   "primary": 0.5752083333333333,
+   "type_given_fault": 0.5735416666666667,
+   "bearing_vote": 4.666666666666667,
+   "auc": 0.9806640625000002,
+   "primary_seeds": [
+    0.5459375,
+    0.5940624999999999,
+    0.585625
+   ],
+   "bearing_vote_seeds": [
+    4,
+    5,
+    5
+   ],
+   "n_fault_bearings": 9
+  },
+  "C_cwru": {
+   "inner": 0.7766666666666667,
+   "outer": 0.6552083333333333,
+   "healthy": 0.9645833333333332,
+   "primary": 0.7159375,
+   "type_given_fault": 0.7561458333333332,
+   "bearing_vote": 6.333333333333333,
+   "auc": 0.9900144675925926,
+   "primary_seeds": [
+    0.7409375,
+    0.7053125,
+    0.7015625
+   ],
+   "bearing_vote_seeds": [
+    7,
+    6,
+    6
+   ],
+   "n_fault_bearings": 9
+  },
+  "C2_cwru_nen_may": {
+   "inner": 0.5216666666666666,
+   "outer": 0.5052083333333334,
+   "healthy": 1.0,
+   "primary": 0.5134375,
+   "type_given_fault": 0.7591666666666667,
+   "bearing_vote": 4.0,
+   "auc": 0.995642361111111,
+   "primary_seeds": [
+    0.5271874999999999,
+    0.4753125,
+    0.5378125
+   ],
+   "bearing_vote_seeds": [
+    4,
+    4,
+    4
+   ],
+   "n_fault_bearings": 9
+  }
+ },
+ "comparisons": {
+  "A_cay_da_chinh - C_cwru": {
+   "diff": -0.25322916666666667,
+   "ci95": [
+    -0.3672916666666667,
+    -0.13176822916666672
+   ]
+  },
+  "A_cay_da_chinh - C2_cwru_nen_may": {
+   "diff": -0.050729166666666686,
+   "ci95": [
+    -0.26635416666666667,
+    0.17729166666666663
+   ]
+  },
+  "A_cay_da_chinh - B_nhan_tao": {
+   "diff": -0.1125,
+   "ci95": [
+    -0.29822916666666666,
+    0.04312499999999998
+   ]
+  },
+  "A0_cay_chua_chinh - C_cwru": {
+   "diff": 0.10822916666666668,
+   "ci95": [
+    0.03697916666666666,
+    0.1828125
+   ]
+  },
+  "A0_cay_chua_chinh - C2_cwru_nen_may": {
+   "diff": 0.3107291666666666,
+   "ci95": [
+    0.15208333333333335,
+    0.4582291666666667
+   ]
+  },
+  "A_cay_da_chinh - A0_cay_chua_chinh": {
+   "diff": -0.3614583333333334,
+   "ci95": [
+    -0.47041666666666665,
+    -0.2120833333333334
+   ]
+  }
+ },
+ "per_seed": [
+  {
+   "A0_cay_chua_chinh": {
+    "K005": {
+     "true": "healthy",
+     "window_acc": 0.1,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      8,
+      34,
+      38
+     ]
+    },
+    "K006": {
+     "true": "healthy",
+     "window_acc": 0.9375,
+     "n": 80,
+     "majority": "healthy",
+     "pred_counts": [
+      75,
+      5,
+      0
+     ]
+    },
+    "KI04": {
+     "true": "inner",
+     "window_acc": 0.9625,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      0,
+      77,
+      3
+     ],
+     "type_given_fault": 0.9625
+    },
+    "KI14": {
+     "true": "inner",
+     "window_acc": 0.925,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      0,
+      74,
+      6
+     ],
+     "type_given_fault": 0.925
+    },
+    "KI16": {
+     "true": "inner",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      0,
+      80,
+      0
+     ],
+     "type_given_fault": 0.9875
+    },
+    "KI17": {
+     "true": "inner",
+     "window_acc": 0.925,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      0,
+      74,
+      6
+     ],
+     "type_given_fault": 0.8875
+    },
+    "KI18": {
+     "true": "inner",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      0,
+      80,
+      0
+     ],
+     "type_given_fault": 1.0
+    },
+    "KA04": {
+     "true": "outer",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 1.0
+    },
+    "KA15": {
+     "true": "outer",
+     "window_acc": 0.6625,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      27,
+      53
+     ],
+     "type_given_fault": 0.6625
+    },
+    "KA16": {
+     "true": "outer",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 1.0
+    },
+    "KA30": {
+     "true": "outer",
+     "window_acc": 0.525,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      11,
+      27,
+      42
+     ],
+     "type_given_fault": 0.6
+    },
+    "_auc_fault_vs_healthy": 0.9718229166666665
+   },
+   "A_cay_da_chinh": {
+    "K005": {
+     "true": "healthy",
+     "window_acc": 0.1625,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      13,
+      63,
+      4
+     ]
+    },
+    "K006": {
+     "true": "healthy",
+     "window_acc": 0.8375,
+     "n": 80,
+     "majority": "healthy",
+     "pred_counts": [
+      67,
+      13,
+      0
+     ]
+    },
+    "KI04": {
+     "true": "inner",
+     "window_acc": 0.025,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      2,
+      78
+     ],
+     "type_given_fault": 0.025
+    },
+    "KI14": {
+     "true": "inner",
+     "window_acc": 0.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 0.0
+    },
+    "KI16": {
+     "true": "inner",
+     "window_acc": 0.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 0.0
+    },
+    "KI17": {
+     "true": "inner",
+     "window_acc": 0.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 0.0
+    },
+    "KI18": {
+     "true": "inner",
+     "window_acc": 0.7125,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      0,
+      57,
+      23
+     ],
+     "type_given_fault": 0.7125
+    },
+    "KA04": {
+     "true": "outer",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 1.0
+    },
+    "KA15": {
+     "true": "outer",
+     "window_acc": 0.625,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      30,
+      50
+     ],
+     "type_given_fault": 0.625
+    },
+    "KA16": {
+     "true": "outer",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 1.0
+    },
+    "KA30": {
+     "true": "outer",
+     "window_acc": 0.425,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      0,
+      46,
+      34
+     ],
+     "type_given_fault": 0.425
+    },
+    "_auc_fault_vs_healthy": 0.9822656250000001
+   },
+   "B_nhan_tao": {
+    "K005": {
+     "true": "healthy",
+     "window_acc": 0.025,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      2,
+      75,
+      3
+     ]
+    },
+    "K006": {
+     "true": "healthy",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "healthy",
+     "pred_counts": [
+      80,
+      0,
+      0
+     ]
+    },
+    "KI04": {
+     "true": "inner",
+     "window_acc": 0.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 0.0
+    },
+    "KI14": {
+     "true": "inner",
+     "window_acc": 0.475,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      38,
+      42
+     ],
+     "type_given_fault": 0.475
+    },
+    "KI16": {
+     "true": "inner",
+     "window_acc": 0.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 0.0
+    },
+    "KI17": {
+     "true": "inner",
+     "window_acc": 0.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 0.0
+    },
+    "KI18": {
+     "true": "inner",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      0,
+      80,
+      0
+     ],
+     "type_given_fault": 1.0
+    },
+    "KA04": {
+     "true": "outer",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 1.0
+    },
+    "KA15": {
+     "true": "outer",
+     "window_acc": 0.425,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      0,
+      46,
+      34
+     ],
+     "type_given_fault": 0.425
+    },
+    "KA16": {
+     "true": "outer",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 1.0
+    },
+    "KA30": {
+     "true": "outer",
+     "window_acc": 0.7625,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      19,
+      61
+     ],
+     "type_given_fault": 0.7625
+    },
+    "_auc_fault_vs_healthy": 0.968828125
+   },
+   "C_cwru": {
+    "K005": {
+     "true": "healthy",
+     "window_acc": 0.875,
+     "n": 80,
+     "majority": "healthy",
+     "pred_counts": [
+      70,
+      9,
+      1
+     ]
+    },
+    "K006": {
+     "true": "healthy",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "healthy",
+     "pred_counts": [
+      80,
+      0,
+      0
+     ]
+    },
+    "KI04": {
+     "true": "inner",
+     "window_acc": 0.7125,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      11,
+      57,
+      12
+     ],
+     "type_given_fault": 0.825
+    },
+    "KI14": {
+     "true": "inner",
+     "window_acc": 0.725,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      0,
+      58,
+      22
+     ],
+     "type_given_fault": 0.725
+    },
+    "KI16": {
+     "true": "inner",
+     "window_acc": 0.8625,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      0,
+      69,
+      11
+     ],
+     "type_given_fault": 0.8625
+    },
+    "KI17": {
+     "true": "inner",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      0,
+      80,
+      0
+     ],
+     "type_given_fault": 1.0
+    },
+    "KI18": {
+     "true": "inner",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      0,
+      80,
+      0
+     ],
+     "type_given_fault": 1.0
+    },
+    "KA04": {
+     "true": "outer",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 1.0
+    },
+    "KA15": {
+     "true": "outer",
+     "window_acc": 0.3,
+     "n": 80,
+     "majority": "healthy",
+     "pred_counts": [
+      32,
+      24,
+      24
+     ],
+     "type_given_fault": 0.4375
+    },
+    "KA16": {
+     "true": "outer",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 1.0
+    },
+    "KA30": {
+     "true": "outer",
+     "window_acc": 0.1875,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      28,
+      37,
+      15
+     ],
+     "type_given_fault": 0.225
+    },
+    "_auc_fault_vs_healthy": 0.9870442708333335
+   },
+   "C2_cwru_nen_may": {
+    "K005": {
+     "true": "healthy",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "healthy",
+     "pred_counts": [
+      80,
+      0,
+      0
+     ]
+    },
+    "K006": {
+     "true": "healthy",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "healthy",
+     "pred_counts": [
+      80,
+      0,
+      0
+     ]
+    },
+    "KI04": {
+     "true": "inner",
+     "window_acc": 0.15,
+     "n": 80,
+     "majority": "healthy",
+     "pred_counts": [
+      62,
+      12,
+      6
+     ],
+     "type_given_fault": 0.5125
+    },
+    "KI14": {
+     "true": "inner",
+     "window_acc": 0.4875,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      1,
+      39,
+      40
+     ],
+     "type_given_fault": 0.475
+    },
+    "KI16": {
+     "true": "inner",
+     "window_acc": 0.725,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      22,
+      58,
+      0
+     ],
+     "type_given_fault": 0.975
+    },
+    "KI17": {
+     "true": "inner",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      0,
+      80,
+      0
+     ],
+     "type_given_fault": 1.0
+    },
+    "KI18": {
+     "true": "inner",
+     "window_acc": 0.3625,
+     "n": 80,
+     "majority": "healthy",
+     "pred_counts": [
+      51,
+      29,
+      0
+     ],
+     "type_given_fault": 1.0
+    },
+    "KA04": {
+     "true": "outer",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 1.0
+    },
+    "KA15": {
+     "true": "outer",
+     "window_acc": 0.0125,
+     "n": 80,
+     "majority": "healthy",
+     "pred_counts": [
+      79,
+      0,
+      1
+     ],
+     "type_given_fault": 0.6375
+    },
+    "KA16": {
+     "true": "outer",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 1.0
+    },
+    "KA30": {
+     "true": "outer",
+     "window_acc": 0.025,
+     "n": 80,
+     "majority": "healthy",
+     "pred_counts": [
+      78,
+      0,
+      2
+     ],
+     "type_given_fault": 0.6
+    },
+    "_auc_fault_vs_healthy": 0.9954383680555556
+   }
+  },
+  {
+   "A0_cay_chua_chinh": {
+    "K005": {
+     "true": "healthy",
+     "window_acc": 0.05,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      4,
+      39,
+      37
+     ]
+    },
+    "K006": {
+     "true": "healthy",
+     "window_acc": 0.925,
+     "n": 80,
+     "majority": "healthy",
+     "pred_counts": [
+      74,
+      3,
+      3
+     ]
+    },
+    "KI04": {
+     "true": "inner",
+     "window_acc": 0.85,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      0,
+      68,
+      12
+     ],
+     "type_given_fault": 0.85
+    },
+    "KI14": {
+     "true": "inner",
+     "window_acc": 0.7125,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      0,
+      57,
+      23
+     ],
+     "type_given_fault": 0.7
+    },
+    "KI16": {
+     "true": "inner",
+     "window_acc": 0.85,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      0,
+      68,
+      12
+     ],
+     "type_given_fault": 0.8125
+    },
+    "KI17": {
+     "true": "inner",
+     "window_acc": 0.9875,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      0,
+      79,
+      1
+     ],
+     "type_given_fault": 0.9875
+    },
+    "KI18": {
+     "true": "inner",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      0,
+      80,
+      0
+     ],
+     "type_given_fault": 1.0
+    },
+    "KA04": {
+     "true": "outer",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 1.0
+    },
+    "KA15": {
+     "true": "outer",
+     "window_acc": 0.3125,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      0,
+      55,
+      25
+     ],
+     "type_given_fault": 0.3125
+    },
+    "KA16": {
+     "true": "outer",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 1.0
+    },
+    "KA30": {
+     "true": "outer",
+     "window_acc": 0.4625,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      8,
+      35,
+      37
+     ],
+     "type_given_fault": 0.5
+    },
+    "_auc_fault_vs_healthy": 0.9776128472222222
+   },
+   "A_cay_da_chinh": {
+    "K005": {
+     "true": "healthy",
+     "window_acc": 0.2625,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      21,
+      57,
+      2
+     ]
+    },
+    "K006": {
+     "true": "healthy",
+     "window_acc": 0.8875,
+     "n": 80,
+     "majority": "healthy",
+     "pred_counts": [
+      71,
+      9,
+      0
+     ]
+    },
+    "KI04": {
+     "true": "inner",
+     "window_acc": 0.15,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      12,
+      68
+     ],
+     "type_given_fault": 0.15
+    },
+    "KI14": {
+     "true": "inner",
+     "window_acc": 0.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 0.0
+    },
+    "KI16": {
+     "true": "inner",
+     "window_acc": 0.025,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      2,
+      78
+     ],
+     "type_given_fault": 0.025
+    },
+    "KI17": {
+     "true": "inner",
+     "window_acc": 0.0875,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      7,
+      73
+     ],
+     "type_given_fault": 0.0875
+    },
+    "KI18": {
+     "true": "inner",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      0,
+      80,
+      0
+     ],
+     "type_given_fault": 1.0
+    },
+    "KA04": {
+     "true": "outer",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 1.0
+    },
+    "KA15": {
+     "true": "outer",
+     "window_acc": 0.4875,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      0,
+      41,
+      39
+     ],
+     "type_given_fault": 0.4875
+    },
+    "KA16": {
+     "true": "outer",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 1.0
+    },
+    "KA30": {
+     "true": "outer",
+     "window_acc": 0.2625,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      0,
+      59,
+      21
+     ],
+     "type_given_fault": 0.2625
+    },
+    "_auc_fault_vs_healthy": 0.9787630208333333
+   },
+   "B_nhan_tao": {
+    "K005": {
+     "true": "healthy",
+     "window_acc": 0.1125,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      9,
+      68,
+      3
+     ]
+    },
+    "K006": {
+     "true": "healthy",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "healthy",
+     "pred_counts": [
+      80,
+      0,
+      0
+     ]
+    },
+    "KI04": {
+     "true": "inner",
+     "window_acc": 0.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 0.0
+    },
+    "KI14": {
+     "true": "inner",
+     "window_acc": 0.925,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      0,
+      74,
+      6
+     ],
+     "type_given_fault": 0.8875
+    },
+    "KI16": {
+     "true": "inner",
+     "window_acc": 0.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 0.0
+    },
+    "KI17": {
+     "true": "inner",
+     "window_acc": 0.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 0.0
+    },
+    "KI18": {
+     "true": "inner",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      0,
+      80,
+      0
+     ],
+     "type_given_fault": 1.0
+    },
+    "KA04": {
+     "true": "outer",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 1.0
+    },
+    "KA15": {
+     "true": "outer",
+     "window_acc": 0.5,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      0,
+      40,
+      40
+     ],
+     "type_given_fault": 0.5
+    },
+    "KA16": {
+     "true": "outer",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 1.0
+    },
+    "KA30": {
+     "true": "outer",
+     "window_acc": 0.7125,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      23,
+      57
+     ],
+     "type_given_fault": 0.7125
+    },
+    "_auc_fault_vs_healthy": 0.9858897569444445
+   },
+   "C_cwru": {
+    "K005": {
+     "true": "healthy",
+     "window_acc": 0.95,
+     "n": 80,
+     "majority": "healthy",
+     "pred_counts": [
+      76,
+      4,
+      0
+     ]
+    },
+    "K006": {
+     "true": "healthy",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "healthy",
+     "pred_counts": [
+      80,
+      0,
+      0
+     ]
+    },
+    "KI04": {
+     "true": "inner",
+     "window_acc": 0.7875,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      4,
+      63,
+      13
+     ],
+     "type_given_fault": 0.8125
+    },
+    "KI14": {
+     "true": "inner",
+     "window_acc": 0.4375,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      35,
+      45
+     ],
+     "type_given_fault": 0.4125
+    },
+    "KI16": {
+     "true": "inner",
+     "window_acc": 0.4375,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      35,
+      45
+     ],
+     "type_given_fault": 0.4
+    },
+    "KI17": {
+     "true": "inner",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      0,
+      80,
+      0
+     ],
+     "type_given_fault": 1.0
+    },
+    "KI18": {
+     "true": "inner",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      0,
+      80,
+      0
+     ],
+     "type_given_fault": 1.0
+    },
+    "KA04": {
+     "true": "outer",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 1.0
+    },
+    "KA15": {
+     "true": "outer",
+     "window_acc": 0.3375,
+     "n": 80,
+     "majority": "healthy",
+     "pred_counts": [
+      33,
+      20,
+      27
+     ],
+     "type_given_fault": 0.475
+    },
+    "KA16": {
+     "true": "outer",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 1.0
+    },
+    "KA30": {
+     "true": "outer",
+     "window_acc": 0.375,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      24,
+      26,
+      30
+     ],
+     "type_given_fault": 0.5125
+    },
+    "_auc_fault_vs_healthy": 0.9932855902777779
+   },
+   "C2_cwru_nen_may": {
+    "K005": {
+     "true": "healthy",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "healthy",
+     "pred_counts": [
+      80,
+      0,
+      0
+     ]
+    },
+    "K006": {
+     "true": "healthy",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "healthy",
+     "pred_counts": [
+      80,
+      0,
+      0
+     ]
+    },
+    "KI04": {
+     "true": "inner",
+     "window_acc": 0.1625,
+     "n": 80,
+     "majority": "healthy",
+     "pred_counts": [
+      65,
+      13,
+      2
+     ],
+     "type_given_fault": 0.6875
+    },
+    "KI14": {
+     "true": "inner",
+     "window_acc": 0.65,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      5,
+      52,
+      23
+     ],
+     "type_given_fault": 0.6625
+    },
+    "KI16": {
+     "true": "inner",
+     "window_acc": 0.0875,
+     "n": 80,
+     "majority": "healthy",
+     "pred_counts": [
+      50,
+      7,
+      23
+     ],
+     "type_given_fault": 0.1375
+    },
+    "KI17": {
+     "true": "inner",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      0,
+      80,
+      0
+     ],
+     "type_given_fault": 1.0
+    },
+    "KI18": {
+     "true": "inner",
+     "window_acc": 0.3375,
+     "n": 80,
+     "majority": "healthy",
+     "pred_counts": [
+      53,
+      27,
+      0
+     ],
+     "type_given_fault": 1.0
+    },
+    "KA04": {
+     "true": "outer",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 1.0
+    },
+    "KA15": {
+     "true": "outer",
+     "window_acc": 0.0125,
+     "n": 80,
+     "majority": "healthy",
+     "pred_counts": [
+      79,
+      0,
+      1
+     ],
+     "type_given_fault": 0.475
+    },
+    "KA16": {
+     "true": "outer",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 1.0
+    },
+    "KA30": {
+     "true": "outer",
+     "window_acc": 0.0,
+     "n": 80,
+     "majority": "healthy",
+     "pred_counts": [
+      80,
+      0,
+      0
+     ],
+     "type_given_fault": 0.4125
+    },
+    "_auc_fault_vs_healthy": 0.9957378472222222
+   }
+  },
+  {
+   "A0_cay_chua_chinh": {
+    "K005": {
+     "true": "healthy",
+     "window_acc": 0.3625,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      29,
+      8,
+      43
+     ]
+    },
+    "K006": {
+     "true": "healthy",
+     "window_acc": 0.9375,
+     "n": 80,
+     "majority": "healthy",
+     "pred_counts": [
+      75,
+      2,
+      3
+     ]
+    },
+    "KI04": {
+     "true": "inner",
+     "window_acc": 0.9375,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      0,
+      75,
+      5
+     ],
+     "type_given_fault": 0.925
+    },
+    "KI14": {
+     "true": "inner",
+     "window_acc": 0.825,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      0,
+      66,
+      14
+     ],
+     "type_given_fault": 0.825
+    },
+    "KI16": {
+     "true": "inner",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      0,
+      80,
+      0
+     ],
+     "type_given_fault": 1.0
+    },
+    "KI17": {
+     "true": "inner",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      0,
+      80,
+      0
+     ],
+     "type_given_fault": 1.0
+    },
+    "KI18": {
+     "true": "inner",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      0,
+      80,
+      0
+     ],
+     "type_given_fault": 1.0
+    },
+    "KA04": {
+     "true": "outer",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 1.0
+    },
+    "KA15": {
+     "true": "outer",
+     "window_acc": 0.2875,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      0,
+      57,
+      23
+     ],
+     "type_given_fault": 0.2875
+    },
+    "KA16": {
+     "true": "outer",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 1.0
+    },
+    "KA30": {
+     "true": "outer",
+     "window_acc": 0.35,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      11,
+      41,
+      28
+     ],
+     "type_given_fault": 0.4125
+    },
+    "_auc_fault_vs_healthy": 0.9835026041666667
+   },
+   "A_cay_da_chinh": {
+    "K005": {
+     "true": "healthy",
+     "window_acc": 0.375,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      30,
+      46,
+      4
+     ]
+    },
+    "K006": {
+     "true": "healthy",
+     "window_acc": 0.8375,
+     "n": 80,
+     "majority": "healthy",
+     "pred_counts": [
+      67,
+      13,
+      0
+     ]
+    },
+    "KI04": {
+     "true": "inner",
+     "window_acc": 0.2375,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      19,
+      61
+     ],
+     "type_given_fault": 0.2375
+    },
+    "KI14": {
+     "true": "inner",
+     "window_acc": 0.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 0.0
+    },
+    "KI16": {
+     "true": "inner",
+     "window_acc": 0.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 0.0
+    },
+    "KI17": {
+     "true": "inner",
+     "window_acc": 0.1,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      8,
+      72
+     ],
+     "type_given_fault": 0.1
+    },
+    "KI18": {
+     "true": "inner",
+     "window_acc": 0.7625,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      0,
+      61,
+      19
+     ],
+     "type_given_fault": 0.75
+    },
+    "KA04": {
+     "true": "outer",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 1.0
+    },
+    "KA15": {
+     "true": "outer",
+     "window_acc": 0.55,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      36,
+      44
+     ],
+     "type_given_fault": 0.55
+    },
+    "KA16": {
+     "true": "outer",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 1.0
+    },
+    "KA30": {
+     "true": "outer",
+     "window_acc": 0.275,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      0,
+      58,
+      22
+     ],
+     "type_given_fault": 0.275
+    },
+    "_auc_fault_vs_healthy": 0.9800520833333333
+   },
+   "B_nhan_tao": {
+    "K005": {
+     "true": "healthy",
+     "window_acc": 0.075,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      6,
+      69,
+      5
+     ]
+    },
+    "K006": {
+     "true": "healthy",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "healthy",
+     "pred_counts": [
+      80,
+      0,
+      0
+     ]
+    },
+    "KI04": {
+     "true": "inner",
+     "window_acc": 0.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 0.0
+    },
+    "KI14": {
+     "true": "inner",
+     "window_acc": 0.8875,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      0,
+      71,
+      9
+     ],
+     "type_given_fault": 0.875
+    },
+    "KI16": {
+     "true": "inner",
+     "window_acc": 0.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 0.0
+    },
+    "KI17": {
+     "true": "inner",
+     "window_acc": 0.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 0.0
+    },
+    "KI18": {
+     "true": "inner",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      0,
+      80,
+      0
+     ],
+     "type_given_fault": 1.0
+    },
+    "KA04": {
+     "true": "outer",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 1.0
+    },
+    "KA15": {
+     "true": "outer",
+     "window_acc": 0.4,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      0,
+      48,
+      32
+     ],
+     "type_given_fault": 0.4
+    },
+    "KA16": {
+     "true": "outer",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 1.0
+    },
+    "KA30": {
+     "true": "outer",
+     "window_acc": 0.775,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      18,
+      62
+     ],
+     "type_given_fault": 0.775
+    },
+    "_auc_fault_vs_healthy": 0.9872743055555555
+   },
+   "C_cwru": {
+    "K005": {
+     "true": "healthy",
+     "window_acc": 0.9625,
+     "n": 80,
+     "majority": "healthy",
+     "pred_counts": [
+      77,
+      3,
+      0
+     ]
+    },
+    "K006": {
+     "true": "healthy",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "healthy",
+     "pred_counts": [
+      80,
+      0,
+      0
+     ]
+    },
+    "KI04": {
+     "true": "inner",
+     "window_acc": 0.8125,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      9,
+      65,
+      6
+     ],
+     "type_given_fault": 0.9
+    },
+    "KI14": {
+     "true": "inner",
+     "window_acc": 0.4625,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      37,
+      43
+     ],
+     "type_given_fault": 0.4375
+    },
+    "KI16": {
+     "true": "inner",
+     "window_acc": 0.425,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      34,
+      46
+     ],
+     "type_given_fault": 0.3875
+    },
+    "KI17": {
+     "true": "inner",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      0,
+      80,
+      0
+     ],
+     "type_given_fault": 1.0
+    },
+    "KI18": {
+     "true": "inner",
+     "window_acc": 0.9875,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      1,
+      79,
+      0
+     ],
+     "type_given_fault": 1.0
+    },
+    "KA04": {
+     "true": "outer",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 1.0
+    },
+    "KA15": {
+     "true": "outer",
+     "window_acc": 0.2375,
+     "n": 80,
+     "majority": "healthy",
+     "pred_counts": [
+      46,
+      15,
+      19
+     ],
+     "type_given_fault": 0.5
+    },
+    "KA16": {
+     "true": "outer",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 1.0
+    },
+    "KA30": {
+     "true": "outer",
+     "window_acc": 0.425,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      29,
+      17,
+      34
+     ],
+     "type_given_fault": 0.5875
+    },
+    "_auc_fault_vs_healthy": 0.9897135416666667
+   },
+   "C2_cwru_nen_may": {
+    "K005": {
+     "true": "healthy",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "healthy",
+     "pred_counts": [
+      80,
+      0,
+      0
+     ]
+    },
+    "K006": {
+     "true": "healthy",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "healthy",
+     "pred_counts": [
+      80,
+      0,
+      0
+     ]
+    },
+    "KI04": {
+     "true": "inner",
+     "window_acc": 0.2125,
+     "n": 80,
+     "majority": "healthy",
+     "pred_counts": [
+      55,
+      17,
+      8
+     ],
+     "type_given_fault": 0.675
+    },
+    "KI14": {
+     "true": "inner",
+     "window_acc": 0.35,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      28,
+      52
+     ],
+     "type_given_fault": 0.35
+    },
+    "KI16": {
+     "true": "inner",
+     "window_acc": 0.5,
+     "n": 80,
+     "majority": "healthy",
+     "pred_counts": [
+      40,
+      40,
+      0
+     ],
+     "type_given_fault": 0.925
+    },
+    "KI17": {
+     "true": "inner",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      0,
+      80,
+      0
+     ],
+     "type_given_fault": 1.0
+    },
+    "KI18": {
+     "true": "inner",
+     "window_acc": 0.8,
+     "n": 80,
+     "majority": "inner",
+     "pred_counts": [
+      16,
+      64,
+      0
+     ],
+     "type_given_fault": 1.0
+    },
+    "KA04": {
+     "true": "outer",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 1.0
+    },
+    "KA15": {
+     "true": "outer",
+     "window_acc": 0.0,
+     "n": 80,
+     "majority": "healthy",
+     "pred_counts": [
+      80,
+      0,
+      0
+     ],
+     "type_given_fault": 0.575
+    },
+    "KA16": {
+     "true": "outer",
+     "window_acc": 1.0,
+     "n": 80,
+     "majority": "outer",
+     "pred_counts": [
+      0,
+      0,
+      80
+     ],
+     "type_given_fault": 1.0
+    },
+    "KA30": {
+     "true": "outer",
+     "window_acc": 0.0125,
+     "n": 80,
+     "majority": "healthy",
+     "pred_counts": [
+      77,
+      2,
+      1
+     ],
+     "type_given_fault": 0.4
+    },
+    "_auc_fault_vs_healthy": 0.9957508680555555
+   }
+  }
+ ],
+ "audit": {
+  "11": {
+   "A0_cay_chua_chinh": {
+    "inner": {
+     "accepted": 400,
+     "rejected": {},
+     "ledger_sha256": "1074ecc7090cc2d92d89e3f576b067edb0756d50a0afc9c5626e0ca9d1d73b95",
+     "amp_rel_median": 0.7308753027475755
+    },
+    "outer": {
+     "accepted": 400,
+     "rejected": {},
+     "ledger_sha256": "25d1eb9877d6630cdea1a84e72c289d69cb86621b130f7538cb70dccee66b84f",
+     "amp_rel_median": 0.9073225421022441
+    }
+   },
+   "A_cay_da_chinh": {
+    "inner": {
+     "accepted": 400,
+     "rejected": {},
+     "ledger_sha256": "2aa61247d649cc31665c5ce0794e850e0234bfe78d9b9c09dd5a21ad97baacff",
+     "amp_rel_median": 0.3041779884561894
+    },
+    "outer": {
+     "accepted": 400,
+     "rejected": {},
+     "ledger_sha256": "1db54f8f9509dd0558f54bd4c86384f316e139547ca01c6049ec61a7e6d03fa2",
+     "amp_rel_median": 0.6863201293600638
+    }
+   }
+  },
+  "29": {
+   "A0_cay_chua_chinh": {
+    "inner": {
+     "accepted": 400,
+     "rejected": {},
+     "ledger_sha256": "dfea3f8d559e19287fff7500eeb7bc87bc3a98c355d6f1f40f458f4192cb5993",
+     "amp_rel_median": 0.8365061906111819
+    },
+    "outer": {
+     "accepted": 400,
+     "rejected": {},
+     "ledger_sha256": "d2234dda7369e8fbaccf0d129955463cad82d364678292ad009568d8deb58984",
+     "amp_rel_median": 0.6963697089926362
+    }
+   },
+   "A_cay_da_chinh": {
+    "inner": {
+     "accepted": 400,
+     "rejected": {},
+     "ledger_sha256": "849bf498473af24d679e502bfc9a5c43bb08a37eeabed7270e0cf2475823f5be",
+     "amp_rel_median": 0.35432797615683187
+    },
+    "outer": {
+     "accepted": 400,
+     "rejected": {},
+     "ledger_sha256": "dc96d608c5a8522ee9ba0d0acadf3e74681b4877490bae55d2c0d2ba80bef522",
+     "amp_rel_median": 0.7000269019168237
+    }
+   }
+  },
+  "47": {
+   "A0_cay_chua_chinh": {
+    "inner": {
+     "accepted": 400,
+     "rejected": {},
+     "ledger_sha256": "c1d82c58f80ca0a859eaf2fc8cd8f3287e69232f0376c55ced3a08c56fafb46f",
+     "amp_rel_median": 0.8389751623005497
+    },
+    "outer": {
+     "accepted": 400,
+     "rejected": {},
+     "ledger_sha256": "8e581c71a391eb3e53a9a52ead0e466a53a0ebc231ec0964d3ebe8583b0c76eb",
+     "amp_rel_median": 0.6529243417304265
+    }
+   },
+   "A_cay_da_chinh": {
+    "inner": {
+     "accepted": 400,
+     "rejected": {},
+     "ledger_sha256": "60dd66332e1bd610b2bf2127939e24916bc858621779507a01f90c580275c8ec",
+     "amp_rel_median": 0.33546076139643477
+    },
+    "outer": {
+     "accepted": 400,
+     "rejected": {},
+     "ledger_sha256": "d808db5acb22e26401ac2cb42afe24b582a91c5839ad6cf52b9ffdfe6f95ff40",
+     "amp_rel_median": 0.7158738016843165
+    }
+   }
+  }
+ },
+ "sensor": {
+  "fs_out": 4000,
+  "bw_hz": 1000.0,
+  "noise_ug_rthz": 25.0,
+  "range_g": 8.0,
+  "bits": 20
+ },
+ "seeds": [
+  11,
+  29,
+  47
+ ],
+ "n_inject": 400,
+ "e6": {
+  "score": {
+   "inner": 0.9216666666666665,
+   "outer": 0.4916666666666667,
+   "healthy": 0.5,
+   "primary": 0.7066666666666667,
+   "type_given_fault": 0.7066666666666667,
+   "bearing_vote": 7.0,
+   "auc": 0.6532828776041666,
+   "primary_seeds": [
+    0.7125,
+    0.7029166666666666,
+    0.7045833333333333
+   ],
+   "bearing_vote_seeds": [
+    7,
+    7,
+    7
+   ],
+   "n_fault_bearings": 9
+  },
+  "per_seed": [
+   {
+    "B_cong_nghiep": {
+     "K005": {
+      "true": "healthy",
+      "window_acc": 0.0,
+      "n": 80,
+      "majority": "inner",
+      "pred_counts": [
+       0,
+       80,
+       0
+      ]
+     },
+     "K006": {
+      "true": "healthy",
+      "window_acc": 1.0,
+      "n": 80,
+      "majority": "healthy",
+      "pred_counts": [
+       80,
+       0,
+       0
+      ]
+     },
+     "KI04": {
+      "true": "inner",
+      "window_acc": 0.625,
+      "n": 80,
+      "majority": "inner",
+      "pred_counts": [
+       0,
+       50,
+       30
+      ],
+      "type_given_fault": 0.625
+     },
+     "KI14": {
+      "true": "inner",
+      "window_acc": 1.0,
+      "n": 80,
+      "majority": "inner",
+      "pred_counts": [
+       0,
+       80,
+       0
+      ],
+      "type_given_fault": 1.0
+     },
+     "KI16": {
+      "true": "inner",
+      "window_acc": 1.0,
+      "n": 80,
+      "majority": "inner",
+      "pred_counts": [
+       0,
+       80,
+       0
+      ],
+      "type_given_fault": 1.0
+     },
+     "KI17": {
+      "true": "inner",
+      "window_acc": 1.0,
+      "n": 60,
+      "majority": "inner",
+      "pred_counts": [
+       0,
+       60,
+       0
+      ],
+      "type_given_fault": 1.0
+     },
+     "KI18": {
+      "true": "inner",
+      "window_acc": 1.0,
+      "n": 80,
+      "majority": "inner",
+      "pred_counts": [
+       0,
+       80,
+       0
+      ],
+      "type_given_fault": 1.0
+     },
+     "KA04": {
+      "true": "outer",
+      "window_acc": 1.0,
+      "n": 80,
+      "majority": "outer",
+      "pred_counts": [
+       0,
+       0,
+       80
+      ],
+      "type_given_fault": 1.0
+     },
+     "KA15": {
+      "true": "outer",
+      "window_acc": 0.0,
+      "n": 60,
+      "majority": "inner",
+      "pred_counts": [
+       0,
+       60,
+       0
+      ],
+      "type_given_fault": 0.0
+     },
+     "KA16": {
+      "true": "outer",
+      "window_acc": 1.0,
+      "n": 60,
+      "majority": "outer",
+      "pred_counts": [
+       0,
+       0,
+       60
+      ],
+      "type_given_fault": 1.0
+     },
+     "KA30": {
+      "true": "outer",
+      "window_acc": 0.0,
+      "n": 60,
+      "majority": "inner",
+      "pred_counts": [
+       0,
+       60,
+       0
+      ],
+      "type_given_fault": 0.0
+     },
+     "_auc_fault_vs_healthy": 0.6158447265625
+    }
+   },
+   {
+    "B_cong_nghiep": {
+     "K005": {
+      "true": "healthy",
+      "window_acc": 0.0,
+      "n": 80,
+      "majority": "inner",
+      "pred_counts": [
+       0,
+       80,
+       0
+      ]
+     },
+     "K006": {
+      "true": "healthy",
+      "window_acc": 1.0,
+      "n": 80,
+      "majority": "healthy",
+      "pred_counts": [
+       80,
+       0,
+       0
+      ]
+     },
+     "KI04": {
+      "true": "inner",
+      "window_acc": 0.625,
+      "n": 80,
+      "majority": "inner",
+      "pred_counts": [
+       0,
+       50,
+       30
+      ],
+      "type_given_fault": 0.625
+     },
+     "KI14": {
+      "true": "inner",
+      "window_acc": 1.0,
+      "n": 80,
+      "majority": "inner",
+      "pred_counts": [
+       0,
+       80,
+       0
+      ],
+      "type_given_fault": 1.0
+     },
+     "KI16": {
+      "true": "inner",
+      "window_acc": 1.0,
+      "n": 80,
+      "majority": "inner",
+      "pred_counts": [
+       0,
+       80,
+       0
+      ],
+      "type_given_fault": 1.0
+     },
+     "KI17": {
+      "true": "inner",
+      "window_acc": 0.9666666666666667,
+      "n": 60,
+      "majority": "inner",
+      "pred_counts": [
+       0,
+       58,
+       2
+      ],
+      "type_given_fault": 0.9666666666666667
+     },
+     "KI18": {
+      "true": "inner",
+      "window_acc": 1.0,
+      "n": 80,
+      "majority": "inner",
+      "pred_counts": [
+       0,
+       80,
+       0
+      ],
+      "type_given_fault": 1.0
+     },
+     "KA04": {
+      "true": "outer",
+      "window_acc": 1.0,
+      "n": 80,
+      "majority": "outer",
+      "pred_counts": [
+       0,
+       0,
+       80
+      ],
+      "type_given_fault": 1.0
+     },
+     "KA15": {
+      "true": "outer",
+      "window_acc": 0.0,
+      "n": 60,
+      "majority": "inner",
+      "pred_counts": [
+       0,
+       60,
+       0
+      ],
+      "type_given_fault": 0.0
+     },
+     "KA16": {
+      "true": "outer",
+      "window_acc": 0.95,
+      "n": 60,
+      "majority": "outer",
+      "pred_counts": [
+       0,
+       3,
+       57
+      ],
+      "type_given_fault": 0.95
+     },
+     "KA30": {
+      "true": "outer",
+      "window_acc": 0.0,
+      "n": 60,
+      "majority": "inner",
+      "pred_counts": [
+       0,
+       60,
+       0
+      ],
+      "type_given_fault": 0.0
+     },
+     "_auc_fault_vs_healthy": 0.663935546875
+    }
+   },
+   {
+    "B_cong_nghiep": {
+     "K005": {
+      "true": "healthy",
+      "window_acc": 0.0,
+      "n": 80,
+      "majority": "inner",
+      "pred_counts": [
+       0,
+       80,
+       0
+      ]
+     },
+     "K006": {
+      "true": "healthy",
+      "window_acc": 1.0,
+      "n": 80,
+      "majority": "healthy",
+      "pred_counts": [
+       80,
+       0,
+       0
+      ]
+     },
+     "KI04": {
+      "true": "inner",
+      "window_acc": 0.625,
+      "n": 80,
+      "majority": "inner",
+      "pred_counts": [
+       0,
+       50,
+       30
+      ],
+      "type_given_fault": 0.625
+     },
+     "KI14": {
+      "true": "inner",
+      "window_acc": 1.0,
+      "n": 80,
+      "majority": "inner",
+      "pred_counts": [
+       0,
+       80,
+       0
+      ],
+      "type_given_fault": 1.0
+     },
+     "KI16": {
+      "true": "inner",
+      "window_acc": 1.0,
+      "n": 80,
+      "majority": "inner",
+      "pred_counts": [
+       0,
+       80,
+       0
+      ],
+      "type_given_fault": 1.0
+     },
+     "KI17": {
+      "true": "inner",
+      "window_acc": 0.9833333333333333,
+      "n": 60,
+      "majority": "inner",
+      "pred_counts": [
+       0,
+       59,
+       1
+      ],
+      "type_given_fault": 0.9833333333333333
+     },
+     "KI18": {
+      "true": "inner",
+      "window_acc": 1.0,
+      "n": 80,
+      "majority": "inner",
+      "pred_counts": [
+       0,
+       80,
+       0
+      ],
+      "type_given_fault": 1.0
+     },
+     "KA04": {
+      "true": "outer",
+      "window_acc": 1.0,
+      "n": 80,
+      "majority": "outer",
+      "pred_counts": [
+       0,
+       0,
+       80
+      ],
+      "type_given_fault": 1.0
+     },
+     "KA15": {
+      "true": "outer",
+      "window_acc": 0.0,
+      "n": 60,
+      "majority": "inner",
+      "pred_counts": [
+       0,
+       60,
+       0
+      ],
+      "type_given_fault": 0.0
+     },
+     "KA16": {
+      "true": "outer",
+      "window_acc": 0.95,
+      "n": 60,
+      "majority": "outer",
+      "pred_counts": [
+       0,
+       3,
+       57
+      ],
+      "type_given_fault": 0.95
+     },
+     "KA30": {
+      "true": "outer",
+      "window_acc": 0.0,
+      "n": 60,
+      "majority": "inner",
+      "pred_counts": [
+       0,
+       60,
+       0
+      ],
+      "type_given_fault": 0.0
+     },
+     "_auc_fault_vs_healthy": 0.680068359375
+    }
+   }
+  ]
+ }
+}
