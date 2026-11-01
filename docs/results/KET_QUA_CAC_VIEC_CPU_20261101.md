@@ -1,6 +1,6 @@
 # Kết quả các việc chạy bằng CPU — 01/11/2026
 
-**Dữ liệu công khai, chưa có dữ liệu DENSO, Minh chưa rà soát.** Tiếp nối [báo cáo TN2b, TN3b](KET_QUA_TN2B_TN3B_REALTIME_20261101.md).
+**Dữ liệu công khai, chưa có dữ liệu DENSO, Minh chưa rà soát.** Kết quả mới hơn, gồm xác nhận độc lập E8: [báo cáo E1–E8](KET_QUA_E1_E8_20261101.md). Tiếp nối [báo cáo TN2b, TN3b](KET_QUA_TN2B_TN3B_REALTIME_20261101.md).
 
 Chỉ **TN2c** có giao thức ghi trước và mở test một lần. Mọi việc còn lại là **khám phá** trên dữ liệu đã xem, không dùng làm bằng chứng xác nhận.
 

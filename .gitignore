@@ -40,6 +40,8 @@
 !/anchorspec/results/tn5/*.json
 !/anchorspec/results/tn6/*.json
 !/anchorspec/results/tn7/*.json
+!/anchorspec/results/e[1-8]/*.json
+!/anchorspec/results/x/*.json
 !/anchorspec/results/tn3/summary.json
 !/anchorspec/results/tn3/hi_all_test_cheap.png
 
@@ -72,6 +74,8 @@
 
 # Always exclude environments, caches, editor state and secrets, even when
 # they contain Markdown or files matching the exceptions above.
+/data/
+/anchorspec/results/x_batch*.log
 **/__pycache__/
 **/.pytest_cache/
 **/.mypy_cache/

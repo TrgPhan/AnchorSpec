@@ -1,0 +1,312 @@
+{
+ "A": {
+  "femto/B30/A1": {
+   "h": 25.0,
+   "n": 14,
+   "khong_bao": 13,
+   "khong_du_du_lieu": 0,
+   "trung_vi_%doi": 0.7005054759898904,
+   "bao_truoc_50%": 0,
+   "bao_truoc_90%": 1,
+   "dao_dong": 1
+  },
+  "femto/B30/A5": {
+   "h": 25.0,
+   "n": 14,
+   "khong_bao": 3,
+   "khong_du_du_lieu": 0,
+   "trung_vi_%doi": 0.7638402242466713,
+   "bao_truoc_50%": 4,
+   "bao_truoc_90%": 7,
+   "dao_dong": 4
+  },
+  "femto/B30/A20": {
+   "h": 40.0,
+   "n": 14,
+   "khong_bao": 1,
+   "khong_du_du_lieu": 0,
+   "trung_vi_%doi": 0.16593886462882093,
+   "bao_truoc_50%": 9,
+   "bao_truoc_90%": 9,
+   "dao_dong": 2
+  },
+  "femto/B60/A1": {
+   "h": 25.0,
+   "n": 14,
+   "khong_bao": 13,
+   "khong_du_du_lieu": 0,
+   "trung_vi_%doi": 0.7005054759898904,
+   "bao_truoc_50%": 0,
+   "bao_truoc_90%": 1,
+   "dao_dong": 1
+  },
+  "femto/B60/A5": {
+   "h": 5.0,
+   "n": 14,
+   "khong_bao": 0,
+   "khong_du_du_lieu": 0,
+   "trung_vi_%doi": 0.10990861237022957,
+   "bao_truoc_50%": 12,
+   "bao_truoc_90%": 14,
+   "dao_dong": 5
+  },
+  "femto/B60/A20": {
+   "h": 10.0,
+   "n": 14,
+   "khong_bao": 0,
+   "khong_du_du_lieu": 0,
+   "trung_vi_%doi": 0.1292677674084709,
+   "bao_truoc_50%": 13,
+   "bao_truoc_90%": 14,
+   "dao_dong": 3
+  },
+  "femto/B120/A1": {
+   "h": 25.0,
+   "n": 14,
+   "khong_bao": 13,
+   "khong_du_du_lieu": 0,
+   "trung_vi_%doi": 0.7005054759898904,
+   "bao_truoc_50%": 0,
+   "bao_truoc_90%": 1,
+   "dao_dong": 1
+  },
+  "femto/B120/A5": {
+   "h": 40.0,
+   "n": 14,
+   "khong_bao": 12,
+   "khong_du_du_lieu": 0,
+   "trung_vi_%doi": 0.842208521610375,
+   "bao_truoc_50%": 0,
+   "bao_truoc_90%": 1,
+   "dao_dong": 0
+  },
+  "femto/B120/A20": {
+   "h": 40.0,
+   "n": 14,
+   "khong_bao": 7,
+   "khong_du_du_lieu": 0,
+   "trung_vi_%doi": 0.9967506092607636,
+   "bao_truoc_50%": 2,
+   "bao_truoc_90%": 2,
+   "dao_dong": 1
+  },
+  "xjtu/B30/A1": {
+   "h": 10.0,
+   "n": 12,
+   "khong_bao": 2,
+   "khong_du_du_lieu": 0,
+   "trung_vi_%doi": 0.6406322940773332,
+   "bao_truoc_50%": 4,
+   "bao_truoc_90%": 8,
+   "dao_dong": 1
+  },
+  "xjtu/B30/A5": {
+   "h": 25.0,
+   "n": 12,
+   "khong_bao": 3,
+   "khong_du_du_lieu": 0,
+   "trung_vi_%doi": 0.4911242603550296,
+   "bao_truoc_50%": 5,
+   "bao_truoc_90%": 6,
+   "dao_dong": 0
+  },
+  "xjtu/B30/A20": {
+   "h": 40.0,
+   "n": 10,
+   "khong_bao": 0,
+   "khong_du_du_lieu": 2,
+   "trung_vi_%doi": 0.25,
+   "bao_truoc_50%": 9,
+   "bao_truoc_90%": 9,
+   "dao_dong": 0
+  },
+  "xjtu/B60/A1": {
+   "h": 10.0,
+   "n": 10,
+   "khong_bao": 4,
+   "khong_du_du_lieu": 2,
+   "trung_vi_%doi": 0.784687553795834,
+   "bao_truoc_50%": 1,
+   "bao_truoc_90%": 3,
+   "dao_dong": 0
+  },
+  "xjtu/B60/A5": {
+   "h": 25.0,
+   "n": 10,
+   "khong_bao": 7,
+   "khong_du_du_lieu": 2,
+   "trung_vi_%doi": 0.9324324324324323,
+   "bao_truoc_50%": 0,
+   "bao_truoc_90%": 1,
+   "dao_dong": 0
+  },
+  "xjtu/B60/A20": {
+   "h": 15.0,
+   "n": 10,
+   "khong_bao": 1,
+   "khong_du_du_lieu": 2,
+   "trung_vi_%doi": 0.4331210191082802,
+   "bao_truoc_50%": 7,
+   "bao_truoc_90%": 9,
+   "dao_dong": 0
+  },
+  "xjtu/B120/A1": {
+   "h": 10.0,
+   "n": 8,
+   "khong_bao": 2,
+   "khong_du_du_lieu": 5,
+   "trung_vi_%doi": 0.8192545253311435,
+   "bao_truoc_50%": 1,
+   "bao_truoc_90%": 3,
+   "dao_dong": 1
+  },
+  "xjtu/B120/A5": {
+   "h": 15.0,
+   "n": 8,
+   "khong_bao": 2,
+   "khong_du_du_lieu": 5,
+   "trung_vi_%doi": 0.7744868929079455,
+   "bao_truoc_50%": 2,
+   "bao_truoc_90%": 3,
+   "dao_dong": 0
+  },
+  "xjtu/B120/A20": {
+   "h": 25.0,
+   "n": 8,
+   "khong_bao": 3,
+   "khong_du_du_lieu": 5,
+   "trung_vi_%doi": 0.6015037593984962,
+   "bao_truoc_50%": 2,
+   "bao_truoc_90%": 4,
+   "dao_dong": 1
+  },
+  "ims/B30/A1": {
+   "h": 5.0,
+   "n": 3,
+   "khong_bao": 0,
+   "khong_du_du_lieu": 0,
+   "trung_vi_%doi": 0.8556823079391465,
+   "bao_truoc_50%": 1,
+   "bao_truoc_90%": 2,
+   "dao_dong": 0
+  },
+  "ims/B30/A5": {
+   "h": 10.0,
+   "n": 3,
+   "khong_bao": 0,
+   "khong_du_du_lieu": 0,
+   "trung_vi_%doi": 0.8550781213287273,
+   "bao_truoc_50%": 1,
+   "bao_truoc_90%": 2,
+   "dao_dong": 0
+  },
+  "ims/B30/A20": {
+   "h": 25.0,
+   "n": 3,
+   "khong_bao": 0,
+   "khong_du_du_lieu": 0,
+   "trung_vi_%doi": 0.00613400232781506,
+   "bao_truoc_50%": 2,
+   "bao_truoc_90%": 3,
+   "dao_dong": 0
+  },
+  "ims/B60/A1": {
+   "h": 5.0,
+   "n": 3,
+   "khong_bao": 0,
+   "khong_du_du_lieu": 0,
+   "trung_vi_%doi": 0.8556823079391465,
+   "bao_truoc_50%": 1,
+   "bao_truoc_90%": 2,
+   "dao_dong": 0
+  },
+  "ims/B60/A5": {
+   "h": 5.0,
+   "n": 3,
+   "khong_bao": 0,
+   "khong_du_du_lieu": 0,
+   "trung_vi_%doi": 0.11794366501203894,
+   "bao_truoc_50%": 3,
+   "bao_truoc_90%": 3,
+   "dao_dong": 1
+  },
+  "ims/B60/A20": {
+   "h": 25.0,
+   "n": 3,
+   "khong_bao": 0,
+   "khong_du_du_lieu": 0,
+   "trung_vi_%doi": 0.8550781213287273,
+   "bao_truoc_50%": 1,
+   "bao_truoc_90%": 2,
+   "dao_dong": 0
+  },
+  "ims/B120/A1": {
+   "h": 5.0,
+   "n": 3,
+   "khong_bao": 0,
+   "khong_du_du_lieu": 0,
+   "trung_vi_%doi": 0.2679634749054448,
+   "bao_truoc_50%": 2,
+   "bao_truoc_90%": 2,
+   "dao_dong": 1
+  },
+  "ims/B120/A5": {
+   "h": 5.0,
+   "n": 3,
+   "khong_bao": 0,
+   "khong_du_du_lieu": 0,
+   "trung_vi_%doi": 0.2125400944947859,
+   "bao_truoc_50%": 3,
+   "bao_truoc_90%": 3,
+   "dao_dong": 1
+  },
+  "ims/B120/A20": {
+   "h": 10.0,
+   "n": 3,
+   "khong_bao": 0,
+   "khong_du_du_lieu": 0,
+   "trung_vi_%doi": 0.249999664340772,
+   "bao_truoc_50%": 2,
+   "bao_truoc_90%": 2,
+   "dao_dong": 0
+  }
+ },
+ "B": {
+  "mot_tai_0HP": {
+   "1": {
+    "auc": 0.7222062625682275,
+    "bao_nham": 1.0,
+    "phat_hien": 0.9717514124293786
+   },
+   "3": {
+    "auc": 0.9980848415206358,
+    "bao_nham": 0.4745762711864407,
+    "phat_hien": 1.0
+   }
+  },
+  "hai_tai_gop": {
+   "1": {
+    "auc": 0.94388585655463,
+    "bao_nham": 0.6271186440677966,
+    "phat_hien": 0.9887005649717514
+   },
+   "3": {
+    "auc": 0.9999042420760318,
+    "bao_nham": 0.5423728813559322,
+    "phat_hien": 1.0
+   }
+  },
+  "hai_tai_chon_loc": {
+   "1": {
+    "auc": 0.9171693957674998,
+    "bao_nham": 0.4745762711864407,
+    "phat_hien": 0.96045197740113
+   },
+   "3": {
+    "auc": 0.9994254524561907,
+    "bao_nham": 0.3220338983050847,
+    "phat_hien": 1.0
+   }
+  }
+ }
+}

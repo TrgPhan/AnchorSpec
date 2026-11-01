@@ -1,0 +1,1151 @@
+{
+ "rows": [
+  {
+   "name": "1_1",
+   "seed": 11,
+   "label": "outer",
+   "dung3": {
+    "co": false,
+    "tu_nhan": false,
+    "acc": 1.0
+   },
+   "sai3": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 1.0
+   },
+   "dung5": {
+    "co": false,
+    "tu_nhan": false,
+    "acc": 1.0
+   },
+   "sai5": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 1.0
+   }
+  },
+  {
+   "name": "1_1",
+   "seed": 29,
+   "label": "outer",
+   "dung3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai3": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 1.0
+   },
+   "dung5": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai5": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 1.0
+   }
+  },
+  {
+   "name": "1_1",
+   "seed": 47,
+   "label": "outer",
+   "dung3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai3": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 1.0
+   },
+   "dung5": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai5": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 1.0
+   }
+  },
+  {
+   "name": "1_2",
+   "seed": 11,
+   "label": "outer",
+   "dung3": {
+    "co": false,
+    "tu_nhan": false,
+    "acc": 1.0
+   },
+   "sai3": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 1.0
+   },
+   "dung5": {
+    "co": false,
+    "tu_nhan": false,
+    "acc": 1.0
+   },
+   "sai5": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 1.0
+   }
+  },
+  {
+   "name": "1_2",
+   "seed": 29,
+   "label": "outer",
+   "dung3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai3": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 1.0
+   },
+   "dung5": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai5": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 1.0
+   }
+  },
+  {
+   "name": "1_2",
+   "seed": 47,
+   "label": "outer",
+   "dung3": {
+    "co": false,
+    "tu_nhan": false,
+    "acc": 0.875
+   },
+   "sai3": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 0.875
+   },
+   "dung5": {
+    "co": false,
+    "tu_nhan": false,
+    "acc": 0.875
+   },
+   "sai5": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 0.875
+   }
+  },
+  {
+   "name": "1_3",
+   "seed": 11,
+   "label": "outer",
+   "dung3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai3": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 1.0
+   },
+   "dung5": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai5": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 1.0
+   }
+  },
+  {
+   "name": "1_3",
+   "seed": 29,
+   "label": "outer",
+   "dung3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai3": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 0.75
+   },
+   "dung5": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai5": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 0.75
+   }
+  },
+  {
+   "name": "1_3",
+   "seed": 47,
+   "label": "outer",
+   "dung3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai3": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 1.0
+   },
+   "dung5": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai5": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 1.0
+   }
+  },
+  {
+   "name": "2_2",
+   "seed": 11,
+   "label": "outer",
+   "dung3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai3": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 1.0
+   },
+   "dung5": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai5": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 1.0
+   }
+  },
+  {
+   "name": "2_2",
+   "seed": 29,
+   "label": "outer",
+   "dung3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai3": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 1.0
+   },
+   "dung5": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai5": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 1.0
+   }
+  },
+  {
+   "name": "2_2",
+   "seed": 47,
+   "label": "outer",
+   "dung3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai3": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 1.0
+   },
+   "dung5": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai5": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 1.0
+   }
+  },
+  {
+   "name": "2_4",
+   "seed": 11,
+   "label": "outer"
+  },
+  {
+   "name": "2_4",
+   "seed": 29,
+   "label": "outer"
+  },
+  {
+   "name": "2_4",
+   "seed": 47,
+   "label": "outer"
+  },
+  {
+   "name": "2_5",
+   "seed": 11,
+   "label": "outer",
+   "dung3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.6470588235294118
+   },
+   "dung5": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai5": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.11764705882352941
+   },
+   "dung10": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai10": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 1.0
+   }
+  },
+  {
+   "name": "2_5",
+   "seed": 29,
+   "label": "outer",
+   "dung3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.6470588235294118
+   },
+   "dung5": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai5": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.11764705882352941
+   },
+   "dung10": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai10": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 1.0
+   }
+  },
+  {
+   "name": "2_5",
+   "seed": 47,
+   "label": "outer",
+   "dung3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "dung5": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai5": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "dung10": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai10": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 1.0
+   }
+  },
+  {
+   "name": "3_1",
+   "seed": 11,
+   "label": "outer",
+   "dung3": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 0.9921259842519685
+   },
+   "sai3": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 0.9921259842519685
+   },
+   "dung5": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 0.9921259842519685
+   },
+   "sai5": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 0.9921259842519685
+   },
+   "dung10": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 0.9921259842519685
+   },
+   "sai10": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 0.9921259842519685
+   }
+  },
+  {
+   "name": "3_1",
+   "seed": 29,
+   "label": "outer",
+   "dung3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.9921259842519685
+   },
+   "sai3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.8267716535433071
+   },
+   "dung5": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai5": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.7716535433070866
+   },
+   "dung10": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai10": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.9212598425196851
+   }
+  },
+  {
+   "name": "3_1",
+   "seed": 47,
+   "label": "outer",
+   "dung3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai3": {
+    "co": false,
+    "tu_nhan": false,
+    "acc": 0.984251968503937
+   },
+   "dung5": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai5": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.889763779527559
+   },
+   "dung10": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai10": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.7795275590551181
+   }
+  },
+  {
+   "name": "3_5",
+   "seed": 11,
+   "label": "outer",
+   "dung3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.0
+   },
+   "dung5": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai5": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.0
+   }
+  },
+  {
+   "name": "3_5",
+   "seed": 29,
+   "label": "outer",
+   "dung3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.0
+   },
+   "dung5": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai5": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.0
+   }
+  },
+  {
+   "name": "3_5",
+   "seed": 47,
+   "label": "outer",
+   "dung3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.0
+   },
+   "dung5": {
+    "co": false,
+    "tu_nhan": false,
+    "acc": 0.16666666666666666
+   },
+   "sai5": {
+    "co": false,
+    "tu_nhan": false,
+    "acc": 0.16666666666666666
+   }
+  },
+  {
+   "name": "2_1",
+   "seed": 11,
+   "label": "inner",
+   "dung3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.36
+   },
+   "sai3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.28
+   },
+   "dung5": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.56
+   },
+   "sai5": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.16
+   },
+   "dung10": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.48
+   },
+   "sai10": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.24
+   }
+  },
+  {
+   "name": "2_1",
+   "seed": 29,
+   "label": "inner",
+   "dung3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.24
+   },
+   "sai3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.4
+   },
+   "dung5": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.24
+   },
+   "sai5": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.2
+   },
+   "dung10": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.28
+   },
+   "sai10": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.24
+   }
+  },
+  {
+   "name": "2_1",
+   "seed": 47,
+   "label": "inner",
+   "dung3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.88
+   },
+   "sai3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.6
+   },
+   "dung5": {
+    "co": false,
+    "tu_nhan": false,
+    "acc": 0.64
+   },
+   "sai5": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.64
+   },
+   "dung10": {
+    "co": false,
+    "tu_nhan": false,
+    "acc": 0.64
+   },
+   "sai10": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.72
+   }
+  },
+  {
+   "name": "3_3",
+   "seed": 11,
+   "label": "inner",
+   "dung3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.8947368421052632
+   },
+   "dung5": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai5": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.8947368421052632
+   },
+   "dung10": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai10": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.7368421052631579
+   }
+  },
+  {
+   "name": "3_3",
+   "seed": 29,
+   "label": "inner",
+   "dung3": {
+    "co": false,
+    "tu_nhan": false,
+    "acc": 0.7894736842105263
+   },
+   "sai3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.7368421052631579
+   },
+   "dung5": {
+    "co": false,
+    "tu_nhan": false,
+    "acc": 0.7894736842105263
+   },
+   "sai5": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.631578947368421
+   },
+   "dung10": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.9473684210526315
+   },
+   "sai10": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.5263157894736842
+   }
+  },
+  {
+   "name": "3_3",
+   "seed": 47,
+   "label": "inner",
+   "dung3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.8947368421052632
+   },
+   "dung5": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai5": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.8947368421052632
+   },
+   "dung10": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai10": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.8421052631578947
+   }
+  },
+  {
+   "name": "3_4",
+   "seed": 11,
+   "label": "inner",
+   "dung3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai3": {
+    "co": false,
+    "tu_nhan": false,
+    "acc": 1.0
+   },
+   "dung5": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai5": {
+    "co": false,
+    "tu_nhan": false,
+    "acc": 1.0
+   },
+   "dung10": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai10": {
+    "co": false,
+    "tu_nhan": false,
+    "acc": 1.0
+   }
+  },
+  {
+   "name": "3_4",
+   "seed": 29,
+   "label": "inner",
+   "dung3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.9605263157894737
+   },
+   "sai3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.9736842105263158
+   },
+   "dung5": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.9736842105263158
+   },
+   "sai5": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.9342105263157895
+   },
+   "dung10": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.9868421052631579
+   },
+   "sai10": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.9342105263157895
+   }
+  },
+  {
+   "name": "3_4",
+   "seed": 47,
+   "label": "inner",
+   "dung3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.9868421052631579
+   },
+   "dung5": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai5": {
+    "co": false,
+    "tu_nhan": false,
+    "acc": 1.0
+   },
+   "dung10": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai10": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   }
+  },
+  {
+   "name": "1_4",
+   "seed": 11,
+   "label": "cage",
+   "dung3": {
+    "co": false,
+    "tu_nhan": false,
+    "acc": 0.16666666666666666
+   },
+   "sai3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.0
+   },
+   "dung5": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai5": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.0
+   }
+  },
+  {
+   "name": "1_4",
+   "seed": 29,
+   "label": "cage",
+   "dung3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.0
+   },
+   "dung5": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai5": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.0
+   }
+  },
+  {
+   "name": "1_4",
+   "seed": 47,
+   "label": "cage",
+   "dung3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai3": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.0
+   },
+   "dung5": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 1.0
+   },
+   "sai5": {
+    "co": false,
+    "tu_nhan": true,
+    "acc": 0.0
+   }
+  },
+  {
+   "name": "2_3",
+   "seed": 11,
+   "label": "cage",
+   "dung3": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 0.037037037037037035
+   },
+   "sai3": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 0.037037037037037035
+   },
+   "dung5": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 0.037037037037037035
+   },
+   "sai5": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 0.037037037037037035
+   },
+   "dung10": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 0.037037037037037035
+   },
+   "sai10": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 0.037037037037037035
+   }
+  },
+  {
+   "name": "2_3",
+   "seed": 29,
+   "label": "cage",
+   "dung3": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 0.037037037037037035
+   },
+   "sai3": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 0.037037037037037035
+   },
+   "dung5": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 0.037037037037037035
+   },
+   "sai5": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 0.037037037037037035
+   },
+   "dung10": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 0.037037037037037035
+   },
+   "sai10": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 0.037037037037037035
+   }
+  },
+  {
+   "name": "2_3",
+   "seed": 47,
+   "label": "cage",
+   "dung3": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 0.037037037037037035
+   },
+   "sai3": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 0.037037037037037035
+   },
+   "dung5": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 0.037037037037037035
+   },
+   "sai5": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 0.037037037037037035
+   },
+   "dung10": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 0.037037037037037035
+   },
+   "sai10": {
+    "co": true,
+    "tu_nhan": false,
+    "acc": 0.037037037037037035
+   }
+  }
+ ],
+ "summary": {
+  "3": {
+   "lo_dung_tu_nhan": 27,
+   "lo_dung": 36,
+   "lo_sai_tu_nhan": 18,
+   "lo_sai": 36,
+   "lo_dung_gan_co": 4,
+   "lo_sai_gan_co": 16
+  },
+  "5": {
+   "lo_dung_tu_nhan": 26,
+   "lo_dung": 36,
+   "lo_sai_tu_nhan": 17,
+   "lo_sai": 36,
+   "lo_dung_gan_co": 4,
+   "lo_sai_gan_co": 16
+  },
+  "10": {
+   "lo_dung_tu_nhan": 13,
+   "lo_dung": 18,
+   "lo_sai_tu_nhan": 10,
+   "lo_sai": 18,
+   "lo_dung_gan_co": 4,
+   "lo_sai_gan_co": 7
+  }
+ },
+ "relevance": {
+  "femto": {
+   "su_kien_dung": 431,
+   "su_kien_sai_truoc": 812,
+   "giu_dung": 93,
+   "sai_con_lai": 281,
+   "giam_bao_nham": 0.6539408866995073,
+   "bo_sot_su_kien_dung": 0.7842227378190255
+  },
+  "xjtu": {
+   "su_kien_dung": 315,
+   "su_kien_sai_truoc": 870,
+   "giu_dung": 125,
+   "sai_con_lai": 259,
+   "giam_bao_nham": 0.7022988505747126,
+   "bo_sot_su_kien_dung": 0.6031746031746033
+  },
+  "ims": {
+   "su_kien_dung": 171,
+   "su_kien_sai_truoc": 0,
+   "giu_dung": 151,
+   "sai_con_lai": 0,
+   "giam_bao_nham": 1.0,
+   "bo_sot_su_kien_dung": 0.11695906432748537
+  }
+ }
+}

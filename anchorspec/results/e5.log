@@ -1,0 +1,22 @@
+files 1702 machines ['M01', 'M02', 'M03'] frames ['Feb_2019', 'Aug_2019', 'Feb_2020', 'Aug_2020', 'Feb_2021', 'Aug_2021'] bad 70
+bo qua cap may-nguyen cong thieu nen 3
+moi_nguyen_cong {'n_good': 763, 'n_bad': 62, 'bao_nham': 0.596, 'phat_hien': 0.694, 'auc': 0.66}
+gop_nguyen_cong {'n_good': 763, 'n_bad': 62, 'bao_nham': 0.047, 'phat_hien': 0.065, 'auc': 0.767}
+may_khac_cung_nguyen_cong {'n_good': 763, 'n_bad': 62, 'bao_nham': 0.565, 'phat_hien': 0.581, 'auc': 0.569}
+lam_moi_nen_moi_dot {'n_good': 58, 'n_bad': 0, 'bao_nham': 0.138, 'phat_hien': None, 'auc': None}
+('M01', 'Feb_2019') {'n_good': 0, 'n_bad': 16, 'bao_nham': None, 'phat_hien': 0.812, 'auc': None}
+('M01', 'Aug_2019') {'n_good': 4, 'n_bad': 6, 'bao_nham': 0.5, 'phat_hien': 0.667, 'auc': 0.792}
+('M01', 'Feb_2020') {'n_good': 29, 'n_bad': 0, 'bao_nham': 0.793, 'phat_hien': None, 'auc': None}
+('M01', 'Feb_2021') {'n_good': 133, 'n_bad': 1, 'bao_nham': 0.632, 'phat_hien': 0.0, 'auc': 0.338}
+('M01', 'Aug_2021') {'n_good': 23, 'n_bad': 3, 'bao_nham': 0.783, 'phat_hien': 1.0, 'auc': 0.783}
+('M02', 'Feb_2019') {'n_good': 0, 'n_bad': 20, 'bao_nham': None, 'phat_hien': 0.7, 'auc': None}
+('M02', 'Aug_2019') {'n_good': 21, 'n_bad': 4, 'bao_nham': 0.429, 'phat_hien': 0.75, 'auc': 0.976}
+('M02', 'Feb_2020') {'n_good': 69, 'n_bad': 0, 'bao_nham': 0.884, 'phat_hien': None, 'auc': None}
+('M02', 'Aug_2020') {'n_good': 57, 'n_bad': 0, 'bao_nham': 0.93, 'phat_hien': None, 'auc': None}
+('M02', 'Feb_2021') {'n_good': 126, 'n_bad': 2, 'bao_nham': 0.603, 'phat_hien': 1.0, 'auc': 0.901}
+('M02', 'Aug_2021') {'n_good': 44, 'n_bad': 1, 'bao_nham': 0.682, 'phat_hien': 1.0, 'auc': 0.955}
+('M03', 'Aug_2019') {'n_good': 8, 'n_bad': 3, 'bao_nham': 0.875, 'phat_hien': 0.333, 'auc': 0.5}
+('M03', 'Feb_2020') {'n_good': 118, 'n_bad': 0, 'bao_nham': 0.237, 'phat_hien': None, 'auc': None}
+('M03', 'Aug_2020') {'n_good': 35, 'n_bad': 0, 'bao_nham': 0.257, 'phat_hien': None, 'auc': None}
+('M03', 'Feb_2021') {'n_good': 54, 'n_bad': 4, 'bao_nham': 0.537, 'phat_hien': 0.5, 'auc': 0.681}
+('M03', 'Aug_2021') {'n_good': 42, 'n_bad': 2, 'bao_nham': 0.619, 'phat_hien': 0.0, 'auc': 0.274}

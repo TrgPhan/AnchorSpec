@@ -1,0 +1,9 @@
+3 {'lo_dung_tu_nhan': 27, 'lo_dung': 36, 'lo_sai_tu_nhan': 18, 'lo_sai': 36, 'lo_dung_gan_co': 4, 'lo_sai_gan_co': 16}
+5 {'lo_dung_tu_nhan': 26, 'lo_dung': 36, 'lo_sai_tu_nhan': 17, 'lo_sai': 36, 'lo_dung_gan_co': 4, 'lo_sai_gan_co': 16}
+10 {'lo_dung_tu_nhan': 13, 'lo_dung': 18, 'lo_sai_tu_nhan': 10, 'lo_sai': 18, 'lo_dung_gan_co': 4, 'lo_sai_gan_co': 7}
+inner {3: (8, 8, 9), 5: (7, 7, 9), 10: (8, 8, 9)}
+outer {3: (17, 7, 21), 5: (16, 7, 21), 10: (5, 2, 6)}
+cage {3: (2, 3, 6), 5: (3, 3, 6), 10: (0, 0, 3)}
+femto {'su_kien_dung': 431, 'su_kien_sai_truoc': 812, 'giu_dung': 93, 'sai_con_lai': 281, 'giam_bao_nham': 0.6539408866995073, 'bo_sot_su_kien_dung': 0.7842227378190255}
+xjtu {'su_kien_dung': 315, 'su_kien_sai_truoc': 870, 'giu_dung': 125, 'sai_con_lai': 259, 'giam_bao_nham': 0.7022988505747126, 'bo_sot_su_kien_dung': 0.6031746031746033}
+ims {'su_kien_dung': 171, 'su_kien_sai_truoc': 0, 'giu_dung': 151, 'sai_con_lai': 0, 'giam_bao_nham': 1.0, 'bo_sot_su_kien_dung': 0.11695906432748537}

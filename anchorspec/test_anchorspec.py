@@ -237,5 +237,28 @@ class Retrain(unittest.TestCase):
         self.assertIn('hieu_chuan', self.m.versions[-1].note)
 
 
+class Funnel(unittest.TestCase):
+    def test_decide_abstains(self):
+        from funnel import decide
+        s = np.array([[.9, .1], [.55, .5], [.2, .1], [.1, .95]])
+        e = np.array([[3., 0.], [3., 0.], [3., 0.], [0., 3.]])
+        tau = np.array([.5, .5])
+        self.assertEqual(decide(s, e, tau).tolist(), [1, 0, 0, 2])
+        self.assertEqual(decide(s, np.zeros((4, 2)), tau, phys=1.).tolist(), [0, 0, 0, 0])
+
+    def test_saturated_background_does_not_block_quota(self):
+        from funnel import injected
+        sen = CheapSensor(range_g=1., bits=None, noise_ug_rthz=0)
+        rng = np.random.default_rng(0)
+        base = np.clip(rng.normal(0, 2, (5, 1, 4000)), -1, 1)  # nền đã bão hòa nặng
+        y = injected(base, 'outer', 3, 25., PADERBORN_6203.orders(), sen, 4000, rng)
+        self.assertEqual(y.shape, (3, 1, 4000))
+
+    def test_uored_geometry(self):
+        from bearing import Bearing
+        o = Bearing(8, 6.77, 28.50).orders()
+        self.assertAlmostEqual(o['bpfo'], 3.05, places=2)
+
+
 if __name__ == '__main__':
     unittest.main()

@@ -1,0 +1,10190 @@
+[
+ {
+  "ds": "xjtu",
+  "n": "1_1",
+  "seed": 29,
+  "lab": "outer",
+  "1k_cu": {
+   "hold_loi": 0.2,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    12
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    12
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    12
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    12
+   ]
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "1_3",
+  "seed": 29,
+  "lab": "outer",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    15
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    15
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    15
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.2,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    15
+   ]
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "2_4",
+  "seed": 11,
+  "lab": "outer",
+  "1k_cu": {
+   "hold_loi": 0.8,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    5
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    5
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    5
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    4,
+    1
+   ]
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "2_2",
+  "seed": 47,
+  "lab": "outer",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    16
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    16
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.2,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    16
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    16
+   ]
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "1_2",
+  "seed": 11,
+  "lab": "outer",
+  "1k_cu": {
+   "hold_loi": 0.8,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    16
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.8,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    16
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.8,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    16
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.6,
+   "hold_n": 5,
+   "late": [
+    0,
+    2,
+    14
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "1",
+  "seed": 47,
+  "lab": "inner",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    8,
+    11
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    6,
+    13
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    4,
+    15
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    11,
+    8
+   ]
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "1_1",
+  "seed": 11,
+  "lab": "outer",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    12
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    12
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    12
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    12
+   ]
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "2_5",
+  "seed": 29,
+  "lab": "outer",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    33
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    33
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    33
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    1,
+    32
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "3",
+  "seed": 47,
+  "lab": "inner",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    16,
+    3
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    15,
+    4
+   ]
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "1_3",
+  "seed": 47,
+  "lab": "outer",
+  "1k_cu": {
+   "hold_loi": 0.2,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    15
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    15
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.2,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    15
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    15
+   ]
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "3_1",
+  "seed": 29,
+  "lab": "outer",
+  "1k_cu": {
+   "hold_loi": 0.2,
+   "hold_n": 5,
+   "late": [
+    0,
+    51,
+    202
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    48,
+    205
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    53,
+    200
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    47,
+    206
+   ]
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "1_2",
+  "seed": 29,
+  "lab": "outer",
+  "1k_cu": {
+   "hold_loi": 0.8,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    16
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.8,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    16
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.8,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    16
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.8,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    16
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "7",
+  "seed": 11,
+  "lab": "outer",
+  "1k_cu": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "late": [
+    0,
+    14,
+    5
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    6,
+    13
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    0,
+    19
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "1",
+  "seed": 11,
+  "lab": "inner",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    10,
+    9
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    7,
+    12
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    1,
+    4,
+    14
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    8,
+    11
+   ]
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "1_3",
+  "seed": 11,
+  "lab": "outer",
+  "1k_cu": {
+   "hold_loi": 0.2,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    15
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    15
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    15
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    15
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "8",
+  "seed": 47,
+  "lab": "outer",
+  "1k_cu": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "late": [
+    13,
+    5,
+    1
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    16,
+    1,
+    2
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    11,
+    8,
+    0
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    11,
+    8
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "3",
+  "seed": 29,
+  "lab": "inner",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    18,
+    1
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    6,
+    13
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    15,
+    4
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    1,
+    18
+   ]
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "2_2",
+  "seed": 29,
+  "lab": "outer",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    16
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    16
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.2,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    16
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    16
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "1",
+  "seed": 29,
+  "lab": "inner",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    11,
+    8
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    6,
+    13
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    2,
+    2,
+    15
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    5,
+    14
+   ]
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "1_2",
+  "seed": 47,
+  "lab": "outer",
+  "1k_cu": {
+   "hold_loi": 1.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    16
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.8,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    16
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.8,
+   "hold_n": 5,
+   "late": [
+    0,
+    2,
+    14
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.8,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    16
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "10",
+  "seed": 11,
+  "lab": "outer",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    0,
+    19
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "3",
+  "seed": 11,
+  "lab": "inner",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    1,
+    18
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    17,
+    2
+   ]
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "3_5",
+  "seed": 47,
+  "lab": "outer",
+  "1k_cu": {
+   "hold_loi": 0.6,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    11
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    11
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 1.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    11
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.2,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    11
+   ]
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "2_4",
+  "seed": 29,
+  "lab": "outer",
+  "1k_cu": {
+   "hold_loi": 0.6,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    5
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    5
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    5
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    1,
+    4
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "9",
+  "seed": 29,
+  "lab": "outer",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    16,
+    3
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    0,
+    19
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    0,
+    19
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "4",
+  "seed": 29,
+  "lab": "inner",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    6,
+    13
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    6,
+    13
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    7,
+    12
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    1,
+    18
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "7",
+  "seed": 29,
+  "lab": "outer",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    5,
+    14
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    0,
+    19
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "2",
+  "seed": 11,
+  "lab": "inner",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    0,
+    19
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    0,
+    19
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    14,
+    5
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "2_4",
+  "seed": 47,
+  "lab": "outer",
+  "1k_cu": {
+   "hold_loi": 0.8,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    5
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    5
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    5
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    5
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "10",
+  "seed": 29,
+  "lab": "outer",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    0,
+    19
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "5",
+  "seed": 47,
+  "lab": "inner",
+  "1k_cu": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "late": [
+    0,
+    4,
+    15
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "late": [
+    0,
+    6,
+    13
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "2",
+  "seed": 29,
+  "lab": "inner",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    0,
+    19
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    0,
+    19
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    0,
+    19
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "14",
+  "seed": 47,
+  "lab": "ball",
+  "1k_cu": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "late": [
+    0,
+    9,
+    10
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    9,
+    10
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    18,
+    1
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    11,
+    8
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "4",
+  "seed": 11,
+  "lab": "inner",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    6,
+    13
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    6,
+    13
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    7,
+    12
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    7,
+    12
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "11",
+  "seed": 11,
+  "lab": "ball",
+  "1k_cu": {
+   "hold_loi": 0.2857142857142857,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "4",
+  "seed": 47,
+  "lab": "inner",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    7,
+    12
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    6,
+    13
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    9,
+    10
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    8,
+    11
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "5",
+  "seed": 11,
+  "lab": "inner",
+  "1k_cu": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "late": [
+    0,
+    5,
+    14
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    2,
+    17
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    15,
+    4
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    8,
+    11
+   ]
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "2_5",
+  "seed": 11,
+  "lab": "outer",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    2,
+    31
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    33
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    2,
+    31
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    33
+   ]
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "2_1",
+  "seed": 11,
+  "lab": "inner",
+  "1k_cu": {
+   "hold_loi": 0.2,
+   "hold_n": 5,
+   "late": [
+    10,
+    32,
+    7
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.2,
+   "hold_n": 5,
+   "late": [
+    14,
+    30,
+    5
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    3,
+    23,
+    23
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    6,
+    33,
+    10
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "16",
+  "seed": 11,
+  "lab": "cage",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "5",
+  "seed": 29,
+  "lab": "inner",
+  "1k_cu": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "late": [
+    0,
+    13,
+    6
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    17,
+    2
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "17",
+  "seed": 47,
+  "lab": "cage",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    16,
+    3
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "8",
+  "seed": 29,
+  "lab": "outer",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    8,
+    11
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    12,
+    6,
+    1
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    16,
+    3
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    16,
+    3
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "9",
+  "seed": 11,
+  "lab": "outer",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    13,
+    6
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    13,
+    6
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    0,
+    19
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    0,
+    19
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "7",
+  "seed": 47,
+  "lab": "outer",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    12,
+    7
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "late": [
+    0,
+    11,
+    8
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    8,
+    11
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "2",
+  "seed": 47,
+  "lab": "inner",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    0,
+    19
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    0,
+    19
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    0,
+    19
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "8",
+  "seed": 11,
+  "lab": "outer",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    12,
+    7,
+    0
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    17,
+    2,
+    0
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    15,
+    4,
+    0
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    16,
+    3
+   ]
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "1_1",
+  "seed": 47,
+  "lab": "outer",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    12
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    12
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    12
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    12
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "6",
+  "seed": 29,
+  "lab": "outer",
+  "1k_cu": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "late": [
+    0,
+    0,
+    19
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    0,
+    19
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    0,
+    19
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "late": [
+    0,
+    0,
+    19
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "11",
+  "seed": 29,
+  "lab": "ball",
+  "1k_cu": {
+   "hold_loi": 0.5714285714285714,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.2857142857142857,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.42857142857142855,
+   "hold_n": 7,
+   "late": [
+    0,
+    18,
+    1
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "14",
+  "seed": 29,
+  "lab": "ball",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    10,
+    9
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    8,
+    11
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    12,
+    7
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "6",
+  "seed": 47,
+  "lab": "outer",
+  "1k_cu": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "late": [
+    0,
+    0,
+    19
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    0,
+    19
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    0,
+    19
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "late": [
+    0,
+    0,
+    19
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "12",
+  "seed": 11,
+  "lab": "ball",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    12,
+    7,
+    0
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "late": [
+    0,
+    13,
+    6
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "6",
+  "seed": 11,
+  "lab": "outer",
+  "1k_cu": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "late": [
+    0,
+    0,
+    19
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    0,
+    19
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    8,
+    11
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    0,
+    19
+   ]
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "3_3",
+  "seed": 11,
+  "lab": "inner",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    23,
+    14
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    6,
+    16,
+    15
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    9,
+    21,
+    7
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    5,
+    27,
+    5
+   ]
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "2_5",
+  "seed": 47,
+  "lab": "outer",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    33
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    33
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    33
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    33
+   ]
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "3_3",
+  "seed": 47,
+  "lab": "inner",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    4,
+    17,
+    16
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    9,
+    23,
+    5
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    6,
+    14,
+    17
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    29,
+    8
+   ]
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "2_2",
+  "seed": 11,
+  "lab": "outer",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    16
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    16
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    16
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    16
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "19",
+  "seed": 47,
+  "lab": "cage",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    14,
+    5,
+    0
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    18,
+    1,
+    0
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    16,
+    3
+   ]
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "3_1",
+  "seed": 11,
+  "lab": "outer",
+  "1k_cu": {
+   "hold_loi": 0.2,
+   "hold_n": 5,
+   "late": [
+    0,
+    52,
+    201
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    52,
+    201
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    1,
+    252
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    151,
+    102
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "14",
+  "seed": 11,
+  "lab": "ball",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    13,
+    6
+   ]
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "1_4",
+  "seed": 11,
+  "lab": "cage",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    12,
+    0
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    11,
+    1
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    12,
+    0
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    11,
+    1
+   ]
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "1_4",
+  "seed": 47,
+  "lab": "cage",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    11,
+    1
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    8,
+    4
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    12,
+    0
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    10,
+    2
+   ]
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "1_4",
+  "seed": 29,
+  "lab": "cage",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    11,
+    1
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    6,
+    6
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    10,
+    2
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    10,
+    2
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "10",
+  "seed": 47,
+  "lab": "outer",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    0,
+    19
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    0,
+    19
+   ]
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "2_1",
+  "seed": 29,
+  "lab": "inner",
+  "1k_cu": {
+   "hold_loi": 0.2,
+   "hold_n": 5,
+   "late": [
+    13,
+    34,
+    2
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.2,
+   "hold_n": 5,
+   "late": [
+    15,
+    17,
+    17
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.2,
+   "hold_n": 5,
+   "late": [
+    2,
+    39,
+    8
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.2,
+   "hold_n": 5,
+   "late": [
+    1,
+    45,
+    3
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "402",
+  "seed": 29,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 0.42857142857142855,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    3,
+    16
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    1,
+    2
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    15,
+    4
+   ],
+   "IO": [
+    0,
+    16,
+    3
+   ],
+   "OB": [
+    0,
+    2,
+    1
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.2857142857142857,
+   "hold_n": 7,
+   "I": [
+    5,
+    4,
+    10
+   ],
+   "O": [
+    1,
+    0,
+    18
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    1,
+    2
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.2857142857142857,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    14,
+    5
+   ],
+   "OB": [
+    0,
+    0,
+    3
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "9",
+  "seed": 47,
+  "lab": "outer",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    9,
+    10
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    6,
+    13
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    0,
+    19
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    0,
+    19
+   ]
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "3_5",
+  "seed": 29,
+  "lab": "outer",
+  "1k_cu": {
+   "hold_loi": 0.4,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    11
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.6,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    11
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 1.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    11
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.6,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    11
+   ]
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "3_4",
+  "seed": 47,
+  "lab": "inner",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    149,
+    2
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    125,
+    26
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    27,
+    124,
+    0
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    137,
+    14
+   ]
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "3_3",
+  "seed": 29,
+  "lab": "inner",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    2,
+    12,
+    23
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    3,
+    16,
+    18
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    3,
+    17,
+    17
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    2,
+    26,
+    9
+   ]
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "2_3",
+  "seed": 11,
+  "lab": "cage",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    53
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    1,
+    52
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    1,
+    52
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    28,
+    25
+   ]
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "3_4",
+  "seed": 11,
+  "lab": "inner",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    151,
+    0
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    145,
+    6
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    44,
+    103,
+    4
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    151,
+    0
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "13",
+  "seed": 11,
+  "lab": "ball",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.2857142857142857,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "11",
+  "seed": 47,
+  "lab": "ball",
+  "1k_cu": {
+   "hold_loi": 0.42857142857142855,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.2857142857142857,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.2857142857142857,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "404",
+  "seed": 47,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 0.42857142857142855,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    18,
+    1
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    2,
+    8
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.2857142857142857,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    19,
+    0
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    10,
+    0
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.5714285714285714,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    19,
+    0
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    8,
+    2,
+    0
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.7142857142857143,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    0,
+    10
+   ]
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "2_3",
+  "seed": 29,
+  "lab": "cage",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    53
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    53
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    1,
+    52
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    8,
+    45
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "404",
+  "seed": 29,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 0.42857142857142855,
+   "hold_n": 7,
+   "I": [
+    0,
+    14,
+    5
+   ],
+   "O": [
+    0,
+    19,
+    0
+   ],
+   "IO": [
+    0,
+    15,
+    4
+   ],
+   "OB": [
+    0,
+    10,
+    0
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.2857142857142857,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    19,
+    0
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    7,
+    3
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.5714285714285714,
+   "hold_n": 7,
+   "I": [
+    13,
+    6,
+    0
+   ],
+   "O": [
+    1,
+    18,
+    0
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    9,
+    0,
+    1
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.42857142857142855,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    4,
+    15
+   ],
+   "OB": [
+    0,
+    0,
+    10
+   ]
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "3_4",
+  "seed": 29,
+  "lab": "inner",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    142,
+    9
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    18,
+    119,
+    14
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    21,
+    130,
+    0
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    151,
+    0
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "12",
+  "seed": 29,
+  "lab": "ball",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    18,
+    0,
+    1
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "3_5",
+  "seed": 11,
+  "lab": "outer",
+  "1k_cu": {
+   "hold_loi": 0.8,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    11
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.4,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    11
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 1.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    11
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 1.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    1,
+    10
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "400",
+  "seed": 29,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 0.8571428571428571,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    14,
+    5
+   ],
+   "IO": [
+    0,
+    6,
+    13
+   ],
+   "OB": [
+    0,
+    15,
+    2
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.7142857142857143,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    18,
+    1
+   ],
+   "IO": [
+    0,
+    0,
+    19
+   ],
+   "OB": [
+    0,
+    17,
+    0
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    19,
+    0
+   ],
+   "IO": [
+    0,
+    12,
+    7
+   ],
+   "OB": [
+    1,
+    16,
+    0
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.7142857142857143,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    10,
+    9
+   ],
+   "IO": [
+    0,
+    18,
+    1
+   ],
+   "OB": [
+    0,
+    4,
+    13
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "13",
+  "seed": 47,
+  "lab": "ball",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.2857142857142857,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "13",
+  "seed": 29,
+  "lab": "ball",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.2857142857142857,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "12",
+  "seed": 47,
+  "lab": "ball",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    16,
+    3,
+    0
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    9,
+    10
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "15",
+  "seed": 29,
+  "lab": "ball",
+  "1k_cu": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "late": [
+    0,
+    18,
+    1
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    10,
+    7,
+    2
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    17,
+    2
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "18",
+  "seed": 29,
+  "lab": "cage",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    17,
+    2
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    4,
+    15
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "402",
+  "seed": 47,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 0.5714285714285714,
+   "hold_n": 7,
+   "I": [
+    0,
+    17,
+    2
+   ],
+   "O": [
+    0,
+    5,
+    14
+   ],
+   "IO": [
+    0,
+    18,
+    1
+   ],
+   "OB": [
+    0,
+    2,
+    1
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.42857142857142855,
+   "hold_n": 7,
+   "I": [
+    0,
+    18,
+    1
+   ],
+   "O": [
+    0,
+    18,
+    1
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    2,
+    1
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.2857142857142857,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    16,
+    3
+   ],
+   "OB": [
+    0,
+    1,
+    2
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.42857142857142855,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    0,
+    3
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "15",
+  "seed": 47,
+  "lab": "ball",
+  "1k_cu": {
+   "hold_loi": 0.2857142857142857,
+   "hold_n": 7,
+   "late": [
+    0,
+    12,
+    7
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    18,
+    1
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    19,
+    0,
+    0
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "15",
+  "seed": 11,
+  "lab": "ball",
+  "1k_cu": {
+   "hold_loi": 0.42857142857142855,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    19,
+    0,
+    0
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "502",
+  "seed": 11,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    1,
+    18
+   ],
+   "IB": [
+    0,
+    18,
+    1
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    6,
+    13
+   ],
+   "IO": [
+    0,
+    0,
+    19
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    8,
+    11
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.2857142857142857,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    18,
+    1
+   ],
+   "IB": [
+    0,
+    10,
+    9
+   ],
+   "OB": [
+    0,
+    1,
+    18
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    1,
+    18
+   ],
+   "IO": [
+    0,
+    7,
+    12
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    14,
+    5
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "16",
+  "seed": 47,
+  "lab": "cage",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "late": [
+    0,
+    13,
+    6
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "20",
+  "seed": 11,
+  "lab": "cage",
+  "1k_cu": {
+   "hold_loi": 0.2857142857142857,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    11,
+    8
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "late": [
+    0,
+    4,
+    15
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    3,
+    16
+   ]
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "2_3",
+  "seed": 47,
+  "lab": "cage",
+  "1k_cu": {
+   "hold_loi": 0.2,
+   "hold_n": 5,
+   "late": [
+    0,
+    0,
+    53
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    1,
+    52
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    1,
+    52
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    5,
+    48
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "20",
+  "seed": 29,
+  "lab": "cage",
+  "1k_cu": {
+   "hold_loi": 0.2857142857142857,
+   "hold_n": 7,
+   "late": [
+    0,
+    4,
+    15
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.2857142857142857,
+   "hold_n": 7,
+   "late": [
+    0,
+    5,
+    14
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "late": [
+    0,
+    5,
+    14
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    0,
+    19
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "17",
+  "seed": 11,
+  "lab": "cage",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "504",
+  "seed": 11,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    1,
+    18
+   ],
+   "B": [
+    0,
+    3,
+    16
+   ],
+   "IO": [
+    0,
+    0,
+    19
+   ],
+   "IB": [
+    0,
+    9,
+    10
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    1,
+    18
+   ],
+   "IB": [
+    0,
+    9,
+    10
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.42857142857142855,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    2,
+    17
+   ],
+   "IO": [
+    0,
+    12,
+    7
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    6,
+    13
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    5,
+    14
+   ],
+   "IO": [
+    0,
+    15,
+    4
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    4,
+    15
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "18",
+  "seed": 47,
+  "lab": "cage",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    12,
+    7
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    6,
+    13
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    5,
+    14
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "20",
+  "seed": 47,
+  "lab": "cage",
+  "1k_cu": {
+   "hold_loi": 0.42857142857142855,
+   "hold_n": 7,
+   "late": [
+    0,
+    14,
+    5
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    18,
+    1
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    3,
+    16
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "late": [
+    0,
+    12,
+    7
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "600",
+  "seed": 47,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 1.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    13,
+    6
+   ],
+   "B": [
+    0,
+    18,
+    1
+   ],
+   "IO": [
+    0,
+    8,
+    11
+   ],
+   "IB": [
+    0,
+    17,
+    3
+   ],
+   "OB": [
+    0,
+    18,
+    1
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    7,
+    12
+   ],
+   "B": [
+    0,
+    12,
+    7
+   ],
+   "IO": [
+    0,
+    10,
+    9
+   ],
+   "IB": [
+    0,
+    1,
+    19
+   ],
+   "OB": [
+    0,
+    2,
+    17
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.42857142857142855,
+   "hold_n": 7,
+   "I": [
+    0,
+    11,
+    8
+   ],
+   "O": [
+    0,
+    11,
+    8
+   ],
+   "B": [
+    0,
+    13,
+    6
+   ],
+   "IO": [
+    0,
+    0,
+    19
+   ],
+   "IB": [
+    5,
+    13,
+    2
+   ],
+   "OB": [
+    0,
+    1,
+    18
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 1.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    16,
+    3
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    17,
+    2
+   ],
+   "IO": [
+    0,
+    1,
+    18
+   ],
+   "IB": [
+    0,
+    16,
+    4
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "500",
+  "seed": 29,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 0.7142857142857143,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    7,
+    12
+   ],
+   "IO": [
+    0,
+    10,
+    9
+   ],
+   "IB": [
+    0,
+    12,
+    7
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.42857142857142855,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    9,
+    10
+   ],
+   "IB": [
+    0,
+    16,
+    3
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    11,
+    8
+   ],
+   "IO": [
+    0,
+    16,
+    3
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    16,
+    3
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    13,
+    6
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    1,
+    18
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "604",
+  "seed": 11,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 0.5714285714285714,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    8,
+    11
+   ],
+   "B": [
+    0,
+    13,
+    0
+   ],
+   "IO": [
+    0,
+    17,
+    2
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    4,
+    15
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.2857142857142857,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    4,
+    11,
+    4
+   ],
+   "B": [
+    0,
+    13,
+    0
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    15,
+    4
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    19,
+    0
+   ],
+   "B": [
+    0,
+    13,
+    0
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 1.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    2,
+    17
+   ],
+   "B": [
+    0,
+    13,
+    0
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    5,
+    14
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "400",
+  "seed": 47,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 1.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    19,
+    0
+   ],
+   "IO": [
+    0,
+    17,
+    2
+   ],
+   "OB": [
+    0,
+    7,
+    10
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.5714285714285714,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    12,
+    7
+   ],
+   "IO": [
+    0,
+    2,
+    17
+   ],
+   "OB": [
+    0,
+    10,
+    7
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    19,
+    0
+   ],
+   "IO": [
+    0,
+    7,
+    12
+   ],
+   "OB": [
+    0,
+    16,
+    1
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.7142857142857143,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    1,
+    18
+   ],
+   "OB": [
+    0,
+    3,
+    14
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "500",
+  "seed": 11,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 0.7142857142857143,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    8,
+    11
+   ],
+   "IB": [
+    0,
+    10,
+    9
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.42857142857142855,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    8,
+    11
+   ],
+   "IB": [
+    0,
+    17,
+    2
+   ],
+   "OB": [
+    0,
+    1,
+    18
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.2857142857142857,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    15,
+    4
+   ],
+   "IB": [
+    0,
+    0,
+    19
+   ],
+   "OB": [
+    0,
+    2,
+    17
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    17,
+    2
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "17",
+  "seed": 29,
+  "lab": "cage",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    15,
+    4
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "700",
+  "seed": 47,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 0.2857142857142857,
+   "hold_n": 7,
+   "I": [
+    0,
+    15,
+    4
+   ],
+   "O": [
+    0,
+    5,
+    14
+   ],
+   "B": [
+    0,
+    16,
+    3
+   ],
+   "IO": [
+    0,
+    15,
+    4
+   ],
+   "IB": [
+    0,
+    18,
+    1
+   ],
+   "OB": [
+    0,
+    1,
+    18
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    14,
+    5
+   ],
+   "O": [
+    0,
+    3,
+    16
+   ],
+   "B": [
+    0,
+    14,
+    5
+   ],
+   "IO": [
+    0,
+    14,
+    5
+   ],
+   "IB": [
+    0,
+    18,
+    1
+   ],
+   "OB": [
+    0,
+    1,
+    18
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 1.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    3,
+    16
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    0,
+    19
+   ],
+   "IB": [
+    0,
+    0,
+    19
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.7142857142857143,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    18,
+    1
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "18",
+  "seed": 11,
+  "lab": "cage",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    9,
+    10
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "602",
+  "seed": 29,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 1.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    9,
+    10
+   ],
+   "B": [
+    0,
+    11,
+    0
+   ],
+   "IO": [
+    0,
+    18,
+    1
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    15,
+    4
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 1.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    13,
+    6
+   ],
+   "B": [
+    0,
+    11,
+    0
+   ],
+   "IO": [
+    0,
+    18,
+    1
+   ],
+   "IB": [
+    0,
+    15,
+    4
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    19,
+    0,
+    0
+   ],
+   "B": [
+    0,
+    11,
+    0
+   ],
+   "IO": [
+    0,
+    18,
+    1
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 1.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    3,
+    16
+   ],
+   "B": [
+    0,
+    11,
+    0
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    9,
+    10
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "400",
+  "seed": 11,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 1.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    19,
+    0
+   ],
+   "IO": [
+    0,
+    0,
+    19
+   ],
+   "OB": [
+    0,
+    8,
+    9
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.2857142857142857,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    15,
+    4
+   ],
+   "IO": [
+    0,
+    0,
+    19
+   ],
+   "OB": [
+    0,
+    14,
+    3
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    19,
+    0
+   ],
+   "IO": [
+    0,
+    17,
+    2
+   ],
+   "OB": [
+    0,
+    15,
+    2
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.8571428571428571,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    1,
+    18
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    2,
+    15
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "704",
+  "seed": 29,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 0.42857142857142855,
+   "hold_n": 7,
+   "I": [
+    0,
+    5,
+    14
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    2,
+    17
+   ],
+   "IB": [
+    0,
+    8,
+    11
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "I": [
+    15,
+    4,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    0,
+    19
+   ],
+   "IB": [
+    0,
+    10,
+    9
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.8571428571428571,
+   "hold_n": 7,
+   "I": [
+    0,
+    18,
+    1
+   ],
+   "O": [
+    0,
+    19,
+    0
+   ],
+   "B": [
+    0,
+    4,
+    15
+   ],
+   "IO": [
+    0,
+    16,
+    3
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    7,
+    12
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.7142857142857143,
+   "hold_n": 7,
+   "I": [
+    0,
+    18,
+    1
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    6,
+    13
+   ],
+   "IO": [
+    0,
+    15,
+    4
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "19",
+  "seed": 11,
+  "lab": "cage",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    5,
+    14,
+    0
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    17,
+    1,
+    1
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    17,
+    2
+   ]
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "2_1",
+  "seed": 47,
+  "lab": "inner",
+  "1k_cu": {
+   "hold_loi": 0.2,
+   "hold_n": 5,
+   "late": [
+    12,
+    21,
+    16
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.2,
+   "hold_n": 5,
+   "late": [
+    16,
+    33,
+    0
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    12,
+    27,
+    10
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    9,
+    28,
+    12
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "504",
+  "seed": 29,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    5,
+    14
+   ],
+   "B": [
+    0,
+    6,
+    13
+   ],
+   "IO": [
+    0,
+    0,
+    19
+   ],
+   "IB": [
+    0,
+    7,
+    12
+   ],
+   "OB": [
+    0,
+    2,
+    17
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    1,
+    18
+   ],
+   "IO": [
+    0,
+    0,
+    19
+   ],
+   "IB": [
+    0,
+    10,
+    9
+   ],
+   "OB": [
+    0,
+    1,
+    18
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    4,
+    15
+   ],
+   "IO": [
+    0,
+    13,
+    6
+   ],
+   "IB": [
+    0,
+    16,
+    3
+   ],
+   "OB": [
+    0,
+    4,
+    15
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    0,
+    19
+   ],
+   "IB": [
+    0,
+    5,
+    14
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "502",
+  "seed": 29,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    1,
+    18
+   ],
+   "B": [
+    0,
+    10,
+    9
+   ],
+   "IO": [
+    0,
+    0,
+    19
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    4,
+    15
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    1,
+    18
+   ],
+   "IO": [
+    0,
+    0,
+    19
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    7,
+    12
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.42857142857142855,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    0,
+    19
+   ],
+   "IB": [
+    0,
+    8,
+    11
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.2857142857142857,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    0,
+    19
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "802",
+  "seed": 11,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    10,
+    9
+   ],
+   "O": [
+    0,
+    7,
+    12
+   ],
+   "B": [
+    0,
+    1,
+    13
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "IB": [
+    0,
+    9,
+    10
+   ],
+   "OB": [
+    0,
+    14,
+    5
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    5,
+    14
+   ],
+   "B": [
+    0,
+    1,
+    13
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    17,
+    2
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    0,
+    19
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    0,
+    14
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "IB": [
+    0,
+    4,
+    15
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.42857142857142855,
+   "hold_n": 7,
+   "I": [
+    0,
+    9,
+    10
+   ],
+   "O": [
+    0,
+    8,
+    11
+   ],
+   "B": [
+    0,
+    1,
+    13
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "IB": [
+    0,
+    18,
+    1
+   ],
+   "OB": [
+    0,
+    6,
+    13
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "500",
+  "seed": 47,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 0.7142857142857143,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    0,
+    19
+   ],
+   "IB": [
+    0,
+    13,
+    6
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.42857142857142855,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    0,
+    19
+   ],
+   "IB": [
+    0,
+    14,
+    5
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.2857142857142857,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    3,
+    16
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    6,
+    13
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    7,
+    12
+   ],
+   "IO": [
+    0,
+    18,
+    1
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    8,
+    11
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "504",
+  "seed": 47,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    1,
+    18
+   ],
+   "IB": [
+    0,
+    5,
+    14
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    0,
+    19
+   ],
+   "IB": [
+    0,
+    9,
+    10
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "I": [
+    0,
+    7,
+    12
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    0,
+    19
+   ],
+   "IB": [
+    0,
+    0,
+    19
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    14,
+    5
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "604",
+  "seed": 47,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 0.2857142857142857,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    12,
+    7
+   ],
+   "B": [
+    0,
+    13,
+    0
+   ],
+   "IO": [
+    0,
+    16,
+    3
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    6,
+    13
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.2857142857142857,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    11,
+    8
+   ],
+   "B": [
+    0,
+    13,
+    0
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    3,
+    16
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    19,
+    0
+   ],
+   "B": [
+    0,
+    13,
+    0
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 1.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    5,
+    14
+   ],
+   "B": [
+    0,
+    13,
+    0
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    13,
+    6
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "402",
+  "seed": 11,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 0.42857142857142855,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    17,
+    2
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    3,
+    0
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    3,
+    16
+   ],
+   "IO": [
+    0,
+    18,
+    1
+   ],
+   "OB": [
+    0,
+    0,
+    3
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    2,
+    1
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.2857142857142857,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    17,
+    2
+   ],
+   "OB": [
+    0,
+    1,
+    2
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "702",
+  "seed": 47,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 1.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    6,
+    13
+   ],
+   "O": [
+    0,
+    1,
+    18
+   ],
+   "B": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    5,
+    14
+   ],
+   "IB": [
+    0,
+    13,
+    6
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 1.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    0,
+    19
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    17,
+    2
+   ],
+   "IO": [
+    0,
+    0,
+    19
+   ],
+   "IB": [
+    0,
+    4,
+    15
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.8571428571428571,
+   "hold_n": 7,
+   "I": [
+    0,
+    0,
+    19
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    7,
+    12
+   ],
+   "IB": [
+    0,
+    1,
+    18
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.7142857142857143,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    5,
+    14
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "802",
+  "seed": 47,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    11,
+    8
+   ],
+   "B": [
+    0,
+    4,
+    10
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    18,
+    1
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    2,
+    17
+   ],
+   "O": [
+    0,
+    3,
+    16
+   ],
+   "B": [
+    0,
+    0,
+    14
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "IB": [
+    0,
+    13,
+    6
+   ],
+   "OB": [
+    0,
+    8,
+    11
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    5,
+    13,
+    1
+   ],
+   "B": [
+    0,
+    4,
+    10
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.42857142857142855,
+   "hold_n": 7,
+   "I": [
+    0,
+    2,
+    17
+   ],
+   "O": [
+    0,
+    11,
+    8
+   ],
+   "B": [
+    0,
+    0,
+    14
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "IB": [
+    0,
+    8,
+    11
+   ],
+   "OB": [
+    0,
+    12,
+    7
+   ]
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "3_1",
+  "seed": 47,
+  "lab": "outer",
+  "1k_cu": {
+   "hold_loi": 0.2,
+   "hold_n": 5,
+   "late": [
+    0,
+    62,
+    191
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    51,
+    202
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    18,
+    235
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 5,
+   "late": [
+    0,
+    176,
+    77
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "404",
+  "seed": 11,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 0.5714285714285714,
+   "hold_n": 7,
+   "I": [
+    0,
+    18,
+    1
+   ],
+   "O": [
+    0,
+    19,
+    0
+   ],
+   "IO": [
+    0,
+    18,
+    1
+   ],
+   "OB": [
+    0,
+    10,
+    0
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.42857142857142855,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    18,
+    1
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    1,
+    9
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.7142857142857143,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    19,
+    0
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    10,
+    0
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.42857142857142855,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    0,
+    10
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "602",
+  "seed": 11,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 1.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    10,
+    9
+   ],
+   "B": [
+    0,
+    11,
+    0
+   ],
+   "IO": [
+    0,
+    18,
+    1
+   ],
+   "IB": [
+    0,
+    18,
+    1
+   ],
+   "OB": [
+    0,
+    19,
+    0
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 1.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    1,
+    6,
+    12
+   ],
+   "B": [
+    0,
+    11,
+    0
+   ],
+   "IO": [
+    0,
+    18,
+    1
+   ],
+   "IB": [
+    0,
+    18,
+    1
+   ],
+   "OB": [
+    0,
+    7,
+    12
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    2,
+    17,
+    0
+   ],
+   "B": [
+    0,
+    11,
+    0
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 1.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    6,
+    13
+   ],
+   "B": [
+    0,
+    11,
+    0
+   ],
+   "IO": [
+    0,
+    18,
+    1
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "600",
+  "seed": 29,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 1.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    14,
+    5
+   ],
+   "B": [
+    0,
+    16,
+    3
+   ],
+   "IO": [
+    0,
+    9,
+    10
+   ],
+   "IB": [
+    0,
+    18,
+    2
+   ],
+   "OB": [
+    0,
+    19,
+    0
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 1.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    10,
+    9
+   ],
+   "B": [
+    0,
+    19,
+    0
+   ],
+   "IO": [
+    0,
+    3,
+    16
+   ],
+   "IB": [
+    0,
+    19,
+    1
+   ],
+   "OB": [
+    0,
+    18,
+    1
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.7142857142857143,
+   "hold_n": 7,
+   "I": [
+    0,
+    0,
+    19
+   ],
+   "O": [
+    0,
+    2,
+    17
+   ],
+   "B": [
+    0,
+    7,
+    12
+   ],
+   "IO": [
+    0,
+    0,
+    19
+   ],
+   "IB": [
+    8,
+    9,
+    3
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.8571428571428571,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    19,
+    0
+   ],
+   "IO": [
+    0,
+    18,
+    1
+   ],
+   "IB": [
+    0,
+    18,
+    2
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "19",
+  "seed": 29,
+  "lab": "cage",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    19,
+    0,
+    0
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "602",
+  "seed": 47,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 1.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    12,
+    7
+   ],
+   "B": [
+    0,
+    11,
+    0
+   ],
+   "IO": [
+    0,
+    18,
+    1
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    9,
+    10
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 1.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    16,
+    3
+   ],
+   "B": [
+    0,
+    11,
+    0
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "IB": [
+    0,
+    14,
+    5
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    14,
+    0,
+    5
+   ],
+   "B": [
+    0,
+    10,
+    1
+   ],
+   "IO": [
+    0,
+    6,
+    13
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    14,
+    5
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 1.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    11,
+    8
+   ],
+   "B": [
+    0,
+    11,
+    0
+   ],
+   "IO": [
+    0,
+    13,
+    6
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "704",
+  "seed": 47,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 0.8571428571428571,
+   "hold_n": 7,
+   "I": [
+    0,
+    3,
+    16
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    0,
+    19
+   ],
+   "IB": [
+    0,
+    9,
+    10
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.2857142857142857,
+   "hold_n": 7,
+   "I": [
+    13,
+    6,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    15,
+    4
+   ],
+   "IO": [
+    0,
+    3,
+    16
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.8571428571428571,
+   "hold_n": 7,
+   "I": [
+    0,
+    0,
+    19
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    0,
+    19
+   ],
+   "IB": [
+    0,
+    2,
+    17
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.5714285714285714,
+   "hold_n": 7,
+   "I": [
+    0,
+    16,
+    3
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    4,
+    15
+   ],
+   "IO": [
+    0,
+    14,
+    5
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "502",
+  "seed": 47,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    0,
+    19
+   ],
+   "IB": [
+    0,
+    18,
+    1
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    0,
+    19
+   ],
+   "IB": [
+    0,
+    18,
+    1
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.42857142857142855,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    0,
+    19
+   ],
+   "IB": [
+    0,
+    0,
+    19
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.42857142857142855,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    0,
+    19
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "704",
+  "seed": 11,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 0.5714285714285714,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    0,
+    19
+   ],
+   "IB": [
+    0,
+    17,
+    2
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "I": [
+    6,
+    13,
+    0
+   ],
+   "O": [
+    0,
+    1,
+    18
+   ],
+   "B": [
+    0,
+    10,
+    9
+   ],
+   "IO": [
+    0,
+    0,
+    19
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.42857142857142855,
+   "hold_n": 7,
+   "I": [
+    0,
+    18,
+    1
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    11,
+    8
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    16,
+    3
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    10,
+    9
+   ],
+   "IO": [
+    0,
+    15,
+    4
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "800",
+  "seed": 47,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 0.8571428571428571,
+   "hold_n": 7,
+   "I": [
+    0,
+    10,
+    9
+   ],
+   "O": [
+    0,
+    9,
+    10
+   ],
+   "B": [
+    0,
+    4,
+    8
+   ],
+   "IO": [
+    0,
+    0,
+    19
+   ],
+   "IB": [
+    0,
+    17,
+    2
+   ],
+   "OB": [
+    0,
+    15,
+    4
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.7142857142857143,
+   "hold_n": 7,
+   "I": [
+    0,
+    10,
+    9
+   ],
+   "O": [
+    0,
+    4,
+    15
+   ],
+   "B": [
+    0,
+    3,
+    9
+   ],
+   "IO": [
+    0,
+    1,
+    18
+   ],
+   "IB": [
+    0,
+    17,
+    2
+   ],
+   "OB": [
+    0,
+    10,
+    9
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "I": [
+    5,
+    3,
+    11
+   ],
+   "O": [
+    18,
+    1,
+    0
+   ],
+   "B": [
+    2,
+    3,
+    7
+   ],
+   "IO": [
+    1,
+    0,
+    18
+   ],
+   "IB": [
+    0,
+    3,
+    16
+   ],
+   "OB": [
+    19,
+    0,
+    0
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.5714285714285714,
+   "hold_n": 7,
+   "I": [
+    0,
+    10,
+    9
+   ],
+   "O": [
+    0,
+    16,
+    3
+   ],
+   "B": [
+    0,
+    4,
+    8
+   ],
+   "IO": [
+    0,
+    1,
+    18
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    11,
+    8
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "702",
+  "seed": 11,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 1.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    11,
+    8
+   ],
+   "O": [
+    0,
+    7,
+    12
+   ],
+   "B": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    10,
+    9
+   ],
+   "IB": [
+    0,
+    18,
+    1
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 1.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    0,
+    19
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    8,
+    11
+   ],
+   "IO": [
+    0,
+    2,
+    17
+   ],
+   "IB": [
+    0,
+    10,
+    9
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.7142857142857143,
+   "hold_n": 7,
+   "I": [
+    0,
+    0,
+    19
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    3,
+    16
+   ],
+   "IB": [
+    0,
+    5,
+    14
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.5714285714285714,
+   "hold_n": 7,
+   "I": [
+    0,
+    17,
+    2
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    6,
+    13
+   ],
+   "IO": [
+    0,
+    14,
+    5
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "804",
+  "seed": 29,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 0.2857142857142857,
+   "hold_n": 7,
+   "I": [
+    0,
+    6,
+    13
+   ],
+   "O": [
+    0,
+    11,
+    8
+   ],
+   "B": [
+    0,
+    0,
+    7
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "IB": [
+    0,
+    7,
+    12
+   ],
+   "OB": [
+    0,
+    0,
+    9
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "I": [
+    0,
+    0,
+    19
+   ],
+   "O": [
+    0,
+    5,
+    14
+   ],
+   "B": [
+    0,
+    0,
+    7
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "IB": [
+    0,
+    9,
+    10
+   ],
+   "OB": [
+    0,
+    0,
+    9
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    14,
+    5
+   ],
+   "O": [
+    13,
+    4,
+    2
+   ],
+   "B": [
+    0,
+    5,
+    2
+   ],
+   "IO": [
+    0,
+    9,
+    10
+   ],
+   "IB": [
+    0,
+    17,
+    2
+   ],
+   "OB": [
+    0,
+    0,
+    9
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.7142857142857143,
+   "hold_n": 7,
+   "I": [
+    0,
+    5,
+    14
+   ],
+   "O": [
+    0,
+    2,
+    17
+   ],
+   "B": [
+    0,
+    0,
+    7
+   ],
+   "IO": [
+    0,
+    7,
+    12
+   ],
+   "IB": [
+    0,
+    1,
+    18
+   ],
+   "OB": [
+    0,
+    0,
+    9
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "802",
+  "seed": 29,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 0.2857142857142857,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    4,
+    15
+   ],
+   "B": [
+    0,
+    8,
+    6
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "IB": [
+    0,
+    12,
+    7
+   ],
+   "OB": [
+    0,
+    12,
+    7
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    5,
+    14
+   ],
+   "B": [
+    0,
+    2,
+    12
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    13,
+    6
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    2,
+    0,
+    17
+   ],
+   "B": [
+    0,
+    1,
+    13
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "IB": [
+    0,
+    18,
+    1
+   ],
+   "OB": [
+    2,
+    0,
+    17
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.42857142857142855,
+   "hold_n": 7,
+   "I": [
+    0,
+    6,
+    13
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    1,
+    13
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "IB": [
+    0,
+    12,
+    7
+   ],
+   "OB": [
+    0,
+    6,
+    13
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "600",
+  "seed": 11,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 1.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    9,
+    10
+   ],
+   "B": [
+    0,
+    18,
+    1
+   ],
+   "IO": [
+    0,
+    9,
+    10
+   ],
+   "IB": [
+    0,
+    14,
+    6
+   ],
+   "OB": [
+    0,
+    14,
+    5
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.8571428571428571,
+   "hold_n": 7,
+   "I": [
+    0,
+    18,
+    1
+   ],
+   "O": [
+    2,
+    6,
+    11
+   ],
+   "B": [
+    0,
+    12,
+    7
+   ],
+   "IO": [
+    0,
+    11,
+    8
+   ],
+   "IB": [
+    0,
+    13,
+    7
+   ],
+   "OB": [
+    0,
+    12,
+    7
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "I": [
+    0,
+    1,
+    18
+   ],
+   "O": [
+    2,
+    3,
+    14
+   ],
+   "B": [
+    0,
+    13,
+    6
+   ],
+   "IO": [
+    0,
+    0,
+    19
+   ],
+   "IB": [
+    8,
+    8,
+    4
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.8571428571428571,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    6,
+    13
+   ],
+   "B": [
+    0,
+    16,
+    3
+   ],
+   "IO": [
+    0,
+    1,
+    18
+   ],
+   "IB": [
+    0,
+    16,
+    4
+   ],
+   "OB": [
+    0,
+    2,
+    17
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "800",
+  "seed": 11,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 0.8571428571428571,
+   "hold_n": 7,
+   "I": [
+    0,
+    10,
+    9
+   ],
+   "O": [
+    0,
+    12,
+    7
+   ],
+   "B": [
+    0,
+    3,
+    9
+   ],
+   "IO": [
+    0,
+    0,
+    19
+   ],
+   "IB": [
+    0,
+    18,
+    1
+   ],
+   "OB": [
+    0,
+    15,
+    4
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.5714285714285714,
+   "hold_n": 7,
+   "I": [
+    0,
+    10,
+    9
+   ],
+   "O": [
+    0,
+    8,
+    11
+   ],
+   "B": [
+    0,
+    4,
+    8
+   ],
+   "IO": [
+    0,
+    1,
+    18
+   ],
+   "IB": [
+    0,
+    18,
+    1
+   ],
+   "OB": [
+    0,
+    13,
+    6
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "I": [
+    11,
+    6,
+    2
+   ],
+   "O": [
+    15,
+    4,
+    0
+   ],
+   "B": [
+    2,
+    7,
+    3
+   ],
+   "IO": [
+    1,
+    5,
+    13
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    19,
+    0,
+    0
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.5714285714285714,
+   "hold_n": 7,
+   "I": [
+    0,
+    9,
+    10
+   ],
+   "O": [
+    0,
+    9,
+    10
+   ],
+   "B": [
+    0,
+    2,
+    10
+   ],
+   "IO": [
+    0,
+    0,
+    19
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    17,
+    2
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "800",
+  "seed": 29,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 0.5714285714285714,
+   "hold_n": 7,
+   "I": [
+    0,
+    10,
+    9
+   ],
+   "O": [
+    0,
+    7,
+    12
+   ],
+   "B": [
+    0,
+    3,
+    9
+   ],
+   "IO": [
+    0,
+    1,
+    18
+   ],
+   "IB": [
+    0,
+    18,
+    1
+   ],
+   "OB": [
+    0,
+    14,
+    5
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.8571428571428571,
+   "hold_n": 7,
+   "I": [
+    0,
+    10,
+    9
+   ],
+   "O": [
+    0,
+    3,
+    16
+   ],
+   "B": [
+    0,
+    5,
+    7
+   ],
+   "IO": [
+    0,
+    1,
+    18
+   ],
+   "IB": [
+    0,
+    18,
+    1
+   ],
+   "OB": [
+    0,
+    13,
+    6
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "I": [
+    10,
+    1,
+    8
+   ],
+   "O": [
+    18,
+    0,
+    1
+   ],
+   "B": [
+    3,
+    8,
+    1
+   ],
+   "IO": [
+    1,
+    5,
+    13
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    19,
+    0,
+    0
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.42857142857142855,
+   "hold_n": 7,
+   "I": [
+    0,
+    16,
+    3
+   ],
+   "O": [
+    0,
+    18,
+    1
+   ],
+   "B": [
+    0,
+    7,
+    5
+   ],
+   "IO": [
+    0,
+    7,
+    12
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    14,
+    5
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "804",
+  "seed": 11,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 0.42857142857142855,
+   "hold_n": 7,
+   "I": [
+    0,
+    1,
+    18
+   ],
+   "O": [
+    0,
+    9,
+    10
+   ],
+   "B": [
+    0,
+    0,
+    7
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "IB": [
+    0,
+    11,
+    8
+   ],
+   "OB": [
+    0,
+    0,
+    9
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.42857142857142855,
+   "hold_n": 7,
+   "I": [
+    0,
+    17,
+    2
+   ],
+   "O": [
+    0,
+    13,
+    6
+   ],
+   "B": [
+    0,
+    2,
+    5
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "IB": [
+    0,
+    15,
+    4
+   ],
+   "OB": [
+    0,
+    1,
+    8
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    0,
+    19
+   ],
+   "O": [
+    16,
+    2,
+    1
+   ],
+   "B": [
+    0,
+    0,
+    7
+   ],
+   "IO": [
+    0,
+    0,
+    19
+   ],
+   "IB": [
+    0,
+    0,
+    19
+   ],
+   "OB": [
+    0,
+    0,
+    9
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.7142857142857143,
+   "hold_n": 7,
+   "I": [
+    0,
+    0,
+    19
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    0,
+    7
+   ],
+   "IO": [
+    0,
+    18,
+    1
+   ],
+   "IB": [
+    0,
+    6,
+    13
+   ],
+   "OB": [
+    0,
+    0,
+    9
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "700",
+  "seed": 29,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 0.2857142857142857,
+   "hold_n": 7,
+   "I": [
+    0,
+    11,
+    8
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    6,
+    13
+   ],
+   "IO": [
+    0,
+    10,
+    9
+   ],
+   "IB": [
+    0,
+    9,
+    10
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    14,
+    5
+   ],
+   "O": [
+    0,
+    4,
+    15
+   ],
+   "B": [
+    0,
+    12,
+    7
+   ],
+   "IO": [
+    0,
+    14,
+    5
+   ],
+   "IB": [
+    0,
+    16,
+    3
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 1.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    13,
+    6
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    7,
+    12
+   ],
+   "IO": [
+    0,
+    0,
+    19
+   ],
+   "IB": [
+    0,
+    18,
+    1
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.8571428571428571,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    15,
+    4
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "804",
+  "seed": 47,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 0.42857142857142855,
+   "hold_n": 7,
+   "I": [
+    0,
+    1,
+    18
+   ],
+   "O": [
+    0,
+    13,
+    6
+   ],
+   "B": [
+    0,
+    0,
+    7
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "IB": [
+    0,
+    12,
+    7
+   ],
+   "OB": [
+    0,
+    0,
+    9
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.2857142857142857,
+   "hold_n": 7,
+   "I": [
+    0,
+    1,
+    18
+   ],
+   "O": [
+    1,
+    13,
+    5
+   ],
+   "B": [
+    0,
+    0,
+    7
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "IB": [
+    0,
+    10,
+    9
+   ],
+   "OB": [
+    0,
+    0,
+    9
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    0,
+    19
+   ],
+   "O": [
+    2,
+    0,
+    17
+   ],
+   "B": [
+    0,
+    0,
+    7
+   ],
+   "IO": [
+    0,
+    4,
+    15
+   ],
+   "IB": [
+    0,
+    0,
+    19
+   ],
+   "OB": [
+    0,
+    0,
+    9
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.7142857142857143,
+   "hold_n": 7,
+   "I": [
+    0,
+    1,
+    18
+   ],
+   "O": [
+    0,
+    2,
+    17
+   ],
+   "B": [
+    0,
+    0,
+    7
+   ],
+   "IO": [
+    0,
+    18,
+    1
+   ],
+   "IB": [
+    0,
+    1,
+    18
+   ],
+   "OB": [
+    0,
+    0,
+    9
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "604",
+  "seed": 29,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 0.42857142857142855,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    6,
+    13
+   ],
+   "B": [
+    0,
+    13,
+    0
+   ],
+   "IO": [
+    0,
+    4,
+    15
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    6,
+    13
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.7142857142857143,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    14,
+    5
+   ],
+   "B": [
+    0,
+    13,
+    0
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    4,
+    15
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    18,
+    1
+   ],
+   "O": [
+    19,
+    0,
+    0
+   ],
+   "B": [
+    0,
+    13,
+    0
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 1.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    1,
+    18
+   ],
+   "B": [
+    0,
+    13,
+    0
+   ],
+   "IO": [
+    0,
+    19,
+    0
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    3,
+    16
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "700",
+  "seed": 11,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 0.42857142857142855,
+   "hold_n": 7,
+   "I": [
+    0,
+    17,
+    2
+   ],
+   "O": [
+    0,
+    2,
+    17
+   ],
+   "B": [
+    0,
+    8,
+    11
+   ],
+   "IO": [
+    0,
+    13,
+    6
+   ],
+   "IB": [
+    0,
+    17,
+    2
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    12,
+    7
+   ],
+   "O": [
+    0,
+    1,
+    18
+   ],
+   "B": [
+    0,
+    5,
+    14
+   ],
+   "IO": [
+    0,
+    5,
+    14
+   ],
+   "IB": [
+    0,
+    15,
+    4
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 1.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    1,
+    18
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    0,
+    19
+   ],
+   "IO": [
+    0,
+    2,
+    17
+   ],
+   "IB": [
+    0,
+    1,
+    18
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 1.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    19,
+    0
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    2,
+    17
+   ],
+   "IO": [
+    0,
+    17,
+    2
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  }
+ },
+ {
+  "ds": "hust",
+  "n": "702",
+  "seed": 29,
+  "lab": "many",
+  "1k_cu": {
+   "hold_loi": 1.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    6,
+    13
+   ],
+   "O": [
+    0,
+    4,
+    15
+   ],
+   "B": [
+    0,
+    1,
+    18
+   ],
+   "IO": [
+    0,
+    18,
+    1
+   ],
+   "IB": [
+    0,
+    16,
+    3
+   ],
+   "OB": [
+    0,
+    1,
+    18
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 1.0,
+   "hold_n": 7,
+   "I": [
+    0,
+    2,
+    17
+   ],
+   "O": [
+    0,
+    1,
+    18
+   ],
+   "B": [
+    0,
+    12,
+    7
+   ],
+   "IO": [
+    0,
+    4,
+    15
+   ],
+   "IB": [
+    0,
+    8,
+    11
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.7142857142857143,
+   "hold_n": 7,
+   "I": [
+    0,
+    2,
+    17
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    14,
+    5
+   ],
+   "IO": [
+    0,
+    6,
+    13
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.42857142857142855,
+   "hold_n": 7,
+   "I": [
+    0,
+    16,
+    3
+   ],
+   "O": [
+    0,
+    0,
+    19
+   ],
+   "B": [
+    0,
+    7,
+    12
+   ],
+   "IO": [
+    0,
+    14,
+    5
+   ],
+   "IB": [
+    0,
+    19,
+    0
+   ],
+   "OB": [
+    0,
+    0,
+    19
+   ]
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "16",
+  "seed": 29,
+  "lab": "cage",
+  "1k_cu": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    15,
+    4
+   ]
+  },
+  "1k_rong": {
+   "hold_loi": 0.0,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_cu": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  },
+  "6k_rong": {
+   "hold_loi": 0.14285714285714285,
+   "hold_n": 7,
+   "late": [
+    0,
+    19,
+    0
+   ]
+  }
+ }
+]

@@ -1,0 +1,16 @@
+thu vien {'xjtu': 1828, 'paderborn': 2040, 'cwru': 275, 'ims': 1035}
+xjtu A0 {'macro': 0.848, 'inner': 0.721, 'outer': 0.976, 'binh_thuong': 0.764, 'tgf': 0.921}
+xjtu L {'macro': 0.518, 'inner': 0.137, 'outer': 0.899, 'binh_thuong': 0.806, 'tgf': 0.767}
+xjtu A0+L {'macro': 0.864, 'inner': 0.75, 'outer': 0.977, 'binh_thuong': 0.739, 'tgf': 0.927}
+xjtu A0+L_bat_bien {'macro': 0.826, 'inner': 0.676, 'outer': 0.975, 'binh_thuong': 0.745, 'tgf': 0.904}
+xjtu A0_bat_bien {'macro': 0.859, 'inner': 0.747, 'outer': 0.971, 'binh_thuong': 0.715, 'tgf': 0.941}
+paderborn A0 {'macro': 0.669, 'inner': 0.765, 'outer': 0.573, 'binh_thuong': 0.791, 'tgf': 0.726}
+paderborn L {'macro': 0.606, 'inner': 0.32, 'outer': 0.893, 'binh_thuong': 0.942, 'tgf': 0.624}
+paderborn A0+L {'macro': 0.643, 'inner': 0.714, 'outer': 0.572, 'binh_thuong': 0.884, 'tgf': 0.686}
+paderborn A0+L_bat_bien {'macro': 0.584, 'inner': 0.584, 'outer': 0.584, 'binh_thuong': 0.443, 'tgf': 0.733}
+paderborn A0_bat_bien {'macro': 0.581, 'inner': 0.693, 'outer': 0.468, 'binh_thuong': 0.467, 'tgf': 0.745}
+ims A0 {'macro': 0.633, 'inner': 0.564, 'outer': 0.702, 'binh_thuong': 0.911, 'tgf': 0.71}
+ims L {'macro': 0.333, 'inner': 0.395, 'outer': 0.271, 'binh_thuong': 1.0, 'tgf': 0.438}
+ims A0+L {'macro': 0.738, 'inner': 0.905, 'outer': 0.571, 'binh_thuong': 1.0, 'tgf': 0.735}
+ims A0+L_bat_bien {'macro': 0.635, 'inner': 0.902, 'outer': 0.367, 'binh_thuong': 0.844, 'tgf': 0.631}
+ims A0_bat_bien {'macro': 0.419, 'inner': 0.15, 'outer': 0.687, 'binh_thuong': 0.733, 'tgf': 0.576}

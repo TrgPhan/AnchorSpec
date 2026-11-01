@@ -1,0 +1,563 @@
+[
+ {
+  "ds": "xjtu",
+  "n": "1_1",
+  "lab": "outer",
+  "seed": 11,
+  "dev": "cuda",
+  "A_cay": {
+   "acc": 1.0,
+   "hold": 1.0,
+   "tgf": 1.0
+  },
+  "D_that": {
+   "acc": 0.0,
+   "hold": 1.0,
+   "tgf": 0.0
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "1_3",
+  "lab": "outer",
+  "seed": 11,
+  "dev": "cuda",
+  "A_cay": {
+   "acc": 1.0,
+   "hold": 1.0,
+   "tgf": 1.0
+  },
+  "D_that": {
+   "acc": 0.0,
+   "hold": 1.0,
+   "tgf": 0.0
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "2_2",
+  "lab": "outer",
+  "seed": 11,
+  "dev": "cuda",
+  "A_cay": {
+   "acc": 0.125,
+   "hold": 1.0,
+   "tgf": 1.0
+  },
+  "D_that": {
+   "acc": 0.0,
+   "hold": 1.0,
+   "tgf": 0.0
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "2_4",
+  "lab": "outer",
+  "seed": 11,
+  "dev": "cuda",
+  "A_cay": {
+   "acc": 0.0,
+   "hold": 1.0,
+   "tgf": 1.0
+  },
+  "D_that": {
+   "acc": 0.0,
+   "hold": 1.0,
+   "tgf": 0.0
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "2_5",
+  "lab": "outer",
+  "seed": 11,
+  "dev": "cuda",
+  "A_cay": {
+   "acc": 0.0,
+   "hold": 1.0,
+   "tgf": 0.9090909090909091
+  },
+  "D_that": {
+   "acc": 0.48484848484848486,
+   "hold": 1.0,
+   "tgf": 0.48484848484848486
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "3_1",
+  "lab": "outer",
+  "seed": 11,
+  "dev": "cuda",
+  "A_cay": {
+   "acc": 0.6245059288537549,
+   "hold": 1.0,
+   "tgf": 0.766798418972332
+  },
+  "D_that": {
+   "acc": 0.09486166007905138,
+   "hold": 1.0,
+   "tgf": 0.10276679841897234
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "3_5",
+  "lab": "outer",
+  "seed": 11,
+  "dev": "cuda",
+  "A_cay": {
+   "acc": 1.0,
+   "hold": 1.0,
+   "tgf": 1.0
+  },
+  "D_that": {
+   "acc": 0.0,
+   "hold": 0.2,
+   "tgf": 0.0
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "1_2",
+  "lab": "outer",
+  "seed": 11,
+  "dev": "cuda",
+  "A_cay": {
+   "acc": 0.6875,
+   "hold": 0.2,
+   "tgf": 1.0
+  },
+  "D_that": {
+   "acc": 0.125,
+   "hold": 1.0,
+   "tgf": 0.125
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "2_1",
+  "lab": "inner",
+  "seed": 11,
+  "dev": "cuda",
+  "A_cay": {
+   "acc": 0.3877551020408163,
+   "hold": 1.0,
+   "tgf": 0.6122448979591837
+  },
+  "D_that": {
+   "acc": 0.0,
+   "hold": 1.0,
+   "tgf": 0.04081632653061224
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "3_4",
+  "lab": "inner",
+  "seed": 11,
+  "dev": "cuda",
+  "A_cay": {
+   "acc": 0.2582781456953642,
+   "hold": 1.0,
+   "tgf": 0.4900662251655629
+  },
+  "D_that": {
+   "acc": 0.12582781456953643,
+   "hold": 1.0,
+   "tgf": 0.6423841059602649
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "3_3",
+  "lab": "inner",
+  "seed": 11,
+  "dev": "cuda",
+  "A_cay": {
+   "acc": 0.0,
+   "hold": 1.0,
+   "tgf": 0.40540540540540543
+  },
+  "D_that": {
+   "acc": 0.24324324324324326,
+   "hold": 1.0,
+   "tgf": 0.43243243243243246
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "1_4",
+  "lab": "cage",
+  "seed": 11,
+  "dev": "cuda",
+  "A_cay": {
+   "acc": 0.0,
+   "hold": 1.0,
+   "tgf": 0.0
+  },
+  "D_that": {
+   "acc": 0.0,
+   "hold": 1.0,
+   "tgf": 0.0
+  }
+ },
+ {
+  "ds": "xjtu",
+  "n": "2_3",
+  "lab": "cage",
+  "seed": 11,
+  "dev": "cuda",
+  "A_cay": {
+   "acc": 0.0,
+   "hold": 1.0,
+   "tgf": 0.0
+  },
+  "D_that": {
+   "acc": 0.0,
+   "hold": 1.0,
+   "tgf": 0.0
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "1",
+  "lab": "inner",
+  "seed": 11,
+  "dev": "cuda",
+  "A_cay": {
+   "acc": 1.0,
+   "hold": 1.0,
+   "tgf": 1.0
+  },
+  "D_that": {
+   "acc": 1.0,
+   "hold": 1.0,
+   "tgf": 1.0
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "4",
+  "lab": "inner",
+  "seed": 11,
+  "dev": "cuda",
+  "A_cay": {
+   "acc": 0.0,
+   "hold": 1.0,
+   "tgf": 0.0
+  },
+  "D_that": {
+   "acc": 1.0,
+   "hold": 1.0,
+   "tgf": 1.0
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "6",
+  "lab": "outer",
+  "seed": 11,
+  "dev": "cuda",
+  "A_cay": {
+   "acc": 0.0,
+   "hold": 1.0,
+   "tgf": 0.0
+  },
+  "D_that": {
+   "acc": 1.0,
+   "hold": 1.0,
+   "tgf": 1.0
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "3",
+  "lab": "inner",
+  "seed": 11,
+  "dev": "cuda",
+  "A_cay": {
+   "acc": 1.0,
+   "hold": 1.0,
+   "tgf": 1.0
+  },
+  "D_that": {
+   "acc": 0.0,
+   "hold": 1.0,
+   "tgf": 0.0
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "5",
+  "lab": "inner",
+  "seed": 11,
+  "dev": "cuda",
+  "A_cay": {
+   "acc": 0.0,
+   "hold": 0.7142857142857143,
+   "tgf": 0.0
+  },
+  "D_that": {
+   "acc": 0.0,
+   "hold": 1.0,
+   "tgf": 0.0
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "7",
+  "lab": "outer",
+  "seed": 11,
+  "dev": "cuda",
+  "A_cay": {
+   "acc": 1.0,
+   "hold": 1.0,
+   "tgf": 1.0
+  },
+  "D_that": {
+   "acc": 0.0,
+   "hold": 1.0,
+   "tgf": 0.0
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "8",
+  "lab": "outer",
+  "seed": 11,
+  "dev": "cuda",
+  "A_cay": {
+   "acc": 1.0,
+   "hold": 1.0,
+   "tgf": 1.0
+  },
+  "D_that": {
+   "acc": 0.0,
+   "hold": 1.0,
+   "tgf": 0.0
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "9",
+  "lab": "outer",
+  "seed": 11,
+  "dev": "cuda",
+  "A_cay": {
+   "acc": 0.6842105263157895,
+   "hold": 1.0,
+   "tgf": 0.6842105263157895
+  },
+  "D_that": {
+   "acc": 0.0,
+   "hold": 1.0,
+   "tgf": 0.0
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "10",
+  "lab": "outer",
+  "seed": 11,
+  "dev": "cuda",
+  "A_cay": {
+   "acc": 1.0,
+   "hold": 1.0,
+   "tgf": 1.0
+  },
+  "D_that": {
+   "acc": 1.0,
+   "hold": 1.0,
+   "tgf": 1.0
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "11",
+  "lab": "ball",
+  "seed": 11,
+  "dev": "cuda",
+  "A_cay": {
+   "acc": 0.0,
+   "hold": 0.8571428571428571,
+   "tgf": 0.0
+  },
+  "D_that": {
+   "acc": 1.0,
+   "hold": 1.0,
+   "tgf": 1.0
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "12",
+  "lab": "ball",
+  "seed": 11,
+  "dev": "cuda",
+  "A_cay": {
+   "acc": 0.0,
+   "hold": 1.0,
+   "tgf": 0.0
+  },
+  "D_that": {
+   "acc": 1.0,
+   "hold": 1.0,
+   "tgf": 1.0
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "13",
+  "lab": "ball",
+  "seed": 11,
+  "dev": "cuda",
+  "A_cay": {
+   "acc": 0.0,
+   "hold": 1.0,
+   "tgf": 0.0
+  },
+  "D_that": {
+   "acc": 0.0,
+   "hold": 1.0,
+   "tgf": 0.15789473684210525
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "14",
+  "lab": "ball",
+  "seed": 11,
+  "dev": "cuda",
+  "A_cay": {
+   "acc": 0.0,
+   "hold": 1.0,
+   "tgf": 0.0
+  },
+  "D_that": {
+   "acc": 0.05263157894736842,
+   "hold": 1.0,
+   "tgf": 1.0
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "15",
+  "lab": "ball",
+  "seed": 11,
+  "dev": "cuda",
+  "A_cay": {
+   "acc": 0.0,
+   "hold": 1.0,
+   "tgf": 0.0
+  },
+  "D_that": {
+   "acc": 0.0,
+   "hold": 1.0,
+   "tgf": 1.0
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "16",
+  "lab": "cage",
+  "seed": 11,
+  "dev": "cuda",
+  "A_cay": {
+   "acc": 0.0,
+   "hold": 1.0,
+   "tgf": 0.0
+  },
+  "D_that": {
+   "acc": 0.0,
+   "hold": 0.42857142857142855,
+   "tgf": 0.0
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "17",
+  "lab": "cage",
+  "seed": 11,
+  "dev": "cuda",
+  "A_cay": {
+   "acc": 0.0,
+   "hold": 1.0,
+   "tgf": 0.0
+  },
+  "D_that": {
+   "acc": 1.0,
+   "hold": 1.0,
+   "tgf": 1.0
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "18",
+  "lab": "cage",
+  "seed": 11,
+  "dev": "cuda",
+  "A_cay": {
+   "acc": 0.0,
+   "hold": 1.0,
+   "tgf": 0.0
+  },
+  "D_that": {
+   "acc": 0.10526315789473684,
+   "hold": 1.0,
+   "tgf": 0.10526315789473684
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "19",
+  "lab": "cage",
+  "seed": 11,
+  "dev": "cuda",
+  "A_cay": {
+   "acc": 0.0,
+   "hold": 1.0,
+   "tgf": 0.0
+  },
+  "D_that": {
+   "acc": 0.0,
+   "hold": 1.0,
+   "tgf": 0.0
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "20",
+  "lab": "cage",
+  "seed": 11,
+  "dev": "cuda",
+  "A_cay": {
+   "acc": 0.0,
+   "hold": 1.0,
+   "tgf": 0.0
+  },
+  "D_that": {
+   "acc": 0.0,
+   "hold": 1.0,
+   "tgf": 0.0
+  }
+ },
+ {
+  "ds": "uored",
+  "n": "2",
+  "lab": "inner",
+  "seed": 11,
+  "dev": "cuda",
+  "A_cay": {
+   "acc": 0.7368421052631579,
+   "hold": 1.0,
+   "tgf": 0.7894736842105263
+  },
+  "D_that": {
+   "acc": 0.0,
+   "hold": 1.0,
+   "tgf": 0.0
+  }
+ }
+]
