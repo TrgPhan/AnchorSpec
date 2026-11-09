@@ -1,0 +1,13 @@
+{
+  "results/s/additive.json": "aaf621590f7b891afb4b5e5e13e8aba0bb12d7c618b0b95e2a29f3376f5b0853",
+  "results/s/additive_comparison.png": "c07094672bb5e0c24b0a9fccc3bd2bea185734b282b7a70a1a46ed264a1eae53",
+  "results/s/additive_comparison.svg": "738dd049add9f370e49b8f73ef87f52d53a6ce4cf22c0f2cfe02053accbd78a8",
+  "results/s/prerun.json": "74cd17d90f7c15540576c69e0c5c087929cbc4713a666ee964f67cf1d546e80b",
+  "results/s/quality.json": "c423333345d75805c15a13175ff142743eb9afbae0dca1f0228cf206634471c1",
+  "results/s/validation.json": "ae451b334fe61e3903d9b875c34b7d6a16d09cc28d7ec32ee182a19546dd95c6",
+  "REAL_CONG_SYNTHETIC_FLOW_DIFFUSION_20261106.md": "08fd4f88b34c564cae54a521d325f9571b9154337baf530959e98f52ddc323ce",
+  "HANDOFF_S_20261106.md": "260dbc624d8cc32ec19c5816fd935c7c2a4c80f33bd41565becea3acccbe1c49",
+  "s_additive.py": "5e0f585484bdaaaaca28c9149bf2baa122ace810692c41ae7c7c05045bbdfdab",
+  "s_latent.py": "d2ddf2d0200f3ed18b6b3c22718b5c1596c9af56ec925c183f122182af04ffcc",
+  "s_report.py": "90be5d50cea6ba9a22d80c9d0a9f3b2120a9b0de44bcefa8e7be1166db11905c"
+}

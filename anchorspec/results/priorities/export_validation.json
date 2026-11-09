@@ -1,0 +1,29 @@
+{
+  "workbook_roundtrip": true,
+  "sources_unchanged": true,
+  "primary": "spectral_flow_half:r1:a0.25",
+  "worksheet_rows": {
+    "README": 14,
+    "Seven_priorities": 7,
+    "Class_metrics": 80,
+    "Method_metrics": 24,
+    "Confusion": 864,
+    "Bearing_results": 208,
+    "Events_per_seed": 624,
+    "Operating_groups": 48,
+    "Paired_gains": 16,
+    "Physical_summary": 4,
+    "Physical_donor_rows": 468,
+    "Runtime": 31,
+    "Runtime_repeats": 100,
+    "Unknown_T_only": 50
+  },
+  "sha256": {
+    "results/priorities/diagnostics.json": "6d6c179fb604e6f561004803e5c405cdd2db4ba496aabd552daf1d57f342450e",
+    "results/priorities/physical.json": "e2d984420b46cb6246d3f93ccf463ce33d577bee194a7d60e70edce8d510d5c0",
+    "results/priorities/runtime.json": "f5cff4c735e3d88a19208e7edc2c22f96c033bc48636a8c8755506bcc1ef3029",
+    "results/s3/spectral.json": "32d77dea3d335f584678f5c822448cf978deb033a6979c2ad5aa8b59339a24c4",
+    "results/s3/cpu_cached.json": "a583e458edaf206229942d2ef24ad946666b5c3166faf01ad6bc6e7fb7ae5ef8",
+    "results/t/readiness.json": "2073bde843ab1595b77f43b094df80a59fdcad4aa690ac6b439a2075dcbd95bd"
+  }
+}

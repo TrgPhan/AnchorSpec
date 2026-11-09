@@ -1,0 +1,776 @@
+{
+  "mode": "balanced",
+  "representation": "delta",
+  "exploratory_reused_dataset": true,
+  "data": "UORED v5",
+  "budgets": {
+    "1": {
+      "methods": {
+        "injection": {
+          "early": {
+            "macro_recall": 0.2991228070175438,
+            "per_class": {
+              "inner": 0.8315789473684209,
+              "outer": 0.36491228070175435,
+              "ball": 0.0,
+              "cage": 0.0
+            }
+          },
+          "late": {
+            "macro_recall": 0.2087719298245614,
+            "per_class": {
+              "inner": 0.48771929824561405,
+              "outer": 0.34736842105263155,
+              "ball": 0.0,
+              "cage": 0.0
+            }
+          },
+          "hold": {
+            "macro_recall": 0.9261904761904762,
+            "per_class": {
+              "inner": 0.9619047619047618,
+              "outer": 0.9428571428571428,
+              "ball": 0.8571428571428571,
+              "cage": 0.9428571428571428
+            }
+          },
+          "event_accuracy_late": 0.18333333333333335
+        },
+        "real": {
+          "early": {
+            "macro_recall": 0.39210526315789473,
+            "per_class": {
+              "inner": 0.5719298245614035,
+              "outer": 0.12631578947368421,
+              "ball": 0.18245614035087718,
+              "cage": 0.6877192982456141
+            }
+          },
+          "late": {
+            "macro_recall": 0.30877192982456136,
+            "per_class": {
+              "inner": 0.4807017543859649,
+              "outer": 0.09122807017543859,
+              "ball": 0.27368421052631575,
+              "cage": 0.3894736842105263
+            }
+          },
+          "hold": {
+            "macro_recall": 1.0,
+            "per_class": {
+              "inner": 1.0,
+              "outer": 1.0,
+              "ball": 1.0,
+              "cage": 1.0
+            }
+          },
+          "event_accuracy_late": 0.33333333333333337
+        },
+        "hybrid": {
+          "early": {
+            "macro_recall": 0.4236842105263158,
+            "per_class": {
+              "inner": 0.8350877192982455,
+              "outer": 0.8526315789473685,
+              "ball": 0.007017543859649122,
+              "cage": 0.0
+            }
+          },
+          "late": {
+            "macro_recall": 0.38596491228070173,
+            "per_class": {
+              "inner": 0.8210526315789473,
+              "outer": 0.719298245614035,
+              "ball": 0.0,
+              "cage": 0.003508771929824561
+            }
+          },
+          "hold": {
+            "macro_recall": 0.919047619047619,
+            "per_class": {
+              "inner": 0.9619047619047618,
+              "outer": 0.9428571428571428,
+              "ball": 0.8761904761904761,
+              "cage": 0.8952380952380953
+            }
+          },
+          "event_accuracy_late": 0.39999999999999997
+        },
+        "protected": {
+          "early": {
+            "macro_recall": 0.49561403508771923,
+            "per_class": {
+              "inner": 0.6350877192982456,
+              "outer": 0.2912280701754386,
+              "ball": 0.29824561403508765,
+              "cage": 0.7578947368421052
+            }
+          },
+          "late": {
+            "macro_recall": 0.3368421052631579,
+            "per_class": {
+              "inner": 0.5157894736842105,
+              "outer": 0.09473684210526315,
+              "ball": 0.38245614035087716,
+              "cage": 0.35438596491228075
+            }
+          },
+          "hold": {
+            "macro_recall": 1.0,
+            "per_class": {
+              "inner": 1.0,
+              "outer": 1.0,
+              "ball": 1.0,
+              "cage": 1.0
+            }
+          },
+          "event_accuracy_late": 0.31666666666666665
+        }
+      },
+      "protected_minus_injection_early": {
+        "delta": 0.19649122807017544,
+        "ci95": [
+          0.02894736842105264,
+          0.356140350877193
+        ],
+        "n_bearings": 20,
+        "n_by_class": {
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5
+        },
+        "resamples": 5000,
+        "seed": 20261102
+      },
+      "protected_minus_injection_late": {
+        "delta": 0.1280701754385965,
+        "ci95": [
+          -0.020175438596491235,
+          0.28072368421052596
+        ],
+        "n_bearings": 20,
+        "n_by_class": {
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5
+        },
+        "resamples": 5000,
+        "seed": 20261102
+      },
+      "protected_minus_real_early": {
+        "delta": 0.1035087719298245,
+        "ci95": [
+          0.0008771929824561532,
+          0.20964912280701753
+        ],
+        "n_bearings": 20,
+        "n_by_class": {
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5
+        },
+        "resamples": 5000,
+        "seed": 20261102
+      },
+      "protected_minus_real_late": {
+        "delta": 0.028070175438596523,
+        "ci95": [
+          -0.08333333333333333,
+          0.13333333333333333
+        ],
+        "n_bearings": 20,
+        "n_by_class": {
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5
+        },
+        "resamples": 5000,
+        "seed": 20261102
+      },
+      "protected_minus_hybrid_early": {
+        "delta": 0.07192982456140345,
+        "ci95": [
+          -0.07105263157894738,
+          0.2078947368421052
+        ],
+        "n_bearings": 20,
+        "n_by_class": {
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5
+        },
+        "resamples": 5000,
+        "seed": 20261102
+      },
+      "protected_minus_hybrid_late": {
+        "delta": -0.049122807017543846,
+        "ci95": [
+          -0.18333333333333332,
+          0.10089912280701724
+        ],
+        "n_bearings": 20,
+        "n_by_class": {
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5
+        },
+        "resamples": 5000,
+        "seed": 20261102
+      },
+      "ring_delta": {
+        "delta": -0.4649122807017544,
+        "ci95": [
+          -0.6245614035087719,
+          -0.28596491228070176
+        ],
+        "n_bearings": 10,
+        "n_by_class": {
+          "1": 5,
+          "2": 5
+        },
+        "resamples": 5000,
+        "seed": 20261102
+      },
+      "screen": {
+        "gain_at_least_10pp": false,
+        "paired_ci_positive": false,
+        "ring_loss_at_most_5pp": false,
+        "healthy_fpr_increase_at_most_2pp": true,
+        "healthy_fpr_protected": 0.0,
+        "healthy_fpr_hybrid": 0.080952380952381
+      }
+    },
+    "2": {
+      "methods": {
+        "injection": {
+          "early": {
+            "macro_recall": 0.2991228070175438,
+            "per_class": {
+              "inner": 0.8315789473684209,
+              "outer": 0.36491228070175435,
+              "ball": 0.0,
+              "cage": 0.0
+            }
+          },
+          "late": {
+            "macro_recall": 0.2087719298245614,
+            "per_class": {
+              "inner": 0.48771929824561405,
+              "outer": 0.34736842105263155,
+              "ball": 0.0,
+              "cage": 0.0
+            }
+          },
+          "hold": {
+            "macro_recall": 0.9261904761904762,
+            "per_class": {
+              "inner": 0.9619047619047618,
+              "outer": 0.9428571428571428,
+              "ball": 0.8571428571428571,
+              "cage": 0.9428571428571428
+            }
+          },
+          "event_accuracy_late": 0.18333333333333335
+        },
+        "real": {
+          "early": {
+            "macro_recall": 0.5394736842105263,
+            "per_class": {
+              "inner": 0.7859649122807018,
+              "outer": 0.29473684210526313,
+              "ball": 0.39649122807017545,
+              "cage": 0.680701754385965
+            }
+          },
+          "late": {
+            "macro_recall": 0.40789473684210525,
+            "per_class": {
+              "inner": 0.6947368421052631,
+              "outer": 0.26315789473684215,
+              "ball": 0.39649122807017545,
+              "cage": 0.2771929824561404
+            }
+          },
+          "hold": {
+            "macro_recall": 0.9976190476190476,
+            "per_class": {
+              "inner": 1.0,
+              "outer": 1.0,
+              "ball": 0.9904761904761905,
+              "cage": 1.0
+            }
+          },
+          "event_accuracy_late": 0.4
+        },
+        "hybrid": {
+          "early": {
+            "macro_recall": 0.41666666666666663,
+            "per_class": {
+              "inner": 0.894736842105263,
+              "outer": 0.6982456140350877,
+              "ball": 0.07368421052631578,
+              "cage": 0.0
+            }
+          },
+          "late": {
+            "macro_recall": 0.3903508771929824,
+            "per_class": {
+              "inner": 0.7403508771929824,
+              "outer": 0.6175438596491227,
+              "ball": 0.20350877192982458,
+              "cage": 0.0
+            }
+          },
+          "hold": {
+            "macro_recall": 0.8904761904761905,
+            "per_class": {
+              "inner": 0.9714285714285713,
+              "outer": 0.961904761904762,
+              "ball": 0.7904761904761904,
+              "cage": 0.8380952380952381
+            }
+          },
+          "event_accuracy_late": 0.39999999999999997
+        },
+        "protected": {
+          "early": {
+            "macro_recall": 0.5324561403508772,
+            "per_class": {
+              "inner": 0.7719298245614035,
+              "outer": 0.36140350877192984,
+              "ball": 0.3368421052631579,
+              "cage": 0.6596491228070175
+            }
+          },
+          "late": {
+            "macro_recall": 0.38596491228070173,
+            "per_class": {
+              "inner": 0.5719298245614034,
+              "outer": 0.2771929824561403,
+              "ball": 0.3684210526315789,
+              "cage": 0.3263157894736842
+            }
+          },
+          "hold": {
+            "macro_recall": 0.9928571428571429,
+            "per_class": {
+              "inner": 1.0,
+              "outer": 1.0,
+              "ball": 0.9714285714285715,
+              "cage": 1.0
+            }
+          },
+          "event_accuracy_late": 0.3666666666666667
+        }
+      },
+      "protected_minus_injection_early": {
+        "delta": 0.2333333333333334,
+        "ci95": [
+          0.07192982456140351,
+          0.3973684210526316
+        ],
+        "n_bearings": 20,
+        "n_by_class": {
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5
+        },
+        "resamples": 5000,
+        "seed": 20261102
+      },
+      "protected_minus_injection_late": {
+        "delta": 0.17719298245614035,
+        "ci95": [
+          0.018421052631578963,
+          0.33508771929824555
+        ],
+        "n_bearings": 20,
+        "n_by_class": {
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5
+        },
+        "resamples": 5000,
+        "seed": 20261102
+      },
+      "protected_minus_real_early": {
+        "delta": -0.007017543859649145,
+        "ci95": [
+          -0.10175438596491229,
+          0.0894736842105263
+        ],
+        "n_bearings": 20,
+        "n_by_class": {
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5
+        },
+        "resamples": 5000,
+        "seed": 20261102
+      },
+      "protected_minus_real_late": {
+        "delta": -0.02192982456140352,
+        "ci95": [
+          -0.1298245614035088,
+          0.0912280701754386
+        ],
+        "n_bearings": 20,
+        "n_by_class": {
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5
+        },
+        "resamples": 5000,
+        "seed": 20261102
+      },
+      "protected_minus_hybrid_early": {
+        "delta": 0.11578947368421055,
+        "ci95": [
+          -0.004385964912280715,
+          0.23333333333333334
+        ],
+        "n_bearings": 20,
+        "n_by_class": {
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5
+        },
+        "resamples": 5000,
+        "seed": 20261102
+      },
+      "protected_minus_hybrid_late": {
+        "delta": -0.00438596491228066,
+        "ci95": [
+          -0.12543859649122807,
+          0.11842105263157894
+        ],
+        "n_bearings": 20,
+        "n_by_class": {
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5
+        },
+        "resamples": 5000,
+        "seed": 20261102
+      },
+      "ring_delta": {
+        "delta": -0.25438596491228066,
+        "ci95": [
+          -0.412280701754386,
+          -0.11052631578947364
+        ],
+        "n_bearings": 10,
+        "n_by_class": {
+          "1": 5,
+          "2": 5
+        },
+        "resamples": 5000,
+        "seed": 20261102
+      },
+      "screen": {
+        "gain_at_least_10pp": false,
+        "paired_ci_positive": false,
+        "ring_loss_at_most_5pp": false,
+        "healthy_fpr_increase_at_most_2pp": true,
+        "healthy_fpr_protected": 0.0071428571428571175,
+        "healthy_fpr_hybrid": 0.10952380952380947
+      }
+    },
+    "4": {
+      "methods": {
+        "injection": {
+          "early": {
+            "macro_recall": 0.2991228070175438,
+            "per_class": {
+              "inner": 0.8315789473684209,
+              "outer": 0.36491228070175435,
+              "ball": 0.0,
+              "cage": 0.0
+            }
+          },
+          "late": {
+            "macro_recall": 0.2087719298245614,
+            "per_class": {
+              "inner": 0.48771929824561405,
+              "outer": 0.34736842105263155,
+              "ball": 0.0,
+              "cage": 0.0
+            }
+          },
+          "hold": {
+            "macro_recall": 0.9261904761904762,
+            "per_class": {
+              "inner": 0.9619047619047618,
+              "outer": 0.9428571428571428,
+              "ball": 0.8571428571428571,
+              "cage": 0.9428571428571428
+            }
+          },
+          "event_accuracy_late": 0.18333333333333335
+        },
+        "real": {
+          "early": {
+            "macro_recall": 0.606140350877193,
+            "per_class": {
+              "inner": 0.7824561403508772,
+              "outer": 0.36491228070175435,
+              "ball": 0.6105263157894737,
+              "cage": 0.6666666666666667
+            }
+          },
+          "late": {
+            "macro_recall": 0.5245614035087718,
+            "per_class": {
+              "inner": 0.6175438596491227,
+              "outer": 0.575438596491228,
+              "ball": 0.5298245614035088,
+              "cage": 0.37543859649122807
+            }
+          },
+          "hold": {
+            "macro_recall": 0.9642857142857143,
+            "per_class": {
+              "inner": 1.0,
+              "outer": 1.0,
+              "ball": 0.9714285714285715,
+              "cage": 0.8857142857142858
+            }
+          },
+          "event_accuracy_late": 0.49999999999999994
+        },
+        "hybrid": {
+          "early": {
+            "macro_recall": 0.45438596491228067,
+            "per_class": {
+              "inner": 0.8280701754385966,
+              "outer": 0.7157894736842104,
+              "ball": 0.14736842105263157,
+              "cage": 0.12631578947368421
+            }
+          },
+          "late": {
+            "macro_recall": 0.5008771929824561,
+            "per_class": {
+              "inner": 0.9087719298245613,
+              "outer": 0.7649122807017543,
+              "ball": 0.2912280701754386,
+              "cage": 0.03859649122807018
+            }
+          },
+          "hold": {
+            "macro_recall": 0.8690476190476191,
+            "per_class": {
+              "inner": 0.9714285714285713,
+              "outer": 0.9142857142857143,
+              "ball": 0.8285714285714286,
+              "cage": 0.7619047619047619
+            }
+          },
+          "event_accuracy_late": 0.5333333333333334
+        },
+        "protected": {
+          "early": {
+            "macro_recall": 0.6824561403508772,
+            "per_class": {
+              "inner": 0.6842105263157895,
+              "outer": 0.5894736842105263,
+              "ball": 0.6631578947368422,
+              "cage": 0.7929824561403509
+            }
+          },
+          "late": {
+            "macro_recall": 0.5868421052631579,
+            "per_class": {
+              "inner": 0.6877192982456141,
+              "outer": 0.5368421052631579,
+              "ball": 0.6736842105263159,
+              "cage": 0.4491228070175438
+            }
+          },
+          "hold": {
+            "macro_recall": 0.969047619047619,
+            "per_class": {
+              "inner": 1.0,
+              "outer": 1.0,
+              "ball": 0.9619047619047618,
+              "cage": 0.9142857142857143
+            }
+          },
+          "event_accuracy_late": 0.6
+        }
+      },
+      "protected_minus_injection_early": {
+        "delta": 0.3833333333333334,
+        "ci95": [
+          0.19910087719298247,
+          0.5605263157894738
+        ],
+        "n_bearings": 20,
+        "n_by_class": {
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5
+        },
+        "resamples": 5000,
+        "seed": 20261102
+      },
+      "protected_minus_injection_late": {
+        "delta": 0.37807017543859656,
+        "ci95": [
+          0.177171052631579,
+          0.5728070175438598
+        ],
+        "n_bearings": 20,
+        "n_by_class": {
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5
+        },
+        "resamples": 5000,
+        "seed": 20261102
+      },
+      "protected_minus_real_early": {
+        "delta": 0.07631578947368423,
+        "ci95": [
+          -0.01666666666666667,
+          0.1816008771929822
+        ],
+        "n_bearings": 20,
+        "n_by_class": {
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5
+        },
+        "resamples": 5000,
+        "seed": 20261102
+      },
+      "protected_minus_real_late": {
+        "delta": 0.06228070175438616,
+        "ci95": [
+          -0.047368421052631546,
+          0.18508771929824563
+        ],
+        "n_bearings": 20,
+        "n_by_class": {
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5
+        },
+        "resamples": 5000,
+        "seed": 20261102
+      },
+      "protected_minus_hybrid_early": {
+        "delta": 0.22807017543859653,
+        "ci95": [
+          0.08771929824561406,
+          0.36403508771929827
+        ],
+        "n_bearings": 20,
+        "n_by_class": {
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5
+        },
+        "resamples": 5000,
+        "seed": 20261102
+      },
+      "protected_minus_hybrid_late": {
+        "delta": 0.0859649122807018,
+        "ci95": [
+          -0.04826754385964916,
+          0.22370614035087688
+        ],
+        "n_bearings": 20,
+        "n_by_class": {
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5
+        },
+        "resamples": 5000,
+        "seed": 20261102
+      },
+      "ring_delta": {
+        "delta": -0.22456140350877185,
+        "ci95": [
+          -0.3789473684210527,
+          -0.09298245614035086
+        ],
+        "n_bearings": 10,
+        "n_by_class": {
+          "1": 5,
+          "2": 5
+        },
+        "resamples": 5000,
+        "seed": 20261102
+      },
+      "screen": {
+        "gain_at_least_10pp": false,
+        "paired_ci_positive": false,
+        "ring_loss_at_most_5pp": false,
+        "healthy_fpr_increase_at_most_2pp": true,
+        "healthy_fpr_protected": 0.030952380952380953,
+        "healthy_fpr_hybrid": 0.13095238095238093
+      }
+    }
+  },
+  "wrong_label_control": {
+    "injection": {
+      "clean": {
+        "recall": 0.2087719298245614,
+        "copied_wrong": 0.30614035087719293
+      },
+      "wrong_labels": {
+        "recall": 0.2087719298245614,
+        "copied_wrong": 0.30614035087719293
+      }
+    },
+    "real": {
+      "clean": {
+        "recall": 0.30877192982456136,
+        "copied_wrong": 0.16578947368421054
+      },
+      "wrong_labels": {
+        "recall": 0.14385964912280702,
+        "copied_wrong": 0.3078947368421052
+      }
+    },
+    "hybrid": {
+      "clean": {
+        "recall": 0.38596491228070173,
+        "copied_wrong": 0.22280701754385965
+      },
+      "wrong_labels": {
+        "recall": 0.23684210526315788,
+        "copied_wrong": 0.3429824561403509
+      }
+    },
+    "protected": {
+      "clean": {
+        "recall": 0.3368421052631579,
+        "copied_wrong": 0.12719298245614036
+      },
+      "wrong_labels": {
+        "recall": 0.09385964912280702,
+        "copied_wrong": 0.2421052631578947
+      }
+    }
+  }
+}

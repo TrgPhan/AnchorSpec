@@ -1,0 +1,12 @@
+{
+  "results/s2/fullrank.json": "3368abf75d09488e4f320eb785bc494708c55a5fe467d1cb89162cedf95de54a",
+  "results/s2/fullrank_comparison.png": "bd91bc8c159a11be27d8f88b817dfa25c1d79184251cf0904bd52f2aa9bff710",
+  "results/s2/fullrank_comparison.svg": "ce43c8ce1ab2942d13933ddd9e1583bb3f2cb20430e398c2b4e7afd80f334462",
+  "results/s2/prerun.json": "fee16087feffb456be014d2dd67982b9ef9a1a114bdca6f174685d56e12bc25a",
+  "results/s2/reconstruction_audit.json": "ccd8588a5f2b8367a29d32e124bc9e4157e08e9ddb73fd3ec7225344b8db09c9",
+  "results/s2/validation.json": "52d5e480e75d9f26eef0735f2136c42f9e220ba670ff8d2526f7e44b580898eb",
+  "KET_QUA_REAL_CONG_GEN_20261106.md": "edc00e5d9fe0ca3ba3b697f54b8ba6d39e863ba51947e310418bc9a429f3ce1c",
+  "HANDOFF_S_20261106.md": "260dbc624d8cc32ec19c5816fd935c7c2a4c80f33bd41565becea3acccbe1c49",
+  "s2_fullrank.py": "ee956bc68afb824ee976df16679045767b8e3d8491b7658bdbfc45cd8106a46e",
+  "s2_report.py": "e3821860deeb7f47f7507108ff2cc5257a0a7e65e131a4aff00a88f6e10a32a4"
+}

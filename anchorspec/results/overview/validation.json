@@ -1,0 +1,8 @@
+{
+  "source_files": 127,
+  "comparison_rows": 987,
+  "archive_scalar_fields": 260124,
+  "sources_unchanged": true,
+  "csv_roundtrip_passed": true,
+  "models_rerun": false
+}

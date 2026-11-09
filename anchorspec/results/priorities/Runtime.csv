@@ -1,0 +1,32 @@
+﻿metric,value
+device,cpu
+platform,Windows-11-10.0.26100-SP0
+processor,"Intel64 Family 6 Model 151 Stepping 2, GenuineIntel"
+python,3.12.10
+torch_loaded,False
+threads,1
+samples_per_query,4000
+query_seconds,1.0
+warmups,1
+repeats,100
+input_waveform_already_sensed,True
+includes_data_acquisition,False
+includes_network_io,False
+includes_generator,False
+includes_model_loading,False
+scope,"One fixed target 1_1 seed 11 terminal snapshot; local PC, not DENSO hardware"
+cold_first_call,"{""feature_seconds"": 0.010453599999891594, ""classifier_and_smoothing_seconds"": 0.0031356999970739707, ""total_seconds"": 0.013589299996965565}"
+rss_after_imports_bytes,101359616
+rss_after_model_load_bytes,165629952
+sampled_peak_rss_bytes,167657472
+rss_sampling_interval_seconds,0.005
+classifier_pickle_bytes,128576
+raw_score_replay_exact,True
+feature_seconds_median,0.006949349997739773
+feature_seconds_p95,0.008041419999062781
+classifier_and_smoothing_seconds_median,0.0024701000002096407
+classifier_and_smoothing_seconds_p95,0.0031760799953190143
+total_seconds_median,0.009575499992934056
+total_seconds_p95,0.010629184994468232
+rf_refit_seconds_parent_process,0.12293240000144579
+rf_refit_scope,"Exact frozen fold replay, no new configuration; parent process includes research imports"

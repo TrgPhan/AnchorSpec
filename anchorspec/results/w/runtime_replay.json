@@ -1,0 +1,6573 @@
+{
+  "contract": {
+    "fs": 4000,
+    "bandwidth_hz": 1000.0,
+    "range_g": 8.0,
+    "bits": 20,
+    "max_clipped_fraction": 0.001
+  },
+  "rows": [
+    {
+      "target": "1",
+      "truth": 1,
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:4:2",
+        "UORED:10:2",
+        "UORED:9:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:19:2",
+        "UORED:16:2",
+        "UORED:18:2",
+        "UORED:20:2"
+      ],
+      "choice": {
+        "representation": "raw",
+        "family": "rf",
+        "synthetic_mass": 0.0,
+        "score": 0.5888157894736842
+      },
+      "model_sha256": "3ce9bbb0125f2ff5790dc1e27aab7f2064b0952f280fd4268cc757f6fc0b8204",
+      "model_bytes": 183219,
+      "fit_seconds": 1.0177263999939896,
+      "batch_replay_ms": 39.730099990265444,
+      "amortized_ms_per_window": 1.5280807688563631,
+      "gate_warning": "label-derived flags for interface replay, not measured detector",
+      "result": {
+        "mode": "offline_replay",
+        "upstream_gate": "provided_by_caller",
+        "confidence_calibrated": false,
+        "rul_hours": null,
+        "windows": [
+          {
+            "index": 0,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 1,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 2,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 3,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 4,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 5,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 6,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 7,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 8,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 9,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 10,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 11,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 12,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 13,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 14,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 15,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 16,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 17,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 18,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 19,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 20,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 21,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 22,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 23,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 24,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 25,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          }
+        ]
+      }
+    },
+    {
+      "target": "2",
+      "truth": 1,
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:5:2",
+        "UORED:1:2",
+        "UORED:4:2",
+        "UORED:10:2",
+        "UORED:9:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:19:2",
+        "UORED:16:2",
+        "UORED:18:2",
+        "UORED:20:2"
+      ],
+      "choice": {
+        "representation": "raw",
+        "family": "rf",
+        "synthetic_mass": 0.0,
+        "score": 0.6940789473684211
+      },
+      "model_sha256": "894299778d34b6c83c3cfa185a4ca40cf363ebd263f5a941c806ffdf2f3a8480",
+      "model_bytes": 175107,
+      "fit_seconds": 1.043103300005896,
+      "batch_replay_ms": 42.725600011181086,
+      "amortized_ms_per_window": 1.6432923081223494,
+      "gate_warning": "label-derived flags for interface replay, not measured detector",
+      "result": {
+        "mode": "offline_replay",
+        "upstream_gate": "provided_by_caller",
+        "confidence_calibrated": false,
+        "rul_hours": null,
+        "windows": [
+          {
+            "index": 0,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 1,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 2,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 3,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 4,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 5,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 6,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 7,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 8,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 9,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 10,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 11,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 12,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 13,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 14,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 15,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 16,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 17,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 18,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 19,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 20,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 21,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 22,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 23,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 24,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 25,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          }
+        ]
+      }
+    },
+    {
+      "target": "3",
+      "truth": 1,
+      "donor_events": [
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:1:2",
+        "UORED:4:2",
+        "UORED:10:2",
+        "UORED:9:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:19:2",
+        "UORED:16:2",
+        "UORED:18:2",
+        "UORED:20:2"
+      ],
+      "choice": {
+        "representation": "raw",
+        "family": "rf",
+        "synthetic_mass": 0.0,
+        "score": 0.6085526315789473
+      },
+      "model_sha256": "4fe3042ea983ed2c9de635542b89da14bdd6fcc05b76231091471b94869ea1cb",
+      "model_bytes": 179475,
+      "fit_seconds": 1.0407138000009581,
+      "batch_replay_ms": 41.88840001006611,
+      "amortized_ms_per_window": 1.6110923080794657,
+      "gate_warning": "label-derived flags for interface replay, not measured detector",
+      "result": {
+        "mode": "offline_replay",
+        "upstream_gate": "provided_by_caller",
+        "confidence_calibrated": false,
+        "rul_hours": null,
+        "windows": [
+          {
+            "index": 0,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 1,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 2,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 3,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 4,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 5,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 6,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 7,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 8,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 9,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 10,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 11,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 12,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 13,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 14,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 15,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 16,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 17,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 18,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 19,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 20,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 21,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 22,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 23,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 24,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 25,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          }
+        ]
+      }
+    },
+    {
+      "target": "4",
+      "truth": 1,
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:1:2",
+        "UORED:10:2",
+        "UORED:9:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:19:2",
+        "UORED:16:2",
+        "UORED:18:2",
+        "UORED:20:2"
+      ],
+      "choice": {
+        "representation": "raw",
+        "family": "rf",
+        "synthetic_mass": 0.0,
+        "score": 0.7039473684210527
+      },
+      "model_sha256": "34af465d761de8031a2880e82ba975161c9800e1ea8cc9c6d06765f5132ca569",
+      "model_bytes": 186339,
+      "fit_seconds": 1.0548001999850385,
+      "batch_replay_ms": 38.98000001208857,
+      "amortized_ms_per_window": 1.4992307696957141,
+      "gate_warning": "label-derived flags for interface replay, not measured detector",
+      "result": {
+        "mode": "offline_replay",
+        "upstream_gate": "provided_by_caller",
+        "confidence_calibrated": false,
+        "rul_hours": null,
+        "windows": [
+          {
+            "index": 0,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 1,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 2,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 3,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 4,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 5,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 6,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 7,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 8,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 9,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 10,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 11,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 12,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 13,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 14,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 15,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 16,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 17,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 18,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 19,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 20,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 21,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 22,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 23,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 24,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 25,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          }
+        ]
+      }
+    },
+    {
+      "target": "5",
+      "truth": 1,
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:2:2",
+        "UORED:1:2",
+        "UORED:4:2",
+        "UORED:10:2",
+        "UORED:9:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:19:2",
+        "UORED:16:2",
+        "UORED:18:2",
+        "UORED:20:2"
+      ],
+      "choice": {
+        "representation": "raw",
+        "family": "svm1",
+        "synthetic_mass": 0.0,
+        "score": 0.6052631578947368
+      },
+      "model_sha256": "26a0f26339e01f152070cd84b6f56f9394e84021585f68a458ba3fa5624716db",
+      "model_bytes": 69615,
+      "fit_seconds": 0.9575728000199888,
+      "batch_replay_ms": 45.38699999102391,
+      "amortized_ms_per_window": 1.745653845808612,
+      "gate_warning": "label-derived flags for interface replay, not measured detector",
+      "result": {
+        "mode": "offline_replay",
+        "upstream_gate": "provided_by_caller",
+        "confidence_calibrated": false,
+        "rul_hours": null,
+        "windows": [
+          {
+            "index": 0,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 1,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 2,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 3,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 4,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 5,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 6,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 7,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 8,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 9,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 10,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 11,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 12,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 13,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 14,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 15,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 16,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 17,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 18,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 19,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 20,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 21,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 22,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 23,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 24,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          },
+          {
+            "index": 25,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 1
+          }
+        ]
+      }
+    },
+    {
+      "target": "6",
+      "truth": 2,
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:1:2",
+        "UORED:10:2",
+        "UORED:9:2",
+        "UORED:7:2",
+        "UORED:8:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:19:2",
+        "UORED:16:2",
+        "UORED:18:2",
+        "UORED:20:2"
+      ],
+      "choice": {
+        "representation": "raw",
+        "family": "rf",
+        "synthetic_mass": 0.0,
+        "score": 0.5855263157894738
+      },
+      "model_sha256": "b77dad54f4b1d1af206397a7ff25e8a692a112ad3b199576c5b39fc9b22bcd68",
+      "model_bytes": 191331,
+      "fit_seconds": 1.0244638999865856,
+      "batch_replay_ms": 42.358300008345395,
+      "amortized_ms_per_window": 1.6291653849363614,
+      "gate_warning": "label-derived flags for interface replay, not measured detector",
+      "result": {
+        "mode": "offline_replay",
+        "upstream_gate": "provided_by_caller",
+        "confidence_calibrated": false,
+        "rul_hours": null,
+        "windows": [
+          {
+            "index": 0,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 1,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 2,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 3,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 4,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 5,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 6,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 7,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 8,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 9,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 10,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 11,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 12,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 13,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 14,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 15,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 16,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 17,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 18,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 19,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 20,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 21,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 22,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 23,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 24,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 25,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "7",
+      "truth": 2,
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:1:2",
+        "UORED:10:2",
+        "UORED:9:2",
+        "UORED:6:2",
+        "UORED:8:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:19:2",
+        "UORED:16:2",
+        "UORED:18:2",
+        "UORED:20:2"
+      ],
+      "choice": {
+        "representation": "raw",
+        "family": "rf",
+        "synthetic_mass": 0.0,
+        "score": 0.5526315789473684
+      },
+      "model_sha256": "af925ea25acebf538868fcd7bcc030b87622a13824f45956ce2b29d49b845c3c",
+      "model_bytes": 200284,
+      "fit_seconds": 1.0116301999951247,
+      "batch_replay_ms": 40.40600001462735,
+      "amortized_ms_per_window": 1.5540769236395136,
+      "gate_warning": "label-derived flags for interface replay, not measured detector",
+      "result": {
+        "mode": "offline_replay",
+        "upstream_gate": "provided_by_caller",
+        "confidence_calibrated": false,
+        "rul_hours": null,
+        "windows": [
+          {
+            "index": 0,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 1,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 2,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 3,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 4,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 5,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 6,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 7,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 8,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 9,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 10,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 11,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 12,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 13,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 14,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 15,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 16,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 17,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 18,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 19,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 20,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 21,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 22,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 23,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 24,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 25,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "8",
+      "truth": 2,
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:1:2",
+        "UORED:10:2",
+        "UORED:9:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:19:2",
+        "UORED:16:2",
+        "UORED:18:2",
+        "UORED:20:2"
+      ],
+      "choice": {
+        "representation": "raw",
+        "family": "rf",
+        "synthetic_mass": 0.0,
+        "score": 0.5855263157894737
+      },
+      "model_sha256": "c7d4d389c10d925254cc63e8871ceee57d362161aff1d0f0d8bfaf4e2f6011b9",
+      "model_bytes": 194659,
+      "fit_seconds": 1.072820600005798,
+      "batch_replay_ms": 47.85419997642748,
+      "amortized_ms_per_window": 1.8405461529395184,
+      "gate_warning": "label-derived flags for interface replay, not measured detector",
+      "result": {
+        "mode": "offline_replay",
+        "upstream_gate": "provided_by_caller",
+        "confidence_calibrated": false,
+        "rul_hours": null,
+        "windows": [
+          {
+            "index": 0,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 1,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 2,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 3,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 4,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 5,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 6,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 7,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 8,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 9,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 10,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 11,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 12,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 13,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 14,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 15,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 16,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 17,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 18,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 19,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 20,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 21,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 22,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 23,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 24,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 25,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "9",
+      "truth": 2,
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:1:2",
+        "UORED:10:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:8:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:19:2",
+        "UORED:16:2",
+        "UORED:18:2",
+        "UORED:20:2"
+      ],
+      "choice": {
+        "representation": "raw",
+        "family": "svm10",
+        "synthetic_mass": 0.0,
+        "score": 0.5230263157894737
+      },
+      "model_sha256": "813714c40a99972ee9d77a2cfae40fb8017124e711e64814e1dee91f26544564",
+      "model_bytes": 63666,
+      "fit_seconds": 1.234622899995884,
+      "batch_replay_ms": 45.97420000936836,
+      "amortized_ms_per_window": 1.768238461898783,
+      "gate_warning": "label-derived flags for interface replay, not measured detector",
+      "result": {
+        "mode": "offline_replay",
+        "upstream_gate": "provided_by_caller",
+        "confidence_calibrated": false,
+        "rul_hours": null,
+        "windows": [
+          {
+            "index": 0,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 1,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 2,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 3,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 4,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 5,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 6,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 7,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 8,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 9,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 10,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 11,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 12,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 13,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 14,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 15,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 16,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 17,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 18,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 19,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 20,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 21,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 22,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 23,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 24,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 25,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "10",
+      "truth": 2,
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:1:2",
+        "UORED:9:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:8:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:19:2",
+        "UORED:16:2",
+        "UORED:18:2",
+        "UORED:20:2"
+      ],
+      "choice": {
+        "representation": "raw",
+        "family": "rf",
+        "synthetic_mass": 0.0,
+        "score": 0.5592105263157895
+      },
+      "model_sha256": "75b1292f896d3ae49b116b3a7c569fb18d4ccbae2fdcbb8e93ab717670a95f5b",
+      "model_bytes": 205276,
+      "fit_seconds": 1.3751317000132985,
+      "batch_replay_ms": 67.05370001145639,
+      "amortized_ms_per_window": 2.5789884619790917,
+      "gate_warning": "label-derived flags for interface replay, not measured detector",
+      "result": {
+        "mode": "offline_replay",
+        "upstream_gate": "provided_by_caller",
+        "confidence_calibrated": false,
+        "rul_hours": null,
+        "windows": [
+          {
+            "index": 0,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 1,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 2,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 3,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 4,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 5,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 6,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 7,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 8,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 9,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 10,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 11,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 12,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 13,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 14,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 15,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 16,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 17,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 18,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 19,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 20,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 21,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 22,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 23,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 24,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          },
+          {
+            "index": 25,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 2
+          }
+        ]
+      }
+    },
+    {
+      "target": "11",
+      "truth": 3,
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:1:2",
+        "UORED:10:2",
+        "UORED:9:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:15:2",
+        "UORED:19:2",
+        "UORED:16:2",
+        "UORED:18:2",
+        "UORED:20:2"
+      ],
+      "choice": {
+        "representation": "raw",
+        "family": "rf",
+        "synthetic_mass": 0.0,
+        "score": 0.6546052631578947
+      },
+      "model_sha256": "6b6a1b56b8b869eeafcc5812f15b81a999562c6390107b22cd3cdb8623e48410",
+      "model_bytes": 177604,
+      "fit_seconds": 1.3246500000241213,
+      "batch_replay_ms": 57.28579999413341,
+      "amortized_ms_per_window": 2.203299999774362,
+      "gate_warning": "label-derived flags for interface replay, not measured detector",
+      "result": {
+        "mode": "offline_replay",
+        "upstream_gate": "provided_by_caller",
+        "confidence_calibrated": false,
+        "rul_hours": null,
+        "windows": [
+          {
+            "index": 0,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 1,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 2,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 3,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 4,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 5,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 6,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 7,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 8,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 9,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 10,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 11,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 12,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 13,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 14,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 15,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 16,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 17,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 18,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 19,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 20,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 21,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 22,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 23,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 24,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 25,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          }
+        ]
+      }
+    },
+    {
+      "target": "12",
+      "truth": 3,
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:1:2",
+        "UORED:10:2",
+        "UORED:9:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:15:2",
+        "UORED:19:2",
+        "UORED:16:2",
+        "UORED:18:2",
+        "UORED:20:2"
+      ],
+      "choice": {
+        "representation": "raw",
+        "family": "svm1",
+        "synthetic_mass": 0.0,
+        "score": 0.5592105263157895
+      },
+      "model_sha256": "de71a83923356b2f66a8584bf0d7dfce3b940c9e820e4ce4432ebca8a0102f2b",
+      "model_bytes": 67636,
+      "fit_seconds": 1.2650388999900315,
+      "batch_replay_ms": 60.84769999142736,
+      "amortized_ms_per_window": 2.340296153516437,
+      "gate_warning": "label-derived flags for interface replay, not measured detector",
+      "result": {
+        "mode": "offline_replay",
+        "upstream_gate": "provided_by_caller",
+        "confidence_calibrated": false,
+        "rul_hours": null,
+        "windows": [
+          {
+            "index": 0,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 1,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 2,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 3,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 4,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 5,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 6,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 7,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 8,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 9,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 10,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 11,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 12,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 13,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 14,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 15,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 16,
+            "status": "diagnostic_hypothesis",
+            "label": 2,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 17,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 18,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 19,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 20,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 21,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 22,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 23,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 24,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 25,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          }
+        ]
+      }
+    },
+    {
+      "target": "13",
+      "truth": 3,
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:1:2",
+        "UORED:10:2",
+        "UORED:9:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:11:2",
+        "UORED:15:2",
+        "UORED:19:2",
+        "UORED:16:2",
+        "UORED:18:2",
+        "UORED:20:2"
+      ],
+      "choice": {
+        "representation": "raw",
+        "family": "rf",
+        "synthetic_mass": 0.0,
+        "score": 0.5953947368421053
+      },
+      "model_sha256": "48f5b8a312a7d4ace498a08ece5e74ed92925595a643cb38d5c3542ab7f7c622",
+      "model_bytes": 181764,
+      "fit_seconds": 1.438705900014611,
+      "batch_replay_ms": 61.82159998570569,
+      "amortized_ms_per_window": 2.3777538456040648,
+      "gate_warning": "label-derived flags for interface replay, not measured detector",
+      "result": {
+        "mode": "offline_replay",
+        "upstream_gate": "provided_by_caller",
+        "confidence_calibrated": false,
+        "rul_hours": null,
+        "windows": [
+          {
+            "index": 0,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 1,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 2,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 3,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 4,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 5,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 6,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 7,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 8,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 9,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 10,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 11,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 12,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 13,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 14,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 15,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 16,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 17,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 18,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 19,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 20,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 21,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 22,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 23,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 24,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 25,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          }
+        ]
+      }
+    },
+    {
+      "target": "14",
+      "truth": 3,
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:1:2",
+        "UORED:10:2",
+        "UORED:9:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:12:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:15:2",
+        "UORED:19:2",
+        "UORED:16:2",
+        "UORED:18:2",
+        "UORED:20:2"
+      ],
+      "choice": {
+        "representation": "raw",
+        "family": "rf",
+        "synthetic_mass": 0.0,
+        "score": 0.5953947368421053
+      },
+      "model_sha256": "cfabd47e82024d0ac47fa29282d72306f5068d21e48ea40997f5f5f3704629de",
+      "model_bytes": 171364,
+      "fit_seconds": 1.4412004000041634,
+      "batch_replay_ms": 54.54219999955967,
+      "amortized_ms_per_window": 2.097776923059987,
+      "gate_warning": "label-derived flags for interface replay, not measured detector",
+      "result": {
+        "mode": "offline_replay",
+        "upstream_gate": "provided_by_caller",
+        "confidence_calibrated": false,
+        "rul_hours": null,
+        "windows": [
+          {
+            "index": 0,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 1,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 2,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 3,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 4,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 5,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 6,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 7,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 8,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 9,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 10,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 11,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 12,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 13,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 14,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 15,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 16,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 17,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 18,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 19,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 20,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 21,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 22,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 23,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 24,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 25,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          }
+        ]
+      }
+    },
+    {
+      "target": "15",
+      "truth": 3,
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:1:2",
+        "UORED:10:2",
+        "UORED:9:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:19:2",
+        "UORED:16:2",
+        "UORED:18:2",
+        "UORED:20:2"
+      ],
+      "choice": {
+        "representation": "raw",
+        "family": "rf",
+        "synthetic_mass": 0.0,
+        "score": 0.5625
+      },
+      "model_sha256": "679603c7ec04dd97394ee420f7314c559b222d9e10ba543ae5fddf1f5d24c12d",
+      "model_bytes": 186340,
+      "fit_seconds": 1.4192065999959596,
+      "batch_replay_ms": 57.004200003575534,
+      "amortized_ms_per_window": 2.1924692309067515,
+      "gate_warning": "label-derived flags for interface replay, not measured detector",
+      "result": {
+        "mode": "offline_replay",
+        "upstream_gate": "provided_by_caller",
+        "confidence_calibrated": false,
+        "rul_hours": null,
+        "windows": [
+          {
+            "index": 0,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 1,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 2,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 3,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 4,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 5,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 6,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 7,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 8,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 9,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 10,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 11,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 12,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 13,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 14,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 15,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 16,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 17,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 18,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 19,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 20,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 21,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 22,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 23,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 24,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          },
+          {
+            "index": 25,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 3
+          }
+        ]
+      }
+    },
+    {
+      "target": "16",
+      "truth": 4,
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:1:2",
+        "UORED:10:2",
+        "UORED:9:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:19:2",
+        "UORED:18:2",
+        "UORED:20:2",
+        "UORED:17:2"
+      ],
+      "choice": {
+        "representation": "raw",
+        "family": "svm10",
+        "synthetic_mass": 0.0,
+        "score": 0.6743421052631579
+      },
+      "model_sha256": "698591a0908856d164969884bf36ae84e04dd3afaccda14da4c3c55c05ff2f50",
+      "model_bytes": 62083,
+      "fit_seconds": 1.3328468999825418,
+      "batch_replay_ms": 68.16399999661371,
+      "amortized_ms_per_window": 2.621692307562066,
+      "gate_warning": "label-derived flags for interface replay, not measured detector",
+      "result": {
+        "mode": "offline_replay",
+        "upstream_gate": "provided_by_caller",
+        "confidence_calibrated": false,
+        "rul_hours": null,
+        "windows": [
+          {
+            "index": 0,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 1,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 2,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 3,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 4,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 5,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 6,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 7,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 8,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0005
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 9,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0005
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 10,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0005
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 11,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0005
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 12,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 13,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.00025
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 14,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.00025
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 15,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.00075
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 16,
+            "status": "needs_signal_check",
+            "label": null,
+            "quality": {
+              "ok": false,
+              "reason": "sensor_saturation",
+              "clipped_fraction": 0.0025
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 17,
+            "status": "needs_signal_check",
+            "label": null,
+            "quality": {
+              "ok": false,
+              "reason": "sensor_saturation",
+              "clipped_fraction": 0.00225
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 18,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.00075
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 19,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.001
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 20,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.00075
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 21,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 22,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.001
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 23,
+            "status": "needs_signal_check",
+            "label": null,
+            "quality": {
+              "ok": false,
+              "reason": "sensor_saturation",
+              "clipped_fraction": 0.0015
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 24,
+            "status": "needs_signal_check",
+            "label": null,
+            "quality": {
+              "ok": false,
+              "reason": "sensor_saturation",
+              "clipped_fraction": 0.002
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 25,
+            "status": "needs_signal_check",
+            "label": null,
+            "quality": {
+              "ok": false,
+              "reason": "sensor_saturation",
+              "clipped_fraction": 0.00225
+            },
+            "truth_for_offline_audit": 4
+          }
+        ]
+      }
+    },
+    {
+      "target": "17",
+      "truth": 4,
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:1:2",
+        "UORED:10:2",
+        "UORED:9:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:19:2",
+        "UORED:16:2",
+        "UORED:18:2",
+        "UORED:20:2"
+      ],
+      "choice": {
+        "representation": "raw",
+        "family": "rf",
+        "synthetic_mass": 0.0,
+        "score": 0.674342105263158
+      },
+      "model_sha256": "88da8d95d2c343fe1d782ca17d7c864a9907d438111db5902e8112befc0a5003",
+      "model_bytes": 177396,
+      "fit_seconds": 1.3840123999980278,
+      "batch_replay_ms": 57.023300003493205,
+      "amortized_ms_per_window": 2.1932038462882,
+      "gate_warning": "label-derived flags for interface replay, not measured detector",
+      "result": {
+        "mode": "offline_replay",
+        "upstream_gate": "provided_by_caller",
+        "confidence_calibrated": false,
+        "rul_hours": null,
+        "windows": [
+          {
+            "index": 0,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 1,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 2,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 3,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 4,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 5,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 6,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 7,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 8,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 9,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 10,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 11,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 12,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 13,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 14,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 15,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 16,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 17,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 18,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 19,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 20,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 21,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 22,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 23,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 24,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 25,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          }
+        ]
+      }
+    },
+    {
+      "target": "18",
+      "truth": 4,
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:1:2",
+        "UORED:10:2",
+        "UORED:9:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:19:2",
+        "UORED:16:2",
+        "UORED:20:2",
+        "UORED:17:2"
+      ],
+      "choice": {
+        "representation": "raw",
+        "family": "rf",
+        "synthetic_mass": 0.0,
+        "score": 0.6217105263157895
+      },
+      "model_sha256": "3a66f774ac33cbd9a344ada55c72d24a37e7d332ca0b293b0b5fcb7ff0665adc",
+      "model_bytes": 195908,
+      "fit_seconds": 1.4523448999971151,
+      "batch_replay_ms": 51.83420001412742,
+      "amortized_ms_per_window": 1.9936230774664392,
+      "gate_warning": "label-derived flags for interface replay, not measured detector",
+      "result": {
+        "mode": "offline_replay",
+        "upstream_gate": "provided_by_caller",
+        "confidence_calibrated": false,
+        "rul_hours": null,
+        "windows": [
+          {
+            "index": 0,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 1,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 2,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 3,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 4,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 5,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 6,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 7,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 8,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 9,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 10,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 11,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 12,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 13,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 14,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 15,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 16,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 17,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 18,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 19,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 20,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 21,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 22,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.00025
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 23,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.00025
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 24,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.00025
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 25,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.00025
+            },
+            "truth_for_offline_audit": 4
+          }
+        ]
+      }
+    },
+    {
+      "target": "19",
+      "truth": 4,
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:1:2",
+        "UORED:10:2",
+        "UORED:9:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:16:2",
+        "UORED:18:2",
+        "UORED:20:2",
+        "UORED:17:2"
+      ],
+      "choice": {
+        "representation": "raw",
+        "family": "rf",
+        "synthetic_mass": 0.0,
+        "score": 0.5098684210526316
+      },
+      "model_sha256": "6c38d1b7c5b0dcb2bddcc1c67bc5f5d3d2956287c07dcfcb64d4a695777f560a",
+      "model_bytes": 194452,
+      "fit_seconds": 1.4440373000106774,
+      "batch_replay_ms": 52.00449997209944,
+      "amortized_ms_per_window": 2.0001730758499785,
+      "gate_warning": "label-derived flags for interface replay, not measured detector",
+      "result": {
+        "mode": "offline_replay",
+        "upstream_gate": "provided_by_caller",
+        "confidence_calibrated": false,
+        "rul_hours": null,
+        "windows": [
+          {
+            "index": 0,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 1,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 2,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 3,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 4,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 5,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 6,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 7,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 8,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 9,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 10,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 11,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 12,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 13,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 14,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 15,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 16,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 17,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 18,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 19,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 20,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 21,
+            "status": "diagnostic_hypothesis",
+            "label": 3,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 22,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 23,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 24,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 25,
+            "status": "diagnostic_hypothesis",
+            "label": 4,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          }
+        ]
+      }
+    },
+    {
+      "target": "20",
+      "truth": 4,
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:1:2",
+        "UORED:10:2",
+        "UORED:9:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:19:2",
+        "UORED:16:2",
+        "UORED:18:2",
+        "UORED:17:2"
+      ],
+      "choice": {
+        "representation": "raw",
+        "family": "rf",
+        "synthetic_mass": 0.0,
+        "score": 0.6578947368421053
+      },
+      "model_sha256": "7ac4666c36ae28738abfad7c9c30b04872772e2e59b7cbcfd50b19bcfe77cc71",
+      "model_bytes": 183428,
+      "fit_seconds": 1.4661388999957126,
+      "batch_replay_ms": 51.987100014230236,
+      "amortized_ms_per_window": 1.999503846701163,
+      "gate_warning": "label-derived flags for interface replay, not measured detector",
+      "result": {
+        "mode": "offline_replay",
+        "upstream_gate": "provided_by_caller",
+        "confidence_calibrated": false,
+        "rul_hours": null,
+        "windows": [
+          {
+            "index": 0,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 1,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 2,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 3,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 4,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 5,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 6,
+            "status": "no_upstream_alarm",
+            "label": null,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 0
+          },
+          {
+            "index": 7,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 8,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 9,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 10,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 11,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 12,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 13,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 14,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 15,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 16,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 17,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 18,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 19,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 20,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 21,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 22,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 23,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 24,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          },
+          {
+            "index": 25,
+            "status": "diagnostic_hypothesis",
+            "label": 1,
+            "quality": {
+              "ok": true,
+              "reason": "accepted",
+              "clipped_fraction": 0.0
+            },
+            "truth_for_offline_audit": 4
+          }
+        ]
+      }
+    }
+  ],
+  "hardware": "local Windows computer, not Raspberry Pi",
+  "gate_is_label_derived": true
+}

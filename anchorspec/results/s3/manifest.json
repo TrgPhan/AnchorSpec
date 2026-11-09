@@ -1,0 +1,19 @@
+{
+  "results/s3/AnchorSpec_CPU_Benchmark_20261106.xlsx": "53adf5dcb15122a71283aa39f17493429f7a76a5caf05821e0726a4074a8f7d9",
+  "results/s3/comparisons.csv": "9b4fb40e7a75d8bfb834d75738de30ccf9556b3da23fbb4b4ffc33777ba2c613",
+  "results/s3/cpu_cached.json": "a583e458edaf206229942d2ef24ad946666b5c3166faf01ad6bc6e7fb7ae5ef8",
+  "results/s3/cpu_comparison.png": "877f6faabaf87b850d055f8d6fae4376dc8590ec677942079b6e49500da78d76",
+  "results/s3/cpu_comparison.svg": "c1616409d33fc878c2cdbbca9f5059b8e45d27b628e6892e5c85a099e240c03f",
+  "results/s3/cpu_optimized.json": "f3559367f1c831198b1fbf0e5e2ab0feeab00da590669ee01402350654a5d57a",
+  "results/s3/cpu_profile.json": "981962089b1abdac53d4826edfe52249561f2a2388f401330d91df4fd0e1bfcb",
+  "results/s3/export_validation.json": "1ac398b6039f6a4e94f75c868569314ed546223992d9278fa093cfb38c40a07f",
+  "results/s3/failure_audit.json": "d641bfbad0aadb1b9bfb19f2f8eff6245984e4ea053d82d263d1b65d5f041423",
+  "results/s3/per_bearing.csv": "2c44db646bfb77a10d024c170f2bb420b37001d9dd286c037c8e84ec3776e3e2",
+  "results/s3/prerun.json": "76689495a233373c543f5be3614e44b4dbc562765348163ced917f6e0e1fd4d4",
+  "results/s3/quality.csv": "4019864e70f29e0f58cf86e808e2b7afcfa443961a119cc4faa9ede5a5456fed",
+  "results/s3/spectral.json": "32d77dea3d335f584678f5c822448cf978deb033a6979c2ad5aa8b59339a24c4",
+  "results/s3/steps.json": "2578467ebc146703883b38bacab99f0d3eb07fb581f97e1d2b74a3b7d6f058bc",
+  "results/s3/steps_prerun.json": "0339b550a5c5899162f48e115904588ba2f7263c0300f16e3cdf5d4e682bdc94",
+  "results/s3/validation.json": "90cf72053da96f6d3709025350cf8deb4fa90302dad8d98d57b8b90b3f4bfaec",
+  "CAI_TIEN_DL_CPU_20261106.md": "3f569b0ca915365411e9310de2d08e9773479ed7c0894e999fdc923ce7533dec"
+}

@@ -29,6 +29,7 @@
 
 # AnchorSpec v2: code, protocol and compact results. data/ stays local.
 !/anchorspec/*.py
+!/anchorspec/w_export_slides.ps1
 !/anchorspec/requirements*.txt
 !/anchorspec/results/data_inventory.json
 !/anchorspec/results/*.log
@@ -42,6 +43,55 @@
 !/anchorspec/results/tn7/*.json
 !/anchorspec/results/e[1-8]/*.json
 !/anchorspec/results/x/*.json
+!/anchorspec/results/y/*.json
+!/anchorspec/results/y/*.png
+!/anchorspec/results/y/*.svg
+!/anchorspec/results/z/*.json
+!/anchorspec/results/z/*.png
+!/anchorspec/results/z/*.svg
+!/anchorspec/results/w/*.json
+!/anchorspec/results/w/*.png
+!/anchorspec/results/w/*.svg
+!/anchorspec/results/w/*.html
+!/anchorspec/results/w/*.pptx
+!/anchorspec/results/w/*.pdf
+!/anchorspec/results/v/*.json
+!/anchorspec/results/v/*.png
+!/anchorspec/results/v/*.svg
+!/anchorspec/results/v/*.pptx
+!/anchorspec/results/v/*.pdf
+!/anchorspec/results/u/*.json
+!/anchorspec/results/u/*.png
+!/anchorspec/results/u/*.svg
+!/anchorspec/results/u/*.pptx
+!/anchorspec/results/u/*.pdf
+!/anchorspec/results/t/*.json
+!/anchorspec/results/t/*.png
+!/anchorspec/results/t/*.svg
+!/anchorspec/results/t/*.pptx
+!/anchorspec/results/t/*.pdf
+!/anchorspec/t_export_slides.ps1
+!/anchorspec/results/overview/*.json
+!/anchorspec/results/overview/*.csv
+!/anchorspec/results/overview/*.png
+!/anchorspec/results/overview/*.svg
+!/anchorspec/results/s/*.json
+!/anchorspec/results/s/*.png
+!/anchorspec/results/s/*.svg
+!/anchorspec/results/s2/*.json
+!/anchorspec/results/s2/*.png
+!/anchorspec/results/s2/*.svg
+!/anchorspec/results/s3/*.json
+!/anchorspec/results/s3/*.csv
+!/anchorspec/results/s3/*.xlsx
+!/anchorspec/results/s3/*.png
+!/anchorspec/results/s3/*.svg
+!/anchorspec/results/priorities/*.json
+!/anchorspec/results/priorities/*.csv
+!/anchorspec/results/priorities/*.xlsx
+!/anchorspec/results/factory_benchmark/*.json
+!/anchorspec/results/factory_benchmark/*.csv
+!/anchorspec/results/factory_benchmark/*.xlsx
 !/anchorspec/results/tn3/summary.json
 !/anchorspec/results/tn3/hi_all_test_cheap.png
 
@@ -90,3 +140,8 @@
 !.env.example
 *.pem
 *.key
+
+# Internal factory discussion and isolated local checkouts.
+/LOCAL_DENSO_HANDOFF_REVIEW.md
+/HANDOFF_ANCHORSPEC_*.md
+/.worktrees/

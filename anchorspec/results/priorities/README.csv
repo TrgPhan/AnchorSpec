@@ -1,0 +1,15 @@
+﻿item,definition
+Primary,"Flow phần dư, 16 bước, mức 0.5, 125 mẫu thật cộng 120 mẫu sinh, alpha 0.25, RF, selective với ngưỡng 0."
+Independent units,"13 ổ, gồm 3 vòng trong, 8 vòng ngoài, 2 vòng cách. Ba seed là chạy lặp, không phải ổ mới."
+Class metrics,"Precision và F1 gộp dự đoán ba seed. Healthy_terminal gồm 195 lượt khỏe và 390 lượt lỗi cuối, tương ứng 195 đoạn riêng biệt. Lỗi thật được gán theo ổ, không xác nhận từng đoạn."
+Undefined precision,"Nếu không dự đoán lớp nào, precision lớp đó để trống. Macro_precision_zero_for_undefined dùng giá trị 0 cho lớp chưa định nghĩa, không bỏ qua lớp đó."
+FN,"FN là không chẩn đoán đúng loại lỗi, bao gồm nhầm loại, gọi khỏe và từ chối. Không đồng nghĩa detector không báo bất thường."
+Bearing miss,Toàn bộ 10 đoạn của giai đoạn không có dự đoán đúng. Có bảng từng seed; missed_all_three_seeds cần cả ba seed đều bỏ sót. Không dùng để ước lượng sự kiện nhà máy.
+Regimes,"Điều kiện 1: 2100 rpm, 12 kN; điều kiện 2: 2250 rpm, 11 kN; điều kiện 3: 2400 rpm, 10 kN. Macro trung bình trên lớp có mặt; không so như tập cùng thành phần lỗi."
+Physical comparison,"So với đúng mẫu nền dùng để sinh; nguồn huấn luyện được lặp lại giữa các fold. PSD cosine và phổ bao cosine không phải accuracy. Phổ bao dùng bandpass 10 đến 1000 Hz, Hilbert và Welch, xét 0 đến 500 Hz không gồm DC."
+Copy check,Tương quan zero-lag với 120 mẫu nguồn; gần bản sao khi tương quan lớn hơn 0.99. Sao chép số học nếu sai số tuyệt đối lớn nhất nhỏ hơn 1e-10 với mẫu nguồn tương quan cao nhất; không phải kiểm tra ghi nhớ bất biến theo dịch thời gian.
+Clipping,Không cắt đỉnh từng điểm lần nữa. Có giới hạn hệ số biến đổi phổ và co biên độ toàn waveform; không thể suy ra tín hiệu không có bão hòa từ cảm biến trước đó.
+Runtime,"Tiến trình mới chỉ có bộ chẩn đoán, không nạp Torch hoặc bộ sinh. Một query cố định 4000 điểm, một warmup và 100 lần đo. Không gồm thu tín hiệu, truyền mạng, load model; RSS là cả tiến trình, không phải chỉ trọng số RF."
+Unknown,"Unknown_T là kết quả lịch sử, khác cấu hình. S3 chưa có thử nghiệm unknown. Tỷ lệ từ chối trong closed-set không đánh giá được khả năng nhận lỗi lạ."
+Unavailable,"Kiểm tra sai mỗi ca, thời gian báo sớm trước hỏng, công bảo trì, downtime và hiệu quả tài chính chưa đo được từ dữ liệu hiện có."
+Dataset,https://github.com/WangBiaoXJTU/xjtu-sy-bearing-datasets

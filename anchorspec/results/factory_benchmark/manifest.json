@@ -1,0 +1,14 @@
+{
+  "results/factory_benchmark/all_configurations.csv": "2a97f998dd2b5a7d572ab511a7e4e5b9a8326d06966a4a25b299c56622190d5f",
+  "results/factory_benchmark/AnchorSpec_Full_Benchmark_20261106.xlsx": "3d601c41117f40aa365f3822e26b24b71f358a69473601ba6f27af3bf6786da9",
+  "results/factory_benchmark/confusion_matrices.csv": "c64e9640cb273ab47cac56dda519d113e5d19d3998a6f653b325f4ee93f61262",
+  "results/factory_benchmark/factory_priorities.csv": "0f31258dbc83c5dac7dd0f2f1c6441f01c481ea1521a3aa40653be6cff338cf1",
+  "results/factory_benchmark/per_bearing.csv": "0e51c660f6f40602b7ac62d891bbbec13526529e1e98d8ba17ae8ef479890275",
+  "results/factory_benchmark/per_seed.csv": "d73976687144f73193bd419f0cdad1687491b2eca3cbae49b5b2f5de0bb439a7",
+  "results/factory_benchmark/quality.csv": "bdec601b27d86c9b7e251ca9501cc1d957f38a46716322f3dd2d3fcfe000a8da",
+  "results/factory_benchmark/sampling_profile.json": "b3363a10b55b33b5d275bd60eb49f9a38fb9e11003deb45ca5282e2f63f7de31",
+  "results/factory_benchmark/validation.json": "d86ced43cfc721d3ebe46a3b32d50a05cac042e5910ff929e61a8b32a14d8ce2",
+  "FULL_BENCHMARK_VA_UU_TIEN_NHA_MAY_20261106.md": "cf3249f930a69384ecd05f3f5289d365b0c36a77e7b6166209e9cce3cfea7853",
+  "factory_benchmark_report.py": "2056ed9911dc88311b207b7585112a850b6ca07e24a995dd98d38929f03e84e3",
+  "factory_sampling_profile.py": "0112a6d1c191cf870a81bcc441d8ebd9b603734f72505e34682cf1691a0746f9"
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-05",
+  "pytest": {
+    "command": "python -m pytest -q",
+    "passed": 116,
+    "failed": 0,
+    "seconds": 14.23
+  },
+  "slides": {
+    "pages": 8,
+    "text_within_page": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "contact_sheet_visually_reviewed": true
+  },
+  "fits": {
+    "readiness": 780,
+    "nested_inner": 1872,
+    "external": 624
+  },
+  "independent_xjtu_bearings": 13,
+  "production_ready": false,
+  "default_runtime_changed": false
+}

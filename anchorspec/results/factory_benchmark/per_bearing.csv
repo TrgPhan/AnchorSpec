@@ -1,0 +1,1587 @@
+﻿configuration,method,policy,target,fault_class,seeds,preterminal_recall,terminal_recall,healthy_fault_claim,terminal_fault_claim,terminal_abstain,terminal_recall_seed_min,terminal_recall_seed_max
+real,Mẫu thật,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+real,Mẫu thật,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+real,Mẫu thật,selective,1_3,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+real,Mẫu thật,selective,1_4,4,3,0.2333333333333333,0.2333333333333333,0.0,0.3,0.0,0.0,0.7
+real,Mẫu thật,selective,2_1,1,3,0.5666666666666668,0.8000000000000002,0.0,1.0,0.0,0.7,0.9
+real,Mẫu thật,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+real,Mẫu thật,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+real,Mẫu thật,selective,2_4,2,3,0.03333333333333333,1.0,0.0,1.0,0.0,1.0,1.0
+real,Mẫu thật,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+real,Mẫu thật,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+real,Mẫu thật,selective,3_3,1,3,0.7333333333333334,1.0,0.0,1.0,0.0,1.0,1.0
+real,Mẫu thật,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+real,Mẫu thật,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+real,Mẫu thật,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+real,Mẫu thật,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+real,Mẫu thật,conditional,1_3,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+real,Mẫu thật,conditional,1_4,4,3,0.7000000000000001,0.6999999999999998,1.0,1.0,0.0,0.7,0.7
+real,Mẫu thật,conditional,2_1,1,3,0.5666666666666668,0.8000000000000002,1.0,1.0,0.0,0.7,0.9
+real,Mẫu thật,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+real,Mẫu thật,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+real,Mẫu thật,conditional,2_4,2,3,0.7666666666666666,1.0,1.0,1.0,0.0,1.0,1.0
+real,Mẫu thật,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+real,Mẫu thật,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+real,Mẫu thật,conditional,3_3,1,3,0.7333333333333334,1.0,1.0,1.0,0.0,1.0,1.0
+real,Mẫu thật,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+real,Mẫu thật,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r0.5:a0.25,Thêm bản sao,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r0.5:a0.25,Thêm bản sao,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r0.5:a0.25,Thêm bản sao,selective,1_3,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r0.5:a0.25,Thêm bản sao,selective,1_4,4,3,0.5666666666666668,0.5,0.0,0.6333333333333333,0.0,0.5,0.5
+duplicate:r0.5:a0.25,Thêm bản sao,selective,2_1,1,3,0.7666666666666666,0.7999999999999999,0.0,1.0,0.0,0.7,1.0
+duplicate:r0.5:a0.25,Thêm bản sao,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r0.5:a0.25,Thêm bản sao,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+duplicate:r0.5:a0.25,Thêm bản sao,selective,2_4,2,3,0.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r0.5:a0.25,Thêm bản sao,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r0.5:a0.25,Thêm bản sao,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r0.5:a0.25,Thêm bản sao,selective,3_3,1,3,0.7333333333333334,0.8666666666666667,0.0,1.0,0.0,0.6,1.0
+duplicate:r0.5:a0.25,Thêm bản sao,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r0.5:a0.25,Thêm bản sao,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r0.5:a0.25,Thêm bản sao,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r0.5:a0.25,Thêm bản sao,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r0.5:a0.25,Thêm bản sao,conditional,1_3,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r0.5:a0.25,Thêm bản sao,conditional,1_4,4,3,0.7999999999999999,0.7333333333333333,1.0,1.0,0.0,0.6,0.9
+duplicate:r0.5:a0.25,Thêm bản sao,conditional,2_1,1,3,0.7666666666666666,0.7999999999999999,1.0,1.0,0.0,0.7,1.0
+duplicate:r0.5:a0.25,Thêm bản sao,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r0.5:a0.25,Thêm bản sao,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+duplicate:r0.5:a0.25,Thêm bản sao,conditional,2_4,2,3,0.9,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r0.5:a0.25,Thêm bản sao,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r0.5:a0.25,Thêm bản sao,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r0.5:a0.25,Thêm bản sao,conditional,3_3,1,3,0.7333333333333334,0.8666666666666667,1.0,1.0,0.0,0.6,1.0
+duplicate:r0.5:a0.25,Thêm bản sao,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r0.5:a0.25,Thêm bản sao,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r0.5:a1,Thêm bản sao,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r0.5:a1,Thêm bản sao,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r0.5:a1,Thêm bản sao,selective,1_3,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r0.5:a1,Thêm bản sao,selective,1_4,4,3,0.9,0.8666666666666667,0.0,0.9,0.0,0.6,1.0
+duplicate:r0.5:a1,Thêm bản sao,selective,2_1,1,3,0.9333333333333332,0.7333333333333334,0.0,1.0,0.0,0.6,0.8
+duplicate:r0.5:a1,Thêm bản sao,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r0.5:a1,Thêm bản sao,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+duplicate:r0.5:a1,Thêm bản sao,selective,2_4,2,3,0.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r0.5:a1,Thêm bản sao,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r0.5:a1,Thêm bản sao,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r0.5:a1,Thêm bản sao,selective,3_3,1,3,0.7000000000000001,0.8333333333333334,0.0,1.0,0.0,0.5,1.0
+duplicate:r0.5:a1,Thêm bản sao,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r0.5:a1,Thêm bản sao,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r0.5:a1,Thêm bản sao,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r0.5:a1,Thêm bản sao,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r0.5:a1,Thêm bản sao,conditional,1_3,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r0.5:a1,Thêm bản sao,conditional,1_4,4,3,1.0,0.9666666666666667,1.0,1.0,0.0,0.9,1.0
+duplicate:r0.5:a1,Thêm bản sao,conditional,2_1,1,3,0.9333333333333332,0.7333333333333334,1.0,1.0,0.0,0.6,0.8
+duplicate:r0.5:a1,Thêm bản sao,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r0.5:a1,Thêm bản sao,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+duplicate:r0.5:a1,Thêm bản sao,conditional,2_4,2,3,0.9333333333333332,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r0.5:a1,Thêm bản sao,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r0.5:a1,Thêm bản sao,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r0.5:a1,Thêm bản sao,conditional,3_3,1,3,0.7000000000000001,0.8333333333333334,1.0,1.0,0.0,0.5,1.0
+duplicate:r0.5:a1,Thêm bản sao,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r0.5:a1,Thêm bản sao,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r1:a0.25,Thêm bản sao,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r1:a0.25,Thêm bản sao,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r1:a0.25,Thêm bản sao,selective,1_3,2,3,1.0,0.9666666666666667,0.0,1.0,0.0,0.9,1.0
+duplicate:r1:a0.25,Thêm bản sao,selective,1_4,4,3,0.7333333333333334,0.6333333333333333,0.0,0.6666666666666666,0.0,0.6,0.7
+duplicate:r1:a0.25,Thêm bản sao,selective,2_1,1,3,0.6333333333333333,0.7333333333333334,0.0,1.0,0.0,0.6,0.9
+duplicate:r1:a0.25,Thêm bản sao,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r1:a0.25,Thêm bản sao,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+duplicate:r1:a0.25,Thêm bản sao,selective,2_4,2,3,0.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r1:a0.25,Thêm bản sao,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r1:a0.25,Thêm bản sao,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r1:a0.25,Thêm bản sao,selective,3_3,1,3,0.7666666666666666,0.8666666666666667,0.0,1.0,0.0,0.6,1.0
+duplicate:r1:a0.25,Thêm bản sao,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r1:a0.25,Thêm bản sao,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r1:a0.25,Thêm bản sao,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r1:a0.25,Thêm bản sao,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r1:a0.25,Thêm bản sao,conditional,1_3,2,3,1.0,0.9666666666666667,1.0,1.0,0.0,0.9,1.0
+duplicate:r1:a0.25,Thêm bản sao,conditional,1_4,4,3,1.0,0.9333333333333332,1.0,1.0,0.0,0.9,1.0
+duplicate:r1:a0.25,Thêm bản sao,conditional,2_1,1,3,0.6333333333333333,0.7333333333333334,1.0,1.0,0.0,0.6,0.9
+duplicate:r1:a0.25,Thêm bản sao,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r1:a0.25,Thêm bản sao,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+duplicate:r1:a0.25,Thêm bản sao,conditional,2_4,2,3,0.6666666666666666,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r1:a0.25,Thêm bản sao,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r1:a0.25,Thêm bản sao,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r1:a0.25,Thêm bản sao,conditional,3_3,1,3,0.7666666666666666,0.8666666666666667,1.0,1.0,0.0,0.6,1.0
+duplicate:r1:a0.25,Thêm bản sao,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r1:a0.25,Thêm bản sao,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r1:a1,Thêm bản sao,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r1:a1,Thêm bản sao,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r1:a1,Thêm bản sao,selective,1_3,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r1:a1,Thêm bản sao,selective,1_4,4,3,0.7999999999999999,0.7666666666666666,0.0,0.8000000000000002,0.0,0.6,1.0
+duplicate:r1:a1,Thêm bản sao,selective,2_1,1,3,0.7333333333333334,0.6999999999999998,0.0,1.0,0.0,0.6,0.8
+duplicate:r1:a1,Thêm bản sao,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r1:a1,Thêm bản sao,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+duplicate:r1:a1,Thêm bản sao,selective,2_4,2,3,0.06666666666666667,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r1:a1,Thêm bản sao,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r1:a1,Thêm bản sao,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r1:a1,Thêm bản sao,selective,3_3,1,3,0.3666666666666667,0.6666666666666666,0.0,1.0,0.0,0.4,1.0
+duplicate:r1:a1,Thêm bản sao,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r1:a1,Thêm bản sao,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r1:a1,Thêm bản sao,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r1:a1,Thêm bản sao,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r1:a1,Thêm bản sao,conditional,1_3,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r1:a1,Thêm bản sao,conditional,1_4,4,3,1.0,0.9666666666666667,1.0,1.0,0.0,0.9,1.0
+duplicate:r1:a1,Thêm bản sao,conditional,2_1,1,3,0.7333333333333334,0.6999999999999998,1.0,1.0,0.0,0.6,0.8
+duplicate:r1:a1,Thêm bản sao,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r1:a1,Thêm bản sao,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+duplicate:r1:a1,Thêm bản sao,conditional,2_4,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r1:a1,Thêm bản sao,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r1:a1,Thêm bản sao,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r1:a1,Thêm bản sao,conditional,3_3,1,3,0.3666666666666667,0.6666666666666666,1.0,1.0,0.0,0.4,1.0
+duplicate:r1:a1,Thêm bản sao,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r1:a1,Thêm bản sao,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r2:a0.25,Thêm bản sao,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r2:a0.25,Thêm bản sao,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r2:a0.25,Thêm bản sao,selective,1_3,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r2:a0.25,Thêm bản sao,selective,1_4,4,3,0.7666666666666666,0.6,0.0,0.6333333333333333,0.0,0.2,1.0
+duplicate:r2:a0.25,Thêm bản sao,selective,2_1,1,3,0.6666666666666666,0.7000000000000001,0.0,1.0,0.0,0.5,0.8
+duplicate:r2:a0.25,Thêm bản sao,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r2:a0.25,Thêm bản sao,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+duplicate:r2:a0.25,Thêm bản sao,selective,2_4,2,3,0.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r2:a0.25,Thêm bản sao,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r2:a0.25,Thêm bản sao,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r2:a0.25,Thêm bản sao,selective,3_3,1,3,0.4666666666666666,0.8333333333333334,0.0,1.0,0.0,0.5,1.0
+duplicate:r2:a0.25,Thêm bản sao,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r2:a0.25,Thêm bản sao,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r2:a0.25,Thêm bản sao,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r2:a0.25,Thêm bản sao,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r2:a0.25,Thêm bản sao,conditional,1_3,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r2:a0.25,Thêm bản sao,conditional,1_4,4,3,1.0,0.9333333333333332,1.0,1.0,0.0,0.9,1.0
+duplicate:r2:a0.25,Thêm bản sao,conditional,2_1,1,3,0.6666666666666666,0.7000000000000001,1.0,1.0,0.0,0.5,0.8
+duplicate:r2:a0.25,Thêm bản sao,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r2:a0.25,Thêm bản sao,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+duplicate:r2:a0.25,Thêm bản sao,conditional,2_4,2,3,0.7666666666666666,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r2:a0.25,Thêm bản sao,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r2:a0.25,Thêm bản sao,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r2:a0.25,Thêm bản sao,conditional,3_3,1,3,0.4666666666666666,0.8333333333333334,1.0,1.0,0.0,0.5,1.0
+duplicate:r2:a0.25,Thêm bản sao,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r2:a0.25,Thêm bản sao,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r2:a1,Thêm bản sao,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r2:a1,Thêm bản sao,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r2:a1,Thêm bản sao,selective,1_3,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r2:a1,Thêm bản sao,selective,1_4,4,3,0.9,0.8333333333333334,0.0,0.9,0.0,0.7,1.0
+duplicate:r2:a1,Thêm bản sao,selective,2_1,1,3,0.43333333333333335,0.8000000000000002,0.0,1.0,0.0,0.6,1.0
+duplicate:r2:a1,Thêm bản sao,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r2:a1,Thêm bản sao,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+duplicate:r2:a1,Thêm bản sao,selective,2_4,2,3,0.06666666666666667,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r2:a1,Thêm bản sao,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r2:a1,Thêm bản sao,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r2:a1,Thêm bản sao,selective,3_3,1,3,0.4000000000000001,0.6,0.0,1.0,0.0,0.5,0.8
+duplicate:r2:a1,Thêm bản sao,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r2:a1,Thêm bản sao,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+duplicate:r2:a1,Thêm bản sao,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r2:a1,Thêm bản sao,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r2:a1,Thêm bản sao,conditional,1_3,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r2:a1,Thêm bản sao,conditional,1_4,4,3,0.9333333333333332,0.9333333333333332,1.0,1.0,0.0,0.9,1.0
+duplicate:r2:a1,Thêm bản sao,conditional,2_1,1,3,0.43333333333333335,0.8000000000000002,1.0,1.0,0.0,0.6,1.0
+duplicate:r2:a1,Thêm bản sao,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r2:a1,Thêm bản sao,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+duplicate:r2:a1,Thêm bản sao,conditional,2_4,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r2:a1,Thêm bản sao,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r2:a1,Thêm bản sao,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r2:a1,Thêm bản sao,conditional,3_3,1,3,0.4000000000000001,0.6,1.0,1.0,0.0,0.5,0.8
+duplicate:r2:a1,Thêm bản sao,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+duplicate:r2:a1,Thêm bản sao,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r0.5:a0.25,Surrogate cũ,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r0.5:a0.25,Surrogate cũ,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r0.5:a0.25,Surrogate cũ,selective,1_3,2,3,1.0,0.9666666666666667,0.0,1.0,0.0,0.9,1.0
+surrogate:r0.5:a0.25,Surrogate cũ,selective,1_4,4,3,0.6666666666666666,0.39999999999999997,0.0,0.4666666666666666,0.0,0.0,0.6
+surrogate:r0.5:a0.25,Surrogate cũ,selective,2_1,1,3,0.7999999999999999,0.9333333333333332,0.0,1.0,0.0,0.8,1.0
+surrogate:r0.5:a0.25,Surrogate cũ,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r0.5:a0.25,Surrogate cũ,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+surrogate:r0.5:a0.25,Surrogate cũ,selective,2_4,2,3,0.06666666666666667,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r0.5:a0.25,Surrogate cũ,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r0.5:a0.25,Surrogate cũ,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r0.5:a0.25,Surrogate cũ,selective,3_3,1,3,0.5666666666666668,0.8666666666666667,0.0,1.0,0.0,0.6,1.0
+surrogate:r0.5:a0.25,Surrogate cũ,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r0.5:a0.25,Surrogate cũ,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r0.5:a0.25,Surrogate cũ,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r0.5:a0.25,Surrogate cũ,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r0.5:a0.25,Surrogate cũ,conditional,1_3,2,3,1.0,0.9666666666666667,1.0,1.0,0.0,0.9,1.0
+surrogate:r0.5:a0.25,Surrogate cũ,conditional,1_4,4,3,0.9,0.7999999999999999,1.0,1.0,0.0,0.7,0.9
+surrogate:r0.5:a0.25,Surrogate cũ,conditional,2_1,1,3,0.7999999999999999,0.9333333333333332,1.0,1.0,0.0,0.8,1.0
+surrogate:r0.5:a0.25,Surrogate cũ,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r0.5:a0.25,Surrogate cũ,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+surrogate:r0.5:a0.25,Surrogate cũ,conditional,2_4,2,3,0.9,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r0.5:a0.25,Surrogate cũ,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r0.5:a0.25,Surrogate cũ,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r0.5:a0.25,Surrogate cũ,conditional,3_3,1,3,0.5666666666666668,0.8666666666666667,1.0,1.0,0.0,0.6,1.0
+surrogate:r0.5:a0.25,Surrogate cũ,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r0.5:a0.25,Surrogate cũ,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r0.5:a1,Surrogate cũ,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r0.5:a1,Surrogate cũ,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r0.5:a1,Surrogate cũ,selective,1_3,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r0.5:a1,Surrogate cũ,selective,1_4,4,3,0.7999999999999999,0.7666666666666666,0.0,0.7999999999999999,0.0,0.6,1.0
+surrogate:r0.5:a1,Surrogate cũ,selective,2_1,1,3,0.7666666666666666,0.7999999999999999,0.0,1.0,0.0,0.5,1.0
+surrogate:r0.5:a1,Surrogate cũ,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r0.5:a1,Surrogate cũ,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+surrogate:r0.5:a1,Surrogate cũ,selective,2_4,2,3,0.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r0.5:a1,Surrogate cũ,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r0.5:a1,Surrogate cũ,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r0.5:a1,Surrogate cũ,selective,3_3,1,3,0.5666666666666668,0.7000000000000001,0.0,1.0,0.0,0.5,1.0
+surrogate:r0.5:a1,Surrogate cũ,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r0.5:a1,Surrogate cũ,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r0.5:a1,Surrogate cũ,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r0.5:a1,Surrogate cũ,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r0.5:a1,Surrogate cũ,conditional,1_3,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r0.5:a1,Surrogate cũ,conditional,1_4,4,3,1.0,0.9666666666666667,1.0,1.0,0.0,0.9,1.0
+surrogate:r0.5:a1,Surrogate cũ,conditional,2_1,1,3,0.7666666666666666,0.7999999999999999,1.0,1.0,0.0,0.5,1.0
+surrogate:r0.5:a1,Surrogate cũ,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r0.5:a1,Surrogate cũ,conditional,2_3,4,3,0.0,0.0,0.9333333333333332,1.0,0.0,0.0,0.0
+surrogate:r0.5:a1,Surrogate cũ,conditional,2_4,2,3,0.7666666666666666,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r0.5:a1,Surrogate cũ,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r0.5:a1,Surrogate cũ,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r0.5:a1,Surrogate cũ,conditional,3_3,1,3,0.5666666666666668,0.7000000000000001,1.0,1.0,0.0,0.5,1.0
+surrogate:r0.5:a1,Surrogate cũ,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r0.5:a1,Surrogate cũ,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r1:a0.25,Surrogate cũ,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r1:a0.25,Surrogate cũ,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r1:a0.25,Surrogate cũ,selective,1_3,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r1:a0.25,Surrogate cũ,selective,1_4,4,3,0.5666666666666667,0.6333333333333333,0.0,0.6666666666666666,0.0,0.0,1.0
+surrogate:r1:a0.25,Surrogate cũ,selective,2_1,1,3,0.6666666666666666,0.9,0.0,1.0,0.0,0.8,1.0
+surrogate:r1:a0.25,Surrogate cũ,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r1:a0.25,Surrogate cũ,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+surrogate:r1:a0.25,Surrogate cũ,selective,2_4,2,3,0.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r1:a0.25,Surrogate cũ,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r1:a0.25,Surrogate cũ,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r1:a0.25,Surrogate cũ,selective,3_3,1,3,0.6333333333333333,0.8333333333333334,0.0,1.0,0.0,0.5,1.0
+surrogate:r1:a0.25,Surrogate cũ,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r1:a0.25,Surrogate cũ,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r1:a0.25,Surrogate cũ,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r1:a0.25,Surrogate cũ,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r1:a0.25,Surrogate cũ,conditional,1_3,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r1:a0.25,Surrogate cũ,conditional,1_4,4,3,1.0,0.9333333333333332,1.0,1.0,0.0,0.9,1.0
+surrogate:r1:a0.25,Surrogate cũ,conditional,2_1,1,3,0.6666666666666666,0.9,1.0,1.0,0.0,0.8,1.0
+surrogate:r1:a0.25,Surrogate cũ,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r1:a0.25,Surrogate cũ,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+surrogate:r1:a0.25,Surrogate cũ,conditional,2_4,2,3,0.7666666666666666,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r1:a0.25,Surrogate cũ,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r1:a0.25,Surrogate cũ,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r1:a0.25,Surrogate cũ,conditional,3_3,1,3,0.6333333333333333,0.8333333333333334,1.0,1.0,0.0,0.5,1.0
+surrogate:r1:a0.25,Surrogate cũ,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r1:a0.25,Surrogate cũ,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r1:a1,Surrogate cũ,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r1:a1,Surrogate cũ,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r1:a1,Surrogate cũ,selective,1_3,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r1:a1,Surrogate cũ,selective,1_4,4,3,0.6999999999999998,0.6666666666666666,0.0,0.7333333333333333,0.0,0.5,0.9
+surrogate:r1:a1,Surrogate cũ,selective,2_1,1,3,0.7000000000000001,0.8333333333333334,0.0,1.0,0.0,0.6,1.0
+surrogate:r1:a1,Surrogate cũ,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r1:a1,Surrogate cũ,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+surrogate:r1:a1,Surrogate cũ,selective,2_4,2,3,0.03333333333333333,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r1:a1,Surrogate cũ,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r1:a1,Surrogate cũ,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r1:a1,Surrogate cũ,selective,3_3,1,3,0.5,0.8333333333333334,0.0,1.0,0.0,0.5,1.0
+surrogate:r1:a1,Surrogate cũ,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r1:a1,Surrogate cũ,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r1:a1,Surrogate cũ,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r1:a1,Surrogate cũ,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r1:a1,Surrogate cũ,conditional,1_3,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r1:a1,Surrogate cũ,conditional,1_4,4,3,0.9333333333333332,0.9,1.0,1.0,0.0,0.8,1.0
+surrogate:r1:a1,Surrogate cũ,conditional,2_1,1,3,0.7000000000000001,0.8333333333333334,1.0,1.0,0.0,0.6,1.0
+surrogate:r1:a1,Surrogate cũ,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r1:a1,Surrogate cũ,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+surrogate:r1:a1,Surrogate cũ,conditional,2_4,2,3,0.9333333333333332,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r1:a1,Surrogate cũ,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r1:a1,Surrogate cũ,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r1:a1,Surrogate cũ,conditional,3_3,1,3,0.5,0.8333333333333334,1.0,1.0,0.0,0.5,1.0
+surrogate:r1:a1,Surrogate cũ,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r1:a1,Surrogate cũ,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r2:a0.25,Surrogate cũ,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r2:a0.25,Surrogate cũ,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r2:a0.25,Surrogate cũ,selective,1_3,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r2:a0.25,Surrogate cũ,selective,1_4,4,3,0.7333333333333334,0.7333333333333334,0.0,0.7333333333333334,0.0,0.5,1.0
+surrogate:r2:a0.25,Surrogate cũ,selective,2_1,1,3,0.7999999999999999,0.7333333333333334,0.0,1.0,0.0,0.5,0.9
+surrogate:r2:a0.25,Surrogate cũ,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r2:a0.25,Surrogate cũ,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+surrogate:r2:a0.25,Surrogate cũ,selective,2_4,2,3,0.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r2:a0.25,Surrogate cũ,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r2:a0.25,Surrogate cũ,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r2:a0.25,Surrogate cũ,selective,3_3,1,3,0.5666666666666668,0.7000000000000001,0.0,1.0,0.0,0.5,1.0
+surrogate:r2:a0.25,Surrogate cũ,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r2:a0.25,Surrogate cũ,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r2:a0.25,Surrogate cũ,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r2:a0.25,Surrogate cũ,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r2:a0.25,Surrogate cũ,conditional,1_3,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r2:a0.25,Surrogate cũ,conditional,1_4,4,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r2:a0.25,Surrogate cũ,conditional,2_1,1,3,0.7999999999999999,0.7333333333333334,1.0,1.0,0.0,0.5,0.9
+surrogate:r2:a0.25,Surrogate cũ,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r2:a0.25,Surrogate cũ,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+surrogate:r2:a0.25,Surrogate cũ,conditional,2_4,2,3,0.9,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r2:a0.25,Surrogate cũ,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r2:a0.25,Surrogate cũ,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r2:a0.25,Surrogate cũ,conditional,3_3,1,3,0.5666666666666668,0.7000000000000001,1.0,1.0,0.0,0.5,1.0
+surrogate:r2:a0.25,Surrogate cũ,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r2:a0.25,Surrogate cũ,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r2:a1,Surrogate cũ,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r2:a1,Surrogate cũ,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r2:a1,Surrogate cũ,selective,1_3,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r2:a1,Surrogate cũ,selective,1_4,4,3,0.8666666666666667,0.7666666666666666,0.0,0.7999999999999999,0.0,0.5,1.0
+surrogate:r2:a1,Surrogate cũ,selective,2_1,1,3,0.4333333333333333,0.7999999999999999,0.0,1.0,0.0,0.6,0.9
+surrogate:r2:a1,Surrogate cũ,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r2:a1,Surrogate cũ,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+surrogate:r2:a1,Surrogate cũ,selective,2_4,2,3,0.10000000000000002,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r2:a1,Surrogate cũ,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r2:a1,Surrogate cũ,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r2:a1,Surrogate cũ,selective,3_3,1,3,0.5,0.5666666666666668,0.0,1.0,0.0,0.5,0.6
+surrogate:r2:a1,Surrogate cũ,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+surrogate:r2:a1,Surrogate cũ,selective,3_5,2,3,1.0,1.0,0.13333333333333333,1.0,0.0,1.0,1.0
+surrogate:r2:a1,Surrogate cũ,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r2:a1,Surrogate cũ,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r2:a1,Surrogate cũ,conditional,1_3,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r2:a1,Surrogate cũ,conditional,1_4,4,3,1.0,0.9666666666666667,1.0,1.0,0.0,0.9,1.0
+surrogate:r2:a1,Surrogate cũ,conditional,2_1,1,3,0.4333333333333333,0.7999999999999999,1.0,1.0,0.0,0.6,0.9
+surrogate:r2:a1,Surrogate cũ,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r2:a1,Surrogate cũ,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+surrogate:r2:a1,Surrogate cũ,conditional,2_4,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r2:a1,Surrogate cũ,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r2:a1,Surrogate cũ,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r2:a1,Surrogate cũ,conditional,3_3,1,3,0.5,0.5666666666666668,1.0,1.0,0.0,0.5,0.6
+surrogate:r2:a1,Surrogate cũ,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+surrogate:r2:a1,Surrogate cũ,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r0.5:a0.25,Surrogate giữ đường bao,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r0.5:a0.25,Surrogate giữ đường bao,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r0.5:a0.25,Surrogate giữ đường bao,selective,1_3,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r0.5:a0.25,Surrogate giữ đường bao,selective,1_4,4,3,0.5666666666666668,0.5,0.0,0.6,0.0,0.2,0.8
+envelope:r0.5:a0.25,Surrogate giữ đường bao,selective,2_1,1,3,0.7333333333333334,0.8000000000000002,0.0,1.0,0.0,0.7,0.9
+envelope:r0.5:a0.25,Surrogate giữ đường bao,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r0.5:a0.25,Surrogate giữ đường bao,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+envelope:r0.5:a0.25,Surrogate giữ đường bao,selective,2_4,2,3,0.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r0.5:a0.25,Surrogate giữ đường bao,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r0.5:a0.25,Surrogate giữ đường bao,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r0.5:a0.25,Surrogate giữ đường bao,selective,3_3,1,3,0.6333333333333333,0.8666666666666667,0.0,1.0,0.0,0.7,1.0
+envelope:r0.5:a0.25,Surrogate giữ đường bao,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r0.5:a0.25,Surrogate giữ đường bao,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r0.5:a0.25,Surrogate giữ đường bao,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r0.5:a0.25,Surrogate giữ đường bao,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r0.5:a0.25,Surrogate giữ đường bao,conditional,1_3,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r0.5:a0.25,Surrogate giữ đường bao,conditional,1_4,4,3,0.8333333333333334,0.7333333333333334,1.0,1.0,0.0,0.5,0.9
+envelope:r0.5:a0.25,Surrogate giữ đường bao,conditional,2_1,1,3,0.7333333333333334,0.8000000000000002,1.0,1.0,0.0,0.7,0.9
+envelope:r0.5:a0.25,Surrogate giữ đường bao,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r0.5:a0.25,Surrogate giữ đường bao,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+envelope:r0.5:a0.25,Surrogate giữ đường bao,conditional,2_4,2,3,0.7333333333333334,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r0.5:a0.25,Surrogate giữ đường bao,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r0.5:a0.25,Surrogate giữ đường bao,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r0.5:a0.25,Surrogate giữ đường bao,conditional,3_3,1,3,0.6333333333333333,0.8666666666666667,1.0,1.0,0.0,0.7,1.0
+envelope:r0.5:a0.25,Surrogate giữ đường bao,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r0.5:a0.25,Surrogate giữ đường bao,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r0.5:a1,Surrogate giữ đường bao,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r0.5:a1,Surrogate giữ đường bao,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r0.5:a1,Surrogate giữ đường bao,selective,1_3,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r0.5:a1,Surrogate giữ đường bao,selective,1_4,4,3,0.7999999999999999,0.8333333333333334,0.0,0.9,0.0,0.8,0.9
+envelope:r0.5:a1,Surrogate giữ đường bao,selective,2_1,1,3,0.7666666666666666,0.6666666666666666,0.0,1.0,0.0,0.5,0.8
+envelope:r0.5:a1,Surrogate giữ đường bao,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r0.5:a1,Surrogate giữ đường bao,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+envelope:r0.5:a1,Surrogate giữ đường bao,selective,2_4,2,3,0.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r0.5:a1,Surrogate giữ đường bao,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r0.5:a1,Surrogate giữ đường bao,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r0.5:a1,Surrogate giữ đường bao,selective,3_3,1,3,0.6333333333333333,0.7666666666666666,0.0,1.0,0.0,0.6,1.0
+envelope:r0.5:a1,Surrogate giữ đường bao,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r0.5:a1,Surrogate giữ đường bao,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r0.5:a1,Surrogate giữ đường bao,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r0.5:a1,Surrogate giữ đường bao,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r0.5:a1,Surrogate giữ đường bao,conditional,1_3,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r0.5:a1,Surrogate giữ đường bao,conditional,1_4,4,3,0.9,0.9,1.0,1.0,0.0,0.8,1.0
+envelope:r0.5:a1,Surrogate giữ đường bao,conditional,2_1,1,3,0.7666666666666666,0.6666666666666666,1.0,1.0,0.0,0.5,0.8
+envelope:r0.5:a1,Surrogate giữ đường bao,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r0.5:a1,Surrogate giữ đường bao,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+envelope:r0.5:a1,Surrogate giữ đường bao,conditional,2_4,2,3,0.7666666666666666,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r0.5:a1,Surrogate giữ đường bao,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r0.5:a1,Surrogate giữ đường bao,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r0.5:a1,Surrogate giữ đường bao,conditional,3_3,1,3,0.6333333333333333,0.7666666666666666,1.0,1.0,0.0,0.6,1.0
+envelope:r0.5:a1,Surrogate giữ đường bao,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r0.5:a1,Surrogate giữ đường bao,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r1:a0.25,Surrogate giữ đường bao,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r1:a0.25,Surrogate giữ đường bao,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r1:a0.25,Surrogate giữ đường bao,selective,1_3,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r1:a0.25,Surrogate giữ đường bao,selective,1_4,4,3,0.7333333333333334,0.7333333333333334,0.0,0.7666666666666666,0.0,0.4,0.9
+envelope:r1:a0.25,Surrogate giữ đường bao,selective,2_1,1,3,0.4000000000000001,0.7000000000000001,0.0,1.0,0.0,0.6,0.8
+envelope:r1:a0.25,Surrogate giữ đường bao,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r1:a0.25,Surrogate giữ đường bao,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+envelope:r1:a0.25,Surrogate giữ đường bao,selective,2_4,2,3,0.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r1:a0.25,Surrogate giữ đường bao,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r1:a0.25,Surrogate giữ đường bao,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r1:a0.25,Surrogate giữ đường bao,selective,3_3,1,3,0.7666666666666666,0.8666666666666667,0.0,1.0,0.0,0.6,1.0
+envelope:r1:a0.25,Surrogate giữ đường bao,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r1:a0.25,Surrogate giữ đường bao,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r1:a0.25,Surrogate giữ đường bao,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r1:a0.25,Surrogate giữ đường bao,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r1:a0.25,Surrogate giữ đường bao,conditional,1_3,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r1:a0.25,Surrogate giữ đường bao,conditional,1_4,4,3,1.0,0.9666666666666667,1.0,1.0,0.0,0.9,1.0
+envelope:r1:a0.25,Surrogate giữ đường bao,conditional,2_1,1,3,0.4000000000000001,0.7000000000000001,1.0,1.0,0.0,0.6,0.8
+envelope:r1:a0.25,Surrogate giữ đường bao,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r1:a0.25,Surrogate giữ đường bao,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+envelope:r1:a0.25,Surrogate giữ đường bao,conditional,2_4,2,3,0.9666666666666667,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r1:a0.25,Surrogate giữ đường bao,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r1:a0.25,Surrogate giữ đường bao,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r1:a0.25,Surrogate giữ đường bao,conditional,3_3,1,3,0.7666666666666666,0.8666666666666667,1.0,1.0,0.0,0.6,1.0
+envelope:r1:a0.25,Surrogate giữ đường bao,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r1:a0.25,Surrogate giữ đường bao,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r1:a1,Surrogate giữ đường bao,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r1:a1,Surrogate giữ đường bao,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r1:a1,Surrogate giữ đường bao,selective,1_3,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r1:a1,Surrogate giữ đường bao,selective,1_4,4,3,0.6666666666666666,0.5666666666666667,0.0,0.6333333333333334,0.0,0.5,0.7
+envelope:r1:a1,Surrogate giữ đường bao,selective,2_1,1,3,0.43333333333333335,0.6666666666666666,0.0,1.0,0.0,0.6,0.7
+envelope:r1:a1,Surrogate giữ đường bao,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r1:a1,Surrogate giữ đường bao,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+envelope:r1:a1,Surrogate giữ đường bao,selective,2_4,2,3,0.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r1:a1,Surrogate giữ đường bao,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r1:a1,Surrogate giữ đường bao,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r1:a1,Surrogate giữ đường bao,selective,3_3,1,3,0.5333333333333333,0.7666666666666666,0.0,1.0,0.0,0.6,1.0
+envelope:r1:a1,Surrogate giữ đường bao,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r1:a1,Surrogate giữ đường bao,selective,3_5,2,3,1.0,1.0,0.06666666666666667,1.0,0.0,1.0,1.0
+envelope:r1:a1,Surrogate giữ đường bao,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r1:a1,Surrogate giữ đường bao,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r1:a1,Surrogate giữ đường bao,conditional,1_3,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r1:a1,Surrogate giữ đường bao,conditional,1_4,4,3,0.9,0.8666666666666667,1.0,1.0,0.0,0.8,0.9
+envelope:r1:a1,Surrogate giữ đường bao,conditional,2_1,1,3,0.43333333333333335,0.6666666666666666,1.0,1.0,0.0,0.6,0.7
+envelope:r1:a1,Surrogate giữ đường bao,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r1:a1,Surrogate giữ đường bao,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+envelope:r1:a1,Surrogate giữ đường bao,conditional,2_4,2,3,0.9333333333333332,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r1:a1,Surrogate giữ đường bao,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r1:a1,Surrogate giữ đường bao,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r1:a1,Surrogate giữ đường bao,conditional,3_3,1,3,0.5333333333333333,0.7666666666666666,1.0,1.0,0.0,0.6,1.0
+envelope:r1:a1,Surrogate giữ đường bao,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r1:a1,Surrogate giữ đường bao,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r2:a0.25,Surrogate giữ đường bao,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r2:a0.25,Surrogate giữ đường bao,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r2:a0.25,Surrogate giữ đường bao,selective,1_3,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r2:a0.25,Surrogate giữ đường bao,selective,1_4,4,3,0.7999999999999999,0.7999999999999999,0.0,0.8333333333333334,0.0,0.5,1.0
+envelope:r2:a0.25,Surrogate giữ đường bao,selective,2_1,1,3,0.7000000000000001,0.7333333333333334,0.0,1.0,0.0,0.6,0.8
+envelope:r2:a0.25,Surrogate giữ đường bao,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r2:a0.25,Surrogate giữ đường bao,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+envelope:r2:a0.25,Surrogate giữ đường bao,selective,2_4,2,3,0.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r2:a0.25,Surrogate giữ đường bao,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r2:a0.25,Surrogate giữ đường bao,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r2:a0.25,Surrogate giữ đường bao,selective,3_3,1,3,0.5333333333333333,0.7000000000000001,0.0,1.0,0.0,0.5,1.0
+envelope:r2:a0.25,Surrogate giữ đường bao,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r2:a0.25,Surrogate giữ đường bao,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r2:a0.25,Surrogate giữ đường bao,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r2:a0.25,Surrogate giữ đường bao,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r2:a0.25,Surrogate giữ đường bao,conditional,1_3,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r2:a0.25,Surrogate giữ đường bao,conditional,1_4,4,3,0.9666666666666667,0.9666666666666667,1.0,1.0,0.0,0.9,1.0
+envelope:r2:a0.25,Surrogate giữ đường bao,conditional,2_1,1,3,0.7000000000000001,0.7333333333333334,1.0,1.0,0.0,0.6,0.8
+envelope:r2:a0.25,Surrogate giữ đường bao,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r2:a0.25,Surrogate giữ đường bao,conditional,2_3,4,3,0.0,0.0,0.9333333333333332,1.0,0.0,0.0,0.0
+envelope:r2:a0.25,Surrogate giữ đường bao,conditional,2_4,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r2:a0.25,Surrogate giữ đường bao,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r2:a0.25,Surrogate giữ đường bao,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r2:a0.25,Surrogate giữ đường bao,conditional,3_3,1,3,0.5333333333333333,0.7000000000000001,1.0,1.0,0.0,0.5,1.0
+envelope:r2:a0.25,Surrogate giữ đường bao,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r2:a0.25,Surrogate giữ đường bao,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r2:a1,Surrogate giữ đường bao,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r2:a1,Surrogate giữ đường bao,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r2:a1,Surrogate giữ đường bao,selective,1_3,2,3,1.0,0.9666666666666667,0.0,1.0,0.0,0.9,1.0
+envelope:r2:a1,Surrogate giữ đường bao,selective,1_4,4,3,0.7333333333333334,0.7333333333333334,0.0,0.7666666666666666,0.0,0.5,1.0
+envelope:r2:a1,Surrogate giữ đường bao,selective,2_1,1,3,0.36666666666666664,0.8000000000000002,0.0,1.0,0.0,0.6,1.0
+envelope:r2:a1,Surrogate giữ đường bao,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r2:a1,Surrogate giữ đường bao,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+envelope:r2:a1,Surrogate giữ đường bao,selective,2_4,2,3,0.06666666666666667,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r2:a1,Surrogate giữ đường bao,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r2:a1,Surrogate giữ đường bao,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r2:a1,Surrogate giữ đường bao,selective,3_3,1,3,0.4000000000000001,0.6,0.0,1.0,0.0,0.5,0.8
+envelope:r2:a1,Surrogate giữ đường bao,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+envelope:r2:a1,Surrogate giữ đường bao,selective,3_5,2,3,1.0,1.0,0.06666666666666667,1.0,0.0,1.0,1.0
+envelope:r2:a1,Surrogate giữ đường bao,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r2:a1,Surrogate giữ đường bao,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r2:a1,Surrogate giữ đường bao,conditional,1_3,2,3,1.0,0.9666666666666667,1.0,1.0,0.0,0.9,1.0
+envelope:r2:a1,Surrogate giữ đường bao,conditional,1_4,4,3,0.8666666666666666,0.9333333333333332,1.0,1.0,0.0,0.9,1.0
+envelope:r2:a1,Surrogate giữ đường bao,conditional,2_1,1,3,0.36666666666666664,0.8000000000000002,1.0,1.0,0.0,0.6,1.0
+envelope:r2:a1,Surrogate giữ đường bao,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r2:a1,Surrogate giữ đường bao,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+envelope:r2:a1,Surrogate giữ đường bao,conditional,2_4,2,3,0.7999999999999999,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r2:a1,Surrogate giữ đường bao,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r2:a1,Surrogate giữ đường bao,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r2:a1,Surrogate giữ đường bao,conditional,3_3,1,3,0.4000000000000001,0.6,1.0,1.0,0.0,0.5,0.8
+envelope:r2:a1,Surrogate giữ đường bao,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+envelope:r2:a1,Surrogate giữ đường bao,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r0.5:a0.25,Trộn nền cùng ổ,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r0.5:a0.25,Trộn nền cùng ổ,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r0.5:a0.25,Trộn nền cùng ổ,selective,1_3,2,3,1.0,0.9666666666666667,0.0,1.0,0.0,0.9,1.0
+severity:r0.5:a0.25,Trộn nền cùng ổ,selective,1_4,4,3,0.6333333333333333,0.6333333333333333,0.0,0.7666666666666666,0.0,0.6,0.7
+severity:r0.5:a0.25,Trộn nền cùng ổ,selective,2_1,1,3,0.7999999999999999,0.8333333333333334,0.0,1.0,0.0,0.7,1.0
+severity:r0.5:a0.25,Trộn nền cùng ổ,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r0.5:a0.25,Trộn nền cùng ổ,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+severity:r0.5:a0.25,Trộn nền cùng ổ,selective,2_4,2,3,0.03333333333333333,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r0.5:a0.25,Trộn nền cùng ổ,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r0.5:a0.25,Trộn nền cùng ổ,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r0.5:a0.25,Trộn nền cùng ổ,selective,3_3,1,3,0.5333333333333333,0.9,0.0,1.0,0.0,0.7,1.0
+severity:r0.5:a0.25,Trộn nền cùng ổ,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r0.5:a0.25,Trộn nền cùng ổ,selective,3_5,2,3,1.0,1.0,0.06666666666666667,1.0,0.0,1.0,1.0
+severity:r0.5:a0.25,Trộn nền cùng ổ,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r0.5:a0.25,Trộn nền cùng ổ,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r0.5:a0.25,Trộn nền cùng ổ,conditional,1_3,2,3,1.0,0.9666666666666667,1.0,1.0,0.0,0.9,1.0
+severity:r0.5:a0.25,Trộn nền cùng ổ,conditional,1_4,4,3,0.8000000000000002,0.8000000000000002,1.0,1.0,0.0,0.7,0.9
+severity:r0.5:a0.25,Trộn nền cùng ổ,conditional,2_1,1,3,0.7999999999999999,0.8333333333333334,1.0,1.0,0.0,0.7,1.0
+severity:r0.5:a0.25,Trộn nền cùng ổ,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r0.5:a0.25,Trộn nền cùng ổ,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+severity:r0.5:a0.25,Trộn nền cùng ổ,conditional,2_4,2,3,0.9666666666666667,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r0.5:a0.25,Trộn nền cùng ổ,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r0.5:a0.25,Trộn nền cùng ổ,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r0.5:a0.25,Trộn nền cùng ổ,conditional,3_3,1,3,0.5333333333333333,0.9,1.0,1.0,0.0,0.7,1.0
+severity:r0.5:a0.25,Trộn nền cùng ổ,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r0.5:a0.25,Trộn nền cùng ổ,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r0.5:a1,Trộn nền cùng ổ,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r0.5:a1,Trộn nền cùng ổ,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r0.5:a1,Trộn nền cùng ổ,selective,1_3,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r0.5:a1,Trộn nền cùng ổ,selective,1_4,4,3,0.7333333333333334,0.6999999999999998,0.0,0.7666666666666666,0.0,0.5,0.9
+severity:r0.5:a1,Trộn nền cùng ổ,selective,2_1,1,3,0.8666666666666667,0.7333333333333334,0.0,1.0,0.0,0.6,0.8
+severity:r0.5:a1,Trộn nền cùng ổ,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r0.5:a1,Trộn nền cùng ổ,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+severity:r0.5:a1,Trộn nền cùng ổ,selective,2_4,2,3,0.03333333333333333,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r0.5:a1,Trộn nền cùng ổ,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r0.5:a1,Trộn nền cùng ổ,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r0.5:a1,Trộn nền cùng ổ,selective,3_3,1,3,0.3666666666666667,0.6333333333333333,0.0,1.0,0.0,0.4,1.0
+severity:r0.5:a1,Trộn nền cùng ổ,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r0.5:a1,Trộn nền cùng ổ,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r0.5:a1,Trộn nền cùng ổ,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r0.5:a1,Trộn nền cùng ổ,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r0.5:a1,Trộn nền cùng ổ,conditional,1_3,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r0.5:a1,Trộn nền cùng ổ,conditional,1_4,4,3,1.0,0.9333333333333332,1.0,1.0,0.0,0.9,1.0
+severity:r0.5:a1,Trộn nền cùng ổ,conditional,2_1,1,3,0.8666666666666667,0.7333333333333334,1.0,1.0,0.0,0.6,0.8
+severity:r0.5:a1,Trộn nền cùng ổ,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r0.5:a1,Trộn nền cùng ổ,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+severity:r0.5:a1,Trộn nền cùng ổ,conditional,2_4,2,3,0.7333333333333334,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r0.5:a1,Trộn nền cùng ổ,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r0.5:a1,Trộn nền cùng ổ,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r0.5:a1,Trộn nền cùng ổ,conditional,3_3,1,3,0.3666666666666667,0.6333333333333333,1.0,1.0,0.0,0.4,1.0
+severity:r0.5:a1,Trộn nền cùng ổ,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r0.5:a1,Trộn nền cùng ổ,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r1:a0.25,Trộn nền cùng ổ,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r1:a0.25,Trộn nền cùng ổ,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r1:a0.25,Trộn nền cùng ổ,selective,1_3,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r1:a0.25,Trộn nền cùng ổ,selective,1_4,4,3,1.0,0.9666666666666667,0.0,1.0,0.0,0.9,1.0
+severity:r1:a0.25,Trộn nền cùng ổ,selective,2_1,1,3,0.7666666666666666,0.9,0.0,1.0,0.0,0.9,0.9
+severity:r1:a0.25,Trộn nền cùng ổ,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r1:a0.25,Trộn nền cùng ổ,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+severity:r1:a0.25,Trộn nền cùng ổ,selective,2_4,2,3,0.0,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r1:a0.25,Trộn nền cùng ổ,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r1:a0.25,Trộn nền cùng ổ,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r1:a0.25,Trộn nền cùng ổ,selective,3_3,1,3,0.4000000000000001,0.6,0.0,1.0,0.0,0.5,0.7
+severity:r1:a0.25,Trộn nền cùng ổ,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r1:a0.25,Trộn nền cùng ổ,selective,3_5,2,3,1.0,1.0,0.13333333333333333,1.0,0.0,1.0,1.0
+severity:r1:a0.25,Trộn nền cùng ổ,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r1:a0.25,Trộn nền cùng ổ,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r1:a0.25,Trộn nền cùng ổ,conditional,1_3,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r1:a0.25,Trộn nền cùng ổ,conditional,1_4,4,3,1.0,0.9666666666666667,1.0,1.0,0.0,0.9,1.0
+severity:r1:a0.25,Trộn nền cùng ổ,conditional,2_1,1,3,0.7666666666666666,0.9,1.0,1.0,0.0,0.9,0.9
+severity:r1:a0.25,Trộn nền cùng ổ,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r1:a0.25,Trộn nền cùng ổ,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+severity:r1:a0.25,Trộn nền cùng ổ,conditional,2_4,2,3,0.7666666666666666,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r1:a0.25,Trộn nền cùng ổ,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r1:a0.25,Trộn nền cùng ổ,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r1:a0.25,Trộn nền cùng ổ,conditional,3_3,1,3,0.4000000000000001,0.6,1.0,1.0,0.0,0.5,0.7
+severity:r1:a0.25,Trộn nền cùng ổ,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r1:a0.25,Trộn nền cùng ổ,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r1:a1,Trộn nền cùng ổ,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r1:a1,Trộn nền cùng ổ,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r1:a1,Trộn nền cùng ổ,selective,1_3,2,3,1.0,0.9666666666666667,0.0,1.0,0.0,0.9,1.0
+severity:r1:a1,Trộn nền cùng ổ,selective,1_4,4,3,0.7333333333333334,0.9,0.0,0.9,0.0,0.7,1.0
+severity:r1:a1,Trộn nền cùng ổ,selective,2_1,1,3,0.9666666666666667,0.8333333333333334,0.0,1.0,0.0,0.7,1.0
+severity:r1:a1,Trộn nền cùng ổ,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r1:a1,Trộn nền cùng ổ,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+severity:r1:a1,Trộn nền cùng ổ,selective,2_4,2,3,0.03333333333333333,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r1:a1,Trộn nền cùng ổ,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r1:a1,Trộn nền cùng ổ,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r1:a1,Trộn nền cùng ổ,selective,3_3,1,3,0.4000000000000001,0.5333333333333333,0.0,1.0,0.0,0.5,0.6
+severity:r1:a1,Trộn nền cùng ổ,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r1:a1,Trộn nền cùng ổ,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r1:a1,Trộn nền cùng ổ,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r1:a1,Trộn nền cùng ổ,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r1:a1,Trộn nền cùng ổ,conditional,1_3,2,3,1.0,0.9666666666666667,1.0,1.0,0.0,0.9,1.0
+severity:r1:a1,Trộn nền cùng ổ,conditional,1_4,4,3,1.0,0.9666666666666667,1.0,1.0,0.0,0.9,1.0
+severity:r1:a1,Trộn nền cùng ổ,conditional,2_1,1,3,0.9666666666666667,0.8333333333333334,1.0,1.0,0.0,0.7,1.0
+severity:r1:a1,Trộn nền cùng ổ,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r1:a1,Trộn nền cùng ổ,conditional,2_3,4,3,0.0,0.0,0.9333333333333332,1.0,0.0,0.0,0.0
+severity:r1:a1,Trộn nền cùng ổ,conditional,2_4,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r1:a1,Trộn nền cùng ổ,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r1:a1,Trộn nền cùng ổ,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r1:a1,Trộn nền cùng ổ,conditional,3_3,1,3,0.4000000000000001,0.5333333333333333,1.0,1.0,0.0,0.5,0.6
+severity:r1:a1,Trộn nền cùng ổ,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r1:a1,Trộn nền cùng ổ,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r2:a0.25,Trộn nền cùng ổ,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r2:a0.25,Trộn nền cùng ổ,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r2:a0.25,Trộn nền cùng ổ,selective,1_3,2,3,1.0,0.9666666666666667,0.0,1.0,0.0,0.9,1.0
+severity:r2:a0.25,Trộn nền cùng ổ,selective,1_4,4,3,0.9333333333333332,0.9,0.0,0.9333333333333332,0.0,0.7,1.0
+severity:r2:a0.25,Trộn nền cùng ổ,selective,2_1,1,3,0.8666666666666667,0.8333333333333334,0.0,1.0,0.0,0.6,1.0
+severity:r2:a0.25,Trộn nền cùng ổ,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r2:a0.25,Trộn nền cùng ổ,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+severity:r2:a0.25,Trộn nền cùng ổ,selective,2_4,2,3,0.06666666666666667,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r2:a0.25,Trộn nền cùng ổ,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r2:a0.25,Trộn nền cùng ổ,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r2:a0.25,Trộn nền cùng ổ,selective,3_3,1,3,0.4666666666666666,0.6333333333333334,0.0,1.0,0.0,0.5,0.8
+severity:r2:a0.25,Trộn nền cùng ổ,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r2:a0.25,Trộn nền cùng ổ,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r2:a0.25,Trộn nền cùng ổ,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r2:a0.25,Trộn nền cùng ổ,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r2:a0.25,Trộn nền cùng ổ,conditional,1_3,2,3,1.0,0.9666666666666667,1.0,1.0,0.0,0.9,1.0
+severity:r2:a0.25,Trộn nền cùng ổ,conditional,1_4,4,3,1.0,0.9666666666666667,1.0,1.0,0.0,0.9,1.0
+severity:r2:a0.25,Trộn nền cùng ổ,conditional,2_1,1,3,0.8666666666666667,0.8333333333333334,1.0,1.0,0.0,0.6,1.0
+severity:r2:a0.25,Trộn nền cùng ổ,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r2:a0.25,Trộn nền cùng ổ,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+severity:r2:a0.25,Trộn nền cùng ổ,conditional,2_4,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r2:a0.25,Trộn nền cùng ổ,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r2:a0.25,Trộn nền cùng ổ,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r2:a0.25,Trộn nền cùng ổ,conditional,3_3,1,3,0.4666666666666666,0.6333333333333334,1.0,1.0,0.0,0.5,0.8
+severity:r2:a0.25,Trộn nền cùng ổ,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r2:a0.25,Trộn nền cùng ổ,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r2:a1,Trộn nền cùng ổ,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r2:a1,Trộn nền cùng ổ,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r2:a1,Trộn nền cùng ổ,selective,1_3,2,3,0.6666666666666666,0.9666666666666667,0.0,1.0,0.0,0.9,1.0
+severity:r2:a1,Trộn nền cùng ổ,selective,1_4,4,3,0.6333333333333333,0.6333333333333333,0.0,0.7333333333333334,0.0,0.4,0.9
+severity:r2:a1,Trộn nền cùng ổ,selective,2_1,1,3,0.6666666666666666,0.9,0.0,1.0,0.0,0.7,1.0
+severity:r2:a1,Trộn nền cùng ổ,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r2:a1,Trộn nền cùng ổ,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+severity:r2:a1,Trộn nền cùng ổ,selective,2_4,2,3,0.10000000000000002,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r2:a1,Trộn nền cùng ổ,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r2:a1,Trộn nền cùng ổ,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r2:a1,Trộn nền cùng ổ,selective,3_3,1,3,0.3666666666666667,0.5666666666666668,0.0,1.0,0.0,0.5,0.6
+severity:r2:a1,Trộn nền cùng ổ,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r2:a1,Trộn nền cùng ổ,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+severity:r2:a1,Trộn nền cùng ổ,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r2:a1,Trộn nền cùng ổ,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r2:a1,Trộn nền cùng ổ,conditional,1_3,2,3,0.6666666666666666,0.9666666666666667,1.0,1.0,0.0,0.9,1.0
+severity:r2:a1,Trộn nền cùng ổ,conditional,1_4,4,3,0.8666666666666667,0.7666666666666666,1.0,1.0,0.0,0.5,1.0
+severity:r2:a1,Trộn nền cùng ổ,conditional,2_1,1,3,0.6666666666666666,0.9,1.0,1.0,0.0,0.7,1.0
+severity:r2:a1,Trộn nền cùng ổ,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r2:a1,Trộn nền cùng ổ,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+severity:r2:a1,Trộn nền cùng ổ,conditional,2_4,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r2:a1,Trộn nền cùng ổ,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r2:a1,Trộn nền cùng ổ,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r2:a1,Trộn nền cùng ổ,conditional,3_3,1,3,0.3666666666666667,0.5666666666666668,1.0,1.0,0.0,0.5,0.6
+severity:r2:a1,Trộn nền cùng ổ,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+severity:r2:a1,Trộn nền cùng ổ,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r0.5:a0.25,PCA32 dựng lại,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r0.5:a0.25,PCA32 dựng lại,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r0.5:a0.25,PCA32 dựng lại,selective,1_3,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r0.5:a0.25,PCA32 dựng lại,selective,1_4,4,3,0.13333333333333333,0.06666666666666667,0.0,0.26666666666666666,0.0,0.0,0.2
+pca_bootstrap:r0.5:a0.25,PCA32 dựng lại,selective,2_1,1,3,1.0,0.7666666666666666,0.0,1.0,0.0,0.7,0.8
+pca_bootstrap:r0.5:a0.25,PCA32 dựng lại,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r0.5:a0.25,PCA32 dựng lại,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+pca_bootstrap:r0.5:a0.25,PCA32 dựng lại,selective,2_4,2,3,0.03333333333333333,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r0.5:a0.25,PCA32 dựng lại,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r0.5:a0.25,PCA32 dựng lại,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r0.5:a0.25,PCA32 dựng lại,selective,3_3,1,3,0.7333333333333334,0.8333333333333334,0.0,1.0,0.0,0.5,1.0
+pca_bootstrap:r0.5:a0.25,PCA32 dựng lại,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r0.5:a0.25,PCA32 dựng lại,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r0.5:a0.25,PCA32 dựng lại,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r0.5:a0.25,PCA32 dựng lại,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r0.5:a0.25,PCA32 dựng lại,conditional,1_3,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r0.5:a0.25,PCA32 dựng lại,conditional,1_4,4,3,0.43333333333333335,0.46666666666666673,1.0,1.0,0.0,0.3,0.6
+pca_bootstrap:r0.5:a0.25,PCA32 dựng lại,conditional,2_1,1,3,1.0,0.7666666666666666,1.0,1.0,0.0,0.7,0.8
+pca_bootstrap:r0.5:a0.25,PCA32 dựng lại,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r0.5:a0.25,PCA32 dựng lại,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+pca_bootstrap:r0.5:a0.25,PCA32 dựng lại,conditional,2_4,2,3,0.4666666666666666,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r0.5:a0.25,PCA32 dựng lại,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r0.5:a0.25,PCA32 dựng lại,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r0.5:a0.25,PCA32 dựng lại,conditional,3_3,1,3,0.7333333333333334,0.8333333333333334,1.0,1.0,0.0,0.5,1.0
+pca_bootstrap:r0.5:a0.25,PCA32 dựng lại,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r0.5:a0.25,PCA32 dựng lại,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r0.5:a1,PCA32 dựng lại,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r0.5:a1,PCA32 dựng lại,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r0.5:a1,PCA32 dựng lại,selective,1_3,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r0.5:a1,PCA32 dựng lại,selective,1_4,4,3,0.06666666666666667,0.06666666666666667,0.0,0.13333333333333333,0.0,0.0,0.2
+pca_bootstrap:r0.5:a1,PCA32 dựng lại,selective,2_1,1,3,0.9666666666666667,0.6666666666666666,0.0,1.0,0.0,0.5,0.8
+pca_bootstrap:r0.5:a1,PCA32 dựng lại,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r0.5:a1,PCA32 dựng lại,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+pca_bootstrap:r0.5:a1,PCA32 dựng lại,selective,2_4,2,3,0.03333333333333333,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r0.5:a1,PCA32 dựng lại,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r0.5:a1,PCA32 dựng lại,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r0.5:a1,PCA32 dựng lại,selective,3_3,1,3,0.6666666666666666,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r0.5:a1,PCA32 dựng lại,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r0.5:a1,PCA32 dựng lại,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r0.5:a1,PCA32 dựng lại,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r0.5:a1,PCA32 dựng lại,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r0.5:a1,PCA32 dựng lại,conditional,1_3,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r0.5:a1,PCA32 dựng lại,conditional,1_4,4,3,0.10000000000000002,0.3,1.0,1.0,0.0,0.1,0.5
+pca_bootstrap:r0.5:a1,PCA32 dựng lại,conditional,2_1,1,3,0.9666666666666667,0.6666666666666666,1.0,1.0,0.0,0.5,0.8
+pca_bootstrap:r0.5:a1,PCA32 dựng lại,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r0.5:a1,PCA32 dựng lại,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+pca_bootstrap:r0.5:a1,PCA32 dựng lại,conditional,2_4,2,3,0.7000000000000001,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r0.5:a1,PCA32 dựng lại,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r0.5:a1,PCA32 dựng lại,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r0.5:a1,PCA32 dựng lại,conditional,3_3,1,3,0.6666666666666666,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r0.5:a1,PCA32 dựng lại,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r0.5:a1,PCA32 dựng lại,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r1:a0.25,PCA32 dựng lại,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r1:a0.25,PCA32 dựng lại,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r1:a0.25,PCA32 dựng lại,selective,1_3,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r1:a0.25,PCA32 dựng lại,selective,1_4,4,3,0.0,0.0,0.0,0.03333333333333333,0.0,0.0,0.0
+pca_bootstrap:r1:a0.25,PCA32 dựng lại,selective,2_1,1,3,1.0,0.6999999999999998,0.0,1.0,0.0,0.6,0.8
+pca_bootstrap:r1:a0.25,PCA32 dựng lại,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r1:a0.25,PCA32 dựng lại,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+pca_bootstrap:r1:a0.25,PCA32 dựng lại,selective,2_4,2,3,0.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r1:a0.25,PCA32 dựng lại,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r1:a0.25,PCA32 dựng lại,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r1:a0.25,PCA32 dựng lại,selective,3_3,1,3,0.6333333333333333,0.9666666666666667,0.0,1.0,0.0,0.9,1.0
+pca_bootstrap:r1:a0.25,PCA32 dựng lại,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r1:a0.25,PCA32 dựng lại,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r1:a0.25,PCA32 dựng lại,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r1:a0.25,PCA32 dựng lại,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r1:a0.25,PCA32 dựng lại,conditional,1_3,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r1:a0.25,PCA32 dựng lại,conditional,1_4,4,3,0.03333333333333333,0.19999999999999998,1.0,1.0,0.0,0.0,0.6
+pca_bootstrap:r1:a0.25,PCA32 dựng lại,conditional,2_1,1,3,1.0,0.6999999999999998,1.0,1.0,0.0,0.6,0.8
+pca_bootstrap:r1:a0.25,PCA32 dựng lại,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r1:a0.25,PCA32 dựng lại,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+pca_bootstrap:r1:a0.25,PCA32 dựng lại,conditional,2_4,2,3,0.7666666666666666,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r1:a0.25,PCA32 dựng lại,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r1:a0.25,PCA32 dựng lại,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r1:a0.25,PCA32 dựng lại,conditional,3_3,1,3,0.6333333333333333,0.9666666666666667,1.0,1.0,0.0,0.9,1.0
+pca_bootstrap:r1:a0.25,PCA32 dựng lại,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r1:a0.25,PCA32 dựng lại,conditional,3_5,2,3,1.0,1.0,0.9333333333333332,1.0,0.0,1.0,1.0
+pca_bootstrap:r1:a1,PCA32 dựng lại,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r1:a1,PCA32 dựng lại,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r1:a1,PCA32 dựng lại,selective,1_3,2,3,1.0,0.8333333333333334,0.0,1.0,0.0,0.7,1.0
+pca_bootstrap:r1:a1,PCA32 dựng lại,selective,1_4,4,3,0.0,0.0,0.0,0.3666666666666667,0.0,0.0,0.0
+pca_bootstrap:r1:a1,PCA32 dựng lại,selective,2_1,1,3,0.7000000000000001,0.4666666666666666,0.0,1.0,0.0,0.2,0.6
+pca_bootstrap:r1:a1,PCA32 dựng lại,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r1:a1,PCA32 dựng lại,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+pca_bootstrap:r1:a1,PCA32 dựng lại,selective,2_4,2,3,0.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r1:a1,PCA32 dựng lại,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r1:a1,PCA32 dựng lại,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r1:a1,PCA32 dựng lại,selective,3_3,1,3,1.0,0.9,0.0,1.0,0.0,0.7,1.0
+pca_bootstrap:r1:a1,PCA32 dựng lại,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r1:a1,PCA32 dựng lại,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r1:a1,PCA32 dựng lại,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r1:a1,PCA32 dựng lại,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r1:a1,PCA32 dựng lại,conditional,1_3,2,3,1.0,0.8333333333333334,1.0,1.0,0.0,0.7,1.0
+pca_bootstrap:r1:a1,PCA32 dựng lại,conditional,1_4,4,3,0.0,0.0,0.9333333333333332,1.0,0.0,0.0,0.0
+pca_bootstrap:r1:a1,PCA32 dựng lại,conditional,2_1,1,3,0.7000000000000001,0.4666666666666666,1.0,1.0,0.0,0.2,0.6
+pca_bootstrap:r1:a1,PCA32 dựng lại,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r1:a1,PCA32 dựng lại,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+pca_bootstrap:r1:a1,PCA32 dựng lại,conditional,2_4,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r1:a1,PCA32 dựng lại,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r1:a1,PCA32 dựng lại,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r1:a1,PCA32 dựng lại,conditional,3_3,1,3,1.0,0.9,1.0,1.0,0.0,0.7,1.0
+pca_bootstrap:r1:a1,PCA32 dựng lại,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r1:a1,PCA32 dựng lại,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r2:a0.25,PCA32 dựng lại,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r2:a0.25,PCA32 dựng lại,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r2:a0.25,PCA32 dựng lại,selective,1_3,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r2:a0.25,PCA32 dựng lại,selective,1_4,4,3,0.0,0.0,0.0,0.06666666666666667,0.0,0.0,0.0
+pca_bootstrap:r2:a0.25,PCA32 dựng lại,selective,2_1,1,3,1.0,0.6999999999999998,0.0,1.0,0.0,0.6,0.8
+pca_bootstrap:r2:a0.25,PCA32 dựng lại,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r2:a0.25,PCA32 dựng lại,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+pca_bootstrap:r2:a0.25,PCA32 dựng lại,selective,2_4,2,3,0.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r2:a0.25,PCA32 dựng lại,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r2:a0.25,PCA32 dựng lại,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r2:a0.25,PCA32 dựng lại,selective,3_3,1,3,0.8333333333333334,0.9666666666666667,0.0,1.0,0.0,0.9,1.0
+pca_bootstrap:r2:a0.25,PCA32 dựng lại,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r2:a0.25,PCA32 dựng lại,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r2:a0.25,PCA32 dựng lại,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r2:a0.25,PCA32 dựng lại,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r2:a0.25,PCA32 dựng lại,conditional,1_3,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r2:a0.25,PCA32 dựng lại,conditional,1_4,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+pca_bootstrap:r2:a0.25,PCA32 dựng lại,conditional,2_1,1,3,1.0,0.6999999999999998,1.0,1.0,0.0,0.6,0.8
+pca_bootstrap:r2:a0.25,PCA32 dựng lại,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r2:a0.25,PCA32 dựng lại,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+pca_bootstrap:r2:a0.25,PCA32 dựng lại,conditional,2_4,2,3,0.9,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r2:a0.25,PCA32 dựng lại,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r2:a0.25,PCA32 dựng lại,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r2:a0.25,PCA32 dựng lại,conditional,3_3,1,3,0.8333333333333334,0.9666666666666667,1.0,1.0,0.0,0.9,1.0
+pca_bootstrap:r2:a0.25,PCA32 dựng lại,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r2:a0.25,PCA32 dựng lại,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r2:a1,PCA32 dựng lại,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r2:a1,PCA32 dựng lại,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r2:a1,PCA32 dựng lại,selective,1_3,2,3,1.0,0.7333333333333334,0.0,1.0,0.0,0.6,0.9
+pca_bootstrap:r2:a1,PCA32 dựng lại,selective,1_4,4,3,0.0,0.0,0.0,0.6333333333333334,0.0,0.0,0.0
+pca_bootstrap:r2:a1,PCA32 dựng lại,selective,2_1,1,3,0.6333333333333333,0.6333333333333334,0.0,1.0,0.0,0.5,0.8
+pca_bootstrap:r2:a1,PCA32 dựng lại,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r2:a1,PCA32 dựng lại,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+pca_bootstrap:r2:a1,PCA32 dựng lại,selective,2_4,2,3,0.10000000000000002,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r2:a1,PCA32 dựng lại,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r2:a1,PCA32 dựng lại,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r2:a1,PCA32 dựng lại,selective,3_3,1,3,0.6666666666666666,0.7000000000000001,0.0,1.0,0.0,0.5,1.0
+pca_bootstrap:r2:a1,PCA32 dựng lại,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r2:a1,PCA32 dựng lại,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r2:a1,PCA32 dựng lại,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r2:a1,PCA32 dựng lại,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r2:a1,PCA32 dựng lại,conditional,1_3,2,3,1.0,0.7333333333333334,1.0,1.0,0.0,0.6,0.9
+pca_bootstrap:r2:a1,PCA32 dựng lại,conditional,1_4,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+pca_bootstrap:r2:a1,PCA32 dựng lại,conditional,2_1,1,3,0.6333333333333333,0.6333333333333334,1.0,1.0,0.0,0.5,0.8
+pca_bootstrap:r2:a1,PCA32 dựng lại,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r2:a1,PCA32 dựng lại,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+pca_bootstrap:r2:a1,PCA32 dựng lại,conditional,2_4,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r2:a1,PCA32 dựng lại,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r2:a1,PCA32 dựng lại,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r2:a1,PCA32 dựng lại,conditional,3_3,1,3,0.6666666666666666,0.7000000000000001,1.0,1.0,0.0,0.5,1.0
+pca_bootstrap:r2:a1,PCA32 dựng lại,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap:r2:a1,PCA32 dựng lại,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r0.5:a0.25,Flow matching PCA32,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r0.5:a0.25,Flow matching PCA32,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r0.5:a0.25,Flow matching PCA32,selective,1_3,2,3,1.0,0.9666666666666667,0.0,1.0,0.0,0.9,1.0
+flow:r0.5:a0.25,Flow matching PCA32,selective,1_4,4,3,0.0,0.0,0.0,0.3,0.0,0.0,0.0
+flow:r0.5:a0.25,Flow matching PCA32,selective,2_1,1,3,0.8666666666666667,0.8000000000000002,0.0,1.0,0.0,0.6,1.0
+flow:r0.5:a0.25,Flow matching PCA32,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r0.5:a0.25,Flow matching PCA32,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+flow:r0.5:a0.25,Flow matching PCA32,selective,2_4,2,3,0.03333333333333333,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r0.5:a0.25,Flow matching PCA32,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r0.5:a0.25,Flow matching PCA32,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r0.5:a0.25,Flow matching PCA32,selective,3_3,1,3,0.4666666666666666,0.8333333333333334,0.0,1.0,0.0,0.7,1.0
+flow:r0.5:a0.25,Flow matching PCA32,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r0.5:a0.25,Flow matching PCA32,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r0.5:a0.25,Flow matching PCA32,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r0.5:a0.25,Flow matching PCA32,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r0.5:a0.25,Flow matching PCA32,conditional,1_3,2,3,1.0,0.9666666666666667,1.0,1.0,0.0,0.9,1.0
+flow:r0.5:a0.25,Flow matching PCA32,conditional,1_4,4,3,0.03333333333333333,0.0,1.0,1.0,0.0,0.0,0.0
+flow:r0.5:a0.25,Flow matching PCA32,conditional,2_1,1,3,0.8666666666666667,0.8000000000000002,1.0,1.0,0.0,0.6,1.0
+flow:r0.5:a0.25,Flow matching PCA32,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r0.5:a0.25,Flow matching PCA32,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+flow:r0.5:a0.25,Flow matching PCA32,conditional,2_4,2,3,0.8333333333333334,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r0.5:a0.25,Flow matching PCA32,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r0.5:a0.25,Flow matching PCA32,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r0.5:a0.25,Flow matching PCA32,conditional,3_3,1,3,0.4666666666666666,0.8333333333333334,1.0,1.0,0.0,0.7,1.0
+flow:r0.5:a0.25,Flow matching PCA32,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r0.5:a0.25,Flow matching PCA32,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r0.5:a1,Flow matching PCA32,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r0.5:a1,Flow matching PCA32,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r0.5:a1,Flow matching PCA32,selective,1_3,2,3,0.8666666666666667,0.8333333333333334,0.0,1.0,0.0,0.6,1.0
+flow:r0.5:a1,Flow matching PCA32,selective,1_4,4,3,0.0,0.0,0.0,0.6,0.0,0.0,0.0
+flow:r0.5:a1,Flow matching PCA32,selective,2_1,1,3,0.3666666666666667,0.6333333333333333,0.0,1.0,0.0,0.5,0.9
+flow:r0.5:a1,Flow matching PCA32,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r0.5:a1,Flow matching PCA32,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+flow:r0.5:a1,Flow matching PCA32,selective,2_4,2,3,0.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r0.5:a1,Flow matching PCA32,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r0.5:a1,Flow matching PCA32,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r0.5:a1,Flow matching PCA32,selective,3_3,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r0.5:a1,Flow matching PCA32,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r0.5:a1,Flow matching PCA32,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r0.5:a1,Flow matching PCA32,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r0.5:a1,Flow matching PCA32,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r0.5:a1,Flow matching PCA32,conditional,1_3,2,3,0.8666666666666667,0.8333333333333334,1.0,1.0,0.0,0.6,1.0
+flow:r0.5:a1,Flow matching PCA32,conditional,1_4,4,3,0.03333333333333333,0.0,0.9333333333333332,1.0,0.0,0.0,0.0
+flow:r0.5:a1,Flow matching PCA32,conditional,2_1,1,3,0.3666666666666667,0.6333333333333333,1.0,1.0,0.0,0.5,0.9
+flow:r0.5:a1,Flow matching PCA32,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r0.5:a1,Flow matching PCA32,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+flow:r0.5:a1,Flow matching PCA32,conditional,2_4,2,3,0.9333333333333332,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r0.5:a1,Flow matching PCA32,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r0.5:a1,Flow matching PCA32,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r0.5:a1,Flow matching PCA32,conditional,3_3,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r0.5:a1,Flow matching PCA32,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r0.5:a1,Flow matching PCA32,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r1:a0.25,Flow matching PCA32,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r1:a0.25,Flow matching PCA32,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r1:a0.25,Flow matching PCA32,selective,1_3,2,3,0.9333333333333332,0.9,0.0,1.0,0.0,0.8,1.0
+flow:r1:a0.25,Flow matching PCA32,selective,1_4,4,3,0.06666666666666667,0.06666666666666667,0.0,0.3333333333333333,0.0,0.0,0.2
+flow:r1:a0.25,Flow matching PCA32,selective,2_1,1,3,0.6666666666666666,0.6,0.0,1.0,0.0,0.5,0.7
+flow:r1:a0.25,Flow matching PCA32,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r1:a0.25,Flow matching PCA32,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+flow:r1:a0.25,Flow matching PCA32,selective,2_4,2,3,0.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r1:a0.25,Flow matching PCA32,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r1:a0.25,Flow matching PCA32,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r1:a0.25,Flow matching PCA32,selective,3_3,1,3,0.4666666666666666,0.8333333333333334,0.0,1.0,0.0,0.5,1.0
+flow:r1:a0.25,Flow matching PCA32,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r1:a0.25,Flow matching PCA32,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r1:a0.25,Flow matching PCA32,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r1:a0.25,Flow matching PCA32,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r1:a0.25,Flow matching PCA32,conditional,1_3,2,3,0.9333333333333332,0.9,1.0,1.0,0.0,0.8,1.0
+flow:r1:a0.25,Flow matching PCA32,conditional,1_4,4,3,0.26666666666666666,0.2333333333333333,1.0,1.0,0.0,0.2,0.3
+flow:r1:a0.25,Flow matching PCA32,conditional,2_1,1,3,0.6666666666666666,0.6,1.0,1.0,0.0,0.5,0.7
+flow:r1:a0.25,Flow matching PCA32,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r1:a0.25,Flow matching PCA32,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+flow:r1:a0.25,Flow matching PCA32,conditional,2_4,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r1:a0.25,Flow matching PCA32,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r1:a0.25,Flow matching PCA32,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r1:a0.25,Flow matching PCA32,conditional,3_3,1,3,0.4666666666666666,0.8333333333333334,1.0,1.0,0.0,0.5,1.0
+flow:r1:a0.25,Flow matching PCA32,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r1:a0.25,Flow matching PCA32,conditional,3_5,2,3,1.0,1.0,0.9333333333333332,1.0,0.0,1.0,1.0
+flow:r1:a1,Flow matching PCA32,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r1:a1,Flow matching PCA32,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r1:a1,Flow matching PCA32,selective,1_3,2,3,0.9,0.6,0.0,1.0,0.0,0.3,1.0
+flow:r1:a1,Flow matching PCA32,selective,1_4,4,3,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+flow:r1:a1,Flow matching PCA32,selective,2_1,1,3,0.26666666666666666,0.26666666666666666,0.0,1.0,0.0,0.0,0.4
+flow:r1:a1,Flow matching PCA32,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r1:a1,Flow matching PCA32,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+flow:r1:a1,Flow matching PCA32,selective,2_4,2,3,0.06666666666666667,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r1:a1,Flow matching PCA32,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r1:a1,Flow matching PCA32,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r1:a1,Flow matching PCA32,selective,3_3,1,3,0.7999999999999999,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r1:a1,Flow matching PCA32,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r1:a1,Flow matching PCA32,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r1:a1,Flow matching PCA32,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r1:a1,Flow matching PCA32,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r1:a1,Flow matching PCA32,conditional,1_3,2,3,0.9,0.6,1.0,1.0,0.0,0.3,1.0
+flow:r1:a1,Flow matching PCA32,conditional,1_4,4,3,0.13333333333333333,0.16666666666666666,1.0,1.0,0.0,0.0,0.5
+flow:r1:a1,Flow matching PCA32,conditional,2_1,1,3,0.26666666666666666,0.26666666666666666,1.0,1.0,0.0,0.0,0.4
+flow:r1:a1,Flow matching PCA32,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r1:a1,Flow matching PCA32,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+flow:r1:a1,Flow matching PCA32,conditional,2_4,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r1:a1,Flow matching PCA32,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r1:a1,Flow matching PCA32,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r1:a1,Flow matching PCA32,conditional,3_3,1,3,0.7999999999999999,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r1:a1,Flow matching PCA32,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r1:a1,Flow matching PCA32,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r2:a0.25,Flow matching PCA32,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r2:a0.25,Flow matching PCA32,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r2:a0.25,Flow matching PCA32,selective,1_3,2,3,1.0,0.7333333333333334,0.0,1.0,0.0,0.7,0.8
+flow:r2:a0.25,Flow matching PCA32,selective,1_4,4,3,0.0,0.0,0.0,0.2333333333333333,0.0,0.0,0.0
+flow:r2:a0.25,Flow matching PCA32,selective,2_1,1,3,0.5666666666666667,0.5666666666666667,0.0,1.0,0.0,0.5,0.7
+flow:r2:a0.25,Flow matching PCA32,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r2:a0.25,Flow matching PCA32,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+flow:r2:a0.25,Flow matching PCA32,selective,2_4,2,3,0.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r2:a0.25,Flow matching PCA32,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r2:a0.25,Flow matching PCA32,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r2:a0.25,Flow matching PCA32,selective,3_3,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r2:a0.25,Flow matching PCA32,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r2:a0.25,Flow matching PCA32,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r2:a0.25,Flow matching PCA32,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r2:a0.25,Flow matching PCA32,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r2:a0.25,Flow matching PCA32,conditional,1_3,2,3,1.0,0.7333333333333334,1.0,1.0,0.0,0.7,0.8
+flow:r2:a0.25,Flow matching PCA32,conditional,1_4,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+flow:r2:a0.25,Flow matching PCA32,conditional,2_1,1,3,0.5666666666666667,0.5666666666666667,1.0,1.0,0.0,0.5,0.7
+flow:r2:a0.25,Flow matching PCA32,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r2:a0.25,Flow matching PCA32,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+flow:r2:a0.25,Flow matching PCA32,conditional,2_4,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r2:a0.25,Flow matching PCA32,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r2:a0.25,Flow matching PCA32,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r2:a0.25,Flow matching PCA32,conditional,3_3,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r2:a0.25,Flow matching PCA32,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r2:a0.25,Flow matching PCA32,conditional,3_5,2,3,1.0,1.0,0.9333333333333332,1.0,0.0,1.0,1.0
+flow:r2:a1,Flow matching PCA32,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r2:a1,Flow matching PCA32,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r2:a1,Flow matching PCA32,selective,1_3,2,3,1.0,0.5666666666666668,0.0,1.0,0.0,0.5,0.6
+flow:r2:a1,Flow matching PCA32,selective,1_4,4,3,0.0,0.0,0.0,0.6333333333333334,0.0,0.0,0.0
+flow:r2:a1,Flow matching PCA32,selective,2_1,1,3,0.2333333333333333,0.2333333333333333,0.0,1.0,0.0,0.1,0.3
+flow:r2:a1,Flow matching PCA32,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r2:a1,Flow matching PCA32,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+flow:r2:a1,Flow matching PCA32,selective,2_4,2,3,0.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r2:a1,Flow matching PCA32,selective,2_5,2,3,0.7000000000000001,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r2:a1,Flow matching PCA32,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r2:a1,Flow matching PCA32,selective,3_3,1,3,0.9333333333333332,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r2:a1,Flow matching PCA32,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r2:a1,Flow matching PCA32,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow:r2:a1,Flow matching PCA32,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r2:a1,Flow matching PCA32,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r2:a1,Flow matching PCA32,conditional,1_3,2,3,1.0,0.5666666666666668,1.0,1.0,0.0,0.5,0.6
+flow:r2:a1,Flow matching PCA32,conditional,1_4,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+flow:r2:a1,Flow matching PCA32,conditional,2_1,1,3,0.2333333333333333,0.2333333333333333,1.0,1.0,0.0,0.1,0.3
+flow:r2:a1,Flow matching PCA32,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r2:a1,Flow matching PCA32,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+flow:r2:a1,Flow matching PCA32,conditional,2_4,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r2:a1,Flow matching PCA32,conditional,2_5,2,3,0.7000000000000001,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r2:a1,Flow matching PCA32,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r2:a1,Flow matching PCA32,conditional,3_3,1,3,0.9333333333333332,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r2:a1,Flow matching PCA32,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow:r2:a1,Flow matching PCA32,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r0.5:a0.25,Diffusion PCA32,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r0.5:a0.25,Diffusion PCA32,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r0.5:a0.25,Diffusion PCA32,selective,1_3,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r0.5:a0.25,Diffusion PCA32,selective,1_4,4,3,0.03333333333333333,0.0,0.0,0.03333333333333333,0.0,0.0,0.0
+diffusion:r0.5:a0.25,Diffusion PCA32,selective,2_1,1,3,0.8333333333333334,0.8666666666666667,0.0,1.0,0.0,0.8,0.9
+diffusion:r0.5:a0.25,Diffusion PCA32,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r0.5:a0.25,Diffusion PCA32,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+diffusion:r0.5:a0.25,Diffusion PCA32,selective,2_4,2,3,0.03333333333333333,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r0.5:a0.25,Diffusion PCA32,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r0.5:a0.25,Diffusion PCA32,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r0.5:a0.25,Diffusion PCA32,selective,3_3,1,3,0.6,0.7000000000000001,0.0,1.0,0.0,0.5,1.0
+diffusion:r0.5:a0.25,Diffusion PCA32,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r0.5:a0.25,Diffusion PCA32,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r0.5:a0.25,Diffusion PCA32,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r0.5:a0.25,Diffusion PCA32,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r0.5:a0.25,Diffusion PCA32,conditional,1_3,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r0.5:a0.25,Diffusion PCA32,conditional,1_4,4,3,0.13333333333333333,0.19999999999999998,0.9333333333333332,1.0,0.0,0.0,0.5
+diffusion:r0.5:a0.25,Diffusion PCA32,conditional,2_1,1,3,0.8333333333333334,0.8666666666666667,1.0,1.0,0.0,0.8,0.9
+diffusion:r0.5:a0.25,Diffusion PCA32,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r0.5:a0.25,Diffusion PCA32,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+diffusion:r0.5:a0.25,Diffusion PCA32,conditional,2_4,2,3,0.5333333333333333,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r0.5:a0.25,Diffusion PCA32,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r0.5:a0.25,Diffusion PCA32,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r0.5:a0.25,Diffusion PCA32,conditional,3_3,1,3,0.6,0.7000000000000001,1.0,1.0,0.0,0.5,1.0
+diffusion:r0.5:a0.25,Diffusion PCA32,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r0.5:a0.25,Diffusion PCA32,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r0.5:a1,Diffusion PCA32,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r0.5:a1,Diffusion PCA32,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r0.5:a1,Diffusion PCA32,selective,1_3,2,3,0.7333333333333334,0.8333333333333334,0.0,1.0,0.0,0.5,1.0
+diffusion:r0.5:a1,Diffusion PCA32,selective,1_4,4,3,0.0,0.0,0.0,0.06666666666666667,0.0,0.0,0.0
+diffusion:r0.5:a1,Diffusion PCA32,selective,2_1,1,3,0.3,0.26666666666666666,0.0,1.0,0.0,0.0,0.4
+diffusion:r0.5:a1,Diffusion PCA32,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r0.5:a1,Diffusion PCA32,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+diffusion:r0.5:a1,Diffusion PCA32,selective,2_4,2,3,0.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r0.5:a1,Diffusion PCA32,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r0.5:a1,Diffusion PCA32,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r0.5:a1,Diffusion PCA32,selective,3_3,1,3,0.6,0.7333333333333334,0.0,1.0,0.0,0.5,1.0
+diffusion:r0.5:a1,Diffusion PCA32,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r0.5:a1,Diffusion PCA32,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r0.5:a1,Diffusion PCA32,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r0.5:a1,Diffusion PCA32,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r0.5:a1,Diffusion PCA32,conditional,1_3,2,3,0.7333333333333334,0.8333333333333334,1.0,1.0,0.0,0.5,1.0
+diffusion:r0.5:a1,Diffusion PCA32,conditional,1_4,4,3,0.13333333333333333,0.26666666666666666,1.0,1.0,0.0,0.0,0.5
+diffusion:r0.5:a1,Diffusion PCA32,conditional,2_1,1,3,0.3,0.26666666666666666,1.0,1.0,0.0,0.0,0.4
+diffusion:r0.5:a1,Diffusion PCA32,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r0.5:a1,Diffusion PCA32,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+diffusion:r0.5:a1,Diffusion PCA32,conditional,2_4,2,3,0.7333333333333334,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r0.5:a1,Diffusion PCA32,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r0.5:a1,Diffusion PCA32,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r0.5:a1,Diffusion PCA32,conditional,3_3,1,3,0.6,0.7333333333333334,1.0,1.0,0.0,0.5,1.0
+diffusion:r0.5:a1,Diffusion PCA32,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r0.5:a1,Diffusion PCA32,conditional,3_5,2,3,1.0,1.0,0.9333333333333332,1.0,0.0,1.0,1.0
+diffusion:r1:a0.25,Diffusion PCA32,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r1:a0.25,Diffusion PCA32,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r1:a0.25,Diffusion PCA32,selective,1_3,2,3,0.8666666666666667,0.8666666666666667,0.0,1.0,0.0,0.8,1.0
+diffusion:r1:a0.25,Diffusion PCA32,selective,1_4,4,3,0.0,0.0,0.0,0.3333333333333333,0.0,0.0,0.0
+diffusion:r1:a0.25,Diffusion PCA32,selective,2_1,1,3,0.7333333333333334,0.8000000000000002,0.0,1.0,0.0,0.7,0.9
+diffusion:r1:a0.25,Diffusion PCA32,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r1:a0.25,Diffusion PCA32,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+diffusion:r1:a0.25,Diffusion PCA32,selective,2_4,2,3,0.03333333333333333,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r1:a0.25,Diffusion PCA32,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r1:a0.25,Diffusion PCA32,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r1:a0.25,Diffusion PCA32,selective,3_3,1,3,0.5,0.9333333333333332,0.0,1.0,0.0,0.8,1.0
+diffusion:r1:a0.25,Diffusion PCA32,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r1:a0.25,Diffusion PCA32,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r1:a0.25,Diffusion PCA32,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r1:a0.25,Diffusion PCA32,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r1:a0.25,Diffusion PCA32,conditional,1_3,2,3,0.8666666666666667,0.8666666666666667,1.0,1.0,0.0,0.8,1.0
+diffusion:r1:a0.25,Diffusion PCA32,conditional,1_4,4,3,0.19999999999999998,0.16666666666666666,1.0,1.0,0.0,0.0,0.5
+diffusion:r1:a0.25,Diffusion PCA32,conditional,2_1,1,3,0.7333333333333334,0.8000000000000002,1.0,1.0,0.0,0.7,0.9
+diffusion:r1:a0.25,Diffusion PCA32,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r1:a0.25,Diffusion PCA32,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+diffusion:r1:a0.25,Diffusion PCA32,conditional,2_4,2,3,0.9333333333333332,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r1:a0.25,Diffusion PCA32,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r1:a0.25,Diffusion PCA32,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r1:a0.25,Diffusion PCA32,conditional,3_3,1,3,0.5,0.9333333333333332,1.0,1.0,0.0,0.8,1.0
+diffusion:r1:a0.25,Diffusion PCA32,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r1:a0.25,Diffusion PCA32,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r1:a1,Diffusion PCA32,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r1:a1,Diffusion PCA32,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r1:a1,Diffusion PCA32,selective,1_3,2,3,0.6666666666666666,0.7333333333333334,0.0,1.0,0.0,0.5,0.9
+diffusion:r1:a1,Diffusion PCA32,selective,1_4,4,3,0.0,0.0,0.0,0.19999999999999998,0.0,0.0,0.0
+diffusion:r1:a1,Diffusion PCA32,selective,2_1,1,3,0.5333333333333333,0.2333333333333333,0.0,1.0,0.0,0.0,0.7
+diffusion:r1:a1,Diffusion PCA32,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r1:a1,Diffusion PCA32,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+diffusion:r1:a1,Diffusion PCA32,selective,2_4,2,3,0.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r1:a1,Diffusion PCA32,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r1:a1,Diffusion PCA32,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r1:a1,Diffusion PCA32,selective,3_3,1,3,0.6333333333333333,0.7999999999999999,0.0,1.0,0.0,0.6,1.0
+diffusion:r1:a1,Diffusion PCA32,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r1:a1,Diffusion PCA32,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r1:a1,Diffusion PCA32,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r1:a1,Diffusion PCA32,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r1:a1,Diffusion PCA32,conditional,1_3,2,3,0.6666666666666666,0.7333333333333334,1.0,1.0,0.0,0.5,0.9
+diffusion:r1:a1,Diffusion PCA32,conditional,1_4,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+diffusion:r1:a1,Diffusion PCA32,conditional,2_1,1,3,0.5333333333333333,0.2333333333333333,1.0,1.0,0.0,0.0,0.7
+diffusion:r1:a1,Diffusion PCA32,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r1:a1,Diffusion PCA32,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+diffusion:r1:a1,Diffusion PCA32,conditional,2_4,2,3,0.4666666666666666,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r1:a1,Diffusion PCA32,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r1:a1,Diffusion PCA32,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r1:a1,Diffusion PCA32,conditional,3_3,1,3,0.6333333333333333,0.7999999999999999,1.0,1.0,0.0,0.6,1.0
+diffusion:r1:a1,Diffusion PCA32,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r1:a1,Diffusion PCA32,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r2:a0.25,Diffusion PCA32,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r2:a0.25,Diffusion PCA32,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r2:a0.25,Diffusion PCA32,selective,1_3,2,3,1.0,0.8666666666666667,0.0,1.0,0.0,0.7,1.0
+diffusion:r2:a0.25,Diffusion PCA32,selective,1_4,4,3,0.0,0.03333333333333333,0.0,0.3333333333333333,0.0,0.0,0.1
+diffusion:r2:a0.25,Diffusion PCA32,selective,2_1,1,3,0.9333333333333332,0.8666666666666666,0.0,1.0,0.0,0.7,1.0
+diffusion:r2:a0.25,Diffusion PCA32,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r2:a0.25,Diffusion PCA32,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+diffusion:r2:a0.25,Diffusion PCA32,selective,2_4,2,3,0.06666666666666667,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r2:a0.25,Diffusion PCA32,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r2:a0.25,Diffusion PCA32,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r2:a0.25,Diffusion PCA32,selective,3_3,1,3,0.6666666666666666,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r2:a0.25,Diffusion PCA32,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r2:a0.25,Diffusion PCA32,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r2:a0.25,Diffusion PCA32,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r2:a0.25,Diffusion PCA32,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r2:a0.25,Diffusion PCA32,conditional,1_3,2,3,1.0,0.8666666666666667,1.0,1.0,0.0,0.7,1.0
+diffusion:r2:a0.25,Diffusion PCA32,conditional,1_4,4,3,0.19999999999999998,0.2333333333333333,1.0,1.0,0.0,0.1,0.5
+diffusion:r2:a0.25,Diffusion PCA32,conditional,2_1,1,3,0.9333333333333332,0.8666666666666666,1.0,1.0,0.0,0.7,1.0
+diffusion:r2:a0.25,Diffusion PCA32,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r2:a0.25,Diffusion PCA32,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+diffusion:r2:a0.25,Diffusion PCA32,conditional,2_4,2,3,0.7000000000000001,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r2:a0.25,Diffusion PCA32,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r2:a0.25,Diffusion PCA32,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r2:a0.25,Diffusion PCA32,conditional,3_3,1,3,0.6666666666666666,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r2:a0.25,Diffusion PCA32,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r2:a0.25,Diffusion PCA32,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r2:a1,Diffusion PCA32,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r2:a1,Diffusion PCA32,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r2:a1,Diffusion PCA32,selective,1_3,2,3,0.6666666666666666,0.6999999999999998,0.0,1.0,0.0,0.6,0.8
+diffusion:r2:a1,Diffusion PCA32,selective,1_4,4,3,0.0,0.0,0.0,0.8333333333333334,0.0,0.0,0.0
+diffusion:r2:a1,Diffusion PCA32,selective,2_1,1,3,0.46666666666666673,0.3,0.0,1.0,0.0,0.0,0.6
+diffusion:r2:a1,Diffusion PCA32,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r2:a1,Diffusion PCA32,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+diffusion:r2:a1,Diffusion PCA32,selective,2_4,2,3,0.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r2:a1,Diffusion PCA32,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r2:a1,Diffusion PCA32,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r2:a1,Diffusion PCA32,selective,3_3,1,3,0.6,0.7333333333333334,0.0,1.0,0.0,0.5,1.0
+diffusion:r2:a1,Diffusion PCA32,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion:r2:a1,Diffusion PCA32,selective,3_5,2,3,1.0,1.0,0.20000000000000004,1.0,0.0,1.0,1.0
+diffusion:r2:a1,Diffusion PCA32,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r2:a1,Diffusion PCA32,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r2:a1,Diffusion PCA32,conditional,1_3,2,3,0.6666666666666666,0.6999999999999998,1.0,1.0,0.0,0.6,0.8
+diffusion:r2:a1,Diffusion PCA32,conditional,1_4,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+diffusion:r2:a1,Diffusion PCA32,conditional,2_1,1,3,0.46666666666666673,0.3,1.0,1.0,0.0,0.0,0.6
+diffusion:r2:a1,Diffusion PCA32,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r2:a1,Diffusion PCA32,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+diffusion:r2:a1,Diffusion PCA32,conditional,2_4,2,3,0.8666666666666667,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r2:a1,Diffusion PCA32,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r2:a1,Diffusion PCA32,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r2:a1,Diffusion PCA32,conditional,3_3,1,3,0.6,0.7333333333333334,1.0,1.0,0.0,0.5,1.0
+diffusion:r2:a1,Diffusion PCA32,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion:r2:a1,Diffusion PCA32,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r0.5:a0.25,PCA đủ hạng dựng lại,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r0.5:a0.25,PCA đủ hạng dựng lại,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r0.5:a0.25,PCA đủ hạng dựng lại,selective,1_3,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r0.5:a0.25,PCA đủ hạng dựng lại,selective,1_4,4,3,0.5666666666666668,0.43333333333333335,0.0,0.5666666666666668,0.0,0.2,0.6
+pca_bootstrap_full:r0.5:a0.25,PCA đủ hạng dựng lại,selective,2_1,1,3,0.7999999999999999,0.8666666666666667,0.0,1.0,0.0,0.8,1.0
+pca_bootstrap_full:r0.5:a0.25,PCA đủ hạng dựng lại,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r0.5:a0.25,PCA đủ hạng dựng lại,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+pca_bootstrap_full:r0.5:a0.25,PCA đủ hạng dựng lại,selective,2_4,2,3,0.03333333333333333,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r0.5:a0.25,PCA đủ hạng dựng lại,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r0.5:a0.25,PCA đủ hạng dựng lại,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r0.5:a0.25,PCA đủ hạng dựng lại,selective,3_3,1,3,0.7666666666666666,0.9,0.0,1.0,0.0,0.7,1.0
+pca_bootstrap_full:r0.5:a0.25,PCA đủ hạng dựng lại,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r0.5:a0.25,PCA đủ hạng dựng lại,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r0.5:a0.25,PCA đủ hạng dựng lại,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r0.5:a0.25,PCA đủ hạng dựng lại,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r0.5:a0.25,PCA đủ hạng dựng lại,conditional,1_3,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r0.5:a0.25,PCA đủ hạng dựng lại,conditional,1_4,4,3,0.7333333333333334,0.7333333333333334,1.0,1.0,0.0,0.6,0.8
+pca_bootstrap_full:r0.5:a0.25,PCA đủ hạng dựng lại,conditional,2_1,1,3,0.7999999999999999,0.8666666666666667,1.0,1.0,0.0,0.8,1.0
+pca_bootstrap_full:r0.5:a0.25,PCA đủ hạng dựng lại,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r0.5:a0.25,PCA đủ hạng dựng lại,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+pca_bootstrap_full:r0.5:a0.25,PCA đủ hạng dựng lại,conditional,2_4,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r0.5:a0.25,PCA đủ hạng dựng lại,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r0.5:a0.25,PCA đủ hạng dựng lại,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r0.5:a0.25,PCA đủ hạng dựng lại,conditional,3_3,1,3,0.7666666666666666,0.9,1.0,1.0,0.0,0.7,1.0
+pca_bootstrap_full:r0.5:a0.25,PCA đủ hạng dựng lại,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r0.5:a0.25,PCA đủ hạng dựng lại,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r0.5:a1,PCA đủ hạng dựng lại,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r0.5:a1,PCA đủ hạng dựng lại,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r0.5:a1,PCA đủ hạng dựng lại,selective,1_3,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r0.5:a1,PCA đủ hạng dựng lại,selective,1_4,4,3,0.8666666666666667,0.7333333333333334,0.0,0.7666666666666666,0.0,0.3,1.0
+pca_bootstrap_full:r0.5:a1,PCA đủ hạng dựng lại,selective,2_1,1,3,0.7666666666666666,0.7666666666666666,0.0,1.0,0.0,0.6,0.9
+pca_bootstrap_full:r0.5:a1,PCA đủ hạng dựng lại,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r0.5:a1,PCA đủ hạng dựng lại,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+pca_bootstrap_full:r0.5:a1,PCA đủ hạng dựng lại,selective,2_4,2,3,0.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r0.5:a1,PCA đủ hạng dựng lại,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r0.5:a1,PCA đủ hạng dựng lại,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r0.5:a1,PCA đủ hạng dựng lại,selective,3_3,1,3,0.6,0.8333333333333334,0.0,1.0,0.0,0.5,1.0
+pca_bootstrap_full:r0.5:a1,PCA đủ hạng dựng lại,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r0.5:a1,PCA đủ hạng dựng lại,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r0.5:a1,PCA đủ hạng dựng lại,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r0.5:a1,PCA đủ hạng dựng lại,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r0.5:a1,PCA đủ hạng dựng lại,conditional,1_3,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r0.5:a1,PCA đủ hạng dựng lại,conditional,1_4,4,3,1.0,0.9333333333333332,1.0,1.0,0.0,0.9,1.0
+pca_bootstrap_full:r0.5:a1,PCA đủ hạng dựng lại,conditional,2_1,1,3,0.7666666666666666,0.7666666666666666,1.0,1.0,0.0,0.6,0.9
+pca_bootstrap_full:r0.5:a1,PCA đủ hạng dựng lại,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r0.5:a1,PCA đủ hạng dựng lại,conditional,2_3,4,3,0.0,0.0,0.9333333333333332,1.0,0.0,0.0,0.0
+pca_bootstrap_full:r0.5:a1,PCA đủ hạng dựng lại,conditional,2_4,2,3,0.8666666666666667,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r0.5:a1,PCA đủ hạng dựng lại,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r0.5:a1,PCA đủ hạng dựng lại,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r0.5:a1,PCA đủ hạng dựng lại,conditional,3_3,1,3,0.6,0.8333333333333334,1.0,1.0,0.0,0.5,1.0
+pca_bootstrap_full:r0.5:a1,PCA đủ hạng dựng lại,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r0.5:a1,PCA đủ hạng dựng lại,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r1:a0.25,PCA đủ hạng dựng lại,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r1:a0.25,PCA đủ hạng dựng lại,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r1:a0.25,PCA đủ hạng dựng lại,selective,1_3,2,3,1.0,0.9666666666666667,0.0,1.0,0.0,0.9,1.0
+pca_bootstrap_full:r1:a0.25,PCA đủ hạng dựng lại,selective,1_4,4,3,0.8666666666666667,0.7999999999999999,0.0,0.8333333333333334,0.0,0.5,1.0
+pca_bootstrap_full:r1:a0.25,PCA đủ hạng dựng lại,selective,2_1,1,3,0.6333333333333334,0.7333333333333334,0.0,1.0,0.0,0.6,0.9
+pca_bootstrap_full:r1:a0.25,PCA đủ hạng dựng lại,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r1:a0.25,PCA đủ hạng dựng lại,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+pca_bootstrap_full:r1:a0.25,PCA đủ hạng dựng lại,selective,2_4,2,3,0.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r1:a0.25,PCA đủ hạng dựng lại,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r1:a0.25,PCA đủ hạng dựng lại,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r1:a0.25,PCA đủ hạng dựng lại,selective,3_3,1,3,0.7333333333333334,0.9,0.0,1.0,0.0,0.7,1.0
+pca_bootstrap_full:r1:a0.25,PCA đủ hạng dựng lại,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r1:a0.25,PCA đủ hạng dựng lại,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r1:a0.25,PCA đủ hạng dựng lại,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r1:a0.25,PCA đủ hạng dựng lại,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r1:a0.25,PCA đủ hạng dựng lại,conditional,1_3,2,3,1.0,0.9666666666666667,1.0,1.0,0.0,0.9,1.0
+pca_bootstrap_full:r1:a0.25,PCA đủ hạng dựng lại,conditional,1_4,4,3,1.0,0.9333333333333332,1.0,1.0,0.0,0.9,1.0
+pca_bootstrap_full:r1:a0.25,PCA đủ hạng dựng lại,conditional,2_1,1,3,0.6333333333333334,0.7333333333333334,1.0,1.0,0.0,0.6,0.9
+pca_bootstrap_full:r1:a0.25,PCA đủ hạng dựng lại,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r1:a0.25,PCA đủ hạng dựng lại,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+pca_bootstrap_full:r1:a0.25,PCA đủ hạng dựng lại,conditional,2_4,2,3,0.9333333333333332,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r1:a0.25,PCA đủ hạng dựng lại,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r1:a0.25,PCA đủ hạng dựng lại,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r1:a0.25,PCA đủ hạng dựng lại,conditional,3_3,1,3,0.7333333333333334,0.9,1.0,1.0,0.0,0.7,1.0
+pca_bootstrap_full:r1:a0.25,PCA đủ hạng dựng lại,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r1:a0.25,PCA đủ hạng dựng lại,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r1:a1,PCA đủ hạng dựng lại,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r1:a1,PCA đủ hạng dựng lại,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r1:a1,PCA đủ hạng dựng lại,selective,1_3,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r1:a1,PCA đủ hạng dựng lại,selective,1_4,4,3,0.7999999999999999,0.7333333333333334,0.0,0.7666666666666666,0.0,0.5,0.9
+pca_bootstrap_full:r1:a1,PCA đủ hạng dựng lại,selective,2_1,1,3,0.4666666666666666,0.7000000000000001,0.0,1.0,0.0,0.5,0.8
+pca_bootstrap_full:r1:a1,PCA đủ hạng dựng lại,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r1:a1,PCA đủ hạng dựng lại,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+pca_bootstrap_full:r1:a1,PCA đủ hạng dựng lại,selective,2_4,2,3,0.06666666666666667,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r1:a1,PCA đủ hạng dựng lại,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r1:a1,PCA đủ hạng dựng lại,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r1:a1,PCA đủ hạng dựng lại,selective,3_3,1,3,0.4000000000000001,0.7000000000000001,0.0,1.0,0.0,0.5,1.0
+pca_bootstrap_full:r1:a1,PCA đủ hạng dựng lại,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r1:a1,PCA đủ hạng dựng lại,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r1:a1,PCA đủ hạng dựng lại,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r1:a1,PCA đủ hạng dựng lại,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r1:a1,PCA đủ hạng dựng lại,conditional,1_3,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r1:a1,PCA đủ hạng dựng lại,conditional,1_4,4,3,1.0,0.9666666666666667,1.0,1.0,0.0,0.9,1.0
+pca_bootstrap_full:r1:a1,PCA đủ hạng dựng lại,conditional,2_1,1,3,0.4666666666666666,0.7000000000000001,1.0,1.0,0.0,0.5,0.8
+pca_bootstrap_full:r1:a1,PCA đủ hạng dựng lại,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r1:a1,PCA đủ hạng dựng lại,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+pca_bootstrap_full:r1:a1,PCA đủ hạng dựng lại,conditional,2_4,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r1:a1,PCA đủ hạng dựng lại,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r1:a1,PCA đủ hạng dựng lại,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r1:a1,PCA đủ hạng dựng lại,conditional,3_3,1,3,0.4000000000000001,0.7000000000000001,1.0,1.0,0.0,0.5,1.0
+pca_bootstrap_full:r1:a1,PCA đủ hạng dựng lại,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r1:a1,PCA đủ hạng dựng lại,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r2:a0.25,PCA đủ hạng dựng lại,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r2:a0.25,PCA đủ hạng dựng lại,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r2:a0.25,PCA đủ hạng dựng lại,selective,1_3,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r2:a0.25,PCA đủ hạng dựng lại,selective,1_4,4,3,0.9333333333333332,0.9333333333333332,0.0,1.0,0.0,0.9,1.0
+pca_bootstrap_full:r2:a0.25,PCA đủ hạng dựng lại,selective,2_1,1,3,0.7333333333333334,0.7000000000000001,0.0,1.0,0.0,0.5,0.8
+pca_bootstrap_full:r2:a0.25,PCA đủ hạng dựng lại,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r2:a0.25,PCA đủ hạng dựng lại,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+pca_bootstrap_full:r2:a0.25,PCA đủ hạng dựng lại,selective,2_4,2,3,0.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r2:a0.25,PCA đủ hạng dựng lại,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r2:a0.25,PCA đủ hạng dựng lại,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r2:a0.25,PCA đủ hạng dựng lại,selective,3_3,1,3,0.4666666666666666,0.7333333333333334,0.0,1.0,0.0,0.5,1.0
+pca_bootstrap_full:r2:a0.25,PCA đủ hạng dựng lại,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r2:a0.25,PCA đủ hạng dựng lại,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r2:a0.25,PCA đủ hạng dựng lại,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r2:a0.25,PCA đủ hạng dựng lại,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r2:a0.25,PCA đủ hạng dựng lại,conditional,1_3,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r2:a0.25,PCA đủ hạng dựng lại,conditional,1_4,4,3,1.0,0.9333333333333332,1.0,1.0,0.0,0.9,1.0
+pca_bootstrap_full:r2:a0.25,PCA đủ hạng dựng lại,conditional,2_1,1,3,0.7333333333333334,0.7000000000000001,1.0,1.0,0.0,0.5,0.8
+pca_bootstrap_full:r2:a0.25,PCA đủ hạng dựng lại,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r2:a0.25,PCA đủ hạng dựng lại,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+pca_bootstrap_full:r2:a0.25,PCA đủ hạng dựng lại,conditional,2_4,2,3,0.8666666666666667,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r2:a0.25,PCA đủ hạng dựng lại,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r2:a0.25,PCA đủ hạng dựng lại,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r2:a0.25,PCA đủ hạng dựng lại,conditional,3_3,1,3,0.4666666666666666,0.7333333333333334,1.0,1.0,0.0,0.5,1.0
+pca_bootstrap_full:r2:a0.25,PCA đủ hạng dựng lại,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r2:a0.25,PCA đủ hạng dựng lại,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r2:a1,PCA đủ hạng dựng lại,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r2:a1,PCA đủ hạng dựng lại,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r2:a1,PCA đủ hạng dựng lại,selective,1_3,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r2:a1,PCA đủ hạng dựng lại,selective,1_4,4,3,0.9,0.7666666666666666,0.0,0.8333333333333334,0.0,0.6,0.9
+pca_bootstrap_full:r2:a1,PCA đủ hạng dựng lại,selective,2_1,1,3,0.39999999999999997,0.8000000000000002,0.0,1.0,0.0,0.6,1.0
+pca_bootstrap_full:r2:a1,PCA đủ hạng dựng lại,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r2:a1,PCA đủ hạng dựng lại,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+pca_bootstrap_full:r2:a1,PCA đủ hạng dựng lại,selective,2_4,2,3,0.06666666666666667,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r2:a1,PCA đủ hạng dựng lại,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r2:a1,PCA đủ hạng dựng lại,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r2:a1,PCA đủ hạng dựng lại,selective,3_3,1,3,0.4000000000000001,0.6,0.0,1.0,0.0,0.5,0.8
+pca_bootstrap_full:r2:a1,PCA đủ hạng dựng lại,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r2:a1,PCA đủ hạng dựng lại,selective,3_5,2,3,1.0,1.0,0.06666666666666667,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r2:a1,PCA đủ hạng dựng lại,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r2:a1,PCA đủ hạng dựng lại,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r2:a1,PCA đủ hạng dựng lại,conditional,1_3,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r2:a1,PCA đủ hạng dựng lại,conditional,1_4,4,3,0.9666666666666667,0.9333333333333332,1.0,1.0,0.0,0.9,1.0
+pca_bootstrap_full:r2:a1,PCA đủ hạng dựng lại,conditional,2_1,1,3,0.39999999999999997,0.8000000000000002,1.0,1.0,0.0,0.6,1.0
+pca_bootstrap_full:r2:a1,PCA đủ hạng dựng lại,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r2:a1,PCA đủ hạng dựng lại,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+pca_bootstrap_full:r2:a1,PCA đủ hạng dựng lại,conditional,2_4,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r2:a1,PCA đủ hạng dựng lại,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r2:a1,PCA đủ hạng dựng lại,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r2:a1,PCA đủ hạng dựng lại,conditional,3_3,1,3,0.4000000000000001,0.6,1.0,1.0,0.0,0.5,0.8
+pca_bootstrap_full:r2:a1,PCA đủ hạng dựng lại,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+pca_bootstrap_full:r2:a1,PCA đủ hạng dựng lại,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r0.5:a0.25,Flow matching đủ hạng,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r0.5:a0.25,Flow matching đủ hạng,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r0.5:a0.25,Flow matching đủ hạng,selective,1_3,2,3,1.0,0.9333333333333332,0.0,1.0,0.0,0.8,1.0
+flow_full:r0.5:a0.25,Flow matching đủ hạng,selective,1_4,4,3,0.06666666666666667,0.0,0.0,0.10000000000000002,0.0,0.0,0.0
+flow_full:r0.5:a0.25,Flow matching đủ hạng,selective,2_1,1,3,0.7999999999999999,0.8666666666666667,0.0,1.0,0.0,0.8,1.0
+flow_full:r0.5:a0.25,Flow matching đủ hạng,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r0.5:a0.25,Flow matching đủ hạng,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+flow_full:r0.5:a0.25,Flow matching đủ hạng,selective,2_4,2,3,0.03333333333333333,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r0.5:a0.25,Flow matching đủ hạng,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r0.5:a0.25,Flow matching đủ hạng,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r0.5:a0.25,Flow matching đủ hạng,selective,3_3,1,3,0.7999999999999999,0.8666666666666667,0.0,1.0,0.0,0.6,1.0
+flow_full:r0.5:a0.25,Flow matching đủ hạng,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r0.5:a0.25,Flow matching đủ hạng,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r0.5:a0.25,Flow matching đủ hạng,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r0.5:a0.25,Flow matching đủ hạng,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r0.5:a0.25,Flow matching đủ hạng,conditional,1_3,2,3,1.0,0.9333333333333332,1.0,1.0,0.0,0.8,1.0
+flow_full:r0.5:a0.25,Flow matching đủ hạng,conditional,1_4,4,3,0.4000000000000001,0.3333333333333333,1.0,1.0,0.0,0.1,0.5
+flow_full:r0.5:a0.25,Flow matching đủ hạng,conditional,2_1,1,3,0.7999999999999999,0.8666666666666667,1.0,1.0,0.0,0.8,1.0
+flow_full:r0.5:a0.25,Flow matching đủ hạng,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r0.5:a0.25,Flow matching đủ hạng,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+flow_full:r0.5:a0.25,Flow matching đủ hạng,conditional,2_4,2,3,0.7333333333333334,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r0.5:a0.25,Flow matching đủ hạng,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r0.5:a0.25,Flow matching đủ hạng,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r0.5:a0.25,Flow matching đủ hạng,conditional,3_3,1,3,0.7999999999999999,0.8666666666666667,1.0,1.0,0.0,0.6,1.0
+flow_full:r0.5:a0.25,Flow matching đủ hạng,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r0.5:a0.25,Flow matching đủ hạng,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r0.5:a1,Flow matching đủ hạng,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r0.5:a1,Flow matching đủ hạng,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r0.5:a1,Flow matching đủ hạng,selective,1_3,2,3,0.8666666666666667,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r0.5:a1,Flow matching đủ hạng,selective,1_4,4,3,0.3,0.3,0.0,0.8666666666666667,0.0,0.0,0.9
+flow_full:r0.5:a1,Flow matching đủ hạng,selective,2_1,1,3,1.0,0.9666666666666667,0.0,1.0,0.0,0.9,1.0
+flow_full:r0.5:a1,Flow matching đủ hạng,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r0.5:a1,Flow matching đủ hạng,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+flow_full:r0.5:a1,Flow matching đủ hạng,selective,2_4,2,3,0.03333333333333333,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r0.5:a1,Flow matching đủ hạng,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r0.5:a1,Flow matching đủ hạng,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r0.5:a1,Flow matching đủ hạng,selective,3_3,1,3,0.9,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r0.5:a1,Flow matching đủ hạng,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r0.5:a1,Flow matching đủ hạng,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r0.5:a1,Flow matching đủ hạng,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r0.5:a1,Flow matching đủ hạng,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r0.5:a1,Flow matching đủ hạng,conditional,1_3,2,3,0.8666666666666667,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r0.5:a1,Flow matching đủ hạng,conditional,1_4,4,3,0.3333333333333333,0.3,1.0,1.0,0.0,0.0,0.9
+flow_full:r0.5:a1,Flow matching đủ hạng,conditional,2_1,1,3,1.0,0.9666666666666667,1.0,1.0,0.0,0.9,1.0
+flow_full:r0.5:a1,Flow matching đủ hạng,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r0.5:a1,Flow matching đủ hạng,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+flow_full:r0.5:a1,Flow matching đủ hạng,conditional,2_4,2,3,0.9,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r0.5:a1,Flow matching đủ hạng,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r0.5:a1,Flow matching đủ hạng,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r0.5:a1,Flow matching đủ hạng,conditional,3_3,1,3,0.9,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r0.5:a1,Flow matching đủ hạng,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r0.5:a1,Flow matching đủ hạng,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r1:a0.25,Flow matching đủ hạng,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r1:a0.25,Flow matching đủ hạng,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r1:a0.25,Flow matching đủ hạng,selective,1_3,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r1:a0.25,Flow matching đủ hạng,selective,1_4,4,3,0.0,0.0,0.0,0.03333333333333333,0.0,0.0,0.0
+flow_full:r1:a0.25,Flow matching đủ hạng,selective,2_1,1,3,0.9666666666666667,0.9666666666666667,0.0,1.0,0.0,0.9,1.0
+flow_full:r1:a0.25,Flow matching đủ hạng,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r1:a0.25,Flow matching đủ hạng,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+flow_full:r1:a0.25,Flow matching đủ hạng,selective,2_4,2,3,0.03333333333333333,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r1:a0.25,Flow matching đủ hạng,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r1:a0.25,Flow matching đủ hạng,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r1:a0.25,Flow matching đủ hạng,selective,3_3,1,3,0.7666666666666666,0.8666666666666667,0.0,1.0,0.0,0.6,1.0
+flow_full:r1:a0.25,Flow matching đủ hạng,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r1:a0.25,Flow matching đủ hạng,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r1:a0.25,Flow matching đủ hạng,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r1:a0.25,Flow matching đủ hạng,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r1:a0.25,Flow matching đủ hạng,conditional,1_3,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r1:a0.25,Flow matching đủ hạng,conditional,1_4,4,3,0.43333333333333335,0.4666666666666666,0.7333333333333334,1.0,0.0,0.2,0.8
+flow_full:r1:a0.25,Flow matching đủ hạng,conditional,2_1,1,3,0.9666666666666667,0.9666666666666667,1.0,1.0,0.0,0.9,1.0
+flow_full:r1:a0.25,Flow matching đủ hạng,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r1:a0.25,Flow matching đủ hạng,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+flow_full:r1:a0.25,Flow matching đủ hạng,conditional,2_4,2,3,0.6666666666666666,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r1:a0.25,Flow matching đủ hạng,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r1:a0.25,Flow matching đủ hạng,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r1:a0.25,Flow matching đủ hạng,conditional,3_3,1,3,0.7666666666666666,0.8666666666666667,1.0,1.0,0.0,0.6,1.0
+flow_full:r1:a0.25,Flow matching đủ hạng,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r1:a0.25,Flow matching đủ hạng,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r1:a1,Flow matching đủ hạng,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r1:a1,Flow matching đủ hạng,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r1:a1,Flow matching đủ hạng,selective,1_3,2,3,0.9666666666666667,0.9333333333333332,0.0,1.0,0.0,0.8,1.0
+flow_full:r1:a1,Flow matching đủ hạng,selective,1_4,4,3,0.0,0.0,0.0,0.10000000000000002,0.0,0.0,0.0
+flow_full:r1:a1,Flow matching đủ hạng,selective,2_1,1,3,0.9333333333333332,0.9333333333333332,0.0,1.0,0.0,0.8,1.0
+flow_full:r1:a1,Flow matching đủ hạng,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r1:a1,Flow matching đủ hạng,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+flow_full:r1:a1,Flow matching đủ hạng,selective,2_4,2,3,0.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r1:a1,Flow matching đủ hạng,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r1:a1,Flow matching đủ hạng,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r1:a1,Flow matching đủ hạng,selective,3_3,1,3,0.7999999999999999,0.8333333333333334,0.0,1.0,0.0,0.5,1.0
+flow_full:r1:a1,Flow matching đủ hạng,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r1:a1,Flow matching đủ hạng,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r1:a1,Flow matching đủ hạng,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r1:a1,Flow matching đủ hạng,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r1:a1,Flow matching đủ hạng,conditional,1_3,2,3,0.9666666666666667,0.9333333333333332,1.0,1.0,0.0,0.8,1.0
+flow_full:r1:a1,Flow matching đủ hạng,conditional,1_4,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+flow_full:r1:a1,Flow matching đủ hạng,conditional,2_1,1,3,0.9333333333333332,0.9333333333333332,1.0,1.0,0.0,0.8,1.0
+flow_full:r1:a1,Flow matching đủ hạng,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r1:a1,Flow matching đủ hạng,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+flow_full:r1:a1,Flow matching đủ hạng,conditional,2_4,2,3,0.5333333333333333,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r1:a1,Flow matching đủ hạng,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r1:a1,Flow matching đủ hạng,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r1:a1,Flow matching đủ hạng,conditional,3_3,1,3,0.7999999999999999,0.8333333333333334,1.0,1.0,0.0,0.5,1.0
+flow_full:r1:a1,Flow matching đủ hạng,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r1:a1,Flow matching đủ hạng,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r2:a0.25,Flow matching đủ hạng,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r2:a0.25,Flow matching đủ hạng,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r2:a0.25,Flow matching đủ hạng,selective,1_3,2,3,1.0,0.9333333333333332,0.0,1.0,0.0,0.8,1.0
+flow_full:r2:a0.25,Flow matching đủ hạng,selective,1_4,4,3,0.0,0.0,0.0,0.3333333333333333,0.0,0.0,0.0
+flow_full:r2:a0.25,Flow matching đủ hạng,selective,2_1,1,3,1.0,0.9666666666666667,0.0,1.0,0.0,0.9,1.0
+flow_full:r2:a0.25,Flow matching đủ hạng,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r2:a0.25,Flow matching đủ hạng,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+flow_full:r2:a0.25,Flow matching đủ hạng,selective,2_4,2,3,0.03333333333333333,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r2:a0.25,Flow matching đủ hạng,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r2:a0.25,Flow matching đủ hạng,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r2:a0.25,Flow matching đủ hạng,selective,3_3,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r2:a0.25,Flow matching đủ hạng,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r2:a0.25,Flow matching đủ hạng,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r2:a0.25,Flow matching đủ hạng,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r2:a0.25,Flow matching đủ hạng,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r2:a0.25,Flow matching đủ hạng,conditional,1_3,2,3,1.0,0.9333333333333332,1.0,1.0,0.0,0.8,1.0
+flow_full:r2:a0.25,Flow matching đủ hạng,conditional,1_4,4,3,0.2333333333333333,0.3333333333333333,1.0,1.0,0.0,0.0,0.5
+flow_full:r2:a0.25,Flow matching đủ hạng,conditional,2_1,1,3,1.0,0.9666666666666667,1.0,1.0,0.0,0.9,1.0
+flow_full:r2:a0.25,Flow matching đủ hạng,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r2:a0.25,Flow matching đủ hạng,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+flow_full:r2:a0.25,Flow matching đủ hạng,conditional,2_4,2,3,0.5,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r2:a0.25,Flow matching đủ hạng,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r2:a0.25,Flow matching đủ hạng,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r2:a0.25,Flow matching đủ hạng,conditional,3_3,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r2:a0.25,Flow matching đủ hạng,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r2:a0.25,Flow matching đủ hạng,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r2:a1,Flow matching đủ hạng,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r2:a1,Flow matching đủ hạng,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r2:a1,Flow matching đủ hạng,selective,1_3,2,3,0.6,0.7666666666666666,0.0,1.0,0.0,0.6,0.9
+flow_full:r2:a1,Flow matching đủ hạng,selective,1_4,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+flow_full:r2:a1,Flow matching đủ hạng,selective,2_1,1,3,0.6666666666666666,0.9,0.0,1.0,0.0,0.7,1.0
+flow_full:r2:a1,Flow matching đủ hạng,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r2:a1,Flow matching đủ hạng,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+flow_full:r2:a1,Flow matching đủ hạng,selective,2_4,2,3,0.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r2:a1,Flow matching đủ hạng,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r2:a1,Flow matching đủ hạng,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r2:a1,Flow matching đủ hạng,selective,3_3,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r2:a1,Flow matching đủ hạng,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r2:a1,Flow matching đủ hạng,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+flow_full:r2:a1,Flow matching đủ hạng,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r2:a1,Flow matching đủ hạng,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r2:a1,Flow matching đủ hạng,conditional,1_3,2,3,0.6,0.7666666666666666,1.0,1.0,0.0,0.6,0.9
+flow_full:r2:a1,Flow matching đủ hạng,conditional,1_4,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+flow_full:r2:a1,Flow matching đủ hạng,conditional,2_1,1,3,0.6666666666666666,0.9,1.0,1.0,0.0,0.7,1.0
+flow_full:r2:a1,Flow matching đủ hạng,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r2:a1,Flow matching đủ hạng,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+flow_full:r2:a1,Flow matching đủ hạng,conditional,2_4,2,3,0.6,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r2:a1,Flow matching đủ hạng,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r2:a1,Flow matching đủ hạng,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r2:a1,Flow matching đủ hạng,conditional,3_3,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r2:a1,Flow matching đủ hạng,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+flow_full:r2:a1,Flow matching đủ hạng,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r0.5:a0.25,Diffusion đủ hạng,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r0.5:a0.25,Diffusion đủ hạng,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r0.5:a0.25,Diffusion đủ hạng,selective,1_3,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r0.5:a0.25,Diffusion đủ hạng,selective,1_4,4,3,0.39999999999999997,0.3333333333333333,0.0,0.39999999999999997,0.0,0.0,1.0
+diffusion_full:r0.5:a0.25,Diffusion đủ hạng,selective,2_1,1,3,0.5666666666666667,0.9,0.0,1.0,0.0,0.8,1.0
+diffusion_full:r0.5:a0.25,Diffusion đủ hạng,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r0.5:a0.25,Diffusion đủ hạng,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+diffusion_full:r0.5:a0.25,Diffusion đủ hạng,selective,2_4,2,3,0.03333333333333333,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r0.5:a0.25,Diffusion đủ hạng,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r0.5:a0.25,Diffusion đủ hạng,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r0.5:a0.25,Diffusion đủ hạng,selective,3_3,1,3,0.7999999999999999,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r0.5:a0.25,Diffusion đủ hạng,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r0.5:a0.25,Diffusion đủ hạng,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r0.5:a0.25,Diffusion đủ hạng,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r0.5:a0.25,Diffusion đủ hạng,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r0.5:a0.25,Diffusion đủ hạng,conditional,1_3,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r0.5:a0.25,Diffusion đủ hạng,conditional,1_4,4,3,0.8666666666666666,0.7333333333333334,1.0,1.0,0.0,0.4,1.0
+diffusion_full:r0.5:a0.25,Diffusion đủ hạng,conditional,2_1,1,3,0.5666666666666667,0.9,1.0,1.0,0.0,0.8,1.0
+diffusion_full:r0.5:a0.25,Diffusion đủ hạng,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r0.5:a0.25,Diffusion đủ hạng,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+diffusion_full:r0.5:a0.25,Diffusion đủ hạng,conditional,2_4,2,3,0.7666666666666666,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r0.5:a0.25,Diffusion đủ hạng,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r0.5:a0.25,Diffusion đủ hạng,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r0.5:a0.25,Diffusion đủ hạng,conditional,3_3,1,3,0.7999999999999999,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r0.5:a0.25,Diffusion đủ hạng,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r0.5:a0.25,Diffusion đủ hạng,conditional,3_5,2,3,1.0,1.0,0.9333333333333332,1.0,0.0,1.0,1.0
+diffusion_full:r0.5:a1,Diffusion đủ hạng,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r0.5:a1,Diffusion đủ hạng,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r0.5:a1,Diffusion đủ hạng,selective,1_3,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r0.5:a1,Diffusion đủ hạng,selective,1_4,4,3,0.3333333333333333,0.3333333333333333,0.0,0.3666666666666667,0.0,0.0,1.0
+diffusion_full:r0.5:a1,Diffusion đủ hạng,selective,2_1,1,3,0.5,0.7999999999999999,0.0,1.0,0.0,0.6,1.0
+diffusion_full:r0.5:a1,Diffusion đủ hạng,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r0.5:a1,Diffusion đủ hạng,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+diffusion_full:r0.5:a1,Diffusion đủ hạng,selective,2_4,2,3,0.03333333333333333,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r0.5:a1,Diffusion đủ hạng,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r0.5:a1,Diffusion đủ hạng,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r0.5:a1,Diffusion đủ hạng,selective,3_3,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r0.5:a1,Diffusion đủ hạng,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r0.5:a1,Diffusion đủ hạng,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r0.5:a1,Diffusion đủ hạng,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r0.5:a1,Diffusion đủ hạng,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r0.5:a1,Diffusion đủ hạng,conditional,1_3,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r0.5:a1,Diffusion đủ hạng,conditional,1_4,4,3,0.5666666666666667,0.39999999999999997,1.0,1.0,0.0,0.0,1.0
+diffusion_full:r0.5:a1,Diffusion đủ hạng,conditional,2_1,1,3,0.5,0.7999999999999999,1.0,1.0,0.0,0.6,1.0
+diffusion_full:r0.5:a1,Diffusion đủ hạng,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r0.5:a1,Diffusion đủ hạng,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+diffusion_full:r0.5:a1,Diffusion đủ hạng,conditional,2_4,2,3,0.7333333333333334,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r0.5:a1,Diffusion đủ hạng,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r0.5:a1,Diffusion đủ hạng,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r0.5:a1,Diffusion đủ hạng,conditional,3_3,1,3,1.0,1.0,0.9333333333333332,1.0,0.0,1.0,1.0
+diffusion_full:r0.5:a1,Diffusion đủ hạng,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r0.5:a1,Diffusion đủ hạng,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r1:a0.25,Diffusion đủ hạng,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r1:a0.25,Diffusion đủ hạng,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r1:a0.25,Diffusion đủ hạng,selective,1_3,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r1:a0.25,Diffusion đủ hạng,selective,1_4,4,3,0.03333333333333333,0.0,0.0,0.06666666666666667,0.0,0.0,0.0
+diffusion_full:r1:a0.25,Diffusion đủ hạng,selective,2_1,1,3,0.9,0.9666666666666667,0.0,1.0,0.0,0.9,1.0
+diffusion_full:r1:a0.25,Diffusion đủ hạng,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r1:a0.25,Diffusion đủ hạng,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+diffusion_full:r1:a0.25,Diffusion đủ hạng,selective,2_4,2,3,0.03333333333333333,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r1:a0.25,Diffusion đủ hạng,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r1:a0.25,Diffusion đủ hạng,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r1:a0.25,Diffusion đủ hạng,selective,3_3,1,3,0.7999999999999999,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r1:a0.25,Diffusion đủ hạng,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r1:a0.25,Diffusion đủ hạng,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r1:a0.25,Diffusion đủ hạng,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r1:a0.25,Diffusion đủ hạng,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r1:a0.25,Diffusion đủ hạng,conditional,1_3,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r1:a0.25,Diffusion đủ hạng,conditional,1_4,4,3,0.5666666666666667,0.3333333333333333,1.0,1.0,0.0,0.0,1.0
+diffusion_full:r1:a0.25,Diffusion đủ hạng,conditional,2_1,1,3,0.9,0.9666666666666667,1.0,1.0,0.0,0.9,1.0
+diffusion_full:r1:a0.25,Diffusion đủ hạng,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r1:a0.25,Diffusion đủ hạng,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+diffusion_full:r1:a0.25,Diffusion đủ hạng,conditional,2_4,2,3,0.8666666666666667,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r1:a0.25,Diffusion đủ hạng,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r1:a0.25,Diffusion đủ hạng,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r1:a0.25,Diffusion đủ hạng,conditional,3_3,1,3,0.7999999999999999,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r1:a0.25,Diffusion đủ hạng,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r1:a0.25,Diffusion đủ hạng,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r1:a1,Diffusion đủ hạng,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r1:a1,Diffusion đủ hạng,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r1:a1,Diffusion đủ hạng,selective,1_3,2,3,0.9666666666666667,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r1:a1,Diffusion đủ hạng,selective,1_4,4,3,0.0,0.0,0.0,0.03333333333333333,0.0,0.0,0.0
+diffusion_full:r1:a1,Diffusion đủ hạng,selective,2_1,1,3,1.0,0.9333333333333332,0.0,1.0,0.0,0.8,1.0
+diffusion_full:r1:a1,Diffusion đủ hạng,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r1:a1,Diffusion đủ hạng,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+diffusion_full:r1:a1,Diffusion đủ hạng,selective,2_4,2,3,0.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r1:a1,Diffusion đủ hạng,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r1:a1,Diffusion đủ hạng,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r1:a1,Diffusion đủ hạng,selective,3_3,1,3,0.8666666666666667,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r1:a1,Diffusion đủ hạng,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r1:a1,Diffusion đủ hạng,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r1:a1,Diffusion đủ hạng,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r1:a1,Diffusion đủ hạng,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r1:a1,Diffusion đủ hạng,conditional,1_3,2,3,0.9666666666666667,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r1:a1,Diffusion đủ hạng,conditional,1_4,4,3,0.2333333333333333,0.3,1.0,1.0,0.0,0.0,0.7
+diffusion_full:r1:a1,Diffusion đủ hạng,conditional,2_1,1,3,1.0,0.9333333333333332,1.0,1.0,0.0,0.8,1.0
+diffusion_full:r1:a1,Diffusion đủ hạng,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r1:a1,Diffusion đủ hạng,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+diffusion_full:r1:a1,Diffusion đủ hạng,conditional,2_4,2,3,0.7000000000000001,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r1:a1,Diffusion đủ hạng,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r1:a1,Diffusion đủ hạng,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r1:a1,Diffusion đủ hạng,conditional,3_3,1,3,0.8666666666666667,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r1:a1,Diffusion đủ hạng,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r1:a1,Diffusion đủ hạng,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r2:a0.25,Diffusion đủ hạng,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r2:a0.25,Diffusion đủ hạng,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r2:a0.25,Diffusion đủ hạng,selective,1_3,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r2:a0.25,Diffusion đủ hạng,selective,1_4,4,3,0.4666666666666666,0.4666666666666666,0.0,0.5,0.0,0.0,1.0
+diffusion_full:r2:a0.25,Diffusion đủ hạng,selective,2_1,1,3,0.43333333333333335,0.9,0.0,1.0,0.0,0.8,1.0
+diffusion_full:r2:a0.25,Diffusion đủ hạng,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r2:a0.25,Diffusion đủ hạng,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+diffusion_full:r2:a0.25,Diffusion đủ hạng,selective,2_4,2,3,0.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r2:a0.25,Diffusion đủ hạng,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r2:a0.25,Diffusion đủ hạng,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r2:a0.25,Diffusion đủ hạng,selective,3_3,1,3,0.8333333333333334,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r2:a0.25,Diffusion đủ hạng,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r2:a0.25,Diffusion đủ hạng,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r2:a0.25,Diffusion đủ hạng,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r2:a0.25,Diffusion đủ hạng,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r2:a0.25,Diffusion đủ hạng,conditional,1_3,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r2:a0.25,Diffusion đủ hạng,conditional,1_4,4,3,0.6,0.7333333333333334,1.0,1.0,0.0,0.6,1.0
+diffusion_full:r2:a0.25,Diffusion đủ hạng,conditional,2_1,1,3,0.43333333333333335,0.9,1.0,1.0,0.0,0.8,1.0
+diffusion_full:r2:a0.25,Diffusion đủ hạng,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r2:a0.25,Diffusion đủ hạng,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+diffusion_full:r2:a0.25,Diffusion đủ hạng,conditional,2_4,2,3,0.9666666666666667,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r2:a0.25,Diffusion đủ hạng,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r2:a0.25,Diffusion đủ hạng,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r2:a0.25,Diffusion đủ hạng,conditional,3_3,1,3,0.8333333333333334,1.0,0.9333333333333332,1.0,0.0,1.0,1.0
+diffusion_full:r2:a0.25,Diffusion đủ hạng,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r2:a0.25,Diffusion đủ hạng,conditional,3_5,2,3,1.0,1.0,0.9333333333333332,1.0,0.0,1.0,1.0
+diffusion_full:r2:a1,Diffusion đủ hạng,selective,1_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r2:a1,Diffusion đủ hạng,selective,1_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r2:a1,Diffusion đủ hạng,selective,1_3,2,3,1.0,0.9666666666666667,0.0,1.0,0.0,0.9,1.0
+diffusion_full:r2:a1,Diffusion đủ hạng,selective,1_4,4,3,0.26666666666666666,0.03333333333333333,0.0,0.16666666666666666,0.0,0.0,0.1
+diffusion_full:r2:a1,Diffusion đủ hạng,selective,2_1,1,3,0.4666666666666666,0.9333333333333332,0.0,1.0,0.0,0.9,1.0
+diffusion_full:r2:a1,Diffusion đủ hạng,selective,2_2,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r2:a1,Diffusion đủ hạng,selective,2_3,4,3,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+diffusion_full:r2:a1,Diffusion đủ hạng,selective,2_4,2,3,0.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r2:a1,Diffusion đủ hạng,selective,2_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r2:a1,Diffusion đủ hạng,selective,3_1,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r2:a1,Diffusion đủ hạng,selective,3_3,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r2:a1,Diffusion đủ hạng,selective,3_4,1,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r2:a1,Diffusion đủ hạng,selective,3_5,2,3,1.0,1.0,0.0,1.0,0.0,1.0,1.0
+diffusion_full:r2:a1,Diffusion đủ hạng,conditional,1_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r2:a1,Diffusion đủ hạng,conditional,1_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r2:a1,Diffusion đủ hạng,conditional,1_3,2,3,1.0,0.9666666666666667,1.0,1.0,0.0,0.9,1.0
+diffusion_full:r2:a1,Diffusion đủ hạng,conditional,1_4,4,3,0.5666666666666667,0.3,1.0,1.0,0.0,0.0,0.5
+diffusion_full:r2:a1,Diffusion đủ hạng,conditional,2_1,1,3,0.4666666666666666,0.9333333333333332,1.0,1.0,0.0,0.9,1.0
+diffusion_full:r2:a1,Diffusion đủ hạng,conditional,2_2,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r2:a1,Diffusion đủ hạng,conditional,2_3,4,3,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+diffusion_full:r2:a1,Diffusion đủ hạng,conditional,2_4,2,3,0.8333333333333334,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r2:a1,Diffusion đủ hạng,conditional,2_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r2:a1,Diffusion đủ hạng,conditional,3_1,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r2:a1,Diffusion đủ hạng,conditional,3_3,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r2:a1,Diffusion đủ hạng,conditional,3_4,1,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+diffusion_full:r2:a1,Diffusion đủ hạng,conditional,3_5,2,3,1.0,1.0,1.0,1.0,0.0,1.0,1.0

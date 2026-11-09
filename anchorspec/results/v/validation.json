@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "uored_tasks": 180,
+  "kaist_tasks": 54,
+  "hust_tasks": 144,
+  "checked": [
+    "unique UORED tasks",
+    "donor exclusion",
+    "external recording exclusion",
+    "lineage",
+    "score recomputation"
+  ],
+  "uored_primary_gates": {
+    "1": {
+      "checks": {
+        "mean_gain_at_least_5pp": false,
+        "no_state_loss_over_2pp": false,
+        "no_class_loss_over_5pp": false,
+        "positive_exploratory_ci": false
+      },
+      "passed": false
+    },
+    "2": {
+      "checks": {
+        "mean_gain_at_least_5pp": false,
+        "no_state_loss_over_2pp": true,
+        "no_class_loss_over_5pp": false,
+        "positive_exploratory_ci": false
+      },
+      "passed": false
+    },
+    "4": {
+      "checks": {
+        "mean_gain_at_least_5pp": false,
+        "no_state_loss_over_2pp": false,
+        "no_class_loss_over_5pp": false,
+        "positive_exploratory_ci": false
+      },
+      "passed": false
+    }
+  },
+  "external_primary_consistency": true,
+  "champion_tasks": 180,
+  "champion_Y_prediction_counts_reproduced": true,
+  "additional_geometry_tasks": 36,
+  "additional_geometry_checks": {
+    "g": {
+      "beats_controls": false,
+      "no_class_harm_over5pp": true
+    },
+    "mks": {
+      "beats_controls": false,
+      "no_class_harm_over5pp": false
+    }
+  },
+  "total_evaluation_tasks": 594,
+  "comprehensive_superiority_established": false
+}

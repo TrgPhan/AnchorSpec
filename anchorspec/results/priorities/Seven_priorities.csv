@@ -1,0 +1,8 @@
+﻿priority,criterion,result,status,limit
+1,Nhận đúng từng lỗi,"Recall vòng trong 90%; vòng ngoài 100%; vòng cách 41,67%. Ổ 2_3 không được chẩn đoán đúng trong cả 10 đoạn cuối ở cả ba seed.",Đã tính; yếu ở vòng cách,"Bỏ sót chẩn đoán theo đoạn và theo ổ, chưa phải số sự kiện nhà máy."
+2,Tránh chẩn đoán nhầm,"Precision vòng trong 98,78%; vòng ngoài 86,02%; vòng cách 100%. Không gán lỗi trong 195 lượt đánh giá mẫu giả định khỏe.",Đã tính precision và stress mẫu khỏe,"195 lượt tương ứng 65 đoạn riêng biệt, không có số kiểm tra sai theo ca."
+3,Lợi ích dữ liệu sinh,"Recall tăng 8,89 điểm so real, 4,58 so bản sao, 2,96 so surrogate; các CI 95% đều chứa 0.","Có tăng điểm, chưa xác nhận thắng chắc","Bootstrap theo ổ, thăm dò trên bộ dữ liệu đã xem nhiều lần."
+4,Ổn định khi đổi điều kiện,"Recall theo nhóm vận hành 91,67%; 56,67%; 100%. Vòng cách nhóm 2 đạt 0%.",Chưa ổn định giữa các nhóm,Nhóm có thành phần lỗi khác nhau; tốc độ và tải đi cùng nhau; chưa phải holdout toàn chế độ.
+5,Giữ đặc trưng vật lý,Cosine PSD 0.9826; phổ bao 0.9892; sai lệch RMS tuyệt đối 5.99%.,Đã đo độ tương đồng với nguồn,"84,10% gần nguồn với tương quan trên 0,99; chưa xác nhận cơ chế lỗi độc lập."
+6,Xử lý lỗi chưa học,S3 chưa có thử nghiệm loại bỏ một lớp lỗi. Từ chối 0% trong benchmark đóng vì ngưỡng hiện tại bằng 0.,Chưa có bằng chứng xử lý lỗi lạ,"Kết quả missing-cage đợt T được giữ riêng, không gán cho S3."
+7,Chi phí vận hành,"CPU chẩn đoán một đoạn: trung vị 9.58 ms, P95 10.63 ms; RSS tiến trình cao nhất quan sát 159.9 MiB.",Đã đo trên máy phát triển,"Chưa đo phần cứng DENSO, công kiểm tra, downtime hay chi phí bảo trì."

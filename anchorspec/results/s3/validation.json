@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-06",
+  "command": "python -X utf8 -m pytest -q",
+  "tests_passed": 136,
+  "elapsed_seconds": 38.65,
+  "frozen_prior_sources_checked": true,
+  "new_main_models_trained_on_cpu": 78,
+  "new_main_classifier_fits": 312,
+  "sampling_step_classifier_fits": 234,
+  "cached_execution_waveform_feature_and_score_exact_folds": 78,
+  "cpu_cli_export_waveforms": 120,
+  "cpu_cli_export_features_exact": true,
+  "primary_retained": "spectral_flow_half:r1:a0.25",
+  "independent_bearings": 13,
+  "independent_cage_bearings": 2,
+  "factory_validated": false,
+  "confirmatory": false,
+  "default_production_runtime_changed": false
+}

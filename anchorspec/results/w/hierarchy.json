@@ -1,0 +1,4152 @@
+{
+  "code_sha256": {
+    "w_hierarchy.py": "4edbd36584cc57ace81c2d1dffbb15c2baad5a5e95dfa04170fa3c329c997609",
+    "PROTOCOL_W_HIERARCHY.md": "a35323aa2232a8ecb6e8212ac04d496fe6c8bff03d390a85e7250f869cb5162a",
+    "diagnostic_experts.py": "123cdb34a96bc8e0816137c271943eb9948083c4179adfdee9bc94d3a7865741",
+    "adaptive_experts.py": "64fc93871ec07a0208026ca731e5cb30a162c8290d790e0a33ae47a7dfc8b1c2",
+    "kernel_experts.py": "add7f6cb953f9abf2fea9eb1d23cdc1c381896a1be0065b73b61296c6b93538a"
+  },
+  "exploratory": true,
+  "rows": [
+    {
+      "target": "1",
+      "seed": 11,
+      "budget": 4,
+      "label": 1,
+      "control": "clean",
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:4:2",
+        "UORED:10:2",
+        "UORED:9:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:19:2",
+        "UORED:16:2",
+        "UORED:18:2",
+        "UORED:20:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "z",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.8585526315789473
+        },
+        "ring": {
+          "representation": "delta",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 1.0
+        },
+        "other": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.75
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              19,
+              0,
+              0,
+              0
+            ]
+          },
+          "late": {
+            "recall": 0.0,
+            "pred_counts": [
+              0,
+              0,
+              19,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "1",
+      "seed": 29,
+      "budget": 4,
+      "label": 1,
+      "control": "clean",
+      "donor_events": [
+        "UORED:4:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:3:2",
+        "UORED:9:2",
+        "UORED:8:2",
+        "UORED:6:2",
+        "UORED:7:2",
+        "UORED:15:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:17:2",
+        "UORED:16:2",
+        "UORED:20:2",
+        "UORED:19:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "raw",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.8092105263157895
+        },
+        "ring": {
+          "representation": "delta",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 1.0
+        },
+        "other": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.8289473684210527
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              19,
+              0,
+              0,
+              0
+            ]
+          },
+          "late": {
+            "recall": 0.0,
+            "pred_counts": [
+              0,
+              0,
+              2,
+              0,
+              17
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "1",
+      "seed": 47,
+      "budget": 4,
+      "label": 1,
+      "control": "clean",
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:4:2",
+        "UORED:5:2",
+        "UORED:2:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:9:2",
+        "UORED:8:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:15:2",
+        "UORED:14:2",
+        "UORED:18:2",
+        "UORED:19:2",
+        "UORED:20:2",
+        "UORED:17:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "raw",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.8486842105263157
+        },
+        "ring": {
+          "representation": "raw",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 0.9407894736842105
+        },
+        "other": {
+          "representation": "raw",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.8552631578947368
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              19,
+              0,
+              0,
+              0
+            ]
+          },
+          "late": {
+            "recall": 0.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              9,
+              10
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "2",
+      "seed": 11,
+      "budget": 4,
+      "label": 1,
+      "control": "clean",
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:5:2",
+        "UORED:1:2",
+        "UORED:4:2",
+        "UORED:10:2",
+        "UORED:9:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:19:2",
+        "UORED:16:2",
+        "UORED:18:2",
+        "UORED:20:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "z",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.8453947368421053
+        },
+        "ring": {
+          "representation": "raw",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 1.0
+        },
+        "other": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.756578947368421
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              19,
+              0,
+              0,
+              0
+            ]
+          },
+          "late": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              19,
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "2",
+      "seed": 29,
+      "budget": 4,
+      "label": 1,
+      "control": "clean",
+      "donor_events": [
+        "UORED:1:2",
+        "UORED:4:2",
+        "UORED:5:2",
+        "UORED:3:2",
+        "UORED:9:2",
+        "UORED:8:2",
+        "UORED:6:2",
+        "UORED:7:2",
+        "UORED:15:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:17:2",
+        "UORED:16:2",
+        "UORED:20:2",
+        "UORED:19:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "raw",
+          "family": "svm10",
+          "synthetic_mass": 0.0,
+          "score": 0.8289473684210527
+        },
+        "ring": {
+          "representation": "raw",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 0.9144736842105263
+        },
+        "other": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.881578947368421
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              19,
+              0,
+              0,
+              0
+            ]
+          },
+          "late": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              19,
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "2",
+      "seed": 47,
+      "budget": 4,
+      "label": 1,
+      "control": "clean",
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:1:2",
+        "UORED:4:2",
+        "UORED:5:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:9:2",
+        "UORED:8:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:15:2",
+        "UORED:14:2",
+        "UORED:18:2",
+        "UORED:19:2",
+        "UORED:20:2",
+        "UORED:17:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "raw",
+          "family": "svm10",
+          "synthetic_mass": 0.0,
+          "score": 0.805921052631579
+        },
+        "ring": {
+          "representation": "delta",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 0.9671052631578947
+        },
+        "other": {
+          "representation": "raw",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.9013157894736842
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              19,
+              0,
+              0,
+              0
+            ]
+          },
+          "late": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              19,
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "3",
+      "seed": 11,
+      "budget": 4,
+      "label": 1,
+      "control": "clean",
+      "donor_events": [
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:1:2",
+        "UORED:4:2",
+        "UORED:10:2",
+        "UORED:9:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:19:2",
+        "UORED:16:2",
+        "UORED:18:2",
+        "UORED:20:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "z",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.825657894736842
+        },
+        "ring": {
+          "representation": "raw",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 1.0
+        },
+        "other": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.75
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              19,
+              0,
+              0,
+              0
+            ]
+          },
+          "late": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              19,
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "3",
+      "seed": 29,
+      "budget": 4,
+      "label": 1,
+      "control": "clean",
+      "donor_events": [
+        "UORED:1:2",
+        "UORED:4:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:9:2",
+        "UORED:8:2",
+        "UORED:6:2",
+        "UORED:7:2",
+        "UORED:15:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:17:2",
+        "UORED:16:2",
+        "UORED:20:2",
+        "UORED:19:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "raw",
+          "family": "svm10",
+          "synthetic_mass": 0.0,
+          "score": 0.8223684210526316
+        },
+        "ring": {
+          "representation": "z",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.875
+        },
+        "other": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.7894736842105263
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              19,
+              0,
+              0,
+              0
+            ]
+          },
+          "late": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              19,
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "3",
+      "seed": 47,
+      "budget": 4,
+      "label": 1,
+      "control": "clean",
+      "donor_events": [
+        "UORED:1:2",
+        "UORED:4:2",
+        "UORED:5:2",
+        "UORED:2:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:9:2",
+        "UORED:8:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:15:2",
+        "UORED:14:2",
+        "UORED:18:2",
+        "UORED:19:2",
+        "UORED:20:2",
+        "UORED:17:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "raw",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.8322368421052632
+        },
+        "ring": {
+          "representation": "delta",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 0.881578947368421
+        },
+        "other": {
+          "representation": "raw",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.9342105263157895
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              19,
+              0,
+              0,
+              0
+            ]
+          },
+          "late": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              19,
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "4",
+      "seed": 11,
+      "budget": 4,
+      "label": 1,
+      "control": "clean",
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:1:2",
+        "UORED:10:2",
+        "UORED:9:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:19:2",
+        "UORED:16:2",
+        "UORED:18:2",
+        "UORED:20:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "z",
+          "family": "svm10",
+          "synthetic_mass": 0.0,
+          "score": 0.8388157894736843
+        },
+        "ring": {
+          "representation": "raw",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 1.0
+        },
+        "other": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.75
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              19,
+              0,
+              0,
+              0
+            ]
+          },
+          "late": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              19,
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "4",
+      "seed": 29,
+      "budget": 4,
+      "label": 1,
+      "control": "clean",
+      "donor_events": [
+        "UORED:1:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:3:2",
+        "UORED:9:2",
+        "UORED:8:2",
+        "UORED:6:2",
+        "UORED:7:2",
+        "UORED:15:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:17:2",
+        "UORED:16:2",
+        "UORED:20:2",
+        "UORED:19:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "raw",
+          "family": "svm10",
+          "synthetic_mass": 0.0,
+          "score": 0.8453947368421053
+        },
+        "ring": {
+          "representation": "z",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 0.875
+        },
+        "other": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.8223684210526316
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              19,
+              0,
+              0,
+              0
+            ]
+          },
+          "late": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              19,
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "4",
+      "seed": 47,
+      "budget": 4,
+      "label": 1,
+      "control": "clean",
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:1:2",
+        "UORED:5:2",
+        "UORED:2:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:9:2",
+        "UORED:8:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:15:2",
+        "UORED:14:2",
+        "UORED:18:2",
+        "UORED:19:2",
+        "UORED:20:2",
+        "UORED:17:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "raw",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.8421052631578947
+        },
+        "ring": {
+          "representation": "raw",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 0.875
+        },
+        "other": {
+          "representation": "raw",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.881578947368421
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              19,
+              0,
+              0,
+              0
+            ]
+          },
+          "late": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              19,
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "5",
+      "seed": 11,
+      "budget": 4,
+      "label": 1,
+      "control": "clean",
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:2:2",
+        "UORED:1:2",
+        "UORED:4:2",
+        "UORED:10:2",
+        "UORED:9:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:19:2",
+        "UORED:16:2",
+        "UORED:18:2",
+        "UORED:20:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "z",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.8453947368421053
+        },
+        "ring": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.993421052631579
+        },
+        "other": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.75
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              19,
+              0,
+              0,
+              0
+            ]
+          },
+          "late": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              19,
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "5",
+      "seed": 29,
+      "budget": 4,
+      "label": 1,
+      "control": "clean",
+      "donor_events": [
+        "UORED:1:2",
+        "UORED:4:2",
+        "UORED:2:2",
+        "UORED:3:2",
+        "UORED:9:2",
+        "UORED:8:2",
+        "UORED:6:2",
+        "UORED:7:2",
+        "UORED:15:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:17:2",
+        "UORED:16:2",
+        "UORED:20:2",
+        "UORED:19:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "raw",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.8125
+        },
+        "ring": {
+          "representation": "raw",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 0.9210526315789473
+        },
+        "other": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.7697368421052632
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 0.631578947368421,
+            "pred_counts": [
+              0,
+              12,
+              7,
+              0,
+              0
+            ]
+          },
+          "late": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              19,
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "5",
+      "seed": 47,
+      "budget": 4,
+      "label": 1,
+      "control": "clean",
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:1:2",
+        "UORED:4:2",
+        "UORED:2:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:9:2",
+        "UORED:8:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:15:2",
+        "UORED:14:2",
+        "UORED:18:2",
+        "UORED:19:2",
+        "UORED:20:2",
+        "UORED:17:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "raw",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.805921052631579
+        },
+        "ring": {
+          "representation": "z",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 0.8289473684210527
+        },
+        "other": {
+          "representation": "raw",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.9407894736842105
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              19,
+              0,
+              0,
+              0
+            ]
+          },
+          "late": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              19,
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "6",
+      "seed": 11,
+      "budget": 4,
+      "label": 2,
+      "control": "clean",
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:1:2",
+        "UORED:10:2",
+        "UORED:9:2",
+        "UORED:7:2",
+        "UORED:8:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:19:2",
+        "UORED:16:2",
+        "UORED:18:2",
+        "UORED:20:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "raw",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 0.7105263157894737
+        },
+        "ring": {
+          "representation": "delta",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 0.993421052631579
+        },
+        "other": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.75
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 0.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              12,
+              7
+            ]
+          },
+          "late": {
+            "recall": 0.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              10,
+              9
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "6",
+      "seed": 29,
+      "budget": 4,
+      "label": 2,
+      "control": "clean",
+      "donor_events": [
+        "UORED:1:2",
+        "UORED:4:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:9:2",
+        "UORED:8:2",
+        "UORED:7:2",
+        "UORED:10:2",
+        "UORED:15:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:17:2",
+        "UORED:16:2",
+        "UORED:20:2",
+        "UORED:19:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "raw",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.819078947368421
+        },
+        "ring": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.868421052631579
+        },
+        "other": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.7763157894736842
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              19,
+              0,
+              0
+            ]
+          },
+          "late": {
+            "recall": 0.7368421052631579,
+            "pred_counts": [
+              0,
+              0,
+              14,
+              0,
+              5
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "6",
+      "seed": 47,
+      "budget": 4,
+      "label": 2,
+      "control": "clean",
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:1:2",
+        "UORED:4:2",
+        "UORED:5:2",
+        "UORED:7:2",
+        "UORED:9:2",
+        "UORED:8:2",
+        "UORED:10:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:15:2",
+        "UORED:14:2",
+        "UORED:18:2",
+        "UORED:19:2",
+        "UORED:20:2",
+        "UORED:17:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "raw",
+          "family": "svm10",
+          "synthetic_mass": 0.0,
+          "score": 0.7828947368421052
+        },
+        "ring": {
+          "representation": "z",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 1.0
+        },
+        "other": {
+          "representation": "raw",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.9407894736842105
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              19,
+              0,
+              0
+            ]
+          },
+          "late": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              19,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "7",
+      "seed": 11,
+      "budget": 4,
+      "label": 2,
+      "control": "clean",
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:1:2",
+        "UORED:10:2",
+        "UORED:9:2",
+        "UORED:6:2",
+        "UORED:8:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:19:2",
+        "UORED:16:2",
+        "UORED:18:2",
+        "UORED:20:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "z",
+          "family": "svm10",
+          "synthetic_mass": 0.0,
+          "score": 0.7796052631578947
+        },
+        "ring": {
+          "representation": "delta",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 0.993421052631579
+        },
+        "other": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.75
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              19,
+              0,
+              0
+            ]
+          },
+          "late": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              19,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "7",
+      "seed": 29,
+      "budget": 4,
+      "label": 2,
+      "control": "clean",
+      "donor_events": [
+        "UORED:1:2",
+        "UORED:4:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:9:2",
+        "UORED:8:2",
+        "UORED:6:2",
+        "UORED:10:2",
+        "UORED:15:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:17:2",
+        "UORED:16:2",
+        "UORED:20:2",
+        "UORED:19:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "raw",
+          "family": "svm10",
+          "synthetic_mass": 0.0,
+          "score": 0.8848684210526316
+        },
+        "ring": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.8552631578947368
+        },
+        "other": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.7894736842105263
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 0.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              19,
+              0
+            ]
+          },
+          "late": {
+            "recall": 0.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              19,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "7",
+      "seed": 47,
+      "budget": 4,
+      "label": 2,
+      "control": "clean",
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:1:2",
+        "UORED:4:2",
+        "UORED:5:2",
+        "UORED:6:2",
+        "UORED:9:2",
+        "UORED:8:2",
+        "UORED:10:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:15:2",
+        "UORED:14:2",
+        "UORED:18:2",
+        "UORED:19:2",
+        "UORED:20:2",
+        "UORED:17:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "z",
+          "family": "svm10",
+          "synthetic_mass": 0.0,
+          "score": 0.8026315789473684
+        },
+        "ring": {
+          "representation": "z",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 0.875
+        },
+        "other": {
+          "representation": "raw",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.9144736842105263
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              19,
+              0,
+              0
+            ]
+          },
+          "late": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              19,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "8",
+      "seed": 11,
+      "budget": 4,
+      "label": 2,
+      "control": "clean",
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:1:2",
+        "UORED:10:2",
+        "UORED:9:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:19:2",
+        "UORED:16:2",
+        "UORED:18:2",
+        "UORED:20:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "z",
+          "family": "svm10",
+          "synthetic_mass": 0.0,
+          "score": 0.8388157894736843
+        },
+        "ring": {
+          "representation": "raw",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 1.0
+        },
+        "other": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.75
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 0.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              19,
+              0
+            ]
+          },
+          "late": {
+            "recall": 0.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              19,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "8",
+      "seed": 29,
+      "budget": 4,
+      "label": 2,
+      "control": "clean",
+      "donor_events": [
+        "UORED:1:2",
+        "UORED:4:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:9:2",
+        "UORED:6:2",
+        "UORED:7:2",
+        "UORED:10:2",
+        "UORED:15:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:17:2",
+        "UORED:16:2",
+        "UORED:20:2",
+        "UORED:19:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "z",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.825657894736842
+        },
+        "ring": {
+          "representation": "raw",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 1.0
+        },
+        "other": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.7894736842105263
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 0.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              19,
+              0
+            ]
+          },
+          "late": {
+            "recall": 0.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              19,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "8",
+      "seed": 47,
+      "budget": 4,
+      "label": 2,
+      "control": "clean",
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:1:2",
+        "UORED:4:2",
+        "UORED:5:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:9:2",
+        "UORED:10:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:15:2",
+        "UORED:14:2",
+        "UORED:18:2",
+        "UORED:19:2",
+        "UORED:20:2",
+        "UORED:17:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "z",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.8453947368421053
+        },
+        "ring": {
+          "representation": "raw",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 1.0
+        },
+        "other": {
+          "representation": "raw",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.9407894736842105
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 0.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              19,
+              0
+            ]
+          },
+          "late": {
+            "recall": 0.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              19,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "9",
+      "seed": 11,
+      "budget": 4,
+      "label": 2,
+      "control": "clean",
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:1:2",
+        "UORED:10:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:8:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:19:2",
+        "UORED:16:2",
+        "UORED:18:2",
+        "UORED:20:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.7138157894736842
+        },
+        "ring": {
+          "representation": "raw",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 1.0
+        },
+        "other": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.8223684210526316
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              19,
+              0,
+              0
+            ]
+          },
+          "late": {
+            "recall": 0.9473684210526315,
+            "pred_counts": [
+              0,
+              1,
+              18,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "9",
+      "seed": 29,
+      "budget": 4,
+      "label": 2,
+      "control": "clean",
+      "donor_events": [
+        "UORED:1:2",
+        "UORED:4:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:8:2",
+        "UORED:6:2",
+        "UORED:7:2",
+        "UORED:10:2",
+        "UORED:15:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:17:2",
+        "UORED:16:2",
+        "UORED:20:2",
+        "UORED:19:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.7730263157894737
+        },
+        "ring": {
+          "representation": "raw",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.9671052631578947
+        },
+        "other": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.7894736842105263
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              19,
+              0,
+              0
+            ]
+          },
+          "late": {
+            "recall": 0.9473684210526315,
+            "pred_counts": [
+              0,
+              1,
+              18,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "9",
+      "seed": 47,
+      "budget": 4,
+      "label": 2,
+      "control": "clean",
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:1:2",
+        "UORED:4:2",
+        "UORED:5:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:8:2",
+        "UORED:10:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:15:2",
+        "UORED:14:2",
+        "UORED:18:2",
+        "UORED:19:2",
+        "UORED:20:2",
+        "UORED:17:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "z",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.7960526315789473
+        },
+        "ring": {
+          "representation": "z",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 0.986842105263158
+        },
+        "other": {
+          "representation": "raw",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.875
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              19,
+              0,
+              0
+            ]
+          },
+          "late": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              19,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "10",
+      "seed": 11,
+      "budget": 4,
+      "label": 2,
+      "control": "clean",
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:1:2",
+        "UORED:9:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:8:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:19:2",
+        "UORED:16:2",
+        "UORED:18:2",
+        "UORED:20:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "raw",
+          "family": "svm10",
+          "synthetic_mass": 0.0,
+          "score": 0.743421052631579
+        },
+        "ring": {
+          "representation": "z",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 1.0
+        },
+        "other": {
+          "representation": "z",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 0.75
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              19,
+              0,
+              0
+            ]
+          },
+          "late": {
+            "recall": 0.3157894736842105,
+            "pred_counts": [
+              0,
+              13,
+              6,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "10",
+      "seed": 29,
+      "budget": 4,
+      "label": 2,
+      "control": "clean",
+      "donor_events": [
+        "UORED:1:2",
+        "UORED:4:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:9:2",
+        "UORED:8:2",
+        "UORED:6:2",
+        "UORED:7:2",
+        "UORED:15:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:17:2",
+        "UORED:16:2",
+        "UORED:20:2",
+        "UORED:19:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "raw",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.8125
+        },
+        "ring": {
+          "representation": "z",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.875
+        },
+        "other": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.8092105263157895
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 0.8947368421052632,
+            "pred_counts": [
+              0,
+              2,
+              17,
+              0,
+              0
+            ]
+          },
+          "late": {
+            "recall": 0.9473684210526315,
+            "pred_counts": [
+              0,
+              1,
+              18,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "10",
+      "seed": 47,
+      "budget": 4,
+      "label": 2,
+      "control": "clean",
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:1:2",
+        "UORED:4:2",
+        "UORED:5:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:9:2",
+        "UORED:8:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:15:2",
+        "UORED:14:2",
+        "UORED:18:2",
+        "UORED:19:2",
+        "UORED:20:2",
+        "UORED:17:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "raw",
+          "family": "svm10",
+          "synthetic_mass": 0.0,
+          "score": 0.8651315789473684
+        },
+        "ring": {
+          "representation": "delta",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 0.9605263157894737
+        },
+        "other": {
+          "representation": "raw",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.881578947368421
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              19,
+              0,
+              0
+            ]
+          },
+          "late": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              19,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "11",
+      "seed": 11,
+      "budget": 4,
+      "label": 3,
+      "control": "clean",
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:1:2",
+        "UORED:10:2",
+        "UORED:9:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:15:2",
+        "UORED:19:2",
+        "UORED:16:2",
+        "UORED:18:2",
+        "UORED:20:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "z",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.825657894736842
+        },
+        "ring": {
+          "representation": "raw",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 1.0
+        },
+        "other": {
+          "representation": "raw",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 0.868421052631579
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              19,
+              0
+            ]
+          },
+          "late": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              19,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "11",
+      "seed": 29,
+      "budget": 4,
+      "label": 3,
+      "control": "clean",
+      "donor_events": [
+        "UORED:1:2",
+        "UORED:4:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:9:2",
+        "UORED:8:2",
+        "UORED:6:2",
+        "UORED:7:2",
+        "UORED:15:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:17:2",
+        "UORED:16:2",
+        "UORED:20:2",
+        "UORED:19:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "raw",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.8125
+        },
+        "ring": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.9802631578947368
+        },
+        "other": {
+          "representation": "raw",
+          "family": "svm10",
+          "synthetic_mass": 0.0,
+          "score": 0.756578947368421
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              19,
+              0
+            ]
+          },
+          "late": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              19,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "11",
+      "seed": 47,
+      "budget": 4,
+      "label": 3,
+      "control": "clean",
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:1:2",
+        "UORED:4:2",
+        "UORED:5:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:9:2",
+        "UORED:8:2",
+        "UORED:13:2",
+        "UORED:15:2",
+        "UORED:14:2",
+        "UORED:12:2",
+        "UORED:18:2",
+        "UORED:19:2",
+        "UORED:20:2",
+        "UORED:17:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "z",
+          "family": "svm10",
+          "synthetic_mass": 0.0,
+          "score": 0.7467105263157894
+        },
+        "ring": {
+          "representation": "delta",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 0.9605263157894737
+        },
+        "other": {
+          "representation": "raw",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.9276315789473684
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              19,
+              0
+            ]
+          },
+          "late": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              19,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "12",
+      "seed": 11,
+      "budget": 4,
+      "label": 3,
+      "control": "clean",
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:1:2",
+        "UORED:10:2",
+        "UORED:9:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:15:2",
+        "UORED:19:2",
+        "UORED:16:2",
+        "UORED:18:2",
+        "UORED:20:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "z",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.8223684210526316
+        },
+        "ring": {
+          "representation": "raw",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 1.0
+        },
+        "other": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.756578947368421
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              19,
+              0
+            ]
+          },
+          "late": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              19,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "12",
+      "seed": 29,
+      "budget": 4,
+      "label": 3,
+      "control": "clean",
+      "donor_events": [
+        "UORED:1:2",
+        "UORED:4:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:9:2",
+        "UORED:8:2",
+        "UORED:6:2",
+        "UORED:7:2",
+        "UORED:15:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:17:2",
+        "UORED:16:2",
+        "UORED:20:2",
+        "UORED:19:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "z",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.763157894736842
+        },
+        "ring": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.9802631578947368
+        },
+        "other": {
+          "representation": "raw",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.756578947368421
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              19,
+              0
+            ]
+          },
+          "late": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              19,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "12",
+      "seed": 47,
+      "budget": 4,
+      "label": 3,
+      "control": "clean",
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:1:2",
+        "UORED:4:2",
+        "UORED:5:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:9:2",
+        "UORED:8:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:15:2",
+        "UORED:14:2",
+        "UORED:18:2",
+        "UORED:19:2",
+        "UORED:20:2",
+        "UORED:17:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "raw",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.8453947368421053
+        },
+        "ring": {
+          "representation": "delta",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 0.9473684210526316
+        },
+        "other": {
+          "representation": "raw",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.9407894736842105
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              19,
+              0
+            ]
+          },
+          "late": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              19,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "13",
+      "seed": 11,
+      "budget": 4,
+      "label": 3,
+      "control": "clean",
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:1:2",
+        "UORED:10:2",
+        "UORED:9:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:11:2",
+        "UORED:15:2",
+        "UORED:19:2",
+        "UORED:16:2",
+        "UORED:18:2",
+        "UORED:20:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "z",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.825657894736842
+        },
+        "ring": {
+          "representation": "raw",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 1.0
+        },
+        "other": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.9473684210526316
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              19,
+              0
+            ]
+          },
+          "late": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              19,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "13",
+      "seed": 29,
+      "budget": 4,
+      "label": 3,
+      "control": "clean",
+      "donor_events": [
+        "UORED:1:2",
+        "UORED:4:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:9:2",
+        "UORED:8:2",
+        "UORED:6:2",
+        "UORED:7:2",
+        "UORED:15:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:11:2",
+        "UORED:17:2",
+        "UORED:16:2",
+        "UORED:20:2",
+        "UORED:19:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "raw",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.7861842105263157
+        },
+        "ring": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.9802631578947368
+        },
+        "other": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.8289473684210527
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              19,
+              0
+            ]
+          },
+          "late": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              19,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "13",
+      "seed": 47,
+      "budget": 4,
+      "label": 3,
+      "control": "clean",
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:1:2",
+        "UORED:4:2",
+        "UORED:5:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:9:2",
+        "UORED:8:2",
+        "UORED:11:2",
+        "UORED:15:2",
+        "UORED:14:2",
+        "UORED:12:2",
+        "UORED:18:2",
+        "UORED:19:2",
+        "UORED:20:2",
+        "UORED:17:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "z",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.7236842105263157
+        },
+        "ring": {
+          "representation": "delta",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 0.9605263157894737
+        },
+        "other": {
+          "representation": "raw",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.9013157894736842
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              19,
+              0
+            ]
+          },
+          "late": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              19,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "14",
+      "seed": 11,
+      "budget": 4,
+      "label": 3,
+      "control": "clean",
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:1:2",
+        "UORED:10:2",
+        "UORED:9:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:12:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:15:2",
+        "UORED:19:2",
+        "UORED:16:2",
+        "UORED:18:2",
+        "UORED:20:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "z",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.8717105263157895
+        },
+        "ring": {
+          "representation": "raw",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 1.0
+        },
+        "other": {
+          "representation": "raw",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 1.0
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              19,
+              0
+            ]
+          },
+          "late": {
+            "recall": 0.10526315789473684,
+            "pred_counts": [
+              0,
+              13,
+              0,
+              2,
+              4
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "14",
+      "seed": 29,
+      "budget": 4,
+      "label": 3,
+      "control": "clean",
+      "donor_events": [
+        "UORED:1:2",
+        "UORED:4:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:9:2",
+        "UORED:8:2",
+        "UORED:6:2",
+        "UORED:7:2",
+        "UORED:15:2",
+        "UORED:12:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:17:2",
+        "UORED:16:2",
+        "UORED:20:2",
+        "UORED:19:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "z",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.8125
+        },
+        "ring": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.9736842105263157
+        },
+        "other": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.875
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 0.9473684210526315,
+            "pred_counts": [
+              0,
+              0,
+              1,
+              18,
+              0
+            ]
+          },
+          "late": {
+            "recall": 0.10526315789473684,
+            "pred_counts": [
+              0,
+              0,
+              17,
+              2,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "14",
+      "seed": 47,
+      "budget": 4,
+      "label": 3,
+      "control": "clean",
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:1:2",
+        "UORED:4:2",
+        "UORED:5:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:9:2",
+        "UORED:8:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:15:2",
+        "UORED:12:2",
+        "UORED:18:2",
+        "UORED:19:2",
+        "UORED:20:2",
+        "UORED:17:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "raw",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.8421052631578947
+        },
+        "ring": {
+          "representation": "delta",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 0.9342105263157895
+        },
+        "other": {
+          "representation": "raw",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 1.0
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              19,
+              0
+            ]
+          },
+          "late": {
+            "recall": 0.0,
+            "pred_counts": [
+              0,
+              0,
+              19,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "15",
+      "seed": 11,
+      "budget": 4,
+      "label": 3,
+      "control": "clean",
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:1:2",
+        "UORED:10:2",
+        "UORED:9:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:19:2",
+        "UORED:16:2",
+        "UORED:18:2",
+        "UORED:20:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "z",
+          "family": "svm10",
+          "synthetic_mass": 0.0,
+          "score": 0.8388157894736843
+        },
+        "ring": {
+          "representation": "raw",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 1.0
+        },
+        "other": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.75
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              19,
+              0
+            ]
+          },
+          "late": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              19,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "15",
+      "seed": 29,
+      "budget": 4,
+      "label": 3,
+      "control": "clean",
+      "donor_events": [
+        "UORED:1:2",
+        "UORED:4:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:9:2",
+        "UORED:8:2",
+        "UORED:6:2",
+        "UORED:7:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:17:2",
+        "UORED:16:2",
+        "UORED:20:2",
+        "UORED:19:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "z",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.763157894736842
+        },
+        "ring": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.9342105263157895
+        },
+        "other": {
+          "representation": "raw",
+          "family": "svm10",
+          "synthetic_mass": 0.0,
+          "score": 0.8355263157894737
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              19,
+              0
+            ]
+          },
+          "late": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              19,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "15",
+      "seed": 47,
+      "budget": 4,
+      "label": 3,
+      "control": "clean",
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:1:2",
+        "UORED:4:2",
+        "UORED:5:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:9:2",
+        "UORED:8:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:14:2",
+        "UORED:12:2",
+        "UORED:18:2",
+        "UORED:19:2",
+        "UORED:20:2",
+        "UORED:17:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "z",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.756578947368421
+        },
+        "ring": {
+          "representation": "delta",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 0.9605263157894737
+        },
+        "other": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.75
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              19,
+              0
+            ]
+          },
+          "late": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              19,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "16",
+      "seed": 11,
+      "budget": 4,
+      "label": 4,
+      "control": "clean",
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:1:2",
+        "UORED:10:2",
+        "UORED:9:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:19:2",
+        "UORED:18:2",
+        "UORED:20:2",
+        "UORED:17:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "z",
+          "family": "svm10",
+          "synthetic_mass": 0.0,
+          "score": 0.8421052631578947
+        },
+        "ring": {
+          "representation": "raw",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 1.0
+        },
+        "other": {
+          "representation": "raw",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.881578947368421
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 0.7894736842105263,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              4,
+              15
+            ]
+          },
+          "late": {
+            "recall": 0.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              19,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "16",
+      "seed": 29,
+      "budget": 4,
+      "label": 4,
+      "control": "clean",
+      "donor_events": [
+        "UORED:1:2",
+        "UORED:4:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:9:2",
+        "UORED:8:2",
+        "UORED:6:2",
+        "UORED:7:2",
+        "UORED:15:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:17:2",
+        "UORED:20:2",
+        "UORED:19:2",
+        "UORED:18:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "raw",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.7697368421052632
+        },
+        "ring": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.9802631578947368
+        },
+        "other": {
+          "representation": "raw",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 1.0
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 0.9473684210526315,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              1,
+              18
+            ]
+          },
+          "late": {
+            "recall": 0.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              19,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "16",
+      "seed": 47,
+      "budget": 4,
+      "label": 4,
+      "control": "clean",
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:1:2",
+        "UORED:4:2",
+        "UORED:5:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:9:2",
+        "UORED:8:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:15:2",
+        "UORED:14:2",
+        "UORED:18:2",
+        "UORED:19:2",
+        "UORED:20:2",
+        "UORED:17:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "raw",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.8421052631578947
+        },
+        "ring": {
+          "representation": "z",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 0.875
+        },
+        "other": {
+          "representation": "raw",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 1.0
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 0.47368421052631576,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              10,
+              9
+            ]
+          },
+          "late": {
+            "recall": 0.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              19,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "17",
+      "seed": 11,
+      "budget": 4,
+      "label": 4,
+      "control": "clean",
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:1:2",
+        "UORED:10:2",
+        "UORED:9:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:19:2",
+        "UORED:16:2",
+        "UORED:18:2",
+        "UORED:20:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "z",
+          "family": "svm10",
+          "synthetic_mass": 0.0,
+          "score": 0.8388157894736843
+        },
+        "ring": {
+          "representation": "raw",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 1.0
+        },
+        "other": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.875
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 0.0,
+            "pred_counts": [
+              0,
+              10,
+              9,
+              0,
+              0
+            ]
+          },
+          "late": {
+            "recall": 0.0,
+            "pred_counts": [
+              0,
+              0,
+              19,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "17",
+      "seed": 29,
+      "budget": 4,
+      "label": 4,
+      "control": "clean",
+      "donor_events": [
+        "UORED:1:2",
+        "UORED:4:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:9:2",
+        "UORED:8:2",
+        "UORED:6:2",
+        "UORED:7:2",
+        "UORED:15:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:16:2",
+        "UORED:20:2",
+        "UORED:19:2",
+        "UORED:18:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "raw",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.7697368421052632
+        },
+        "ring": {
+          "representation": "delta",
+          "family": "svm10",
+          "synthetic_mass": 0.0,
+          "score": 0.9013157894736842
+        },
+        "other": {
+          "representation": "raw",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.7697368421052632
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              0,
+              19
+            ]
+          },
+          "late": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              0,
+              19
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "17",
+      "seed": 47,
+      "budget": 4,
+      "label": 4,
+      "control": "clean",
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:1:2",
+        "UORED:4:2",
+        "UORED:5:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:9:2",
+        "UORED:8:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:15:2",
+        "UORED:14:2",
+        "UORED:18:2",
+        "UORED:19:2",
+        "UORED:20:2",
+        "UORED:16:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "z",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.7828947368421053
+        },
+        "ring": {
+          "representation": "delta",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 0.993421052631579
+        },
+        "other": {
+          "representation": "raw",
+          "family": "svm10",
+          "synthetic_mass": 0.0,
+          "score": 0.8355263157894737
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 0.0,
+            "pred_counts": [
+              0,
+              2,
+              17,
+              0,
+              0
+            ]
+          },
+          "late": {
+            "recall": 0.0,
+            "pred_counts": [
+              0,
+              0,
+              19,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "18",
+      "seed": 11,
+      "budget": 4,
+      "label": 4,
+      "control": "clean",
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:1:2",
+        "UORED:10:2",
+        "UORED:9:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:19:2",
+        "UORED:16:2",
+        "UORED:20:2",
+        "UORED:17:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "z",
+          "family": "svm10",
+          "synthetic_mass": 0.0,
+          "score": 0.8421052631578947
+        },
+        "ring": {
+          "representation": "raw",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 1.0
+        },
+        "other": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.8552631578947368
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              0,
+              19
+            ]
+          },
+          "late": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              0,
+              19
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "18",
+      "seed": 29,
+      "budget": 4,
+      "label": 4,
+      "control": "clean",
+      "donor_events": [
+        "UORED:1:2",
+        "UORED:4:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:9:2",
+        "UORED:8:2",
+        "UORED:6:2",
+        "UORED:7:2",
+        "UORED:15:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:17:2",
+        "UORED:16:2",
+        "UORED:20:2",
+        "UORED:19:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "raw",
+          "family": "svm10",
+          "synthetic_mass": 0.0,
+          "score": 0.8157894736842105
+        },
+        "ring": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.9013157894736842
+        },
+        "other": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.8421052631578947
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              0,
+              19
+            ]
+          },
+          "late": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              0,
+              19
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "18",
+      "seed": 47,
+      "budget": 4,
+      "label": 4,
+      "control": "clean",
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:1:2",
+        "UORED:4:2",
+        "UORED:5:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:9:2",
+        "UORED:8:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:15:2",
+        "UORED:14:2",
+        "UORED:19:2",
+        "UORED:20:2",
+        "UORED:17:2",
+        "UORED:16:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "z",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.7828947368421053
+        },
+        "ring": {
+          "representation": "delta",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 0.9671052631578947
+        },
+        "other": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.9671052631578947
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              0,
+              19
+            ]
+          },
+          "late": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              0,
+              19
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "19",
+      "seed": 11,
+      "budget": 4,
+      "label": 4,
+      "control": "clean",
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:1:2",
+        "UORED:10:2",
+        "UORED:9:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:16:2",
+        "UORED:18:2",
+        "UORED:20:2",
+        "UORED:17:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "z",
+          "family": "svm10",
+          "synthetic_mass": 0.0,
+          "score": 0.8355263157894737
+        },
+        "ring": {
+          "representation": "raw",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 1.0
+        },
+        "other": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.756578947368421
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              0,
+              19
+            ]
+          },
+          "late": {
+            "recall": 0.5789473684210527,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              8,
+              11
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "19",
+      "seed": 29,
+      "budget": 4,
+      "label": 4,
+      "control": "clean",
+      "donor_events": [
+        "UORED:1:2",
+        "UORED:4:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:9:2",
+        "UORED:8:2",
+        "UORED:6:2",
+        "UORED:7:2",
+        "UORED:15:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:17:2",
+        "UORED:16:2",
+        "UORED:20:2",
+        "UORED:18:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "raw",
+          "family": "svm10",
+          "synthetic_mass": 0.0,
+          "score": 0.8092105263157895
+        },
+        "ring": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.9539473684210527
+        },
+        "other": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.875
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              0,
+              19
+            ]
+          },
+          "late": {
+            "recall": 0.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              19,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "19",
+      "seed": 47,
+      "budget": 4,
+      "label": 4,
+      "control": "clean",
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:1:2",
+        "UORED:4:2",
+        "UORED:5:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:9:2",
+        "UORED:8:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:15:2",
+        "UORED:14:2",
+        "UORED:18:2",
+        "UORED:20:2",
+        "UORED:17:2",
+        "UORED:16:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "z",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.7828947368421053
+        },
+        "ring": {
+          "representation": "delta",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 0.993421052631579
+        },
+        "other": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.875
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 1.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              0,
+              19
+            ]
+          },
+          "late": {
+            "recall": 0.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              19,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "20",
+      "seed": 11,
+      "budget": 4,
+      "label": 4,
+      "control": "clean",
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:1:2",
+        "UORED:10:2",
+        "UORED:9:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:19:2",
+        "UORED:16:2",
+        "UORED:18:2",
+        "UORED:17:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "z",
+          "family": "svm10",
+          "synthetic_mass": 0.0,
+          "score": 0.9078947368421053
+        },
+        "ring": {
+          "representation": "raw",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 1.0
+        },
+        "other": {
+          "representation": "z",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 0.875
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 0.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              19,
+              0
+            ]
+          },
+          "late": {
+            "recall": 0.0,
+            "pred_counts": [
+              0,
+              19,
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "20",
+      "seed": 29,
+      "budget": 4,
+      "label": 4,
+      "control": "clean",
+      "donor_events": [
+        "UORED:1:2",
+        "UORED:4:2",
+        "UORED:2:2",
+        "UORED:5:2",
+        "UORED:9:2",
+        "UORED:8:2",
+        "UORED:6:2",
+        "UORED:7:2",
+        "UORED:15:2",
+        "UORED:12:2",
+        "UORED:14:2",
+        "UORED:13:2",
+        "UORED:17:2",
+        "UORED:16:2",
+        "UORED:19:2",
+        "UORED:18:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "raw",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.8717105263157895
+        },
+        "ring": {
+          "representation": "delta",
+          "family": "svm1",
+          "synthetic_mass": 0.0,
+          "score": 0.9671052631578947
+        },
+        "other": {
+          "representation": "delta",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 0.875
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 0.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              19,
+              0
+            ]
+          },
+          "late": {
+            "recall": 0.0,
+            "pred_counts": [
+              0,
+              19,
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target": "20",
+      "seed": 47,
+      "budget": 4,
+      "label": 4,
+      "control": "clean",
+      "donor_events": [
+        "UORED:3:2",
+        "UORED:1:2",
+        "UORED:4:2",
+        "UORED:5:2",
+        "UORED:7:2",
+        "UORED:6:2",
+        "UORED:9:2",
+        "UORED:8:2",
+        "UORED:13:2",
+        "UORED:11:2",
+        "UORED:15:2",
+        "UORED:14:2",
+        "UORED:18:2",
+        "UORED:19:2",
+        "UORED:17:2",
+        "UORED:16:2"
+      ],
+      "selection": {
+        "group": {
+          "representation": "delta",
+          "family": "svm10",
+          "synthetic_mass": 0.0,
+          "score": 0.8914473684210527
+        },
+        "ring": {
+          "representation": "delta",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 0.9473684210526316
+        },
+        "other": {
+          "representation": "delta",
+          "family": "rf",
+          "synthetic_mass": 0.0,
+          "score": 0.881578947368421
+        }
+      },
+      "scores": {
+        "hierarchy": {
+          "early": {
+            "recall": 0.0,
+            "pred_counts": [
+              0,
+              0,
+              0,
+              19,
+              0
+            ]
+          },
+          "late": {
+            "recall": 0.0,
+            "pred_counts": [
+              0,
+              19,
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "sources": [
+    {
+      "id": "7589904",
+      "title": "Vibration analysis metrics of a ball bearing during different operational states",
+      "url": "https://zenodo.org/records/7589904",
+      "license": "cc-by-4.0",
+      "publisher": "Zenodo",
+      "metadata_sha256": "9e98fbc430e11e471c1930b842b4f445655b8aa1adaaea7c559b54b187e1b71d",
+      "status": "downloaded_verified_pilot_run",
+      "rows": 8569
+    },
+    {
+      "id": "17530066",
+      "title": "SoliDAIR journal bearings dataset",
+      "url": "https://zenodo.org/records/17530066",
+      "license": "cc-by-sa-4.0",
+      "publisher": "Zenodo",
+      "metadata_sha256": "dde510528076204b600fec5d977e512963ed7d5cae9521e75d8cdeab93935ad2",
+      "status": "downloaded_verified_schema_audited",
+      "rows": 126640,
+      "supervised_test_run": false
+    },
+    {
+      "id": "20742913",
+      "title": "Needle bearing endurance test data for early fault detection",
+      "url": "https://zenodo.org/records/20742913",
+      "license": "cc-by-4.0",
+      "publisher": "Zenodo",
+      "metadata_sha256": "426b15edb471224a6778d6c7e11d8b33f537e0dc58d5077805030cfd5b8d1a0e",
+      "status": "partial_sensor_selection_downloaded_crc_verified_pilot_run",
+      "tests": [
+        4,
+        6,
+        7,
+        8
+      ],
+      "raw_sensor_members": 24,
+      "independent_runs": 4
+    },
+    {
+      "id": "nln-emp-v4",
+      "url": "https://doi.org/10.4121/2b61183e-c14f-4131-829b-cc4822c369d0.v4",
+      "title": "NLN-EMP",
+      "license": "CC0-1.0",
+      "status": "official_host_connection_timeout",
+      "relevant_fault": "grease contamination by iron filings",
+      "mirror_rejected_reason": "discovered subset excludes contamination and inner/ball faults"
+    }
+  ]
+}

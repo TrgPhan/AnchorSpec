@@ -1,0 +1,846 @@
+{
+  "spectral": {
+    "1": {
+      "methods": {
+        "original": {
+          "macro_recall": 0.4043859649122807,
+          "per_class": {
+            "1": 0.3789473684210526,
+            "2": 0.3894736842105263,
+            "3": 0.4385964912280702,
+            "4": 0.41052631578947363
+          }
+        },
+        "spectral": {
+          "macro_recall": 0.3956140350877193,
+          "per_class": {
+            "1": 0.37543859649122807,
+            "2": 0.2,
+            "3": 0.6210526315789473,
+            "4": 0.38596491228070173
+          }
+        },
+        "combined": {
+          "macro_recall": 0.4245614035087719,
+          "per_class": {
+            "1": 0.6000000000000001,
+            "2": 0.19649122807017544,
+            "3": 0.4807017543859649,
+            "4": 0.42105263157894735
+          }
+        },
+        "select": {
+          "macro_recall": 0.4043859649122807,
+          "per_class": {
+            "1": 0.3789473684210526,
+            "2": 0.3894736842105263,
+            "3": 0.4385964912280702,
+            "4": 0.41052631578947363
+          }
+        }
+      },
+      "spectral_select_minus": {
+        "champion_y": {
+          "delta": -0.0052631578947368585,
+          "ci95": [
+            -0.1394956140350877,
+            0.13421052631578945
+          ],
+          "n_bearings": 20,
+          "n_by_class": {
+            "1": 5,
+            "2": 5,
+            "3": 5,
+            "4": 5
+          },
+          "resamples": 5000,
+          "seed": 20261102
+        },
+        "legacy_physics": {
+          "delta": 0.07456140350877188,
+          "ci95": [
+            -0.04824561403508772,
+            0.1964912280701754
+          ],
+          "n_bearings": 20,
+          "n_by_class": {
+            "1": 5,
+            "2": 5,
+            "3": 5,
+            "4": 5
+          },
+          "resamples": 5000,
+          "seed": 20261102
+        },
+        "legacy_surrogate": {
+          "delta": 5.551115123125783e-17,
+          "ci95": [
+            -0.1526535087719298,
+            0.15175438596491225
+          ],
+          "n_bearings": 20,
+          "n_by_class": {
+            "1": 5,
+            "2": 5,
+            "3": 5,
+            "4": 5
+          },
+          "resamples": 5000,
+          "seed": 20261102
+        },
+        "real": {
+          "delta": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_bearings": 20,
+          "n_by_class": {
+            "1": 5,
+            "2": 5,
+            "3": 5,
+            "4": 5
+          },
+          "resamples": 5000,
+          "seed": 20261102
+        },
+        "select": {
+          "delta": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_bearings": 20,
+          "n_by_class": {
+            "1": 5,
+            "2": 5,
+            "3": 5,
+            "4": 5
+          },
+          "resamples": 5000,
+          "seed": 20261102
+        }
+      },
+      "champion_y": 0.40964912280701754,
+      "selected_views": {
+        "original": 60
+      }
+    },
+    "2": {
+      "methods": {
+        "original": {
+          "macro_recall": 0.5622807017543859,
+          "per_class": {
+            "1": 0.6456140350877193,
+            "2": 0.5333333333333333,
+            "3": 0.719298245614035,
+            "4": 0.35087719298245607
+          }
+        },
+        "spectral": {
+          "macro_recall": 0.6070175438596491,
+          "per_class": {
+            "1": 0.856140350877193,
+            "2": 0.343859649122807,
+            "3": 0.8280701754385966,
+            "4": 0.39999999999999997
+          }
+        },
+        "combined": {
+          "macro_recall": 0.625438596491228,
+          "per_class": {
+            "1": 0.8491228070175438,
+            "2": 0.38596491228070173,
+            "3": 0.8245614035087719,
+            "4": 0.4421052631578948
+          }
+        },
+        "select": {
+          "macro_recall": 0.6131578947368421,
+          "per_class": {
+            "1": 0.8035087719298245,
+            "2": 0.43157894736842106,
+            "3": 0.8280701754385966,
+            "4": 0.3894736842105263
+          }
+        }
+      },
+      "spectral_select_minus": {
+        "champion_y": {
+          "delta": -0.02280701754385972,
+          "ci95": [
+            -0.09736842105263158,
+            0.054407894736841815
+          ],
+          "n_bearings": 20,
+          "n_by_class": {
+            "1": 5,
+            "2": 5,
+            "3": 5,
+            "4": 5
+          },
+          "resamples": 5000,
+          "seed": 20261102
+        },
+        "legacy_physics": {
+          "delta": 0.2640350877192983,
+          "ci95": [
+            0.11225877192982459,
+            0.4166885964912278
+          ],
+          "n_bearings": 20,
+          "n_by_class": {
+            "1": 5,
+            "2": 5,
+            "3": 5,
+            "4": 5
+          },
+          "resamples": 5000,
+          "seed": 20261102
+        },
+        "legacy_surrogate": {
+          "delta": 0.16666666666666669,
+          "ci95": [
+            0.0605263157894737,
+            0.27107456140350844
+          ],
+          "n_bearings": 20,
+          "n_by_class": {
+            "1": 5,
+            "2": 5,
+            "3": 5,
+            "4": 5
+          },
+          "resamples": 5000,
+          "seed": 20261102
+        },
+        "real": {
+          "delta": 0.05087719298245619,
+          "ci95": [
+            -0.022807017543859633,
+            0.1280701754385965
+          ],
+          "n_bearings": 20,
+          "n_by_class": {
+            "1": 5,
+            "2": 5,
+            "3": 5,
+            "4": 5
+          },
+          "resamples": 5000,
+          "seed": 20261102
+        },
+        "select": {
+          "delta": 0.1596491228070176,
+          "ci95": [
+            0.07543859649122808,
+            0.24473684210526317
+          ],
+          "n_bearings": 20,
+          "n_by_class": {
+            "1": 5,
+            "2": 5,
+            "3": 5,
+            "4": 5
+          },
+          "resamples": 5000,
+          "seed": 20261102
+        }
+      },
+      "champion_y": 0.6359649122807018,
+      "selected_views": {
+        "spectral": 20,
+        "combined": 21,
+        "original": 19
+      }
+    },
+    "4": {
+      "methods": {
+        "original": {
+          "macro_recall": 0.47982456140350876,
+          "per_class": {
+            "1": 0.6350877192982456,
+            "2": 0.3894736842105263,
+            "3": 0.6947368421052632,
+            "4": 0.2
+          }
+        },
+        "spectral": {
+          "macro_recall": 0.6254385964912281,
+          "per_class": {
+            "1": 0.8,
+            "2": 0.4035087719298246,
+            "3": 0.7649122807017543,
+            "4": 0.5333333333333333
+          }
+        },
+        "combined": {
+          "macro_recall": 0.6570175438596492,
+          "per_class": {
+            "1": 0.8,
+            "2": 0.5333333333333333,
+            "3": 0.7649122807017543,
+            "4": 0.5298245614035088
+          }
+        },
+        "select": {
+          "macro_recall": 0.6324561403508772,
+          "per_class": {
+            "1": 0.7473684210526316,
+            "2": 0.5333333333333333,
+            "3": 0.8280701754385966,
+            "4": 0.42105263157894735
+          }
+        }
+      },
+      "spectral_select_minus": {
+        "champion_y": {
+          "delta": -0.03421052631578947,
+          "ci95": [
+            -0.1333333333333333,
+            0.056140350877193
+          ],
+          "n_bearings": 20,
+          "n_by_class": {
+            "1": 5,
+            "2": 5,
+            "3": 5,
+            "4": 5
+          },
+          "resamples": 5000,
+          "seed": 20261102
+        },
+        "legacy_physics": {
+          "delta": 0.20877192982456144,
+          "ci95": [
+            -0.001776315789473651,
+            0.4114035087719298
+          ],
+          "n_bearings": 20,
+          "n_by_class": {
+            "1": 5,
+            "2": 5,
+            "3": 5,
+            "4": 5
+          },
+          "resamples": 5000,
+          "seed": 20261102
+        },
+        "legacy_surrogate": {
+          "delta": 0.018421052631578894,
+          "ci95": [
+            -0.15526315789473683,
+            0.18508771929824558
+          ],
+          "n_bearings": 20,
+          "n_by_class": {
+            "1": 5,
+            "2": 5,
+            "3": 5,
+            "4": 5
+          },
+          "resamples": 5000,
+          "seed": 20261102
+        },
+        "real": {
+          "delta": 0.1526315789473684,
+          "ci95": [
+            0.045614035087719315,
+            0.2692982456140351
+          ],
+          "n_bearings": 20,
+          "n_by_class": {
+            "1": 5,
+            "2": 5,
+            "3": 5,
+            "4": 5
+          },
+          "resamples": 5000,
+          "seed": 20261102
+        },
+        "select": {
+          "delta": 0.07894736842105254,
+          "ci95": [
+            -0.07368421052631577,
+            0.24035087719298248
+          ],
+          "n_bearings": 20,
+          "n_by_class": {
+            "1": 5,
+            "2": 5,
+            "3": 5,
+            "4": 5
+          },
+          "resamples": 5000,
+          "seed": 20261102
+        }
+      },
+      "champion_y": 0.6666666666666666,
+      "selected_views": {
+        "spectral": 17,
+        "combined": 27,
+        "original": 16
+      }
+    }
+  },
+  "kaist_splits": [
+    {
+      "source_load": 0,
+      "target_load": 2,
+      "severity": "03",
+      "scores": {
+        "real": 0.903954802259887,
+        "surrogate_ring": 1.0,
+        "physics": 1.0,
+        "surrogate_all": 1.0,
+        "select": 0.903954802259887,
+        "legacy_real": 1.0,
+        "legacy_physics": 1.0,
+        "legacy_surrogate": 1.0,
+        "diagnostic_real_y": 1.0
+      }
+    },
+    {
+      "source_load": 0,
+      "target_load": 2,
+      "severity": "10",
+      "scores": {
+        "real": 1.0,
+        "surrogate_ring": 1.0,
+        "physics": 1.0,
+        "surrogate_all": 1.0,
+        "select": 1.0,
+        "legacy_real": 1.0,
+        "legacy_physics": 0.9887005649717514,
+        "legacy_surrogate": 1.0,
+        "diagnostic_real_y": 1.0
+      }
+    },
+    {
+      "source_load": 0,
+      "target_load": 2,
+      "severity": "30",
+      "scores": {
+        "real": 1.0,
+        "surrogate_ring": 1.0,
+        "physics": 1.0,
+        "surrogate_all": 1.0,
+        "select": 1.0,
+        "legacy_real": 1.0,
+        "legacy_physics": 1.0,
+        "legacy_surrogate": 1.0,
+        "diagnostic_real_y": 1.0
+      }
+    },
+    {
+      "source_load": 0,
+      "target_load": 4,
+      "severity": "03",
+      "scores": {
+        "real": 0.9604519774011299,
+        "surrogate_ring": 1.0,
+        "physics": 1.0,
+        "surrogate_all": 1.0,
+        "select": 0.9604519774011299,
+        "legacy_real": 1.0,
+        "legacy_physics": 1.0,
+        "legacy_surrogate": 1.0,
+        "diagnostic_real_y": 1.0
+      }
+    },
+    {
+      "source_load": 0,
+      "target_load": 4,
+      "severity": "10",
+      "scores": {
+        "real": 1.0,
+        "surrogate_ring": 1.0,
+        "physics": 0.8559322033898304,
+        "surrogate_all": 1.0,
+        "select": 1.0,
+        "legacy_real": 1.0,
+        "legacy_physics": 0.7288135593220338,
+        "legacy_surrogate": 1.0,
+        "diagnostic_real_y": 1.0
+      }
+    },
+    {
+      "source_load": 0,
+      "target_load": 4,
+      "severity": "30",
+      "scores": {
+        "real": 1.0,
+        "surrogate_ring": 1.0,
+        "physics": 0.9887005649717514,
+        "surrogate_all": 1.0,
+        "select": 1.0,
+        "legacy_real": 1.0,
+        "legacy_physics": 1.0,
+        "legacy_surrogate": 1.0,
+        "diagnostic_real_y": 1.0
+      }
+    },
+    {
+      "source_load": 2,
+      "target_load": 0,
+      "severity": "03",
+      "scores": {
+        "real": 1.0,
+        "surrogate_ring": 1.0,
+        "physics": 0.8022598870056497,
+        "surrogate_all": 1.0,
+        "select": 1.0,
+        "legacy_real": 1.0,
+        "legacy_physics": 0.8361581920903954,
+        "legacy_surrogate": 1.0,
+        "diagnostic_real_y": 1.0
+      }
+    },
+    {
+      "source_load": 2,
+      "target_load": 0,
+      "severity": "10",
+      "scores": {
+        "real": 1.0,
+        "surrogate_ring": 1.0,
+        "physics": 0.8305084745762712,
+        "surrogate_all": 1.0,
+        "select": 1.0,
+        "legacy_real": 1.0,
+        "legacy_physics": 0.9802259887005649,
+        "legacy_surrogate": 1.0,
+        "diagnostic_real_y": 1.0
+      }
+    },
+    {
+      "source_load": 2,
+      "target_load": 0,
+      "severity": "30",
+      "scores": {
+        "real": 1.0,
+        "surrogate_ring": 1.0,
+        "physics": 1.0,
+        "surrogate_all": 1.0,
+        "select": 1.0,
+        "legacy_real": 1.0,
+        "legacy_physics": 1.0,
+        "legacy_surrogate": 1.0,
+        "diagnostic_real_y": 1.0
+      }
+    },
+    {
+      "source_load": 2,
+      "target_load": 4,
+      "severity": "03",
+      "scores": {
+        "real": 0.9943502824858758,
+        "surrogate_ring": 1.0,
+        "physics": 1.0,
+        "surrogate_all": 1.0,
+        "select": 0.9943502824858758,
+        "legacy_real": 1.0,
+        "legacy_physics": 1.0,
+        "legacy_surrogate": 1.0,
+        "diagnostic_real_y": 1.0
+      }
+    },
+    {
+      "source_load": 2,
+      "target_load": 4,
+      "severity": "10",
+      "scores": {
+        "real": 1.0,
+        "surrogate_ring": 1.0,
+        "physics": 0.7372881355932203,
+        "surrogate_all": 1.0,
+        "select": 1.0,
+        "legacy_real": 1.0,
+        "legacy_physics": 0.6497175141242938,
+        "legacy_surrogate": 1.0,
+        "diagnostic_real_y": 1.0
+      }
+    },
+    {
+      "source_load": 2,
+      "target_load": 4,
+      "severity": "30",
+      "scores": {
+        "real": 1.0,
+        "surrogate_ring": 1.0,
+        "physics": 0.9915254237288136,
+        "surrogate_all": 1.0,
+        "select": 1.0,
+        "legacy_real": 1.0,
+        "legacy_physics": 1.0,
+        "legacy_surrogate": 1.0,
+        "diagnostic_real_y": 1.0
+      }
+    },
+    {
+      "source_load": 4,
+      "target_load": 0,
+      "severity": "03",
+      "scores": {
+        "real": 1.0,
+        "surrogate_ring": 1.0,
+        "physics": 0.9519774011299434,
+        "surrogate_all": 1.0,
+        "select": 1.0,
+        "legacy_real": 0.8587570621468927,
+        "legacy_physics": 0.9887005649717514,
+        "legacy_surrogate": 0.8418079096045198,
+        "diagnostic_real_y": 0.8587570621468927
+      }
+    },
+    {
+      "source_load": 4,
+      "target_load": 0,
+      "severity": "10",
+      "scores": {
+        "real": 1.0,
+        "surrogate_ring": 1.0,
+        "physics": 0.9915254237288136,
+        "surrogate_all": 1.0,
+        "select": 1.0,
+        "legacy_real": 1.0,
+        "legacy_physics": 0.9152542372881355,
+        "legacy_surrogate": 1.0,
+        "diagnostic_real_y": 1.0
+      }
+    },
+    {
+      "source_load": 4,
+      "target_load": 0,
+      "severity": "30",
+      "scores": {
+        "real": 1.0,
+        "surrogate_ring": 0.9858757062146893,
+        "physics": 1.0,
+        "surrogate_all": 0.9858757062146893,
+        "select": 1.0,
+        "legacy_real": 1.0,
+        "legacy_physics": 1.0,
+        "legacy_surrogate": 1.0,
+        "diagnostic_real_y": 1.0
+      }
+    },
+    {
+      "source_load": 4,
+      "target_load": 2,
+      "severity": "03",
+      "scores": {
+        "real": 1.0,
+        "surrogate_ring": 1.0,
+        "physics": 0.9604519774011299,
+        "surrogate_all": 1.0,
+        "select": 1.0,
+        "legacy_real": 1.0,
+        "legacy_physics": 1.0,
+        "legacy_surrogate": 0.8333333333333334,
+        "diagnostic_real_y": 1.0
+      }
+    },
+    {
+      "source_load": 4,
+      "target_load": 2,
+      "severity": "10",
+      "scores": {
+        "real": 1.0,
+        "surrogate_ring": 1.0,
+        "physics": 1.0,
+        "surrogate_all": 1.0,
+        "select": 1.0,
+        "legacy_real": 1.0,
+        "legacy_physics": 0.9915254237288136,
+        "legacy_surrogate": 1.0,
+        "diagnostic_real_y": 1.0
+      }
+    },
+    {
+      "source_load": 4,
+      "target_load": 2,
+      "severity": "30",
+      "scores": {
+        "real": 0.9858757062146893,
+        "surrogate_ring": 1.0,
+        "physics": 1.0,
+        "surrogate_all": 1.0,
+        "select": 0.9858757062146893,
+        "legacy_real": 1.0,
+        "legacy_physics": 1.0,
+        "legacy_surrogate": 1.0,
+        "diagnostic_real_y": 1.0
+      }
+    }
+  ],
+  "claim": "research MVP; superiority not established across datasets",
+  "spectral_has_fresh_dataset_validation": false,
+  "amplitude": {
+    "2": {
+      "methods": {
+        "original": {
+          "macro_recall": 0.6359649122807018,
+          "per_class": {
+            "1": 0.8280701754385966,
+            "2": 0.519298245614035,
+            "3": 0.8,
+            "4": 0.39649122807017545
+          }
+        },
+        "amplitude": {
+          "macro_recall": 0.5587719298245614,
+          "per_class": {
+            "1": 0.8210526315789473,
+            "2": 0.3824561403508772,
+            "3": 0.6421052631578947,
+            "4": 0.3894736842105263
+          }
+        },
+        "spectral_amplitude": {
+          "macro_recall": 0.5175438596491228,
+          "per_class": {
+            "1": 0.8631578947368421,
+            "2": 0.1473684210526316,
+            "3": 0.6982456140350878,
+            "4": 0.3614035087719298
+          }
+        },
+        "select": {
+          "macro_recall": 0.5710526315789474,
+          "per_class": {
+            "1": 0.8140350877192983,
+            "2": 0.3263157894736842,
+            "3": 0.7473684210526316,
+            "4": 0.39649122807017545
+          }
+        }
+      },
+      "select_minus_original": {
+        "delta": -0.06491228070175448,
+        "ci95": [
+          -0.11754385964912277,
+          -0.014035087719298248
+        ],
+        "n_bearings": 20,
+        "n_by_class": {
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5
+        },
+        "resamples": 5000,
+        "seed": 20261102
+      }
+    },
+    "4": {
+      "methods": {
+        "original": {
+          "macro_recall": 0.6666666666666666,
+          "per_class": {
+            "1": 0.8350877192982455,
+            "2": 0.7087719298245614,
+            "3": 0.7157894736842104,
+            "4": 0.40701754385964917
+          }
+        },
+        "amplitude": {
+          "macro_recall": 0.5745614035087719,
+          "per_class": {
+            "1": 0.5649122807017544,
+            "2": 0.6280701754385964,
+            "3": 0.7859649122807018,
+            "4": 0.3192982456140351
+          }
+        },
+        "spectral_amplitude": {
+          "macro_recall": 0.6587719298245613,
+          "per_class": {
+            "1": 0.8,
+            "2": 0.4631578947368421,
+            "3": 0.8385964912280702,
+            "4": 0.5333333333333333
+          }
+        },
+        "select": {
+          "macro_recall": 0.6622807017543859,
+          "per_class": {
+            "1": 0.8,
+            "2": 0.5473684210526315,
+            "3": 0.8350877192982455,
+            "4": 0.4666666666666666
+          }
+        }
+      },
+      "select_minus_original": {
+        "delta": -0.004385964912280715,
+        "ci95": [
+          -0.10964912280701748,
+          0.0842105263157895
+        ],
+        "n_bearings": 20,
+        "n_by_class": {
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5
+        },
+        "resamples": 5000,
+        "seed": 20261102
+      }
+    }
+  },
+  "hierarchy": {
+    "early": {
+      "macro_recall": 0.8114035087719298,
+      "baseline_y": 0.7026315789473685,
+      "per_class": {
+        "1": 0.9754385964912281,
+        "2": 0.6596491228070175,
+        "3": 0.9964912280701753,
+        "4": 0.6140350877192983
+      },
+      "delta": {
+        "delta": 0.1087719298245613,
+        "ci95": [
+          0.0017324561403508766,
+          0.22807017543859648
+        ],
+        "n_bearings": 20,
+        "n_by_class": {
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5
+        },
+        "resamples": 5000,
+        "seed": 20261102
+      }
+    },
+    "late": {
+      "macro_recall": 0.6280701754385966,
+      "baseline_y": 0.6666666666666666,
+      "per_class": {
+        "1": 0.8,
+        "2": 0.5929824561403508,
+        "3": 0.8140350877192983,
+        "4": 0.3052631578947368
+      },
+      "delta": {
+        "delta": -0.03859649122807007,
+        "ci95": [
+          -0.13333333333333333,
+          0.03859649122807021
+        ],
+        "n_bearings": 20,
+        "n_by_class": {
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5
+        },
+        "resamples": 5000,
+        "seed": 20261102
+      }
+    }
+  }
+}

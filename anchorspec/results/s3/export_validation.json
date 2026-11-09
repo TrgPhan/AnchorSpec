@@ -1,0 +1,19 @@
+{
+  "configurations": 25,
+  "policy_rows": 50,
+  "bearing_rows": 650,
+  "workbook_roundtrip": true,
+  "sources_unchanged": true,
+  "cpu_exact_replay_folds": 78,
+  "primary_retained": "spectral_flow_half:r1:a0.25",
+  "sha256": {
+    "results/s3/spectral.json": "32d77dea3d335f584678f5c822448cf978deb033a6979c2ad5aa8b59339a24c4",
+    "results/s3/steps.json": "2578467ebc146703883b38bacab99f0d3eb07fb581f97e1d2b74a3b7d6f058bc",
+    "results/s3/failure_audit.json": "d641bfbad0aadb1b9bfb19f2f8eff6245984e4ea053d82d263d1b65d5f041423",
+    "results/s3/cpu_cached.json": "a583e458edaf206229942d2ef24ad946666b5c3166faf01ad6bc6e7fb7ae5ef8",
+    "results/s3/cpu_optimized.json": "f3559367f1c831198b1fbf0e5e2ab0feeab00da590669ee01402350654a5d57a",
+    "results/s3/cpu_profile.json": "981962089b1abdac53d4826edfe52249561f2a2388f401330d91df4fd0e1bfcb",
+    "results/s/additive.json": "aaf621590f7b891afb4b5e5e13e8aba0bb12d7c618b0b95e2a29f3376f5b0853",
+    "results/s2/fullrank.json": "3368abf75d09488e4f320eb785bc494708c55a5fe467d1cb89162cedf95de54a"
+  }
+}

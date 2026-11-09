@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-06",
+  "pytest": {
+    "passed": 128,
+    "failed": 0,
+    "seconds": 13.25,
+    "command": "python -m pytest -q"
+  },
+  "result_sha256": "aaf621590f7b891afb4b5e5e13e8aba0bb12d7c618b0b95e2a29f3376f5b0853",
+  "runtime_changed": false,
+  "factory_ready": false
+}

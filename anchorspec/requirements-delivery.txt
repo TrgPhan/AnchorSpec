@@ -1,0 +1,8 @@
+# Optional local presentation/report validation, in addition to research runtime.
+python-pptx==1.0.2
+requests>=2.31,<3
+pymupdf>=1.24,<2
+playwright>=1.40,<2
+Pillow>=10,<13
+# w_export_slides.ps1 also requires locally installed Microsoft PowerPoint.
+# Browser validation uses the locally installed Microsoft Edge channel.

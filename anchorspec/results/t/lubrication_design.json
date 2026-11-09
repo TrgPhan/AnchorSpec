@@ -1,0 +1,139 @@
+{
+  "source": "https://zenodo.org/records/20742913",
+  "runs": [
+    {
+      "run": 1,
+      "lubrication": "Oil3",
+      "amplitude_deg": 10.0,
+      "radial_load_kn": 9.0,
+      "frequency_hz": 10.0
+    },
+    {
+      "run": 2,
+      "lubrication": "Oil2",
+      "amplitude_deg": 10.0,
+      "radial_load_kn": 9.0,
+      "frequency_hz": 10.0
+    },
+    {
+      "run": 3,
+      "lubrication": "Oil1",
+      "amplitude_deg": 10.0,
+      "radial_load_kn": 9.0,
+      "frequency_hz": 10.0
+    },
+    {
+      "run": 4,
+      "lubrication": "NoOil",
+      "amplitude_deg": 20.0,
+      "radial_load_kn": 9.0,
+      "frequency_hz": 10.0
+    },
+    {
+      "run": 5,
+      "lubrication": "NoOil",
+      "amplitude_deg": 10.0,
+      "radial_load_kn": 9.0,
+      "frequency_hz": 10.0
+    },
+    {
+      "run": 6,
+      "lubrication": "NoOil",
+      "amplitude_deg": 10.0,
+      "radial_load_kn": 18.4,
+      "frequency_hz": 5.0
+    },
+    {
+      "run": 7,
+      "lubrication": "NoOil",
+      "amplitude_deg": 10.0,
+      "radial_load_kn": 19.4,
+      "frequency_hz": 5.0
+    },
+    {
+      "run": 8,
+      "lubrication": "NoOil",
+      "amplitude_deg": 10.0,
+      "radial_load_kn": 19.4,
+      "frequency_hz": 10.0
+    }
+  ],
+  "matched_regimes": [
+    {
+      "amplitude_deg": 10.0,
+      "radial_load_kn": 9.0,
+      "frequency_hz": 10.0,
+      "lubricated_runs": [
+        1,
+        2,
+        3
+      ],
+      "unlubricated_runs": [
+        5
+      ],
+      "leave_run_out_both_classes_in_training_possible": false
+    },
+    {
+      "amplitude_deg": 10.0,
+      "radial_load_kn": 18.4,
+      "frequency_hz": 5.0,
+      "lubricated_runs": [],
+      "unlubricated_runs": [
+        6
+      ],
+      "leave_run_out_both_classes_in_training_possible": false
+    },
+    {
+      "amplitude_deg": 10.0,
+      "radial_load_kn": 19.4,
+      "frequency_hz": 5.0,
+      "lubricated_runs": [],
+      "unlubricated_runs": [
+        7
+      ],
+      "leave_run_out_both_classes_in_training_possible": false
+    },
+    {
+      "amplitude_deg": 10.0,
+      "radial_load_kn": 19.4,
+      "frequency_hz": 10.0,
+      "lubricated_runs": [],
+      "unlubricated_runs": [
+        8
+      ],
+      "leave_run_out_both_classes_in_training_possible": false
+    },
+    {
+      "amplitude_deg": 20.0,
+      "radial_load_kn": 9.0,
+      "frequency_hz": 10.0,
+      "lubricated_runs": [],
+      "unlubricated_runs": [
+        4
+      ],
+      "leave_run_out_both_classes_in_training_possible": false
+    }
+  ],
+  "inventory_sha256": {
+    "Test_5.zip": "3793b4bd19ecd47f7f789c9ad31364acd6d81532e06232585c11dbdff57b1f0b",
+    "Test_6.zip": "fcd0c80fdf4331cda44a97320ad8ee9881f1a088e6552b85b110190d78f4f469",
+    "Test_3_Data_1_to_1000.zip": "9eee77a67676462ece405ceb9ab29fa5440fdd7c230042461a2fa8a926f5cdff",
+    "Test_8.zip": "33b70209b0ba371c43b688ee5eee952d579cc076c76735ce4dcc3e677787d0bf",
+    "Test_7.zip": "b037184cde6e0cccf8295f01c1c02f6869d1bab2bf84c7ae1f812f824212a8f8",
+    "Test_3_Data_1001_to_2000.zip": "d101d1dd74b60149ed4c3728a48e09ccee8fb9776bff2d3b5502c0ea4f1b7cfb",
+    "Test_1.zip": "c07133ff571d48819c1d75484b8bce2c74ba5b92288eb061727c83c61e1758da",
+    "Test_2.zip": "0e175bd3314363df01b4d0124cc0f033da9273037e6ea23afbca84729a41924b",
+    "Test_4.zip": "cf45af27027c8a8a3547b49e21fe6a8ae6bd05643be0f474ed4da481435e3feb",
+    "Test_3_Data_2001_to_3000.zip": "8e8a900577dcb921631bad23422385caba7d2ecdd9e67d8706ee62b764d803bf",
+    "Test_3_Data_3001_to_4000.zip": "d26df84931f90f7419a0c2352ed5e4ad5604c21b81016100aeec64618f810752",
+    "Test_3_Data_4001_to_4951.zip": "c4dd5c3d6f00b9a7692bb0d50e8ac92943a9e768da8f353ef3a5eeb2f15bf3d3"
+  },
+  "full_archive_checksum_verified": false,
+  "verdict": "insufficient independent runs for matched-regime binary leave-run-out validation",
+  "notes": [
+    "Two bearings in one run share test conditions; hold out whole run.",
+    "Lubrication treatment is not a time-resolved fault or healthy label.",
+    "Oscillating needle bearings are not continuous-rotation ball bearings.",
+    "Metadata audit only; no new classification score or raw waveform download."
+  ]
+}

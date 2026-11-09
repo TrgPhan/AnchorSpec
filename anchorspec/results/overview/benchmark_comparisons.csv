@@ -1,0 +1,988 @@
+﻿source,configuration,classifier,method,stage,metric,value
+results/w/summary.json,budget=1,Theo tên nhánh,legacy_real,early,macro_recall,0.5228070175438597
+results/w/summary.json,budget=1,Theo tên nhánh,legacy_real,late,macro_recall,0.40964912280701754
+results/w/summary.json,budget=1,Theo tên nhánh,legacy_physics,early,macro_recall,0.3903508771929824
+results/w/summary.json,budget=1,Theo tên nhánh,legacy_physics,late,macro_recall,0.3298245614035088
+results/w/summary.json,budget=1,Theo tên nhánh,legacy_surrogate,early,macro_recall,0.4842105263157894
+results/w/summary.json,budget=1,Theo tên nhánh,legacy_surrogate,late,macro_recall,0.4043859649122806
+results/w/summary.json,budget=1,Theo tên nhánh,real,early,macro_recall,0.5157894736842105
+results/w/summary.json,budget=1,Theo tên nhánh,real,late,macro_recall,0.4043859649122807
+results/w/summary.json,budget=1,Theo tên nhánh,surrogate_ring,early,macro_recall,0.537719298245614
+results/w/summary.json,budget=1,Theo tên nhánh,surrogate_ring,late,macro_recall,0.4412280701754385
+results/w/summary.json,budget=1,Theo tên nhánh,physics,early,macro_recall,0.45614035087719296
+results/w/summary.json,budget=1,Theo tên nhánh,physics,late,macro_recall,0.387719298245614
+results/w/summary.json,budget=1,Theo tên nhánh,surrogate_all,early,macro_recall,0.43508771929824563
+results/w/summary.json,budget=1,Theo tên nhánh,surrogate_all,late,macro_recall,0.37631578947368416
+results/w/summary.json,budget=1,Theo tên nhánh,select,early,macro_recall,0.5157894736842105
+results/w/summary.json,budget=1,Theo tên nhánh,select,late,macro_recall,0.4043859649122807
+results/w/summary.json,budget=2,Theo tên nhánh,legacy_real,early,macro_recall,0.5438596491228069
+results/w/summary.json,budget=2,Theo tên nhánh,legacy_real,late,macro_recall,0.4526315789473684
+results/w/summary.json,budget=2,Theo tên nhánh,legacy_physics,early,macro_recall,0.40350877192982454
+results/w/summary.json,budget=2,Theo tên nhánh,legacy_physics,late,macro_recall,0.34912280701754383
+results/w/summary.json,budget=2,Theo tên nhánh,legacy_surrogate,early,macro_recall,0.5184210526315789
+results/w/summary.json,budget=2,Theo tên nhánh,legacy_surrogate,late,macro_recall,0.44649122807017544
+results/w/summary.json,budget=2,Theo tên nhánh,real,early,macro_recall,0.6052631578947368
+results/w/summary.json,budget=2,Theo tên nhánh,real,late,macro_recall,0.5622807017543859
+results/w/summary.json,budget=2,Theo tên nhánh,surrogate_ring,early,macro_recall,0.6149122807017544
+results/w/summary.json,budget=2,Theo tên nhánh,surrogate_ring,late,macro_recall,0.5587719298245614
+results/w/summary.json,budget=2,Theo tên nhánh,physics,early,macro_recall,0.4824561403508772
+results/w/summary.json,budget=2,Theo tên nhánh,physics,late,macro_recall,0.5271929824561403
+results/w/summary.json,budget=2,Theo tên nhánh,surrogate_all,early,macro_recall,0.5543859649122806
+results/w/summary.json,budget=2,Theo tên nhánh,surrogate_all,late,macro_recall,0.4087719298245614
+results/w/summary.json,budget=2,Theo tên nhánh,select,early,macro_recall,0.5140350877192983
+results/w/summary.json,budget=2,Theo tên nhánh,select,late,macro_recall,0.45350877192982453
+results/w/summary.json,budget=4,Theo tên nhánh,legacy_real,early,macro_recall,0.6877192982456142
+results/w/summary.json,budget=4,Theo tên nhánh,legacy_real,late,macro_recall,0.6008771929824562
+results/w/summary.json,budget=4,Theo tên nhánh,legacy_physics,early,macro_recall,0.493859649122807
+results/w/summary.json,budget=4,Theo tên nhánh,legacy_physics,late,macro_recall,0.4236842105263157
+results/w/summary.json,budget=4,Theo tên nhánh,legacy_surrogate,early,macro_recall,0.6885964912280702
+results/w/summary.json,budget=4,Theo tên nhánh,legacy_surrogate,late,macro_recall,0.6140350877192983
+results/w/summary.json,budget=4,Theo tên nhánh,real,early,macro_recall,0.6
+results/w/summary.json,budget=4,Theo tên nhánh,real,late,macro_recall,0.47982456140350876
+results/w/summary.json,budget=4,Theo tên nhánh,surrogate_ring,early,macro_recall,0.6333333333333332
+results/w/summary.json,budget=4,Theo tên nhánh,surrogate_ring,late,macro_recall,0.5359649122807018
+results/w/summary.json,budget=4,Theo tên nhánh,physics,early,macro_recall,0.5412280701754385
+results/w/summary.json,budget=4,Theo tên nhánh,physics,late,macro_recall,0.5149122807017544
+results/w/summary.json,budget=4,Theo tên nhánh,surrogate_all,early,macro_recall,0.6052631578947367
+results/w/summary.json,budget=4,Theo tên nhánh,surrogate_all,late,macro_recall,0.5298245614035089
+results/w/summary.json,budget=4,Theo tên nhánh,select,early,macro_recall,0.5850877192982455
+results/w/summary.json,budget=4,Theo tên nhánh,select,late,macro_recall,0.5535087719298246
+results/v/kaist_transport.json,unit=metadata,svm1,real,test,macro_recall,0.7966101694915255
+results/v/kaist_transport.json,unit=metadata,svm1,duplicate,test,macro_recall,0.8074387947269303
+results/v/kaist_transport.json,unit=metadata,svm1,surrogate,test,macro_recall,0.7977087256748274
+results/v/kaist_transport.json,unit=metadata,svm1,severity,test,macro_recall,0.812617702448211
+results/v/kaist_transport.json,unit=metadata,svm1,transport,test,macro_recall,0.8099497802887634
+results/v/kaist_transport.json,unit=metadata,svm1,transport_mix,test,macro_recall,0.8033584431889516
+results/v/kaist_transport.json,unit=metadata,svm10,real,test,macro_recall,0.8008474576271187
+results/v/kaist_transport.json,unit=metadata,svm10,duplicate,test,macro_recall,0.8154425612052731
+results/v/kaist_transport.json,unit=metadata,svm10,surrogate,test,macro_recall,0.8210922787193973
+results/v/kaist_transport.json,unit=metadata,svm10,severity,test,macro_recall,0.8199937225360954
+results/v/kaist_transport.json,unit=metadata,svm10,transport,test,macro_recall,0.8129315756434401
+results/v/kaist_transport.json,unit=metadata,svm10,transport_mix,test,macro_recall,0.8043000627746391
+results/v/kaist_transport.json,unit=metadata,rf,real,test,macro_recall,0.9879158819836786
+results/v/kaist_transport.json,unit=metadata,rf,duplicate,test,macro_recall,1.0
+results/v/kaist_transport.json,unit=metadata,rf,surrogate,test,macro_recall,1.0
+results/v/kaist_transport.json,unit=metadata,rf,severity,test,macro_recall,0.9882297551789077
+results/v/kaist_transport.json,unit=metadata,rf,transport,test,macro_recall,1.0
+results/v/kaist_transport.json,unit=metadata,rf,transport_mix,test,macro_recall,0.9995291902071564
+results/v/hust_transport.json,unit=g,svm1,real,test,macro_recall,0.8873456790123457
+results/v/hust_transport.json,unit=g,svm1,duplicate,test,macro_recall,0.8950617283950617
+results/v/hust_transport.json,unit=g,svm1,surrogate,test,macro_recall,0.9125514403292181
+results/v/hust_transport.json,unit=g,svm1,severity,test,macro_recall,0.9043209876543209
+results/v/hust_transport.json,unit=g,svm1,transport,test,macro_recall,0.9138888888888889
+results/v/hust_transport.json,unit=g,svm1,transport_mix,test,macro_recall,0.9219135802469136
+results/v/hust_transport.json,unit=g,svm10,real,test,macro_recall,0.8873456790123457
+results/v/hust_transport.json,unit=g,svm10,duplicate,test,macro_recall,0.8950617283950617
+results/v/hust_transport.json,unit=g,svm10,surrogate,test,macro_recall,0.8949588477366256
+results/v/hust_transport.json,unit=g,svm10,severity,test,macro_recall,0.9180041152263375
+results/v/hust_transport.json,unit=g,svm10,transport,test,macro_recall,0.928395061728395
+results/v/hust_transport.json,unit=g,svm10,transport_mix,test,macro_recall,0.9349794238683128
+results/v/hust_transport.json,unit=g,rf,real,test,macro_recall,0.9315843621399177
+results/v/hust_transport.json,unit=g,rf,duplicate,test,macro_recall,0.9309156378600824
+results/v/hust_transport.json,unit=g,rf,surrogate,test,macro_recall,0.9329218106995883
+results/v/hust_transport.json,unit=g,rf,severity,test,macro_recall,0.9013374485596709
+results/v/hust_transport.json,unit=g,rf,transport,test,macro_recall,0.9340020576131686
+results/v/hust_transport.json,unit=g,rf,transport_mix,test,macro_recall,0.9192901234567902
+results/v/hust_transport.json,unit=mks,svm1,real,test,macro_recall,0.7947530864197532
+results/v/hust_transport.json,unit=mks,svm1,duplicate,test,macro_recall,0.7993827160493828
+results/v/hust_transport.json,unit=mks,svm1,surrogate,test,macro_recall,0.8106995884773663
+results/v/hust_transport.json,unit=mks,svm1,severity,test,macro_recall,0.8058641975308642
+results/v/hust_transport.json,unit=mks,svm1,transport,test,macro_recall,0.8472222222222222
+results/v/hust_transport.json,unit=mks,svm1,transport_mix,test,macro_recall,0.832716049382716
+results/v/hust_transport.json,unit=mks,svm10,real,test,macro_recall,0.8040123456790126
+results/v/hust_transport.json,unit=mks,svm10,duplicate,test,macro_recall,0.8086419753086421
+results/v/hust_transport.json,unit=mks,svm10,surrogate,test,macro_recall,0.8564814814814815
+results/v/hust_transport.json,unit=mks,svm10,severity,test,macro_recall,0.8625514403292183
+results/v/hust_transport.json,unit=mks,svm10,transport,test,macro_recall,0.8683127572016461
+results/v/hust_transport.json,unit=mks,svm10,transport_mix,test,macro_recall,0.8578189300411522
+results/v/hust_transport.json,unit=mks,rf,real,test,macro_recall,0.8342592592592593
+results/v/hust_transport.json,unit=mks,rf,duplicate,test,macro_recall,0.8212962962962962
+results/v/hust_transport.json,unit=mks,rf,surrogate,test,macro_recall,0.8276748971193416
+results/v/hust_transport.json,unit=mks,rf,severity,test,macro_recall,0.8251028806584362
+results/v/hust_transport.json,unit=mks,rf,transport,test,macro_recall,0.8472222222222223
+results/v/hust_transport.json,unit=mks,rf,transport_mix,test,macro_recall,0.8328189300411523
+results/v/holdout6204.json,unit=g,svm1,real,test,macro_recall,0.8240740740740741
+results/v/holdout6204.json,unit=g,svm1,duplicate,test,macro_recall,0.8240740740740741
+results/v/holdout6204.json,unit=g,svm1,surrogate,test,macro_recall,0.8240740740740741
+results/v/holdout6204.json,unit=g,svm1,severity,test,macro_recall,0.8148148148148148
+results/v/holdout6204.json,unit=g,svm1,transport,test,macro_recall,0.8148148148148148
+results/v/holdout6204.json,unit=g,svm1,transport_mix,test,macro_recall,0.8055555555555556
+results/v/holdout6204.json,unit=g,svm10,real,test,macro_recall,0.8240740740740741
+results/v/holdout6204.json,unit=g,svm10,duplicate,test,macro_recall,0.8240740740740741
+results/v/holdout6204.json,unit=g,svm10,surrogate,test,macro_recall,0.8148148148148148
+results/v/holdout6204.json,unit=g,svm10,severity,test,macro_recall,0.8425925925925926
+results/v/holdout6204.json,unit=g,svm10,transport,test,macro_recall,0.8209876543209876
+results/v/holdout6204.json,unit=g,svm10,transport_mix,test,macro_recall,0.8209876543209877
+results/v/holdout6204.json,unit=g,rf,real,test,macro_recall,0.9876543209876544
+results/v/holdout6204.json,unit=g,rf,duplicate,test,macro_recall,0.941358024691358
+results/v/holdout6204.json,unit=g,rf,surrogate,test,macro_recall,0.9537037037037037
+results/v/holdout6204.json,unit=g,rf,severity,test,macro_recall,0.9475308641975309
+results/v/holdout6204.json,unit=g,rf,transport,test,macro_recall,0.9814814814814816
+results/v/holdout6204.json,unit=g,rf,transport_mix,test,macro_recall,0.9938271604938271
+results/v/holdout6204.json,unit=mks,svm1,real,test,macro_recall,0.8333333333333333
+results/v/holdout6204.json,unit=mks,svm1,duplicate,test,macro_recall,0.8333333333333333
+results/v/holdout6204.json,unit=mks,svm1,surrogate,test,macro_recall,0.7654320987654321
+results/v/holdout6204.json,unit=mks,svm1,severity,test,macro_recall,0.8734567901234567
+results/v/holdout6204.json,unit=mks,svm1,transport,test,macro_recall,0.7067901234567902
+results/v/holdout6204.json,unit=mks,svm1,transport_mix,test,macro_recall,0.7654320987654321
+results/v/holdout6204.json,unit=mks,svm10,real,test,macro_recall,0.8333333333333333
+results/v/holdout6204.json,unit=mks,svm10,duplicate,test,macro_recall,0.8333333333333333
+results/v/holdout6204.json,unit=mks,svm10,surrogate,test,macro_recall,0.845679012345679
+results/v/holdout6204.json,unit=mks,svm10,severity,test,macro_recall,0.9351851851851851
+results/v/holdout6204.json,unit=mks,svm10,transport,test,macro_recall,0.808641975308642
+results/v/holdout6204.json,unit=mks,svm10,transport_mix,test,macro_recall,0.8549382716049383
+results/v/holdout6204.json,unit=mks,rf,real,test,macro_recall,0.9475308641975309
+results/v/holdout6204.json,unit=mks,rf,duplicate,test,macro_recall,0.8919753086419753
+results/v/holdout6204.json,unit=mks,rf,surrogate,test,macro_recall,0.9691358024691359
+results/v/holdout6204.json,unit=mks,rf,severity,test,macro_recall,0.9166666666666667
+results/v/holdout6204.json,unit=mks,rf,transport,test,macro_recall,0.9938271604938271
+results/v/holdout6204.json,unit=mks,rf,transport_mix,test,macro_recall,0.9567901234567902
+results/v/champion_augmentation.json,budget=1,Diagnostic Y,real,early,macro_recall,0.5228070175438597
+results/v/champion_augmentation.json,budget=1,Diagnostic Y,real,late,macro_recall,0.40964912280701754
+results/v/champion_augmentation.json,budget=1,Diagnostic Y,duplicate_0.25,early,macro_recall,0.46491228070175444
+results/v/champion_augmentation.json,budget=1,Diagnostic Y,duplicate_0.25,late,macro_recall,0.4078947368421052
+results/v/champion_augmentation.json,budget=1,Diagnostic Y,surrogate_0.25,early,macro_recall,0.48421052631578954
+results/v/champion_augmentation.json,budget=1,Diagnostic Y,surrogate_0.25,late,macro_recall,0.4052631578947369
+results/v/champion_augmentation.json,budget=1,Diagnostic Y,severity_0.25,early,macro_recall,0.5236842105263158
+results/v/champion_augmentation.json,budget=1,Diagnostic Y,severity_0.25,late,macro_recall,0.43947368421052635
+results/v/champion_augmentation.json,budget=1,Diagnostic Y,transport_0.25,early,macro_recall,0.5859649122807018
+results/v/champion_augmentation.json,budget=1,Diagnostic Y,transport_0.25,late,macro_recall,0.46140350877192976
+results/v/champion_augmentation.json,budget=1,Diagnostic Y,transport_mix_0.25,early,macro_recall,0.5815789473684211
+results/v/champion_augmentation.json,budget=1,Diagnostic Y,transport_mix_0.25,late,macro_recall,0.4456140350877193
+results/v/champion_augmentation.json,budget=1,Diagnostic Y,envelope_0.25,early,macro_recall,0.5236842105263158
+results/v/champion_augmentation.json,budget=1,Diagnostic Y,envelope_0.25,late,macro_recall,0.45263157894736833
+results/v/champion_augmentation.json,budget=1,Diagnostic Y,duplicate_0.5,early,macro_recall,0.5052631578947369
+results/v/champion_augmentation.json,budget=1,Diagnostic Y,duplicate_0.5,late,macro_recall,0.4096491228070176
+results/v/champion_augmentation.json,budget=1,Diagnostic Y,surrogate_0.5,early,macro_recall,0.47894736842105257
+results/v/champion_augmentation.json,budget=1,Diagnostic Y,surrogate_0.5,late,macro_recall,0.43508771929824563
+results/v/champion_augmentation.json,budget=1,Diagnostic Y,severity_0.5,early,macro_recall,0.5070175438596491
+results/v/champion_augmentation.json,budget=1,Diagnostic Y,severity_0.5,late,macro_recall,0.37543859649122807
+results/v/champion_augmentation.json,budget=1,Diagnostic Y,transport_0.5,early,macro_recall,0.5894736842105263
+results/v/champion_augmentation.json,budget=1,Diagnostic Y,transport_0.5,late,macro_recall,0.42543859649122806
+results/v/champion_augmentation.json,budget=1,Diagnostic Y,transport_mix_0.5,early,macro_recall,0.5482456140350876
+results/v/champion_augmentation.json,budget=1,Diagnostic Y,transport_mix_0.5,late,macro_recall,0.4543859649122807
+results/v/champion_augmentation.json,budget=1,Diagnostic Y,envelope_0.5,early,macro_recall,0.5263157894736843
+results/v/champion_augmentation.json,budget=1,Diagnostic Y,envelope_0.5,late,macro_recall,0.45175438596491224
+results/v/champion_augmentation.json,budget=2,Diagnostic Y,real,early,macro_recall,0.637719298245614
+results/v/champion_augmentation.json,budget=2,Diagnostic Y,real,late,macro_recall,0.6359649122807018
+results/v/champion_augmentation.json,budget=2,Diagnostic Y,duplicate_0.25,early,macro_recall,0.6456140350877193
+results/v/champion_augmentation.json,budget=2,Diagnostic Y,duplicate_0.25,late,macro_recall,0.6149122807017544
+results/v/champion_augmentation.json,budget=2,Diagnostic Y,surrogate_0.25,early,macro_recall,0.606140350877193
+results/v/champion_augmentation.json,budget=2,Diagnostic Y,surrogate_0.25,late,macro_recall,0.5526315789473685
+results/v/champion_augmentation.json,budget=2,Diagnostic Y,severity_0.25,early,macro_recall,0.6271929824561403
+results/v/champion_augmentation.json,budget=2,Diagnostic Y,severity_0.25,late,macro_recall,0.5561403508771929
+results/v/champion_augmentation.json,budget=2,Diagnostic Y,transport_0.25,early,macro_recall,0.612280701754386
+results/v/champion_augmentation.json,budget=2,Diagnostic Y,transport_0.25,late,macro_recall,0.5666666666666667
+results/v/champion_augmentation.json,budget=2,Diagnostic Y,transport_mix_0.25,early,macro_recall,0.6640350877192982
+results/v/champion_augmentation.json,budget=2,Diagnostic Y,transport_mix_0.25,late,macro_recall,0.5622807017543859
+results/v/champion_augmentation.json,budget=2,Diagnostic Y,envelope_0.25,early,macro_recall,0.619298245614035
+results/v/champion_augmentation.json,budget=2,Diagnostic Y,envelope_0.25,late,macro_recall,0.5912280701754385
+results/v/champion_augmentation.json,budget=2,Diagnostic Y,duplicate_0.5,early,macro_recall,0.6263157894736842
+results/v/champion_augmentation.json,budget=2,Diagnostic Y,duplicate_0.5,late,macro_recall,0.5842105263157895
+results/v/champion_augmentation.json,budget=2,Diagnostic Y,surrogate_0.5,early,macro_recall,0.6228070175438596
+results/v/champion_augmentation.json,budget=2,Diagnostic Y,surrogate_0.5,late,macro_recall,0.5763157894736842
+results/v/champion_augmentation.json,budget=2,Diagnostic Y,severity_0.5,early,macro_recall,0.6342105263157893
+results/v/champion_augmentation.json,budget=2,Diagnostic Y,severity_0.5,late,macro_recall,0.5543859649122806
+results/v/champion_augmentation.json,budget=2,Diagnostic Y,transport_0.5,early,macro_recall,0.6385964912280702
+results/v/champion_augmentation.json,budget=2,Diagnostic Y,transport_0.5,late,macro_recall,0.5421052631578948
+results/v/champion_augmentation.json,budget=2,Diagnostic Y,transport_mix_0.5,early,macro_recall,0.618421052631579
+results/v/champion_augmentation.json,budget=2,Diagnostic Y,transport_mix_0.5,late,macro_recall,0.5359649122807018
+results/v/champion_augmentation.json,budget=2,Diagnostic Y,envelope_0.5,early,macro_recall,0.6096491228070176
+results/v/champion_augmentation.json,budget=2,Diagnostic Y,envelope_0.5,late,macro_recall,0.5728070175438597
+results/v/champion_augmentation.json,budget=4,Diagnostic Y,real,early,macro_recall,0.7026315789473685
+results/v/champion_augmentation.json,budget=4,Diagnostic Y,real,late,macro_recall,0.6666666666666666
+results/v/champion_augmentation.json,budget=4,Diagnostic Y,duplicate_0.25,early,macro_recall,0.6894736842105263
+results/v/champion_augmentation.json,budget=4,Diagnostic Y,duplicate_0.25,late,macro_recall,0.6649122807017545
+results/v/champion_augmentation.json,budget=4,Diagnostic Y,surrogate_0.25,early,macro_recall,0.6964912280701755
+results/v/champion_augmentation.json,budget=4,Diagnostic Y,surrogate_0.25,late,macro_recall,0.6859649122807018
+results/v/champion_augmentation.json,budget=4,Diagnostic Y,severity_0.25,early,macro_recall,0.6833333333333333
+results/v/champion_augmentation.json,budget=4,Diagnostic Y,severity_0.25,late,macro_recall,0.6631578947368421
+results/v/champion_augmentation.json,budget=4,Diagnostic Y,transport_0.25,early,macro_recall,0.7052631578947369
+results/v/champion_augmentation.json,budget=4,Diagnostic Y,transport_0.25,late,macro_recall,0.6868421052631578
+results/v/champion_augmentation.json,budget=4,Diagnostic Y,transport_mix_0.25,early,macro_recall,0.6929824561403509
+results/v/champion_augmentation.json,budget=4,Diagnostic Y,transport_mix_0.25,late,macro_recall,0.644736842105263
+results/v/champion_augmentation.json,budget=4,Diagnostic Y,envelope_0.25,early,macro_recall,0.712280701754386
+results/v/champion_augmentation.json,budget=4,Diagnostic Y,envelope_0.25,late,macro_recall,0.6745614035087719
+results/v/champion_augmentation.json,budget=4,Diagnostic Y,duplicate_0.5,early,macro_recall,0.6614035087719299
+results/v/champion_augmentation.json,budget=4,Diagnostic Y,duplicate_0.5,late,macro_recall,0.6719298245614036
+results/v/champion_augmentation.json,budget=4,Diagnostic Y,surrogate_0.5,early,macro_recall,0.7263157894736842
+results/v/champion_augmentation.json,budget=4,Diagnostic Y,surrogate_0.5,late,macro_recall,0.6859649122807018
+results/v/champion_augmentation.json,budget=4,Diagnostic Y,severity_0.5,early,macro_recall,0.6640350877192983
+results/v/champion_augmentation.json,budget=4,Diagnostic Y,severity_0.5,late,macro_recall,0.6587719298245613
+results/v/champion_augmentation.json,budget=4,Diagnostic Y,transport_0.5,early,macro_recall,0.6745614035087719
+results/v/champion_augmentation.json,budget=4,Diagnostic Y,transport_0.5,late,macro_recall,0.6622807017543859
+results/v/champion_augmentation.json,budget=4,Diagnostic Y,transport_mix_0.5,early,macro_recall,0.6640350877192982
+results/v/champion_augmentation.json,budget=4,Diagnostic Y,transport_mix_0.5,late,macro_recall,0.5736842105263158
+results/v/champion_augmentation.json,budget=4,Diagnostic Y,envelope_0.5,early,macro_recall,0.6649122807017545
+results/v/champion_augmentation.json,budget=4,Diagnostic Y,envelope_0.5,late,macro_recall,0.6789473684210526
+results/u/natural.json,"single axis, 8g, healthy10",svm1,real,early,macro_recall,0.4763888888888889
+results/u/natural.json,"single axis, 8g, healthy10",svm1,real,late,macro_recall,0.5763888888888888
+results/u/natural.json,"single axis, 8g, healthy10",svm1,duplicate,early,macro_recall,0.4763888888888889
+results/u/natural.json,"single axis, 8g, healthy10",svm1,duplicate,late,macro_recall,0.5763888888888888
+results/u/natural.json,"single axis, 8g, healthy10",svm1,surrogate,early,macro_recall,0.4856481481481481
+results/u/natural.json,"single axis, 8g, healthy10",svm1,surrogate,late,macro_recall,0.5763888888888888
+results/u/natural.json,"single axis, 8g, healthy10",svm1,envelope,early,macro_recall,0.4958333333333333
+results/u/natural.json,"single axis, 8g, healthy10",svm1,envelope,late,macro_recall,0.5874999999999999
+results/u/natural.json,"single axis, 8g, healthy10",svm1,severity,early,macro_recall,0.5125000000000001
+results/u/natural.json,"single axis, 8g, healthy10",svm1,severity,late,macro_recall,0.5773148148148147
+results/u/natural.json,"single axis, 8g, healthy10",svm1,transport,early,macro_recall,0.5370370370370371
+results/u/natural.json,"single axis, 8g, healthy10",svm1,transport,late,macro_recall,0.6185185185185186
+results/u/natural.json,"single axis, 8g, healthy10",svm1,transport_mix,early,macro_recall,0.5125000000000001
+results/u/natural.json,"single axis, 8g, healthy10",svm1,transport_mix,late,macro_recall,0.6000000000000001
+results/u/natural.json,"single axis, 8g, healthy10",svm10,real,early,macro_recall,0.4763888888888889
+results/u/natural.json,"single axis, 8g, healthy10",svm10,real,late,macro_recall,0.5763888888888888
+results/u/natural.json,"single axis, 8g, healthy10",svm10,duplicate,early,macro_recall,0.4763888888888889
+results/u/natural.json,"single axis, 8g, healthy10",svm10,duplicate,late,macro_recall,0.5763888888888888
+results/u/natural.json,"single axis, 8g, healthy10",svm10,surrogate,early,macro_recall,0.5092592592592592
+results/u/natural.json,"single axis, 8g, healthy10",svm10,surrogate,late,macro_recall,0.6009259259259259
+results/u/natural.json,"single axis, 8g, healthy10",svm10,envelope,early,macro_recall,0.5861111111111111
+results/u/natural.json,"single axis, 8g, healthy10",svm10,envelope,late,macro_recall,0.6208333333333332
+results/u/natural.json,"single axis, 8g, healthy10",svm10,severity,early,macro_recall,0.6078703703703704
+results/u/natural.json,"single axis, 8g, healthy10",svm10,severity,late,macro_recall,0.6027777777777777
+results/u/natural.json,"single axis, 8g, healthy10",svm10,transport,early,macro_recall,0.5351851851851852
+results/u/natural.json,"single axis, 8g, healthy10",svm10,transport,late,macro_recall,0.637037037037037
+results/u/natural.json,"single axis, 8g, healthy10",svm10,transport_mix,early,macro_recall,0.5194444444444445
+results/u/natural.json,"single axis, 8g, healthy10",svm10,transport_mix,late,macro_recall,0.6148148148148148
+results/u/natural.json,"single axis, 8g, healthy10",rf,real,early,macro_recall,0.637037037037037
+results/u/natural.json,"single axis, 8g, healthy10",rf,real,late,macro_recall,0.7092592592592593
+results/u/natural.json,"single axis, 8g, healthy10",rf,duplicate,early,macro_recall,0.637037037037037
+results/u/natural.json,"single axis, 8g, healthy10",rf,duplicate,late,macro_recall,0.7092592592592593
+results/u/natural.json,"single axis, 8g, healthy10",rf,surrogate,early,macro_recall,0.7578703703703704
+results/u/natural.json,"single axis, 8g, healthy10",rf,surrogate,late,macro_recall,0.7666666666666666
+results/u/natural.json,"single axis, 8g, healthy10",rf,envelope,early,macro_recall,0.7074074074074074
+results/u/natural.json,"single axis, 8g, healthy10",rf,envelope,late,macro_recall,0.7171296296296297
+results/u/natural.json,"single axis, 8g, healthy10",rf,severity,early,macro_recall,0.7625000000000001
+results/u/natural.json,"single axis, 8g, healthy10",rf,severity,late,macro_recall,0.7944444444444444
+results/u/natural.json,"single axis, 8g, healthy10",rf,transport,early,macro_recall,0.6550925925925926
+results/u/natural.json,"single axis, 8g, healthy10",rf,transport,late,macro_recall,0.6851851851851851
+results/u/natural.json,"single axis, 8g, healthy10",rf,transport_mix,early,macro_recall,0.6768518518518518
+results/u/natural.json,"single axis, 8g, healthy10",rf,transport_mix,late,macro_recall,0.7129629629629629
+results/u/retrospective.json,budget=1,svm1,real,early,macro_recall,0.6499999999999999
+results/u/retrospective.json,budget=1,svm1,real,late,macro_recall,0.513157894736842
+results/u/retrospective.json,budget=1,svm1,duplicate,early,macro_recall,0.6499999999999999
+results/u/retrospective.json,budget=1,svm1,duplicate,late,macro_recall,0.513157894736842
+results/u/retrospective.json,budget=1,svm1,surrogate,early,macro_recall,0.5956140350877193
+results/u/retrospective.json,budget=1,svm1,surrogate,late,macro_recall,0.47631578947368414
+results/u/retrospective.json,budget=1,svm1,envelope,early,macro_recall,0.6605263157894736
+results/u/retrospective.json,budget=1,svm1,envelope,late,macro_recall,0.5324561403508772
+results/u/retrospective.json,budget=1,svm1,severity,early,macro_recall,0.5692982456140351
+results/u/retrospective.json,budget=1,svm1,severity,late,macro_recall,0.4921052631578947
+results/u/retrospective.json,budget=1,svm1,transport,early,macro_recall,0.6429824561403508
+results/u/retrospective.json,budget=1,svm1,transport,late,macro_recall,0.47456140350877185
+results/u/retrospective.json,budget=1,svm1,transport_mix,early,macro_recall,0.5763157894736842
+results/u/retrospective.json,budget=1,svm1,transport_mix,late,macro_recall,0.4342105263157894
+results/u/retrospective.json,budget=1,svm10,real,early,macro_recall,0.6517543859649122
+results/u/retrospective.json,budget=1,svm10,real,late,macro_recall,0.5157894736842105
+results/u/retrospective.json,budget=1,svm10,duplicate,early,macro_recall,0.6517543859649122
+results/u/retrospective.json,budget=1,svm10,duplicate,late,macro_recall,0.5157894736842105
+results/u/retrospective.json,budget=1,svm10,surrogate,early,macro_recall,0.6087719298245614
+results/u/retrospective.json,budget=1,svm10,surrogate,late,macro_recall,0.5078947368421053
+results/u/retrospective.json,budget=1,svm10,envelope,early,macro_recall,0.6421052631578947
+results/u/retrospective.json,budget=1,svm10,envelope,late,macro_recall,0.5271929824561403
+results/u/retrospective.json,budget=1,svm10,severity,early,macro_recall,0.5307017543859649
+results/u/retrospective.json,budget=1,svm10,severity,late,macro_recall,0.393859649122807
+results/u/retrospective.json,budget=1,svm10,transport,early,macro_recall,0.6710526315789473
+results/u/retrospective.json,budget=1,svm10,transport,late,macro_recall,0.48508771929824557
+results/u/retrospective.json,budget=1,svm10,transport_mix,early,macro_recall,0.5982456140350876
+results/u/retrospective.json,budget=1,svm10,transport_mix,late,macro_recall,0.4236842105263158
+results/u/retrospective.json,budget=1,rf,real,early,macro_recall,0.5149122807017543
+results/u/retrospective.json,budget=1,rf,real,late,macro_recall,0.5245614035087719
+results/u/retrospective.json,budget=1,rf,duplicate,early,macro_recall,0.5149122807017543
+results/u/retrospective.json,budget=1,rf,duplicate,late,macro_recall,0.5245614035087719
+results/u/retrospective.json,budget=1,rf,surrogate,early,macro_recall,0.4754385964912281
+results/u/retrospective.json,budget=1,rf,surrogate,late,macro_recall,0.45
+results/u/retrospective.json,budget=1,rf,envelope,early,macro_recall,0.506140350877193
+results/u/retrospective.json,budget=1,rf,envelope,late,macro_recall,0.4780701754385964
+results/u/retrospective.json,budget=1,rf,severity,early,macro_recall,0.4894736842105263
+results/u/retrospective.json,budget=1,rf,severity,late,macro_recall,0.43070175438596486
+results/u/retrospective.json,budget=1,rf,transport,early,macro_recall,0.5535087719298245
+results/u/retrospective.json,budget=1,rf,transport,late,macro_recall,0.45
+results/u/retrospective.json,budget=1,rf,transport_mix,early,macro_recall,0.5385964912280702
+results/u/retrospective.json,budget=1,rf,transport_mix,late,macro_recall,0.47017543859649125
+results/u/retrospective.json,budget=2,svm1,real,early,macro_recall,0.637719298245614
+results/u/retrospective.json,budget=2,svm1,real,late,macro_recall,0.48947368421052634
+results/u/retrospective.json,budget=2,svm1,duplicate,early,macro_recall,0.637719298245614
+results/u/retrospective.json,budget=2,svm1,duplicate,late,macro_recall,0.48947368421052634
+results/u/retrospective.json,budget=2,svm1,surrogate,early,macro_recall,0.6447368421052632
+results/u/retrospective.json,budget=2,svm1,surrogate,late,macro_recall,0.5175438596491229
+results/u/retrospective.json,budget=2,svm1,envelope,early,macro_recall,0.637719298245614
+results/u/retrospective.json,budget=2,svm1,envelope,late,macro_recall,0.4833333333333334
+results/u/retrospective.json,budget=2,svm1,severity,early,macro_recall,0.6508771929824562
+results/u/retrospective.json,budget=2,svm1,severity,late,macro_recall,0.5166666666666666
+results/u/retrospective.json,budget=2,svm1,transport,early,macro_recall,0.6649122807017545
+results/u/retrospective.json,budget=2,svm1,transport,late,macro_recall,0.5464912280701754
+results/u/retrospective.json,budget=2,svm1,transport_mix,early,macro_recall,0.656140350877193
+results/u/retrospective.json,budget=2,svm1,transport_mix,late,macro_recall,0.4903508771929825
+results/u/retrospective.json,budget=2,svm10,real,early,macro_recall,0.637719298245614
+results/u/retrospective.json,budget=2,svm10,real,late,macro_recall,0.5035087719298246
+results/u/retrospective.json,budget=2,svm10,duplicate,early,macro_recall,0.637719298245614
+results/u/retrospective.json,budget=2,svm10,duplicate,late,macro_recall,0.5035087719298246
+results/u/retrospective.json,budget=2,svm10,surrogate,early,macro_recall,0.6605263157894737
+results/u/retrospective.json,budget=2,svm10,surrogate,late,macro_recall,0.5403508771929825
+results/u/retrospective.json,budget=2,svm10,envelope,early,macro_recall,0.6587719298245613
+results/u/retrospective.json,budget=2,svm10,envelope,late,macro_recall,0.5403508771929825
+results/u/retrospective.json,budget=2,svm10,severity,early,macro_recall,0.6754385964912281
+results/u/retrospective.json,budget=2,svm10,severity,late,macro_recall,0.5394736842105263
+results/u/retrospective.json,budget=2,svm10,transport,early,macro_recall,0.6859649122807017
+results/u/retrospective.json,budget=2,svm10,transport,late,macro_recall,0.5359649122807018
+results/u/retrospective.json,budget=2,svm10,transport_mix,early,macro_recall,0.6587719298245613
+results/u/retrospective.json,budget=2,svm10,transport_mix,late,macro_recall,0.5070175438596491
+results/u/retrospective.json,budget=2,rf,real,early,macro_recall,0.612280701754386
+results/u/retrospective.json,budget=2,rf,real,late,macro_recall,0.6000000000000001
+results/u/retrospective.json,budget=2,rf,duplicate,early,macro_recall,0.612280701754386
+results/u/retrospective.json,budget=2,rf,duplicate,late,macro_recall,0.6000000000000001
+results/u/retrospective.json,budget=2,rf,surrogate,early,macro_recall,0.6008771929824561
+results/u/retrospective.json,budget=2,rf,surrogate,late,macro_recall,0.5745614035087719
+results/u/retrospective.json,budget=2,rf,envelope,early,macro_recall,0.581578947368421
+results/u/retrospective.json,budget=2,rf,envelope,late,macro_recall,0.5745614035087719
+results/u/retrospective.json,budget=2,rf,severity,early,macro_recall,0.6429824561403509
+results/u/retrospective.json,budget=2,rf,severity,late,macro_recall,0.574561403508772
+results/u/retrospective.json,budget=2,rf,transport,early,macro_recall,0.5570175438596491
+results/u/retrospective.json,budget=2,rf,transport,late,macro_recall,0.5043859649122807
+results/u/retrospective.json,budget=2,rf,transport_mix,early,macro_recall,0.631578947368421
+results/u/retrospective.json,budget=2,rf,transport_mix,late,macro_recall,0.512280701754386
+results/u/retrospective.json,budget=4,svm1,real,early,macro_recall,0.6868421052631579
+results/u/retrospective.json,budget=4,svm1,real,late,macro_recall,0.5964912280701754
+results/u/retrospective.json,budget=4,svm1,duplicate,early,macro_recall,0.6868421052631579
+results/u/retrospective.json,budget=4,svm1,duplicate,late,macro_recall,0.5964912280701754
+results/u/retrospective.json,budget=4,svm1,surrogate,early,macro_recall,0.6921052631578948
+results/u/retrospective.json,budget=4,svm1,surrogate,late,macro_recall,0.5745614035087719
+results/u/retrospective.json,budget=4,svm1,envelope,early,macro_recall,0.6868421052631579
+results/u/retrospective.json,budget=4,svm1,envelope,late,macro_recall,0.6403508771929824
+results/u/retrospective.json,budget=4,svm1,severity,early,macro_recall,0.7017543859649124
+results/u/retrospective.json,budget=4,svm1,severity,late,macro_recall,0.5807017543859649
+results/u/retrospective.json,budget=4,svm1,transport,early,macro_recall,0.6947368421052631
+results/u/retrospective.json,budget=4,svm1,transport,late,macro_recall,0.5868421052631578
+results/u/retrospective.json,budget=4,svm1,transport_mix,early,macro_recall,0.725438596491228
+results/u/retrospective.json,budget=4,svm1,transport_mix,late,macro_recall,0.5754385964912281
+results/u/retrospective.json,budget=4,svm10,real,early,macro_recall,0.6842105263157895
+results/u/retrospective.json,budget=4,svm10,real,late,macro_recall,0.5789473684210527
+results/u/retrospective.json,budget=4,svm10,duplicate,early,macro_recall,0.6842105263157895
+results/u/retrospective.json,budget=4,svm10,duplicate,late,macro_recall,0.5789473684210527
+results/u/retrospective.json,budget=4,svm10,surrogate,early,macro_recall,0.6807017543859648
+results/u/retrospective.json,budget=4,svm10,surrogate,late,macro_recall,0.5561403508771929
+results/u/retrospective.json,budget=4,svm10,envelope,early,macro_recall,0.6526315789473685
+results/u/retrospective.json,budget=4,svm10,envelope,late,macro_recall,0.6087719298245614
+results/u/retrospective.json,budget=4,svm10,severity,early,macro_recall,0.7026315789473684
+results/u/retrospective.json,budget=4,svm10,severity,late,macro_recall,0.5789473684210527
+results/u/retrospective.json,budget=4,svm10,transport,early,macro_recall,0.7114035087719298
+results/u/retrospective.json,budget=4,svm10,transport,late,macro_recall,0.5868421052631578
+results/u/retrospective.json,budget=4,svm10,transport_mix,early,macro_recall,0.7298245614035087
+results/u/retrospective.json,budget=4,svm10,transport_mix,late,macro_recall,0.5421052631578948
+results/u/retrospective.json,budget=4,rf,real,early,macro_recall,0.6482456140350877
+results/u/retrospective.json,budget=4,rf,real,late,macro_recall,0.637719298245614
+results/u/retrospective.json,budget=4,rf,duplicate,early,macro_recall,0.6482456140350877
+results/u/retrospective.json,budget=4,rf,duplicate,late,macro_recall,0.637719298245614
+results/u/retrospective.json,budget=4,rf,surrogate,early,macro_recall,0.6728070175438597
+results/u/retrospective.json,budget=4,rf,surrogate,late,macro_recall,0.6771929824561402
+results/u/retrospective.json,budget=4,rf,envelope,early,macro_recall,0.6947368421052632
+results/u/retrospective.json,budget=4,rf,envelope,late,macro_recall,0.6973684210526316
+results/u/retrospective.json,budget=4,rf,severity,early,macro_recall,0.624561403508772
+results/u/retrospective.json,budget=4,rf,severity,late,macro_recall,0.6675438596491228
+results/u/retrospective.json,budget=4,rf,transport,early,macro_recall,0.650877192982456
+results/u/retrospective.json,budget=4,rf,transport,late,macro_recall,0.5912280701754387
+results/u/retrospective.json,budget=4,rf,transport_mix,early,macro_recall,0.7105263157894737
+results/u/retrospective.json,budget=4,rf,transport_mix,late,macro_recall,0.6307017543859649
+results/u/joint.json,range=8g,rf,real,early,macro_recall,0.6550925925925926
+results/u/joint.json,range=8g,rf,real,late,macro_recall,0.6222222222222222
+results/u/joint.json,range=8g,rf,duplicate,early,macro_recall,0.6550925925925926
+results/u/joint.json,range=8g,rf,duplicate,late,macro_recall,0.6222222222222222
+results/u/joint.json,range=8g,rf,surrogate,early,macro_recall,0.612037037037037
+results/u/joint.json,range=8g,rf,surrogate,late,macro_recall,0.6333333333333333
+results/u/joint.json,range=8g,rf,independent_phase,early,macro_recall,0.649074074074074
+results/u/joint.json,range=8g,rf,independent_phase,late,macro_recall,0.637037037037037
+results/u/joint.json,range=8g,rf,joint_phase,early,macro_recall,0.6324074074074074
+results/u/joint.json,range=8g,rf,joint_phase,late,macro_recall,0.6333333333333333
+results/u/joint.json,range=8g,svm1,real,early,macro_recall,0.3666666666666667
+results/u/joint.json,range=8g,svm1,real,late,macro_recall,0.5111111111111112
+results/u/joint.json,range=8g,svm1,duplicate,early,macro_recall,0.3666666666666667
+results/u/joint.json,range=8g,svm1,duplicate,late,macro_recall,0.5111111111111112
+results/u/joint.json,range=8g,svm1,surrogate,early,macro_recall,0.3666666666666667
+results/u/joint.json,range=8g,svm1,surrogate,late,macro_recall,0.49259259259259264
+results/u/joint.json,range=8g,svm1,independent_phase,early,macro_recall,0.35555555555555557
+results/u/joint.json,range=8g,svm1,independent_phase,late,macro_recall,0.5111111111111112
+results/u/joint.json,range=8g,svm1,joint_phase,early,macro_recall,0.3592592592592592
+results/u/joint.json,range=8g,svm1,joint_phase,late,macro_recall,0.4962962962962963
+results/u/joint.json,range=8g,svm10,real,early,macro_recall,0.3666666666666667
+results/u/joint.json,range=8g,svm10,real,late,macro_recall,0.5111111111111112
+results/u/joint.json,range=8g,svm10,duplicate,early,macro_recall,0.3666666666666667
+results/u/joint.json,range=8g,svm10,duplicate,late,macro_recall,0.5111111111111112
+results/u/joint.json,range=8g,svm10,surrogate,early,macro_recall,0.37592592592592594
+results/u/joint.json,range=8g,svm10,surrogate,late,macro_recall,0.5333333333333333
+results/u/joint.json,range=8g,svm10,independent_phase,early,macro_recall,0.35555555555555557
+results/u/joint.json,range=8g,svm10,independent_phase,late,macro_recall,0.5074074074074074
+results/u/joint.json,range=8g,svm10,joint_phase,early,macro_recall,0.3592592592592592
+results/u/joint.json,range=8g,svm10,joint_phase,late,macro_recall,0.4962962962962963
+results/u/joint.json,range=16g,rf,real,early,macro_recall,0.6
+results/u/joint.json,range=16g,rf,real,late,macro_recall,0.5944444444444444
+results/u/joint.json,range=16g,rf,duplicate,early,macro_recall,0.6
+results/u/joint.json,range=16g,rf,duplicate,late,macro_recall,0.5944444444444444
+results/u/joint.json,range=16g,rf,surrogate,early,macro_recall,0.6490740740740741
+results/u/joint.json,range=16g,rf,surrogate,late,macro_recall,0.6111111111111112
+results/u/joint.json,range=16g,rf,independent_phase,early,macro_recall,0.6231481481481481
+results/u/joint.json,range=16g,rf,independent_phase,late,macro_recall,0.6444444444444445
+results/u/joint.json,range=16g,rf,joint_phase,early,macro_recall,0.6597222222222223
+results/u/joint.json,range=16g,rf,joint_phase,late,macro_recall,0.6351851851851852
+results/u/joint.json,range=16g,svm1,real,early,macro_recall,0.4513888888888889
+results/u/joint.json,range=16g,svm1,real,late,macro_recall,0.45555555555555555
+results/u/joint.json,range=16g,svm1,duplicate,early,macro_recall,0.4513888888888889
+results/u/joint.json,range=16g,svm1,duplicate,late,macro_recall,0.45555555555555555
+results/u/joint.json,range=16g,svm1,surrogate,early,macro_recall,0.4513888888888889
+results/u/joint.json,range=16g,svm1,surrogate,late,macro_recall,0.4518518518518519
+results/u/joint.json,range=16g,svm1,independent_phase,early,macro_recall,0.4587962962962963
+results/u/joint.json,range=16g,svm1,independent_phase,late,macro_recall,0.45555555555555555
+results/u/joint.json,range=16g,svm1,joint_phase,early,macro_recall,0.46249999999999997
+results/u/joint.json,range=16g,svm1,joint_phase,late,macro_recall,0.45555555555555555
+results/u/joint.json,range=16g,svm10,real,early,macro_recall,0.4513888888888889
+results/u/joint.json,range=16g,svm10,real,late,macro_recall,0.45555555555555555
+results/u/joint.json,range=16g,svm10,duplicate,early,macro_recall,0.4513888888888889
+results/u/joint.json,range=16g,svm10,duplicate,late,macro_recall,0.45555555555555555
+results/u/joint.json,range=16g,svm10,surrogate,early,macro_recall,0.4837962962962963
+results/u/joint.json,range=16g,svm10,surrogate,late,macro_recall,0.45555555555555555
+results/u/joint.json,range=16g,svm10,independent_phase,early,macro_recall,0.46249999999999997
+results/u/joint.json,range=16g,svm10,independent_phase,late,macro_recall,0.45555555555555555
+results/u/joint.json,range=16g,svm10,joint_phase,early,macro_recall,0.47129629629629627
+results/u/joint.json,range=16g,svm10,joint_phase,late,macro_recall,0.45555555555555555
+results/u/joint.json,range=64g,rf,real,early,macro_recall,0.6898148148148148
+results/u/joint.json,range=64g,rf,real,late,macro_recall,0.5814814814814815
+results/u/joint.json,range=64g,rf,duplicate,early,macro_recall,0.6898148148148148
+results/u/joint.json,range=64g,rf,duplicate,late,macro_recall,0.5814814814814815
+results/u/joint.json,range=64g,rf,surrogate,early,macro_recall,0.6680555555555555
+results/u/joint.json,range=64g,rf,surrogate,late,macro_recall,0.5351851851851852
+results/u/joint.json,range=64g,rf,independent_phase,early,macro_recall,0.6907407407407407
+results/u/joint.json,range=64g,rf,independent_phase,late,macro_recall,0.562962962962963
+results/u/joint.json,range=64g,rf,joint_phase,early,macro_recall,0.6944444444444443
+results/u/joint.json,range=64g,rf,joint_phase,late,macro_recall,0.5592592592592592
+results/u/joint.json,range=64g,svm1,real,early,macro_recall,0.4666666666666666
+results/u/joint.json,range=64g,svm1,real,late,macro_recall,0.43333333333333335
+results/u/joint.json,range=64g,svm1,duplicate,early,macro_recall,0.4666666666666666
+results/u/joint.json,range=64g,svm1,duplicate,late,macro_recall,0.43333333333333335
+results/u/joint.json,range=64g,svm1,surrogate,early,macro_recall,0.486111111111111
+results/u/joint.json,range=64g,svm1,surrogate,late,macro_recall,0.4407407407407407
+results/u/joint.json,range=64g,svm1,independent_phase,early,macro_recall,0.4666666666666666
+results/u/joint.json,range=64g,svm1,independent_phase,late,macro_recall,0.4444444444444444
+results/u/joint.json,range=64g,svm1,joint_phase,early,macro_recall,0.4666666666666666
+results/u/joint.json,range=64g,svm1,joint_phase,late,macro_recall,0.4444444444444444
+results/u/joint.json,range=64g,svm10,real,early,macro_recall,0.4666666666666666
+results/u/joint.json,range=64g,svm10,real,late,macro_recall,0.43333333333333335
+results/u/joint.json,range=64g,svm10,duplicate,early,macro_recall,0.4666666666666666
+results/u/joint.json,range=64g,svm10,duplicate,late,macro_recall,0.43333333333333335
+results/u/joint.json,range=64g,svm10,surrogate,early,macro_recall,0.5023148148148148
+results/u/joint.json,range=64g,svm10,surrogate,late,macro_recall,0.4444444444444444
+results/u/joint.json,range=64g,svm10,independent_phase,early,macro_recall,0.4740740740740741
+results/u/joint.json,range=64g,svm10,independent_phase,late,macro_recall,0.4481481481481482
+results/u/joint.json,range=64g,svm10,joint_phase,early,macro_recall,0.4666666666666666
+results/u/joint.json,range=64g,svm10,joint_phase,late,macro_recall,0.4444444444444444
+results/t/readiness.json,closed:conditional,rf,real,preterminal_recall,preterminal_recall,0.6958333333333333
+results/t/readiness.json,closed:conditional,rf,real,terminal_recall,terminal_recall,0.7611111111111111
+results/t/readiness.json,closed:conditional,rf,real,cage_recall,cage_recall,0.3499999999999999
+results/t/readiness.json,closed:conditional,rf,real,healthy_fault_claim,healthy_fault_claim,1.0
+results/t/readiness.json,closed:selective_0,rf,real,preterminal_recall,preterminal_recall,0.5875
+results/t/readiness.json,closed:selective_0,rf,real,terminal_recall,terminal_recall,0.6833333333333335
+results/t/readiness.json,closed:selective_0,rf,real,cage_recall,cage_recall,0.11666666666666665
+results/t/readiness.json,closed:selective_0,rf,real,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,closed:selective_0.5,rf,real,preterminal_recall,preterminal_recall,0.4328703703703704
+results/t/readiness.json,closed:selective_0.5,rf,real,terminal_recall,terminal_recall,0.5884259259259259
+results/t/readiness.json,closed:selective_0.5,rf,real,cage_recall,cage_recall,0.0
+results/t/readiness.json,closed:selective_0.5,rf,real,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,closed:selective_0.7,rf,real,preterminal_recall,preterminal_recall,0.2652777777777778
+results/t/readiness.json,closed:selective_0.7,rf,real,terminal_recall,terminal_recall,0.3203703703703704
+results/t/readiness.json,closed:selective_0.7,rf,real,cage_recall,cage_recall,0.0
+results/t/readiness.json,closed:selective_0.7,rf,real,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,closed:selective_0.9,rf,real,preterminal_recall,preterminal_recall,0.06527777777777778
+results/t/readiness.json,closed:selective_0.9,rf,real,terminal_recall,terminal_recall,0.09583333333333333
+results/t/readiness.json,closed:selective_0.9,rf,real,cage_recall,cage_recall,0.0
+results/t/readiness.json,closed:selective_0.9,rf,real,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,closed:conditional,rf,duplicate,preterminal_recall,preterminal_recall,0.6958333333333333
+results/t/readiness.json,closed:conditional,rf,duplicate,terminal_recall,terminal_recall,0.7611111111111111
+results/t/readiness.json,closed:conditional,rf,duplicate,cage_recall,cage_recall,0.3499999999999999
+results/t/readiness.json,closed:conditional,rf,duplicate,healthy_fault_claim,healthy_fault_claim,1.0
+results/t/readiness.json,closed:selective_0,rf,duplicate,preterminal_recall,preterminal_recall,0.5875
+results/t/readiness.json,closed:selective_0,rf,duplicate,terminal_recall,terminal_recall,0.6833333333333335
+results/t/readiness.json,closed:selective_0,rf,duplicate,cage_recall,cage_recall,0.11666666666666665
+results/t/readiness.json,closed:selective_0,rf,duplicate,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,closed:selective_0.5,rf,duplicate,preterminal_recall,preterminal_recall,0.4328703703703704
+results/t/readiness.json,closed:selective_0.5,rf,duplicate,terminal_recall,terminal_recall,0.5884259259259259
+results/t/readiness.json,closed:selective_0.5,rf,duplicate,cage_recall,cage_recall,0.0
+results/t/readiness.json,closed:selective_0.5,rf,duplicate,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,closed:selective_0.7,rf,duplicate,preterminal_recall,preterminal_recall,0.2652777777777778
+results/t/readiness.json,closed:selective_0.7,rf,duplicate,terminal_recall,terminal_recall,0.3203703703703704
+results/t/readiness.json,closed:selective_0.7,rf,duplicate,cage_recall,cage_recall,0.0
+results/t/readiness.json,closed:selective_0.7,rf,duplicate,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,closed:selective_0.9,rf,duplicate,preterminal_recall,preterminal_recall,0.06527777777777778
+results/t/readiness.json,closed:selective_0.9,rf,duplicate,terminal_recall,terminal_recall,0.09583333333333333
+results/t/readiness.json,closed:selective_0.9,rf,duplicate,cage_recall,cage_recall,0.0
+results/t/readiness.json,closed:selective_0.9,rf,duplicate,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,closed:conditional,rf,surrogate,preterminal_recall,preterminal_recall,0.7462962962962963
+results/t/readiness.json,closed:conditional,rf,surrogate,terminal_recall,terminal_recall,0.7444444444444445
+results/t/readiness.json,closed:conditional,rf,surrogate,cage_recall,cage_recall,0.3333333333333333
+results/t/readiness.json,closed:conditional,rf,surrogate,healthy_fault_claim,healthy_fault_claim,0.9948717948717949
+results/t/readiness.json,closed:selective_0,rf,surrogate,preterminal_recall,preterminal_recall,0.5671296296296297
+results/t/readiness.json,closed:selective_0,rf,surrogate,terminal_recall,terminal_recall,0.6333333333333333
+results/t/readiness.json,closed:selective_0,rf,surrogate,cage_recall,cage_recall,0.0
+results/t/readiness.json,closed:selective_0,rf,surrogate,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,closed:selective_0.5,rf,surrogate,preterminal_recall,preterminal_recall,0.4768518518518519
+results/t/readiness.json,closed:selective_0.5,rf,surrogate,terminal_recall,terminal_recall,0.5958333333333333
+results/t/readiness.json,closed:selective_0.5,rf,surrogate,cage_recall,cage_recall,0.0
+results/t/readiness.json,closed:selective_0.5,rf,surrogate,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,closed:selective_0.7,rf,surrogate,preterminal_recall,preterminal_recall,0.28194444444444444
+results/t/readiness.json,closed:selective_0.7,rf,surrogate,terminal_recall,terminal_recall,0.3421296296296296
+results/t/readiness.json,closed:selective_0.7,rf,surrogate,cage_recall,cage_recall,0.0
+results/t/readiness.json,closed:selective_0.7,rf,surrogate,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,closed:selective_0.9,rf,surrogate,preterminal_recall,preterminal_recall,0.06944444444444445
+results/t/readiness.json,closed:selective_0.9,rf,surrogate,terminal_recall,terminal_recall,0.09027777777777779
+results/t/readiness.json,closed:selective_0.9,rf,surrogate,cage_recall,cage_recall,0.0
+results/t/readiness.json,closed:selective_0.9,rf,surrogate,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,closed:conditional,rf,severity,preterminal_recall,preterminal_recall,0.7305555555555555
+results/t/readiness.json,closed:conditional,rf,severity,terminal_recall,terminal_recall,0.7796296296296297
+results/t/readiness.json,closed:conditional,rf,severity,cage_recall,cage_recall,0.4166666666666667
+results/t/readiness.json,closed:conditional,rf,severity,healthy_fault_claim,healthy_fault_claim,1.0
+results/t/readiness.json,closed:selective_0,rf,severity,preterminal_recall,preterminal_recall,0.6055555555555555
+results/t/readiness.json,closed:selective_0,rf,severity,terminal_recall,terminal_recall,0.662962962962963
+results/t/readiness.json,closed:selective_0,rf,severity,cage_recall,cage_recall,0.06666666666666667
+results/t/readiness.json,closed:selective_0,rf,severity,healthy_fault_claim,healthy_fault_claim,0.010256410256410256
+results/t/readiness.json,closed:selective_0.5,rf,severity,preterminal_recall,preterminal_recall,0.5
+results/t/readiness.json,closed:selective_0.5,rf,severity,terminal_recall,terminal_recall,0.5513888888888889
+results/t/readiness.json,closed:selective_0.5,rf,severity,cage_recall,cage_recall,0.0
+results/t/readiness.json,closed:selective_0.5,rf,severity,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,closed:selective_0.7,rf,severity,preterminal_recall,preterminal_recall,0.26851851851851855
+results/t/readiness.json,closed:selective_0.7,rf,severity,terminal_recall,terminal_recall,0.3314814814814815
+results/t/readiness.json,closed:selective_0.7,rf,severity,cage_recall,cage_recall,0.0
+results/t/readiness.json,closed:selective_0.7,rf,severity,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,closed:selective_0.9,rf,severity,preterminal_recall,preterminal_recall,0.075
+results/t/readiness.json,closed:selective_0.9,rf,severity,terminal_recall,terminal_recall,0.10972222222222222
+results/t/readiness.json,closed:selective_0.9,rf,severity,cage_recall,cage_recall,0.0
+results/t/readiness.json,closed:selective_0.9,rf,severity,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,closed:conditional,rf,transport,preterminal_recall,preterminal_recall,0.7555555555555555
+results/t/readiness.json,closed:conditional,rf,transport,terminal_recall,terminal_recall,0.7888888888888889
+results/t/readiness.json,closed:conditional,rf,transport,cage_recall,cage_recall,0.43333333333333335
+results/t/readiness.json,closed:conditional,rf,transport,healthy_fault_claim,healthy_fault_claim,1.0
+results/t/readiness.json,closed:selective_0,rf,transport,preterminal_recall,preterminal_recall,0.7194444444444444
+results/t/readiness.json,closed:selective_0,rf,transport,terminal_recall,terminal_recall,0.7777777777777778
+results/t/readiness.json,closed:selective_0,rf,transport,cage_recall,cage_recall,0.4000000000000001
+results/t/readiness.json,closed:selective_0,rf,transport,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,closed:selective_0.5,rf,transport,preterminal_recall,preterminal_recall,0.5435185185185185
+results/t/readiness.json,closed:selective_0.5,rf,transport,terminal_recall,terminal_recall,0.5888888888888889
+results/t/readiness.json,closed:selective_0.5,rf,transport,cage_recall,cage_recall,0.0
+results/t/readiness.json,closed:selective_0.5,rf,transport,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,closed:selective_0.7,rf,transport,preterminal_recall,preterminal_recall,0.29444444444444445
+results/t/readiness.json,closed:selective_0.7,rf,transport,terminal_recall,terminal_recall,0.3282407407407407
+results/t/readiness.json,closed:selective_0.7,rf,transport,cage_recall,cage_recall,0.0
+results/t/readiness.json,closed:selective_0.7,rf,transport,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,closed:selective_0.9,rf,transport,preterminal_recall,preterminal_recall,0.07083333333333333
+results/t/readiness.json,closed:selective_0.9,rf,transport,terminal_recall,terminal_recall,0.09675925925925927
+results/t/readiness.json,closed:selective_0.9,rf,transport,cage_recall,cage_recall,0.0
+results/t/readiness.json,closed:selective_0.9,rf,transport,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,closed:conditional,svm1,real,preterminal_recall,preterminal_recall,0.4763888888888889
+results/t/readiness.json,closed:conditional,svm1,real,terminal_recall,terminal_recall,0.5763888888888888
+results/t/readiness.json,closed:conditional,svm1,real,cage_recall,cage_recall,0.0
+results/t/readiness.json,closed:conditional,svm1,real,healthy_fault_claim,healthy_fault_claim,1.0
+results/t/readiness.json,closed:selective_0,svm1,real,preterminal_recall,preterminal_recall,0.44722222222222224
+results/t/readiness.json,closed:selective_0,svm1,real,terminal_recall,terminal_recall,0.5763888888888888
+results/t/readiness.json,closed:selective_0,svm1,real,cage_recall,cage_recall,0.0
+results/t/readiness.json,closed:selective_0,svm1,real,healthy_fault_claim,healthy_fault_claim,0.030769230769230774
+results/t/readiness.json,closed:selective_0.5,svm1,real,preterminal_recall,preterminal_recall,0.4138888888888889
+results/t/readiness.json,closed:selective_0.5,svm1,real,terminal_recall,terminal_recall,0.5097222222222223
+results/t/readiness.json,closed:selective_0.5,svm1,real,cage_recall,cage_recall,0.0
+results/t/readiness.json,closed:selective_0.5,svm1,real,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,closed:selective_0.7,svm1,real,preterminal_recall,preterminal_recall,0.1125
+results/t/readiness.json,closed:selective_0.7,svm1,real,terminal_recall,terminal_recall,0.12083333333333335
+results/t/readiness.json,closed:selective_0.7,svm1,real,cage_recall,cage_recall,0.0
+results/t/readiness.json,closed:selective_0.7,svm1,real,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,closed:selective_0.9,svm1,real,preterminal_recall,preterminal_recall,0.0
+results/t/readiness.json,closed:selective_0.9,svm1,real,terminal_recall,terminal_recall,0.0
+results/t/readiness.json,closed:selective_0.9,svm1,real,cage_recall,cage_recall,0.0
+results/t/readiness.json,closed:selective_0.9,svm1,real,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,closed:conditional,svm1,duplicate,preterminal_recall,preterminal_recall,0.4763888888888889
+results/t/readiness.json,closed:conditional,svm1,duplicate,terminal_recall,terminal_recall,0.5763888888888888
+results/t/readiness.json,closed:conditional,svm1,duplicate,cage_recall,cage_recall,0.0
+results/t/readiness.json,closed:conditional,svm1,duplicate,healthy_fault_claim,healthy_fault_claim,1.0
+results/t/readiness.json,closed:selective_0,svm1,duplicate,preterminal_recall,preterminal_recall,0.44722222222222224
+results/t/readiness.json,closed:selective_0,svm1,duplicate,terminal_recall,terminal_recall,0.5763888888888888
+results/t/readiness.json,closed:selective_0,svm1,duplicate,cage_recall,cage_recall,0.0
+results/t/readiness.json,closed:selective_0,svm1,duplicate,healthy_fault_claim,healthy_fault_claim,0.030769230769230774
+results/t/readiness.json,closed:selective_0.5,svm1,duplicate,preterminal_recall,preterminal_recall,0.4138888888888889
+results/t/readiness.json,closed:selective_0.5,svm1,duplicate,terminal_recall,terminal_recall,0.5097222222222223
+results/t/readiness.json,closed:selective_0.5,svm1,duplicate,cage_recall,cage_recall,0.0
+results/t/readiness.json,closed:selective_0.5,svm1,duplicate,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,closed:selective_0.7,svm1,duplicate,preterminal_recall,preterminal_recall,0.1125
+results/t/readiness.json,closed:selective_0.7,svm1,duplicate,terminal_recall,terminal_recall,0.12083333333333335
+results/t/readiness.json,closed:selective_0.7,svm1,duplicate,cage_recall,cage_recall,0.0
+results/t/readiness.json,closed:selective_0.7,svm1,duplicate,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,closed:selective_0.9,svm1,duplicate,preterminal_recall,preterminal_recall,0.0
+results/t/readiness.json,closed:selective_0.9,svm1,duplicate,terminal_recall,terminal_recall,0.0
+results/t/readiness.json,closed:selective_0.9,svm1,duplicate,cage_recall,cage_recall,0.0
+results/t/readiness.json,closed:selective_0.9,svm1,duplicate,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,closed:conditional,svm1,surrogate,preterminal_recall,preterminal_recall,0.49120370370370364
+results/t/readiness.json,closed:conditional,svm1,surrogate,terminal_recall,terminal_recall,0.5763888888888888
+results/t/readiness.json,closed:conditional,svm1,surrogate,cage_recall,cage_recall,0.0
+results/t/readiness.json,closed:conditional,svm1,surrogate,healthy_fault_claim,healthy_fault_claim,1.0
+results/t/readiness.json,closed:selective_0,svm1,surrogate,preterminal_recall,preterminal_recall,0.462037037037037
+results/t/readiness.json,closed:selective_0,svm1,surrogate,terminal_recall,terminal_recall,0.5763888888888888
+results/t/readiness.json,closed:selective_0,svm1,surrogate,cage_recall,cage_recall,0.0
+results/t/readiness.json,closed:selective_0,svm1,surrogate,healthy_fault_claim,healthy_fault_claim,0.030769230769230774
+results/t/readiness.json,closed:selective_0.5,svm1,surrogate,preterminal_recall,preterminal_recall,0.4324074074074074
+results/t/readiness.json,closed:selective_0.5,svm1,surrogate,terminal_recall,terminal_recall,0.5097222222222223
+results/t/readiness.json,closed:selective_0.5,svm1,surrogate,cage_recall,cage_recall,0.0
+results/t/readiness.json,closed:selective_0.5,svm1,surrogate,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,closed:selective_0.7,svm1,surrogate,preterminal_recall,preterminal_recall,0.1125
+results/t/readiness.json,closed:selective_0.7,svm1,surrogate,terminal_recall,terminal_recall,0.12361111111111112
+results/t/readiness.json,closed:selective_0.7,svm1,surrogate,cage_recall,cage_recall,0.0
+results/t/readiness.json,closed:selective_0.7,svm1,surrogate,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,closed:selective_0.9,svm1,surrogate,preterminal_recall,preterminal_recall,0.0
+results/t/readiness.json,closed:selective_0.9,svm1,surrogate,terminal_recall,terminal_recall,0.0
+results/t/readiness.json,closed:selective_0.9,svm1,surrogate,cage_recall,cage_recall,0.0
+results/t/readiness.json,closed:selective_0.9,svm1,surrogate,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,closed:conditional,svm1,severity,preterminal_recall,preterminal_recall,0.49074074074074076
+results/t/readiness.json,closed:conditional,svm1,severity,terminal_recall,terminal_recall,0.5773148148148147
+results/t/readiness.json,closed:conditional,svm1,severity,cage_recall,cage_recall,0.0
+results/t/readiness.json,closed:conditional,svm1,severity,healthy_fault_claim,healthy_fault_claim,1.0
+results/t/readiness.json,closed:selective_0,svm1,severity,preterminal_recall,preterminal_recall,0.47685185185185186
+results/t/readiness.json,closed:selective_0,svm1,severity,terminal_recall,terminal_recall,0.5773148148148147
+results/t/readiness.json,closed:selective_0,svm1,severity,cage_recall,cage_recall,0.0
+results/t/readiness.json,closed:selective_0,svm1,severity,healthy_fault_claim,healthy_fault_claim,0.030769230769230774
+results/t/readiness.json,closed:selective_0.5,svm1,severity,preterminal_recall,preterminal_recall,0.4324074074074074
+results/t/readiness.json,closed:selective_0.5,svm1,severity,terminal_recall,terminal_recall,0.548611111111111
+results/t/readiness.json,closed:selective_0.5,svm1,severity,cage_recall,cage_recall,0.0
+results/t/readiness.json,closed:selective_0.5,svm1,severity,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,closed:selective_0.7,svm1,severity,preterminal_recall,preterminal_recall,0.11388888888888889
+results/t/readiness.json,closed:selective_0.7,svm1,severity,terminal_recall,terminal_recall,0.12916666666666665
+results/t/readiness.json,closed:selective_0.7,svm1,severity,cage_recall,cage_recall,0.0
+results/t/readiness.json,closed:selective_0.7,svm1,severity,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,closed:selective_0.9,svm1,severity,preterminal_recall,preterminal_recall,0.0
+results/t/readiness.json,closed:selective_0.9,svm1,severity,terminal_recall,terminal_recall,0.0
+results/t/readiness.json,closed:selective_0.9,svm1,severity,cage_recall,cage_recall,0.0
+results/t/readiness.json,closed:selective_0.9,svm1,severity,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,closed:conditional,svm1,transport,preterminal_recall,preterminal_recall,0.524537037037037
+results/t/readiness.json,closed:conditional,svm1,transport,terminal_recall,terminal_recall,0.6296296296296297
+results/t/readiness.json,closed:conditional,svm1,transport,cage_recall,cage_recall,0.0
+results/t/readiness.json,closed:conditional,svm1,transport,healthy_fault_claim,healthy_fault_claim,1.0
+results/t/readiness.json,closed:selective_0,svm1,transport,preterminal_recall,preterminal_recall,0.5064814814814814
+results/t/readiness.json,closed:selective_0,svm1,transport,terminal_recall,terminal_recall,0.6296296296296297
+results/t/readiness.json,closed:selective_0,svm1,transport,cage_recall,cage_recall,0.0
+results/t/readiness.json,closed:selective_0,svm1,transport,healthy_fault_claim,healthy_fault_claim,0.015384615384615387
+results/t/readiness.json,closed:selective_0.5,svm1,transport,preterminal_recall,preterminal_recall,0.4398148148148148
+results/t/readiness.json,closed:selective_0.5,svm1,transport,terminal_recall,terminal_recall,0.6
+results/t/readiness.json,closed:selective_0.5,svm1,transport,cage_recall,cage_recall,0.0
+results/t/readiness.json,closed:selective_0.5,svm1,transport,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,closed:selective_0.7,svm1,transport,preterminal_recall,preterminal_recall,0.09444444444444444
+results/t/readiness.json,closed:selective_0.7,svm1,transport,terminal_recall,terminal_recall,0.06666666666666667
+results/t/readiness.json,closed:selective_0.7,svm1,transport,cage_recall,cage_recall,0.0
+results/t/readiness.json,closed:selective_0.7,svm1,transport,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,closed:selective_0.9,svm1,transport,preterminal_recall,preterminal_recall,0.0
+results/t/readiness.json,closed:selective_0.9,svm1,transport,terminal_recall,terminal_recall,0.0
+results/t/readiness.json,closed:selective_0.9,svm1,transport,cage_recall,cage_recall,0.0
+results/t/readiness.json,closed:selective_0.9,svm1,transport,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,missing_cage:conditional,rf,real,preterminal_recall,preterminal_recall,0.6259259259259259
+results/t/readiness.json,missing_cage:conditional,rf,real,terminal_recall,terminal_recall,0.6444444444444444
+results/t/readiness.json,missing_cage:conditional,rf,real,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:conditional,rf,real,healthy_fault_claim,healthy_fault_claim,0.9948717948717949
+results/t/readiness.json,missing_cage:conditional,rf,real,unknown_cage_fault_claim,unknown_cage_fault_claim,1.0
+results/t/readiness.json,missing_cage:selective_0,rf,real,preterminal_recall,preterminal_recall,0.587037037037037
+results/t/readiness.json,missing_cage:selective_0,rf,real,terminal_recall,terminal_recall,0.6444444444444444
+results/t/readiness.json,missing_cage:selective_0,rf,real,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:selective_0,rf,real,healthy_fault_claim,healthy_fault_claim,0.005128205128205128
+results/t/readiness.json,missing_cage:selective_0,rf,real,unknown_cage_fault_claim,unknown_cage_fault_claim,1.0
+results/t/readiness.json,missing_cage:selective_0.5,rf,real,preterminal_recall,preterminal_recall,0.5805555555555556
+results/t/readiness.json,missing_cage:selective_0.5,rf,real,terminal_recall,terminal_recall,0.6444444444444444
+results/t/readiness.json,missing_cage:selective_0.5,rf,real,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:selective_0.5,rf,real,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,missing_cage:selective_0.5,rf,real,unknown_cage_fault_claim,unknown_cage_fault_claim,0.75
+results/t/readiness.json,missing_cage:selective_0.7,rf,real,preterminal_recall,preterminal_recall,0.42731481481481487
+results/t/readiness.json,missing_cage:selective_0.7,rf,real,terminal_recall,terminal_recall,0.41759259259259257
+results/t/readiness.json,missing_cage:selective_0.7,rf,real,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:selective_0.7,rf,real,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,missing_cage:selective_0.7,rf,real,unknown_cage_fault_claim,unknown_cage_fault_claim,0.48333333333333334
+results/t/readiness.json,missing_cage:selective_0.9,rf,real,preterminal_recall,preterminal_recall,0.1638888888888889
+results/t/readiness.json,missing_cage:selective_0.9,rf,real,terminal_recall,terminal_recall,0.18425925925925923
+results/t/readiness.json,missing_cage:selective_0.9,rf,real,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:selective_0.9,rf,real,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,missing_cage:selective_0.9,rf,real,unknown_cage_fault_claim,unknown_cage_fault_claim,0.3166666666666667
+results/t/readiness.json,missing_cage:conditional,rf,duplicate,preterminal_recall,preterminal_recall,0.6259259259259259
+results/t/readiness.json,missing_cage:conditional,rf,duplicate,terminal_recall,terminal_recall,0.6444444444444444
+results/t/readiness.json,missing_cage:conditional,rf,duplicate,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:conditional,rf,duplicate,healthy_fault_claim,healthy_fault_claim,0.9948717948717949
+results/t/readiness.json,missing_cage:conditional,rf,duplicate,unknown_cage_fault_claim,unknown_cage_fault_claim,1.0
+results/t/readiness.json,missing_cage:selective_0,rf,duplicate,preterminal_recall,preterminal_recall,0.587037037037037
+results/t/readiness.json,missing_cage:selective_0,rf,duplicate,terminal_recall,terminal_recall,0.6444444444444444
+results/t/readiness.json,missing_cage:selective_0,rf,duplicate,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:selective_0,rf,duplicate,healthy_fault_claim,healthy_fault_claim,0.005128205128205128
+results/t/readiness.json,missing_cage:selective_0,rf,duplicate,unknown_cage_fault_claim,unknown_cage_fault_claim,1.0
+results/t/readiness.json,missing_cage:selective_0.5,rf,duplicate,preterminal_recall,preterminal_recall,0.5805555555555556
+results/t/readiness.json,missing_cage:selective_0.5,rf,duplicate,terminal_recall,terminal_recall,0.6444444444444444
+results/t/readiness.json,missing_cage:selective_0.5,rf,duplicate,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:selective_0.5,rf,duplicate,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,missing_cage:selective_0.5,rf,duplicate,unknown_cage_fault_claim,unknown_cage_fault_claim,0.75
+results/t/readiness.json,missing_cage:selective_0.7,rf,duplicate,preterminal_recall,preterminal_recall,0.42731481481481487
+results/t/readiness.json,missing_cage:selective_0.7,rf,duplicate,terminal_recall,terminal_recall,0.41759259259259257
+results/t/readiness.json,missing_cage:selective_0.7,rf,duplicate,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:selective_0.7,rf,duplicate,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,missing_cage:selective_0.7,rf,duplicate,unknown_cage_fault_claim,unknown_cage_fault_claim,0.48333333333333334
+results/t/readiness.json,missing_cage:selective_0.9,rf,duplicate,preterminal_recall,preterminal_recall,0.1638888888888889
+results/t/readiness.json,missing_cage:selective_0.9,rf,duplicate,terminal_recall,terminal_recall,0.18425925925925923
+results/t/readiness.json,missing_cage:selective_0.9,rf,duplicate,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:selective_0.9,rf,duplicate,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,missing_cage:selective_0.9,rf,duplicate,unknown_cage_fault_claim,unknown_cage_fault_claim,0.3166666666666667
+results/t/readiness.json,missing_cage:conditional,rf,surrogate,preterminal_recall,preterminal_recall,0.6074074074074075
+results/t/readiness.json,missing_cage:conditional,rf,surrogate,terminal_recall,terminal_recall,0.6259259259259259
+results/t/readiness.json,missing_cage:conditional,rf,surrogate,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:conditional,rf,surrogate,healthy_fault_claim,healthy_fault_claim,0.9948717948717949
+results/t/readiness.json,missing_cage:conditional,rf,surrogate,unknown_cage_fault_claim,unknown_cage_fault_claim,1.0
+results/t/readiness.json,missing_cage:selective_0,rf,surrogate,preterminal_recall,preterminal_recall,0.5671296296296297
+results/t/readiness.json,missing_cage:selective_0,rf,surrogate,terminal_recall,terminal_recall,0.6259259259259259
+results/t/readiness.json,missing_cage:selective_0,rf,surrogate,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:selective_0,rf,surrogate,healthy_fault_claim,healthy_fault_claim,0.020512820512820513
+results/t/readiness.json,missing_cage:selective_0,rf,surrogate,unknown_cage_fault_claim,unknown_cage_fault_claim,0.75
+results/t/readiness.json,missing_cage:selective_0.5,rf,surrogate,preterminal_recall,preterminal_recall,0.5657407407407408
+results/t/readiness.json,missing_cage:selective_0.5,rf,surrogate,terminal_recall,terminal_recall,0.6259259259259259
+results/t/readiness.json,missing_cage:selective_0.5,rf,surrogate,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:selective_0.5,rf,surrogate,healthy_fault_claim,healthy_fault_claim,0.015384615384615387
+results/t/readiness.json,missing_cage:selective_0.5,rf,surrogate,unknown_cage_fault_claim,unknown_cage_fault_claim,0.5
+results/t/readiness.json,missing_cage:selective_0.7,rf,surrogate,preterminal_recall,preterminal_recall,0.4134259259259259
+results/t/readiness.json,missing_cage:selective_0.7,rf,surrogate,terminal_recall,terminal_recall,0.39814814814814814
+results/t/readiness.json,missing_cage:selective_0.7,rf,surrogate,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:selective_0.7,rf,surrogate,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,missing_cage:selective_0.7,rf,surrogate,unknown_cage_fault_claim,unknown_cage_fault_claim,0.5
+results/t/readiness.json,missing_cage:selective_0.9,rf,surrogate,preterminal_recall,preterminal_recall,0.1773148148148148
+results/t/readiness.json,missing_cage:selective_0.9,rf,surrogate,terminal_recall,terminal_recall,0.20925925925925926
+results/t/readiness.json,missing_cage:selective_0.9,rf,surrogate,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:selective_0.9,rf,surrogate,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,missing_cage:selective_0.9,rf,surrogate,unknown_cage_fault_claim,unknown_cage_fault_claim,0.18333333333333335
+results/t/readiness.json,missing_cage:conditional,rf,severity,preterminal_recall,preterminal_recall,0.6143518518518519
+results/t/readiness.json,missing_cage:conditional,rf,severity,terminal_recall,terminal_recall,0.6185185185185186
+results/t/readiness.json,missing_cage:conditional,rf,severity,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:conditional,rf,severity,healthy_fault_claim,healthy_fault_claim,0.9948717948717949
+results/t/readiness.json,missing_cage:conditional,rf,severity,unknown_cage_fault_claim,unknown_cage_fault_claim,1.0
+results/t/readiness.json,missing_cage:selective_0,rf,severity,preterminal_recall,preterminal_recall,0.5796296296296296
+results/t/readiness.json,missing_cage:selective_0,rf,severity,terminal_recall,terminal_recall,0.6185185185185186
+results/t/readiness.json,missing_cage:selective_0,rf,severity,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:selective_0,rf,severity,healthy_fault_claim,healthy_fault_claim,0.02564102564102564
+results/t/readiness.json,missing_cage:selective_0,rf,severity,unknown_cage_fault_claim,unknown_cage_fault_claim,0.7666666666666666
+results/t/readiness.json,missing_cage:selective_0.5,rf,severity,preterminal_recall,preterminal_recall,0.5694444444444445
+results/t/readiness.json,missing_cage:selective_0.5,rf,severity,terminal_recall,terminal_recall,0.6185185185185186
+results/t/readiness.json,missing_cage:selective_0.5,rf,severity,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:selective_0.5,rf,severity,healthy_fault_claim,healthy_fault_claim,0.02564102564102564
+results/t/readiness.json,missing_cage:selective_0.5,rf,severity,unknown_cage_fault_claim,unknown_cage_fault_claim,0.5166666666666667
+results/t/readiness.json,missing_cage:selective_0.7,rf,severity,preterminal_recall,preterminal_recall,0.39537037037037037
+results/t/readiness.json,missing_cage:selective_0.7,rf,severity,terminal_recall,terminal_recall,0.4259259259259259
+results/t/readiness.json,missing_cage:selective_0.7,rf,severity,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:selective_0.7,rf,severity,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,missing_cage:selective_0.7,rf,severity,unknown_cage_fault_claim,unknown_cage_fault_claim,0.48333333333333334
+results/t/readiness.json,missing_cage:selective_0.9,rf,severity,preterminal_recall,preterminal_recall,0.15555555555555556
+results/t/readiness.json,missing_cage:selective_0.9,rf,severity,terminal_recall,terminal_recall,0.18287037037037035
+results/t/readiness.json,missing_cage:selective_0.9,rf,severity,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:selective_0.9,rf,severity,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,missing_cage:selective_0.9,rf,severity,unknown_cage_fault_claim,unknown_cage_fault_claim,0.3166666666666667
+results/t/readiness.json,missing_cage:conditional,rf,transport,preterminal_recall,preterminal_recall,0.6185185185185186
+results/t/readiness.json,missing_cage:conditional,rf,transport,terminal_recall,terminal_recall,0.6407407407407407
+results/t/readiness.json,missing_cage:conditional,rf,transport,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:conditional,rf,transport,healthy_fault_claim,healthy_fault_claim,0.9948717948717949
+results/t/readiness.json,missing_cage:conditional,rf,transport,unknown_cage_fault_claim,unknown_cage_fault_claim,1.0
+results/t/readiness.json,missing_cage:selective_0,rf,transport,preterminal_recall,preterminal_recall,0.5810185185185185
+results/t/readiness.json,missing_cage:selective_0,rf,transport,terminal_recall,terminal_recall,0.6407407407407407
+results/t/readiness.json,missing_cage:selective_0,rf,transport,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:selective_0,rf,transport,healthy_fault_claim,healthy_fault_claim,0.02564102564102564
+results/t/readiness.json,missing_cage:selective_0,rf,transport,unknown_cage_fault_claim,unknown_cage_fault_claim,0.8500000000000001
+results/t/readiness.json,missing_cage:selective_0.5,rf,transport,preterminal_recall,preterminal_recall,0.5731481481481482
+results/t/readiness.json,missing_cage:selective_0.5,rf,transport,terminal_recall,terminal_recall,0.6407407407407407
+results/t/readiness.json,missing_cage:selective_0.5,rf,transport,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:selective_0.5,rf,transport,healthy_fault_claim,healthy_fault_claim,0.020512820512820513
+results/t/readiness.json,missing_cage:selective_0.5,rf,transport,unknown_cage_fault_claim,unknown_cage_fault_claim,0.5666666666666667
+results/t/readiness.json,missing_cage:selective_0.7,rf,transport,preterminal_recall,preterminal_recall,0.39490740740740743
+results/t/readiness.json,missing_cage:selective_0.7,rf,transport,terminal_recall,terminal_recall,0.45
+results/t/readiness.json,missing_cage:selective_0.7,rf,transport,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:selective_0.7,rf,transport,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,missing_cage:selective_0.7,rf,transport,unknown_cage_fault_claim,unknown_cage_fault_claim,0.5
+results/t/readiness.json,missing_cage:selective_0.9,rf,transport,preterminal_recall,preterminal_recall,0.1773148148148148
+results/t/readiness.json,missing_cage:selective_0.9,rf,transport,terminal_recall,terminal_recall,0.2259259259259259
+results/t/readiness.json,missing_cage:selective_0.9,rf,transport,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:selective_0.9,rf,transport,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,missing_cage:selective_0.9,rf,transport,unknown_cage_fault_claim,unknown_cage_fault_claim,0.3666666666666667
+results/t/readiness.json,missing_cage:conditional,svm1,real,preterminal_recall,preterminal_recall,0.5555555555555555
+results/t/readiness.json,missing_cage:conditional,svm1,real,terminal_recall,terminal_recall,0.6000000000000001
+results/t/readiness.json,missing_cage:conditional,svm1,real,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:conditional,svm1,real,healthy_fault_claim,healthy_fault_claim,1.0
+results/t/readiness.json,missing_cage:conditional,svm1,real,unknown_cage_fault_claim,unknown_cage_fault_claim,1.0
+results/t/readiness.json,missing_cage:selective_0,svm1,real,preterminal_recall,preterminal_recall,0.5263888888888889
+results/t/readiness.json,missing_cage:selective_0,svm1,real,terminal_recall,terminal_recall,0.6000000000000001
+results/t/readiness.json,missing_cage:selective_0,svm1,real,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:selective_0,svm1,real,healthy_fault_claim,healthy_fault_claim,0.07692307692307693
+results/t/readiness.json,missing_cage:selective_0,svm1,real,unknown_cage_fault_claim,unknown_cage_fault_claim,1.0
+results/t/readiness.json,missing_cage:selective_0.5,svm1,real,preterminal_recall,preterminal_recall,0.5180555555555556
+results/t/readiness.json,missing_cage:selective_0.5,svm1,real,terminal_recall,terminal_recall,0.5888888888888889
+results/t/readiness.json,missing_cage:selective_0.5,svm1,real,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:selective_0.5,svm1,real,healthy_fault_claim,healthy_fault_claim,0.07692307692307693
+results/t/readiness.json,missing_cage:selective_0.5,svm1,real,unknown_cage_fault_claim,unknown_cage_fault_claim,1.0
+results/t/readiness.json,missing_cage:selective_0.7,svm1,real,preterminal_recall,preterminal_recall,0.28750000000000003
+results/t/readiness.json,missing_cage:selective_0.7,svm1,real,terminal_recall,terminal_recall,0.35694444444444445
+results/t/readiness.json,missing_cage:selective_0.7,svm1,real,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:selective_0.7,svm1,real,healthy_fault_claim,healthy_fault_claim,0.06153846153846155
+results/t/readiness.json,missing_cage:selective_0.7,svm1,real,unknown_cage_fault_claim,unknown_cage_fault_claim,0.8
+results/t/readiness.json,missing_cage:selective_0.9,svm1,real,preterminal_recall,preterminal_recall,0.0
+results/t/readiness.json,missing_cage:selective_0.9,svm1,real,terminal_recall,terminal_recall,0.0
+results/t/readiness.json,missing_cage:selective_0.9,svm1,real,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:selective_0.9,svm1,real,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,missing_cage:selective_0.9,svm1,real,unknown_cage_fault_claim,unknown_cage_fault_claim,0.0
+results/t/readiness.json,missing_cage:conditional,svm1,duplicate,preterminal_recall,preterminal_recall,0.5555555555555555
+results/t/readiness.json,missing_cage:conditional,svm1,duplicate,terminal_recall,terminal_recall,0.6000000000000001
+results/t/readiness.json,missing_cage:conditional,svm1,duplicate,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:conditional,svm1,duplicate,healthy_fault_claim,healthy_fault_claim,1.0
+results/t/readiness.json,missing_cage:conditional,svm1,duplicate,unknown_cage_fault_claim,unknown_cage_fault_claim,1.0
+results/t/readiness.json,missing_cage:selective_0,svm1,duplicate,preterminal_recall,preterminal_recall,0.5263888888888889
+results/t/readiness.json,missing_cage:selective_0,svm1,duplicate,terminal_recall,terminal_recall,0.6000000000000001
+results/t/readiness.json,missing_cage:selective_0,svm1,duplicate,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:selective_0,svm1,duplicate,healthy_fault_claim,healthy_fault_claim,0.07692307692307693
+results/t/readiness.json,missing_cage:selective_0,svm1,duplicate,unknown_cage_fault_claim,unknown_cage_fault_claim,1.0
+results/t/readiness.json,missing_cage:selective_0.5,svm1,duplicate,preterminal_recall,preterminal_recall,0.5180555555555556
+results/t/readiness.json,missing_cage:selective_0.5,svm1,duplicate,terminal_recall,terminal_recall,0.5888888888888889
+results/t/readiness.json,missing_cage:selective_0.5,svm1,duplicate,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:selective_0.5,svm1,duplicate,healthy_fault_claim,healthy_fault_claim,0.07692307692307693
+results/t/readiness.json,missing_cage:selective_0.5,svm1,duplicate,unknown_cage_fault_claim,unknown_cage_fault_claim,1.0
+results/t/readiness.json,missing_cage:selective_0.7,svm1,duplicate,preterminal_recall,preterminal_recall,0.28750000000000003
+results/t/readiness.json,missing_cage:selective_0.7,svm1,duplicate,terminal_recall,terminal_recall,0.35694444444444445
+results/t/readiness.json,missing_cage:selective_0.7,svm1,duplicate,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:selective_0.7,svm1,duplicate,healthy_fault_claim,healthy_fault_claim,0.06153846153846155
+results/t/readiness.json,missing_cage:selective_0.7,svm1,duplicate,unknown_cage_fault_claim,unknown_cage_fault_claim,0.8
+results/t/readiness.json,missing_cage:selective_0.9,svm1,duplicate,preterminal_recall,preterminal_recall,0.0
+results/t/readiness.json,missing_cage:selective_0.9,svm1,duplicate,terminal_recall,terminal_recall,0.0
+results/t/readiness.json,missing_cage:selective_0.9,svm1,duplicate,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:selective_0.9,svm1,duplicate,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,missing_cage:selective_0.9,svm1,duplicate,unknown_cage_fault_claim,unknown_cage_fault_claim,0.0
+results/t/readiness.json,missing_cage:conditional,svm1,surrogate,preterminal_recall,preterminal_recall,0.5407407407407407
+results/t/readiness.json,missing_cage:conditional,svm1,surrogate,terminal_recall,terminal_recall,0.6000000000000001
+results/t/readiness.json,missing_cage:conditional,svm1,surrogate,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:conditional,svm1,surrogate,healthy_fault_claim,healthy_fault_claim,1.0
+results/t/readiness.json,missing_cage:conditional,svm1,surrogate,unknown_cage_fault_claim,unknown_cage_fault_claim,1.0
+results/t/readiness.json,missing_cage:selective_0,svm1,surrogate,preterminal_recall,preterminal_recall,0.5115740740740741
+results/t/readiness.json,missing_cage:selective_0,svm1,surrogate,terminal_recall,terminal_recall,0.6000000000000001
+results/t/readiness.json,missing_cage:selective_0,svm1,surrogate,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:selective_0,svm1,surrogate,healthy_fault_claim,healthy_fault_claim,0.07692307692307693
+results/t/readiness.json,missing_cage:selective_0,svm1,surrogate,unknown_cage_fault_claim,unknown_cage_fault_claim,1.0
+results/t/readiness.json,missing_cage:selective_0.5,svm1,surrogate,preterminal_recall,preterminal_recall,0.5032407407407408
+results/t/readiness.json,missing_cage:selective_0.5,svm1,surrogate,terminal_recall,terminal_recall,0.5888888888888889
+results/t/readiness.json,missing_cage:selective_0.5,svm1,surrogate,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:selective_0.5,svm1,surrogate,healthy_fault_claim,healthy_fault_claim,0.07692307692307693
+results/t/readiness.json,missing_cage:selective_0.5,svm1,surrogate,unknown_cage_fault_claim,unknown_cage_fault_claim,1.0
+results/t/readiness.json,missing_cage:selective_0.7,svm1,surrogate,preterminal_recall,preterminal_recall,0.28750000000000003
+results/t/readiness.json,missing_cage:selective_0.7,svm1,surrogate,terminal_recall,terminal_recall,0.3680555555555556
+results/t/readiness.json,missing_cage:selective_0.7,svm1,surrogate,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:selective_0.7,svm1,surrogate,healthy_fault_claim,healthy_fault_claim,0.06153846153846155
+results/t/readiness.json,missing_cage:selective_0.7,svm1,surrogate,unknown_cage_fault_claim,unknown_cage_fault_claim,0.8
+results/t/readiness.json,missing_cage:selective_0.9,svm1,surrogate,preterminal_recall,preterminal_recall,0.0
+results/t/readiness.json,missing_cage:selective_0.9,svm1,surrogate,terminal_recall,terminal_recall,0.0
+results/t/readiness.json,missing_cage:selective_0.9,svm1,surrogate,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:selective_0.9,svm1,surrogate,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,missing_cage:selective_0.9,svm1,surrogate,unknown_cage_fault_claim,unknown_cage_fault_claim,0.0
+results/t/readiness.json,missing_cage:conditional,svm1,severity,preterminal_recall,preterminal_recall,0.5481481481481482
+results/t/readiness.json,missing_cage:conditional,svm1,severity,terminal_recall,terminal_recall,0.6
+results/t/readiness.json,missing_cage:conditional,svm1,severity,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:conditional,svm1,severity,healthy_fault_claim,healthy_fault_claim,1.0
+results/t/readiness.json,missing_cage:conditional,svm1,severity,unknown_cage_fault_claim,unknown_cage_fault_claim,1.0
+results/t/readiness.json,missing_cage:selective_0,svm1,severity,preterminal_recall,preterminal_recall,0.5189814814814815
+results/t/readiness.json,missing_cage:selective_0,svm1,severity,terminal_recall,terminal_recall,0.6
+results/t/readiness.json,missing_cage:selective_0,svm1,severity,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:selective_0,svm1,severity,healthy_fault_claim,healthy_fault_claim,0.07692307692307693
+results/t/readiness.json,missing_cage:selective_0,svm1,severity,unknown_cage_fault_claim,unknown_cage_fault_claim,1.0
+results/t/readiness.json,missing_cage:selective_0.5,svm1,severity,preterminal_recall,preterminal_recall,0.5106481481481482
+results/t/readiness.json,missing_cage:selective_0.5,svm1,severity,terminal_recall,terminal_recall,0.5962962962962962
+results/t/readiness.json,missing_cage:selective_0.5,svm1,severity,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:selective_0.5,svm1,severity,healthy_fault_claim,healthy_fault_claim,0.07692307692307693
+results/t/readiness.json,missing_cage:selective_0.5,svm1,severity,unknown_cage_fault_claim,unknown_cage_fault_claim,0.9666666666666666
+results/t/readiness.json,missing_cage:selective_0.7,svm1,severity,preterminal_recall,preterminal_recall,0.3902777777777778
+results/t/readiness.json,missing_cage:selective_0.7,svm1,severity,terminal_recall,terminal_recall,0.36435185185185187
+results/t/readiness.json,missing_cage:selective_0.7,svm1,severity,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:selective_0.7,svm1,severity,healthy_fault_claim,healthy_fault_claim,0.06153846153846155
+results/t/readiness.json,missing_cage:selective_0.7,svm1,severity,unknown_cage_fault_claim,unknown_cage_fault_claim,0.7
+results/t/readiness.json,missing_cage:selective_0.9,svm1,severity,preterminal_recall,preterminal_recall,0.0
+results/t/readiness.json,missing_cage:selective_0.9,svm1,severity,terminal_recall,terminal_recall,0.0
+results/t/readiness.json,missing_cage:selective_0.9,svm1,severity,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:selective_0.9,svm1,severity,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,missing_cage:selective_0.9,svm1,severity,unknown_cage_fault_claim,unknown_cage_fault_claim,0.0
+results/t/readiness.json,missing_cage:conditional,svm1,transport,preterminal_recall,preterminal_recall,0.5296296296296297
+results/t/readiness.json,missing_cage:conditional,svm1,transport,terminal_recall,terminal_recall,0.6
+results/t/readiness.json,missing_cage:conditional,svm1,transport,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:conditional,svm1,transport,healthy_fault_claim,healthy_fault_claim,1.0
+results/t/readiness.json,missing_cage:conditional,svm1,transport,unknown_cage_fault_claim,unknown_cage_fault_claim,1.0
+results/t/readiness.json,missing_cage:selective_0,svm1,transport,preterminal_recall,preterminal_recall,0.500462962962963
+results/t/readiness.json,missing_cage:selective_0,svm1,transport,terminal_recall,terminal_recall,0.6
+results/t/readiness.json,missing_cage:selective_0,svm1,transport,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:selective_0,svm1,transport,healthy_fault_claim,healthy_fault_claim,0.07692307692307693
+results/t/readiness.json,missing_cage:selective_0,svm1,transport,unknown_cage_fault_claim,unknown_cage_fault_claim,1.0
+results/t/readiness.json,missing_cage:selective_0.5,svm1,transport,preterminal_recall,preterminal_recall,0.4921296296296296
+results/t/readiness.json,missing_cage:selective_0.5,svm1,transport,terminal_recall,terminal_recall,0.5962962962962962
+results/t/readiness.json,missing_cage:selective_0.5,svm1,transport,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:selective_0.5,svm1,transport,healthy_fault_claim,healthy_fault_claim,0.07692307692307693
+results/t/readiness.json,missing_cage:selective_0.5,svm1,transport,unknown_cage_fault_claim,unknown_cage_fault_claim,0.95
+results/t/readiness.json,missing_cage:selective_0.7,svm1,transport,preterminal_recall,preterminal_recall,0.24444444444444444
+results/t/readiness.json,missing_cage:selective_0.7,svm1,transport,terminal_recall,terminal_recall,0.3365740740740741
+results/t/readiness.json,missing_cage:selective_0.7,svm1,transport,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:selective_0.7,svm1,transport,healthy_fault_claim,healthy_fault_claim,0.06153846153846155
+results/t/readiness.json,missing_cage:selective_0.7,svm1,transport,unknown_cage_fault_claim,unknown_cage_fault_claim,0.6833333333333333
+results/t/readiness.json,missing_cage:selective_0.9,svm1,transport,preterminal_recall,preterminal_recall,0.0
+results/t/readiness.json,missing_cage:selective_0.9,svm1,transport,terminal_recall,terminal_recall,0.0
+results/t/readiness.json,missing_cage:selective_0.9,svm1,transport,cage_recall,cage_recall,0.0
+results/t/readiness.json,missing_cage:selective_0.9,svm1,transport,healthy_fault_claim,healthy_fault_claim,0.0
+results/t/readiness.json,missing_cage:selective_0.9,svm1,transport,unknown_cage_fault_claim,unknown_cage_fault_claim,0.0
+results/t/nested.json,"nested, selective_0",RF,real,healthy,recall,1.0
+results/t/nested.json,"nested, selective_0",RF,real,preterminal,recall,0.5875
+results/t/nested.json,"nested, selective_0",RF,real,terminal,recall,0.6833333333333335
+results/t/nested.json,"nested, selective_0",RF,surrogate,healthy,recall,1.0
+results/t/nested.json,"nested, selective_0",RF,surrogate,preterminal,recall,0.5671296296296297
+results/t/nested.json,"nested, selective_0",RF,surrogate,terminal,recall,0.6333333333333333
+results/t/nested.json,"nested, selective_0",RF,severity,healthy,recall,0.9897435897435898
+results/t/nested.json,"nested, selective_0",RF,severity,preterminal,recall,0.6055555555555555
+results/t/nested.json,"nested, selective_0",RF,severity,terminal,recall,0.662962962962963
+results/t/nested.json,"nested, selective_0",RF,transport,healthy,recall,1.0
+results/t/nested.json,"nested, selective_0",RF,transport,preterminal,recall,0.7194444444444444
+results/t/nested.json,"nested, selective_0",RF,transport,terminal,recall,0.7777777777777778
+results/t/nested.json,"nested, selective_0",RF,selector,healthy,recall,1.0
+results/t/nested.json,"nested, selective_0",RF,selector,preterminal,recall,0.6175925925925926
+results/t/nested.json,"nested, selective_0",RF,selector,terminal,recall,0.6796296296296296
+results/t/external.json,xjtu:raw,RF,real,healthy,recall,1.0
+results/t/external.json,xjtu:raw,RF,real,preterminal,recall,0.5875
+results/t/external.json,xjtu:raw,RF,real,terminal,recall,0.6833333333333335
+results/t/external.json,xjtu:raw,RF,duplicate,healthy,recall,1.0
+results/t/external.json,xjtu:raw,RF,duplicate,preterminal,recall,0.5875
+results/t/external.json,xjtu:raw,RF,duplicate,terminal,recall,0.6833333333333335
+results/t/external.json,xjtu:raw,RF,surrogate,healthy,recall,1.0
+results/t/external.json,xjtu:raw,RF,surrogate,preterminal,recall,0.5671296296296297
+results/t/external.json,xjtu:raw,RF,surrogate,terminal,recall,0.6333333333333333
+results/t/external.json,xjtu:raw,RF,severity,healthy,recall,0.9897435897435898
+results/t/external.json,xjtu:raw,RF,severity,preterminal,recall,0.6055555555555555
+results/t/external.json,xjtu:raw,RF,severity,terminal,recall,0.662962962962963
+results/t/external.json,combined:raw,RF,real,healthy,recall,1.0
+results/t/external.json,combined:raw,RF,real,preterminal,recall,0.6564814814814816
+results/t/external.json,combined:raw,RF,real,terminal,recall,0.5481481481481482
+results/t/external.json,combined:raw,RF,duplicate,healthy,recall,1.0
+results/t/external.json,combined:raw,RF,duplicate,preterminal,recall,0.6564814814814816
+results/t/external.json,combined:raw,RF,duplicate,terminal,recall,0.5481481481481482
+results/t/external.json,combined:raw,RF,surrogate,healthy,recall,0.9948717948717949
+results/t/external.json,combined:raw,RF,surrogate,preterminal,recall,0.6722222222222222
+results/t/external.json,combined:raw,RF,surrogate,terminal,recall,0.5370370370370371
+results/t/external.json,combined:raw,RF,severity,healthy,recall,1.0
+results/t/external.json,combined:raw,RF,severity,preterminal,recall,0.6592592592592593
+results/t/external.json,combined:raw,RF,severity,terminal,recall,0.5185185185185185
+results/t/external.json,xjtu:delta,RF,real,healthy,recall,0.9692307692307692
+results/t/external.json,xjtu:delta,RF,real,preterminal,recall,0.7083333333333334
+results/t/external.json,xjtu:delta,RF,real,terminal,recall,0.7773148148148148
+results/t/external.json,xjtu:delta,RF,duplicate,healthy,recall,0.9692307692307692
+results/t/external.json,xjtu:delta,RF,duplicate,preterminal,recall,0.7083333333333334
+results/t/external.json,xjtu:delta,RF,duplicate,terminal,recall,0.7773148148148148
+results/t/external.json,xjtu:delta,RF,surrogate,healthy,recall,0.9692307692307692
+results/t/external.json,xjtu:delta,RF,surrogate,preterminal,recall,0.6666666666666666
+results/t/external.json,xjtu:delta,RF,surrogate,terminal,recall,0.7402777777777777
+results/t/external.json,xjtu:delta,RF,severity,healthy,recall,0.9692307692307692
+results/t/external.json,xjtu:delta,RF,severity,preterminal,recall,0.6541666666666667
+results/t/external.json,xjtu:delta,RF,severity,terminal,recall,0.736574074074074
+results/t/external.json,combined:delta,RF,real,healthy,recall,0.8717948717948717
+results/t/external.json,combined:delta,RF,real,preterminal,recall,0.4976851851851852
+results/t/external.json,combined:delta,RF,real,terminal,recall,0.47361111111111115
+results/t/external.json,combined:delta,RF,duplicate,healthy,recall,0.8717948717948717
+results/t/external.json,combined:delta,RF,duplicate,preterminal,recall,0.4976851851851852
+results/t/external.json,combined:delta,RF,duplicate,terminal,recall,0.47361111111111115
+results/t/external.json,combined:delta,RF,surrogate,healthy,recall,0.8512820512820514
+results/t/external.json,combined:delta,RF,surrogate,preterminal,recall,0.47222222222222215
+results/t/external.json,combined:delta,RF,surrogate,terminal,recall,0.4166666666666667
+results/t/external.json,combined:delta,RF,severity,healthy,recall,0.8205128205128206
+results/t/external.json,combined:delta,RF,severity,preterminal,recall,0.4921296296296296
+results/t/external.json,combined:delta,RF,severity,terminal,recall,0.4856481481481482

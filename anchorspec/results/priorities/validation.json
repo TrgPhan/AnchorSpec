@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-06",
+  "command": "python -X utf8 -m pytest -q test_priority_benchmark.py",
+  "tests_passed": 4,
+  "elapsed_seconds": 6.26,
+  "full_existing_suite_rerun": false,
+  "prior_full_suite_tests_passed": 136,
+  "generator_retrained": false,
+  "classifier_refit_for_exact_replay": 1,
+  "independent_bearings": 13,
+  "report_links_verified": true,
+  "isolated_runtime_no_torch": true
+}
