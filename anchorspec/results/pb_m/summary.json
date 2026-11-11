@@ -1,0 +1,13 @@
+{
+  "arms": [
+    "lr"
+  ],
+  "confirmatory": true,
+  "verdict": {
+    "lr": {
+      "criterion1": [],
+      "criterion2": false,
+      "passed": false
+    }
+  }
+}

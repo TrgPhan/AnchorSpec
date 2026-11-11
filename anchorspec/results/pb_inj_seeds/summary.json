@@ -1,0 +1,23 @@
+{
+  "arms": [
+    "et500+inj_mix_0.25",
+    "et500"
+  ],
+  "confirmatory": true,
+  "verdict": {
+    "et500+inj_mix_0.25": {
+      "criterion1": [
+        1,
+        2,
+        4
+      ],
+      "criterion2": true,
+      "passed": true
+    },
+    "et500": {
+      "criterion1": [],
+      "criterion2": true,
+      "passed": false
+    }
+  }
+}

@@ -1,5 +1,8 @@
 # AnchorSpec S3: cần bao nhiêu dữ liệu lỗi, sinh bao nhiêu mẫu là hợp lý
 
+> **Cập nhật 12/11, sáng:** kết quả mới nhất ở `KET_QUA_DEM_12112026.md`. Flow không qua kiểm chứng trên Paderborn; cấy lỗi vật lý cộng vài sự cố thật (ExtraTrees, hai tầng) qua kiểm chứng trên Paderborn và HUST.
+
+
 **Ngày:** 11/11/2026. **Người chạy:** Hoàng Minh Quyền (ML), đội AIOverflow. **Nhánh:** `quyen-s3-curve`, chưa commit.
 **Phạm vi:** dữ liệu công khai (XJTU-SY, UORED-VAFCLS) qua cảm biến giả lập 1 kHz, CPU. Mọi kết quả là **thăm dò** trên các bộ đã dùng nhiều lần, không phải xác nhận độc lập, không phải dữ liệu DENSO.
 
