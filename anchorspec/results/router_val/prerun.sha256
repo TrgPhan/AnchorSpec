@@ -1,0 +1,10 @@
+{
+  "PROTOCOL_ROUTER_VAL.md": "17adf1cc340a2f59338b8880b042d2e7362eeb41e062b0affa4949eabfdbe259",
+  "router_val.py": "b7bbd0d6ac6819c9b836681a62254a3375fd9d2fb859eefde822a959057dc29c",
+  "router.py": "0ff0a91e598e3c84f76a30abbfd240933bdeffd6fc0938b530e3d59788aef882",
+  "router_common.py": "5cd15afd5896572df0d3814ce32a5e2253434d215a305ae5678af1147e337cf5",
+  "branch_c.py": "38e3bb8bc5513e780bcfb58d234bb8b40a61719dadc4da1c8fe2a2982487f15c",
+  "ball_rule.py": "56e971f31ec9f4de891d9d8b9a1dffa620c8d6561cfc2ad8bc1803ba43747365",
+  "openset.py": "0841a212862d130259ef0f805c7464ea59ac3086028d9e30f1835ec96f2f9eca",
+  "lock.json": "{\"ball_rule\": null, \"branch_c\": \"c_none\", \"fneo\": true, \"kappa\": 1.25}"
+}

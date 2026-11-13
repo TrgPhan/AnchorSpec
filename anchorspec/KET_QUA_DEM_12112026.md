@@ -3,6 +3,9 @@
 **Người thực hiện:** Hoàng Minh Quyền (ML) và Claude. **Nhánh:** `research/overnight-20261112` (chưa push).
 **Phạm vi:** dữ liệu công khai qua cảm biến giả lập 1 kHz, CPU. **Chưa phải dữ liệu DENSO.**
 
+> **Cập nhật 12/11, 10:00: phương pháp đã chốt là hai tầng + cấy lỗi** (mục 11). Kiến trúc này qua cả Paderborn (8 seed, PB-HIER) và HUST.
+> Công thức Flow gốc của Trường được kiểm tra lại đúng cấu hình 50 cây: không có giá trị riêng (mục 12).
+
 ## Kết luận
 
 1. **Flow matching (S3) không có giá trị được kiểm chứng.** Trên Paderborn hỏng thật, với cấu hình đã khóa, Flow so với chỉ mẫu thật là +1,9 / +0,4 / −0,7 điểm ở 1 / 2 / 4 sự cố mỗi loại, không mức nào có CI dương. Các mức tăng trước đây (77,22%) chủ yếu đến từ RF 50 cây không ổn định, từ cách chấm có lựa chọn "khỏe", và từ hiệu ứng dồn trọng số.
@@ -178,6 +181,33 @@ Cờ bất thường từ hệ thống DENSO
 3. Đo trên Pi 5; thử giảm số cây.
 4. Công thức cấy cho vòng cách hoặc thiếu bôi trơn: chỉ đáng làm khi có sự cố thật để kiểm chứng.
 
+## 11. Chốt phương pháp: hai tầng trên Paderborn (PB-HIER, 12/11)
+
+Giao thức `PROTOCOL_PB_HIER.md` (hash ghi trước khi chạy), mã `pb_hier.py`. Kiến trúc `hier` giữ nguyên như khi khóa; 11 ổ đích, 8 seed (11, 29, 47, 101, 202, 303, 404, 505), 264 lượt. Nhánh cấy phẳng và nhánh chỉ mẫu thật trùng dự đoán với PB-INJ ở lượt kiểm tra mã.
+
+| Sự cố/loại | Chỉ mẫu thật | Cấy phẳng | **Hai tầng** | Hai tầng không cấy | Hai tầng − thật (CI 95%) | Hai tầng − phẳng |
+|---:|---:|---:|---:|---:|---|---|
+| 1 | 44,8 | 61,8 | **65,8** | 45,2 | **+21,0 [+6,2; +36,2]** | +4,0 [+0,9; +7,5] |
+| 2 | 45,7 | 55,1 | **61,4** | 46,7 | **+15,7 [+4,4; +28,9]** | +6,3 [+1,2; +11,8] |
+| 4 | 61,0 | 77,6 | **76,3** | 70,1 | **+15,3 [+1,4; +33,0]** | −1,3 [−3,2; +0,2] |
+
+**Đạt cả hai tiêu chí ở cả ba mức.** Tách riêng 3 seed cũ và 5 seed mới đều dương ở mọi mức. Paderborn chỉ có vòng trong/ngoài nên đây là kiểm tra nhất quán (dự kiến gần cấy phẳng), không phải phát hiện mới.
+
+**Gộp 8 seed cho HUST** (gộp hai lần chạy đã khóa, `final_slides_20261112.py`): chỉ mẫu thật 55,9 / 57,5 / 56,0; hai tầng 62,2 / 64,6 / 65,9; chênh +6,3 [+1,8; +11,2], +7,0 [+2,4; +12,2], +10,0 [+3,7; +17,6].
+
+**Chỉ cấy lỗi, 0 sự cố thật, Paderborn 8 seed** (`pb_inj_only8.py`, cùng code với BW-LIB; tái tạo đúng 76,9% trên 3 seed cũ): 73,3%, cao hơn chỉ mẫu thật với 4 sự cố (61,0%).
+
+**Phương pháp chốt:** hai tầng + cấy A0 (mục 7). Slide nộp: `results/final/AnchorSpec_Ket_qua_20261112.pptx`.
+
+## 12. Kiểm tra lại công thức Flow gốc của Trường (12/11, hậu nghiệm)
+
+Công thức: 120 cửa sổ lỗi thật (12 ổ × 10) sinh 1:1, mỗi mẫu sinh nặng 0,25 mẫu thật, cộng thêm vào trọng số thật (lớp lỗi thành 1,25 lần lớp khỏe). Đối chứng: bản sao cùng số lượng và trọng số. Mã `truong_recipe.py`, `truong_in_ours.py`.
+
+- XJTU, 50 cây (tái tạo đúng bảng S3 gốc): Flow − bản sao +1,8 [−0,6; +5,0]. Với 500 cây: −3,9 [−8,3; −0,6].
+- Paderborn, 50 và 500 cây, sinh 1:1 và 2:1: không mức nào hơn chỉ mẫu thật có CI dương.
+- Gắn vào kiến trúc cấy lỗi: Flow − bản sao = 0,0 / −0,8 / −0,1.
+- Mẫu Flow cách neo 1,42 (đặc trưng chuẩn hóa), trong khi hai cửa sổ cùng ổ cách 5,26 và hai ổ khác nhau cách 9,13: mẫu sinh gần như bản sao.
+
 ## Tệp
 
 | Thí nghiệm | Giao thức | Mã | Kết quả |
@@ -188,6 +218,9 @@ Cờ bất thường từ hệ thống DENSO
 | Băng thông, thư viện nhân tạo | `PROTOCOL_PB_BW_LIB.md` | `pb_bw_lib.py` | `results/pb_bw_lib/` |
 | Cấy lỗi trên Paderborn | `PROTOCOL_PB_INJ.md` | `pb_inj.py`, `pb_inj_seeds.py` | `results/pb_inj/`, `results/pb_inj_seeds/` |
 | Hai tầng, HUST | `PROTOCOL_HIER.md` | `m_hier.py`, `hier_hust_seeds.py` | `results/hier_dev/`, `results/hier_hust/`, `results/hier_hust_seeds/` |
+| Hai tầng, Paderborn (chốt) | `PROTOCOL_PB_HIER.md` | `pb_hier.py`, `pb_inj_only8.py` | `results/pb_hier/`, `results/pb_inj_only8/` |
+| Công thức Flow của Trường | (hậu nghiệm) | `truong_recipe.py`, `truong_in_ours.py` | `results/truong_recipe/`, `results/truong_in_ours/` |
+| Slide nộp 12/11 | | `final_slides_20261112.py` | `results/final/` |
 
 Dữ liệu mới thêm vào `data/` (không có trong Git):
 - `hust_v`, `hust_v6204`: chép từ bản worktree của Trường.

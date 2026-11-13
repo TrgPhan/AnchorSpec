@@ -1,0 +1,14 @@
+{
+  "f_neo": {
+    "keep": true,
+    "contrib": false
+  },
+  "f_t1": {
+    "keep": true,
+    "contrib": false
+  },
+  "f_par": {
+    "keep": false,
+    "contrib": false
+  }
+}
